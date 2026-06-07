@@ -29,14 +29,18 @@ Last updated: 2026-06-07T19:10:09
 - Kaggle Notebook: https://www.kaggle.com/code/muelsyse111/neurogolf-submit-current
 - Notebook output: notebooks/output/submission.zip
 - Notebook output ONNX content match: true, 400/400 files identical by SHA256
+- Kaggle submission id: 53450566
+- Kaggle submission status: COMPLETE
+- Kaggle public score: 6154.71
 
 ## Kaggle Submission History
 
 ```text
-No submissions found
+ref       fileName        date                        description                                                                                                                              status                    publicScore
+53450566  submission.zip  2026-06-07 12:27:16.493000  GOLF_20260607_001_public_6154_repro | public 6154 baseline closure | source=SRC_KAGGLE_NOTEBOOK_OCTAVIO_6154 | changed=all | local=pass  SubmissionStatus.COMPLETE  6154.71
 
 ```
 
 ## Notes
 
-Kaggle CLI can query data and leaderboard. Direct notebook-output submission is not exposed by the CLI, so the current candidate is prepared for manual notebook-output submission. The status endpoint returned HTTP 500 during polling, but the output API downloaded `submission.zip` successfully.
+Kaggle CLI supports direct Notebook-output submission with `kaggle competitions submit neurogolf-2026 -k <kernel> -v <version> -f submission.zip -m <message>`. The first candidate was submitted this way.

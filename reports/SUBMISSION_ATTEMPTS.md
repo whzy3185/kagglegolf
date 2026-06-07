@@ -56,6 +56,19 @@ kaggle_public_score:
 status: ready_for_manual_submit_from_notebook_output
 notes: CLI status endpoint returned HTTP 500; CLI has no direct notebook-output submit command.
 
+## GOLF_20260607_001_public_6154_repro submitted
+
+created_at: 2026-06-07T20:27:16+08:00
+submission_path: Notebook output `submission.zip`
+notebook_path: https://www.kaggle.com/code/muelsyse111/neurogolf-submit-current
+notebook_version: 3
+submit_command: kaggle competitions submit neurogolf-2026 -k muelsyse111/neurogolf-submit-current -v 3 -f submission.zip -m "<message>"
+kaggle_submission_id: 53450566
+kaggle_public_score: 6154.71
+status: submitted_complete
+rollback_decision:
+notes: This uses Kaggle CLI kernel-output submission, not local file upload.
+
 ## GOLF_20260607_001_public_6154_repro notebook update
 
 created_at: 2026-06-07T18:58:25

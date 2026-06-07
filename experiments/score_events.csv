@@ -1,1 +1,3 @@
 exp_id,created_at,submission_id,public_score,rank,notes
+GOLF_20260607_001_public_6154_repro,2026-06-07T20:27:42,53450566,PENDING,,submitted via Kaggle CLI kernel output: -k muelsyse111/neurogolf-submit-current -v 3 -f submission.zip
+GOLF_20260607_001_public_6154_repro,2026-06-07T20:30:00,53450566,6154.71,,complete; submitted via Kaggle CLI kernel output

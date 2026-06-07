@@ -1,4 +1,16 @@
-# Manual Notebook Output Submit: GOLF_20260607_001_public_6154_repro
+# Notebook Output Submit: GOLF_20260607_001_public_6154_repro
+
+Status: submitted automatically via Kaggle CLI kernel output.
+
+```bash
+kaggle competitions submit neurogolf-2026 -k muelsyse111/neurogolf-submit-current -v 3 -f submission.zip -m "GOLF_20260607_001_public_6154_repro | public 6154 baseline closure | source=SRC_KAGGLE_NOTEBOOK_OCTAVIO_6154 | changed=all | local=pass"
+```
+
+Submission id: `53450566`
+Current status: `COMPLETE`
+Public score: `6154.71`
+
+The manual flow below is retained as fallback.
 
 1. Open Kaggle Notebook `muelsyse111/neurogolf-submit-current`:
 

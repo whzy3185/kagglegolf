@@ -8,7 +8,6 @@ Start by reading:
 - task_bank/best_by_task.csv
 
 Next actions:
-1. Submit or confirm Notebook output for GOLF_20260607_001_public_6154_repro.
-2. Record public LB with scripts/10_record_lb_result.py.
-3. Build GOLF_20260607_002_public_6029_diff by diffing 6154 vs 6029 task ONNX costs.
-4. Start single-task override loop for the highest-value public bundle differences.
+1. Build GOLF_20260607_002_public_6029_diff by diffing 6154 vs 6029 task ONNX costs.
+2. Import GLM vs Opus cost-opt notebook and extract rewrite motifs.
+3. Start single-task override loop for bottom-15 tasks: 158,233,173,054,025,285,366,133,286,255,349,018,187,145,243.

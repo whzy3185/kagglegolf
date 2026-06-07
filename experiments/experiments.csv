@@ -1,2 +1,2 @@
 exp_id,date,lane,source_id,goal,changed_tasks,method,local_valid,local_score,lb_score,delta_vs_best,status,rollback_reason,next_action
-GOLF_20260607_001_public_6154_repro,2026-06-07,A_public_highscore_absorb,SRC_KAGGLE_NOTEBOOK_OCTAVIO_6154,first reproducible public bundle candidate,all,public_6154_manual_rewrites,true,,,,ready_for_manual_submit,,submit_notebook_output_and_record_lb
+GOLF_20260607_001_public_6154_repro,2026-06-07,A_public_highscore_absorb,SRC_KAGGLE_NOTEBOOK_OCTAVIO_6154,first reproducible public bundle candidate,all,public_6154_manual_rewrites,true,,6154.71,,submitted_complete,,diff_6029_and_optimize_bottom15
