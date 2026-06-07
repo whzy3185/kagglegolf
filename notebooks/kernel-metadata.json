@@ -1,0 +1,18 @@
+{
+  "id": "muelsyse111/neurogolf-submit-current",
+  "title": "NeuroGolf Submit Current",
+  "code_file": "kaggle_submit_current.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "dataset_sources": [
+    "muelsyse111/neurogolf-current-candidate"
+  ],
+  "competition_sources": [
+    "neurogolf-2026"
+  ],
+  "model_sources": []
+}
