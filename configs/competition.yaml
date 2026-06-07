@@ -1,0 +1,44 @@
+competition:
+  slug: neurogolf-2026
+  title: The 2026 NeuroGolf Championship
+  target_repo: whzy3185/kagglegolf
+  rules_last_checked: '2026-06-07'
+paths:
+  official_data_dir: data/raw/neurogolf-2026
+  output_dir: submissions
+  manifest_dir: data/manifests
+submission:
+  required_name: submission.zip
+  pattern: task%03d.onnx
+  task_count: 400
+  notebook_first: true
+  local_upload_default: false
+onnx:
+  input_name: input
+  output_name: output
+  tensor_shape:
+  - 1
+  - 10
+  - 30
+  - 30
+  dtype: float32
+  opset: 10
+  ir_version: 10
+  file_size_limit_bytes: 1509949
+  banned_ops:
+  - Loop
+  - Scan
+  - NonZero
+  - Unique
+  - Script
+  - Function
+  - Compress
+score:
+  formula: max(1, 25 - ln(memory_bytes + parameter_count))
+  current_best_lb: null
+source_policy:
+  public_code_allowed: true
+  public_notebooks_allowed: true
+  public_datasets_allowed: true
+  private_leaks_allowed: false
+  hidden_answer_inference_allowed: false

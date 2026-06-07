@@ -1,0 +1,21 @@
+allowed:
+  - official_competition_data
+  - official_validator
+  - public_kaggle_notebooks
+  - public_kaggle_datasets
+  - public_github_repositories
+  - public_papers
+  - public_arc_gen
+  - public_re_arc
+  - public_arc_dsl
+forbidden:
+  - non_public_hidden_test_data
+  - private_leaks
+  - hidden_answer_reconstruction
+  - fabricated_scores
+  - untraceable_sources
+risk_labels:
+  low: official or public reproducible source
+  medium: public heuristic with unclear private generalization
+  high: scorer boundary behavior or public-example overfit risk
+

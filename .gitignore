@@ -1,0 +1,61 @@
+# Secrets and local credentials
+.env
+.env.*
+secrets/
+kaggle.json
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Kaggle data and generated artifacts
+data/raw/**
+data/interim/**
+data/processed/**
+data/external/**
+external/arc_gen/**
+external/re_arc/**
+external/arc_dsl/**
+external/public_repos/**
+external/papers/**
+submissions/**/*.zip
+submissions/**/onnx/
+submissions/**/submission/
+submissions/**/outputs/
+tools/kaggle/**/*.zip
+notebooks/.ipynb_checkpoints/
+notebooks/output/
+notebooks/submission_payload.b64
+*.onnx
+*.ort
+*.trace
+*.profile
+
+# Keep tracked placeholders and manifests
+!data/manifests/
+!data/manifests/**
+!data/raw/.gitkeep
+!data/interim/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+!external/public_notebooks/
+!external/public_notebooks/**/*.ipynb
+!external/public_notebooks/**/kernel-metadata.json
+!submissions/candidates/**/manifest.json
+!submissions/candidates/**/changed_tasks.csv
+!submissions/candidates/**/local_validation.json
+!submissions/candidates/**/source_trace.md
+!submissions/candidates/**/notebook.ipynb
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp

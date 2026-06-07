@@ -1,0 +1,18 @@
+policy:
+  submit_when:
+    - local_validator_pass
+    - package_complete
+    - onnx_loads
+    - source_recorded
+    - risk_acceptable_or_isolated
+  do_not_submit_when:
+    - validator_fail
+    - package_invalid
+    - onnx_load_fail
+    - rule_conflict
+    - duplicate_submitted_hash
+    - source_untracked
+  preferred_path: kaggle_notebook_output
+  fallback_path: manual_submit_from_notebook_output
+  local_zip_upload_default: false
+

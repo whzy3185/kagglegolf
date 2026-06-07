@@ -1,0 +1,14 @@
+lanes:
+  A_public_highscore_absorb:
+    goal: reproduce and decompose public high-LB notebooks and datasets
+  B_onnx_operator_golf:
+    goal: reduce memory and parameter cost with graph rewrites
+  C_arc_gen_validation:
+    goal: generate additional validation samples through public ARC-GEN or RE-ARC
+  D_llm_guided_synthesis:
+    goal: synthesize per-task reference solvers and lower them to ONNX
+  E_tiny_network_search:
+    goal: use very small neural solvers for tasks not captured by rules
+  F_scorer_behavior_review:
+    goal: isolate evaluator boundary findings without mixing them into mainline
+

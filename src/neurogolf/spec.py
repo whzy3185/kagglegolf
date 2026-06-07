@@ -1,0 +1,13 @@
+from __future__ import annotations
+
+TASK_COUNT = 400
+COMPETITION_SLUG = "neurogolf-2026"
+INPUT_NAME = "input"
+OUTPUT_NAME = "output"
+TENSOR_SHAPE = (1, 10, 30, 30)
+DTYPE = "float32"
+OPSET = 10
+IR_VERSION = 10
+FILE_SIZE_LIMIT_BYTES = int(1.44 * 1024 * 1024)
+BANNED_OPS = {"LOOP", "SCAN", "NONZERO", "UNIQUE", "SCRIPT", "FUNCTION", "COMPRESS"}
+
