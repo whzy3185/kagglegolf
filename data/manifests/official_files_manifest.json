@@ -1,0 +1,1611 @@
+{
+  "download_command_output": "Downloading neurogolf-2026.zip to E:\\Jitter\\kagglegolf\\data\\raw\n\n  0%|          | 0.00/5.59M [00:00<?, ?B/s]\n 18%|\u2588\u258a        | 1.00M/5.59M [00:01<00:04, 963kB/s]\n 36%|\u2588\u2588\u2588\u258c      | 2.00M/5.59M [00:01<00:02, 1.57MB/s]\n 54%|\u2588\u2588\u2588\u2588\u2588\u258e    | 3.00M/5.59M [00:02<00:01, 1.59MB/s]\n 72%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u258f  | 4.00M/5.59M [00:03<00:01, 1.26MB/s]\n 89%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2589 | 5.00M/5.59M [00:03<00:00, 1.37MB/s]\n100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 5.59M/5.59M [00:04<00:00, 1.55MB/s]\n100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 5.59M/5.59M [00:04<00:00, 1.43MB/s]\n\n",
+  "zip_path": "E:\\Jitter\\kagglegolf\\data\\raw\\neurogolf-2026.zip",
+  "extract_dir": "E:\\Jitter\\kagglegolf\\data\\raw\\neurogolf-2026",
+  "files": [
+    {
+      "path": "neurogolf_utils/neurogolf_utils.py",
+      "size_bytes": 21599
+    },
+    {
+      "path": "task001.json",
+      "size_bytes": 85526
+    },
+    {
+      "path": "task002.json",
+      "size_bytes": 499596
+    },
+    {
+      "path": "task003.json",
+      "size_bytes": 50384
+    },
+    {
+      "path": "task004.json",
+      "size_bytes": 246889
+    },
+    {
+      "path": "task005.json",
+      "size_bytes": 732864
+    },
+    {
+      "path": "task006.json",
+      "size_bytes": 33816
+    },
+    {
+      "path": "task007.json",
+      "size_bytes": 92336
+    },
+    {
+      "path": "task008.json",
+      "size_bytes": 246742
+    },
+    {
+      "path": "task009.json",
+      "size_bytes": 870037
+    },
+    {
+      "path": "task010.json",
+      "size_bytes": 144989
+    },
+    {
+      "path": "task011.json",
+      "size_bytes": 212299
+    },
+    {
+      "path": "task012.json",
+      "size_bytes": 248339
+    },
+    {
+      "path": "task013.json",
+      "size_bytes": 377827
+    },
+    {
+      "path": "task014.json",
+      "size_bytes": 386534
+    },
+    {
+      "path": "task015.json",
+      "size_bytes": 144989
+    },
+    {
+      "path": "task016.json",
+      "size_bytes": 24331
+    },
+    {
+      "path": "task017.json",
+      "size_bytes": 732864
+    },
+    {
+      "path": "task018.json",
+      "size_bytes": 679972
+    },
+    {
+      "path": "task019.json",
+      "size_bytes": 78793
+    },
+    {
+      "path": "task020.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task021.json",
+      "size_bytes": 711897
+    },
+    {
+      "path": "task022.json",
+      "size_bytes": 117872
+    },
+    {
+      "path": "task023.json",
+      "size_bytes": 150652
+    },
+    {
+      "path": "task024.json",
+      "size_bytes": 192170
+    },
+    {
+      "path": "task025.json",
+      "size_bytes": 742788
+    },
+    {
+      "path": "task026.json",
+      "size_bytes": 52294
+    },
+    {
+      "path": "task027.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task028.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task029.json",
+      "size_bytes": 319450
+    },
+    {
+      "path": "task030.json",
+      "size_bytes": 138204
+    },
+    {
+      "path": "task031.json",
+      "size_bytes": 137965
+    },
+    {
+      "path": "task032.json",
+      "size_bytes": 52554
+    },
+    {
+      "path": "task033.json",
+      "size_bytes": 484189
+    },
+    {
+      "path": "task034.json",
+      "size_bytes": 146083
+    },
+    {
+      "path": "task035.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task036.json",
+      "size_bytes": 752885
+    },
+    {
+      "path": "task037.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task038.json",
+      "size_bytes": 80632
+    },
+    {
+      "path": "task039.json",
+      "size_bytes": 99826
+    },
+    {
+      "path": "task040.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task041.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task042.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task043.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task044.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task045.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task046.json",
+      "size_bytes": 67450
+    },
+    {
+      "path": "task047.json",
+      "size_bytes": 144989
+    },
+    {
+      "path": "task048.json",
+      "size_bytes": 45209
+    },
+    {
+      "path": "task049.json",
+      "size_bytes": 209286
+    },
+    {
+      "path": "task050.json",
+      "size_bytes": 148439
+    },
+    {
+      "path": "task051.json",
+      "size_bytes": 373363
+    },
+    {
+      "path": "task052.json",
+      "size_bytes": 24331
+    },
+    {
+      "path": "task053.json",
+      "size_bytes": 5494
+    },
+    {
+      "path": "task054.json",
+      "size_bytes": 1475004
+    },
+    {
+      "path": "task055.json",
+      "size_bytes": 560835
+    },
+    {
+      "path": "task056.json",
+      "size_bytes": 2932
+    },
+    {
+      "path": "task057.json",
+      "size_bytes": 77679
+    },
+    {
+      "path": "task058.json",
+      "size_bytes": 24212
+    },
+    {
+      "path": "task059.json",
+      "size_bytes": 211504
+    },
+    {
+      "path": "task060.json",
+      "size_bytes": 99409
+    },
+    {
+      "path": "task061.json",
+      "size_bytes": 544981
+    },
+    {
+      "path": "task062.json",
+      "size_bytes": 177589
+    },
+    {
+      "path": "task063.json",
+      "size_bytes": 255372
+    },
+    {
+      "path": "task064.json",
+      "size_bytes": 474701
+    },
+    {
+      "path": "task065.json",
+      "size_bytes": 101134
+    },
+    {
+      "path": "task066.json",
+      "size_bytes": 385714
+    },
+    {
+      "path": "task067.json",
+      "size_bytes": 50796
+    },
+    {
+      "path": "task068.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task069.json",
+      "size_bytes": 175594
+    },
+    {
+      "path": "task070.json",
+      "size_bytes": 486016
+    },
+    {
+      "path": "task071.json",
+      "size_bytes": 430659
+    },
+    {
+      "path": "task072.json",
+      "size_bytes": 93298
+    },
+    {
+      "path": "task073.json",
+      "size_bytes": 2959
+    },
+    {
+      "path": "task074.json",
+      "size_bytes": 1480549
+    },
+    {
+      "path": "task075.json",
+      "size_bytes": 202229
+    },
+    {
+      "path": "task076.json",
+      "size_bytes": 335284
+    },
+    {
+      "path": "task077.json",
+      "size_bytes": 512710
+    },
+    {
+      "path": "task078.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task079.json",
+      "size_bytes": 179318
+    },
+    {
+      "path": "task080.json",
+      "size_bytes": 1246204
+    },
+    {
+      "path": "task081.json",
+      "size_bytes": 91642
+    },
+    {
+      "path": "task082.json",
+      "size_bytes": 111731
+    },
+    {
+      "path": "task083.json",
+      "size_bytes": 59352
+    },
+    {
+      "path": "task084.json",
+      "size_bytes": 193579
+    },
+    {
+      "path": "task085.json",
+      "size_bytes": 504035
+    },
+    {
+      "path": "task086.json",
+      "size_bytes": 211804
+    },
+    {
+      "path": "task087.json",
+      "size_bytes": 24240
+    },
+    {
+      "path": "task088.json",
+      "size_bytes": 198895
+    },
+    {
+      "path": "task089.json",
+      "size_bytes": 291331
+    },
+    {
+      "path": "task090.json",
+      "size_bytes": 147351
+    },
+    {
+      "path": "task091.json",
+      "size_bytes": 168716
+    },
+    {
+      "path": "task092.json",
+      "size_bytes": 669939
+    },
+    {
+      "path": "task093.json",
+      "size_bytes": 333139
+    },
+    {
+      "path": "task094.json",
+      "size_bytes": 380309
+    },
+    {
+      "path": "task095.json",
+      "size_bytes": 144989
+    },
+    {
+      "path": "task096.json",
+      "size_bytes": 289459
+    },
+    {
+      "path": "task097.json",
+      "size_bytes": 268033
+    },
+    {
+      "path": "task098.json",
+      "size_bytes": 359718
+    },
+    {
+      "path": "task099.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task100.json",
+      "size_bytes": 96060
+    },
+    {
+      "path": "task101.json",
+      "size_bytes": 340102
+    },
+    {
+      "path": "task102.json",
+      "size_bytes": 250213
+    },
+    {
+      "path": "task103.json",
+      "size_bytes": 14083
+    },
+    {
+      "path": "task104.json",
+      "size_bytes": 2267
+    },
+    {
+      "path": "task105.json",
+      "size_bytes": 258014
+    },
+    {
+      "path": "task106.json",
+      "size_bytes": 36690
+    },
+    {
+      "path": "task107.json",
+      "size_bytes": 381674
+    },
+    {
+      "path": "task108.json",
+      "size_bytes": 421644
+    },
+    {
+      "path": "task109.json",
+      "size_bytes": 162366
+    },
+    {
+      "path": "task110.json",
+      "size_bytes": 1379776
+    },
+    {
+      "path": "task111.json",
+      "size_bytes": 100204
+    },
+    {
+      "path": "task112.json",
+      "size_bytes": 651406
+    },
+    {
+      "path": "task113.json",
+      "size_bytes": 107979
+    },
+    {
+      "path": "task114.json",
+      "size_bytes": 31602
+    },
+    {
+      "path": "task115.json",
+      "size_bytes": 189348
+    },
+    {
+      "path": "task116.json",
+      "size_bytes": 40351
+    },
+    {
+      "path": "task117.json",
+      "size_bytes": 307357
+    },
+    {
+      "path": "task118.json",
+      "size_bytes": 557367
+    },
+    {
+      "path": "task119.json",
+      "size_bytes": 249276
+    },
+    {
+      "path": "task120.json",
+      "size_bytes": 294996
+    },
+    {
+      "path": "task121.json",
+      "size_bytes": 157240
+    },
+    {
+      "path": "task122.json",
+      "size_bytes": 273472
+    },
+    {
+      "path": "task123.json",
+      "size_bytes": 113984
+    },
+    {
+      "path": "task124.json",
+      "size_bytes": 149877
+    },
+    {
+      "path": "task125.json",
+      "size_bytes": 380309
+    },
+    {
+      "path": "task126.json",
+      "size_bytes": 160474
+    },
+    {
+      "path": "task127.json",
+      "size_bytes": 119339
+    },
+    {
+      "path": "task128.json",
+      "size_bytes": 381744
+    },
+    {
+      "path": "task129.json",
+      "size_bytes": 24149
+    },
+    {
+      "path": "task130.json",
+      "size_bytes": 84569
+    },
+    {
+      "path": "task131.json",
+      "size_bytes": 140204
+    },
+    {
+      "path": "task132.json",
+      "size_bytes": 192145
+    },
+    {
+      "path": "task133.json",
+      "size_bytes": 873789
+    },
+    {
+      "path": "task134.json",
+      "size_bytes": 522056
+    },
+    {
+      "path": "task135.json",
+      "size_bytes": 84888
+    },
+    {
+      "path": "task136.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task137.json",
+      "size_bytes": 1022274
+    },
+    {
+      "path": "task138.json",
+      "size_bytes": 389175
+    },
+    {
+      "path": "task139.json",
+      "size_bytes": 144989
+    },
+    {
+      "path": "task140.json",
+      "size_bytes": 24149
+    },
+    {
+      "path": "task141.json",
+      "size_bytes": 322541
+    },
+    {
+      "path": "task142.json",
+      "size_bytes": 47382
+    },
+    {
+      "path": "task143.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task144.json",
+      "size_bytes": 55303
+    },
+    {
+      "path": "task145.json",
+      "size_bytes": 376943
+    },
+    {
+      "path": "task146.json",
+      "size_bytes": 41953
+    },
+    {
+      "path": "task147.json",
+      "size_bytes": 43279
+    },
+    {
+      "path": "task148.json",
+      "size_bytes": 343728
+    },
+    {
+      "path": "task149.json",
+      "size_bytes": 118315
+    },
+    {
+      "path": "task150.json",
+      "size_bytes": 73380
+    },
+    {
+      "path": "task151.json",
+      "size_bytes": 121504
+    },
+    {
+      "path": "task152.json",
+      "size_bytes": 47560
+    },
+    {
+      "path": "task153.json",
+      "size_bytes": 100204
+    },
+    {
+      "path": "task154.json",
+      "size_bytes": 381744
+    },
+    {
+      "path": "task155.json",
+      "size_bytes": 71042
+    },
+    {
+      "path": "task156.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task157.json",
+      "size_bytes": 255759
+    },
+    {
+      "path": "task158.json",
+      "size_bytes": 767524
+    },
+    {
+      "path": "task159.json",
+      "size_bytes": 465430
+    },
+    {
+      "path": "task160.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task161.json",
+      "size_bytes": 495996
+    },
+    {
+      "path": "task162.json",
+      "size_bytes": 666364
+    },
+    {
+      "path": "task163.json",
+      "size_bytes": 212299
+    },
+    {
+      "path": "task164.json",
+      "size_bytes": 31540
+    },
+    {
+      "path": "task165.json",
+      "size_bytes": 663859
+    },
+    {
+      "path": "task166.json",
+      "size_bytes": 183604
+    },
+    {
+      "path": "task167.json",
+      "size_bytes": 24422
+    },
+    {
+      "path": "task168.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task169.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task170.json",
+      "size_bytes": 505298
+    },
+    {
+      "path": "task171.json",
+      "size_bytes": 13918
+    },
+    {
+      "path": "task172.json",
+      "size_bytes": 33142
+    },
+    {
+      "path": "task173.json",
+      "size_bytes": 586758
+    },
+    {
+      "path": "task174.json",
+      "size_bytes": 99394
+    },
+    {
+      "path": "task175.json",
+      "size_bytes": 732864
+    },
+    {
+      "path": "task176.json",
+      "size_bytes": 7853
+    },
+    {
+      "path": "task177.json",
+      "size_bytes": 222785
+    },
+    {
+      "path": "task178.json",
+      "size_bytes": 32472
+    },
+    {
+      "path": "task179.json",
+      "size_bytes": 24331
+    },
+    {
+      "path": "task180.json",
+      "size_bytes": 77486
+    },
+    {
+      "path": "task181.json",
+      "size_bytes": 99252
+    },
+    {
+      "path": "task182.json",
+      "size_bytes": 668869
+    },
+    {
+      "path": "task183.json",
+      "size_bytes": 79947
+    },
+    {
+      "path": "task184.json",
+      "size_bytes": 480055
+    },
+    {
+      "path": "task185.json",
+      "size_bytes": 676427
+    },
+    {
+      "path": "task186.json",
+      "size_bytes": 24331
+    },
+    {
+      "path": "task187.json",
+      "size_bytes": 837232
+    },
+    {
+      "path": "task188.json",
+      "size_bytes": 32509
+    },
+    {
+      "path": "task189.json",
+      "size_bytes": 108030
+    },
+    {
+      "path": "task190.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task191.json",
+      "size_bytes": 878731
+    },
+    {
+      "path": "task192.json",
+      "size_bytes": 534699
+    },
+    {
+      "path": "task193.json",
+      "size_bytes": 322848
+    },
+    {
+      "path": "task194.json",
+      "size_bytes": 47382
+    },
+    {
+      "path": "task195.json",
+      "size_bytes": 313602
+    },
+    {
+      "path": "task196.json",
+      "size_bytes": 256548
+    },
+    {
+      "path": "task197.json",
+      "size_bytes": 163461
+    },
+    {
+      "path": "task198.json",
+      "size_bytes": 949102
+    },
+    {
+      "path": "task199.json",
+      "size_bytes": 166958
+    },
+    {
+      "path": "task200.json",
+      "size_bytes": 55894
+    },
+    {
+      "path": "task201.json",
+      "size_bytes": 179422
+    },
+    {
+      "path": "task202.json",
+      "size_bytes": 509701
+    },
+    {
+      "path": "task203.json",
+      "size_bytes": 267429
+    },
+    {
+      "path": "task204.json",
+      "size_bytes": 386450
+    },
+    {
+      "path": "task205.json",
+      "size_bytes": 472068
+    },
+    {
+      "path": "task206.json",
+      "size_bytes": 160372
+    },
+    {
+      "path": "task207.json",
+      "size_bytes": 33424
+    },
+    {
+      "path": "task208.json",
+      "size_bytes": 732864
+    },
+    {
+      "path": "task209.json",
+      "size_bytes": 391200
+    },
+    {
+      "path": "task210.json",
+      "size_bytes": 33018
+    },
+    {
+      "path": "task211.json",
+      "size_bytes": 46584
+    },
+    {
+      "path": "task212.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task213.json",
+      "size_bytes": 242543
+    },
+    {
+      "path": "task214.json",
+      "size_bytes": 62544
+    },
+    {
+      "path": "task215.json",
+      "size_bytes": 374293
+    },
+    {
+      "path": "task216.json",
+      "size_bytes": 395727
+    },
+    {
+      "path": "task217.json",
+      "size_bytes": 145536
+    },
+    {
+      "path": "task218.json",
+      "size_bytes": 376108
+    },
+    {
+      "path": "task219.json",
+      "size_bytes": 261059
+    },
+    {
+      "path": "task220.json",
+      "size_bytes": 259781
+    },
+    {
+      "path": "task221.json",
+      "size_bytes": 220294
+    },
+    {
+      "path": "task222.json",
+      "size_bytes": 432284
+    },
+    {
+      "path": "task223.json",
+      "size_bytes": 84569
+    },
+    {
+      "path": "task224.json",
+      "size_bytes": 309676
+    },
+    {
+      "path": "task225.json",
+      "size_bytes": 70259
+    },
+    {
+      "path": "task226.json",
+      "size_bytes": 88479
+    },
+    {
+      "path": "task227.json",
+      "size_bytes": 51565
+    },
+    {
+      "path": "task228.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task229.json",
+      "size_bytes": 24331
+    },
+    {
+      "path": "task230.json",
+      "size_bytes": 291654
+    },
+    {
+      "path": "task231.json",
+      "size_bytes": 106504
+    },
+    {
+      "path": "task232.json",
+      "size_bytes": 189906
+    },
+    {
+      "path": "task233.json",
+      "size_bytes": 636608
+    },
+    {
+      "path": "task234.json",
+      "size_bytes": 462730
+    },
+    {
+      "path": "task235.json",
+      "size_bytes": 16180
+    },
+    {
+      "path": "task236.json",
+      "size_bytes": 55303
+    },
+    {
+      "path": "task237.json",
+      "size_bytes": 69092
+    },
+    {
+      "path": "task238.json",
+      "size_bytes": 227107
+    },
+    {
+      "path": "task239.json",
+      "size_bytes": 37530
+    },
+    {
+      "path": "task240.json",
+      "size_bytes": 603056
+    },
+    {
+      "path": "task241.json",
+      "size_bytes": 77248
+    },
+    {
+      "path": "task242.json",
+      "size_bytes": 228262
+    },
+    {
+      "path": "task243.json",
+      "size_bytes": 378669
+    },
+    {
+      "path": "task244.json",
+      "size_bytes": 216826
+    },
+    {
+      "path": "task245.json",
+      "size_bytes": 130043
+    },
+    {
+      "path": "task246.json",
+      "size_bytes": 375162
+    },
+    {
+      "path": "task247.json",
+      "size_bytes": 102341
+    },
+    {
+      "path": "task248.json",
+      "size_bytes": 4959
+    },
+    {
+      "path": "task249.json",
+      "size_bytes": 49343
+    },
+    {
+      "path": "task250.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task251.json",
+      "size_bytes": 204780
+    },
+    {
+      "path": "task252.json",
+      "size_bytes": 178118
+    },
+    {
+      "path": "task253.json",
+      "size_bytes": 162744
+    },
+    {
+      "path": "task254.json",
+      "size_bytes": 144989
+    },
+    {
+      "path": "task255.json",
+      "size_bytes": 1469459
+    },
+    {
+      "path": "task256.json",
+      "size_bytes": 150946
+    },
+    {
+      "path": "task257.json",
+      "size_bytes": 92032
+    },
+    {
+      "path": "task258.json",
+      "size_bytes": 112236
+    },
+    {
+      "path": "task259.json",
+      "size_bytes": 45212
+    },
+    {
+      "path": "task260.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task261.json",
+      "size_bytes": 62465
+    },
+    {
+      "path": "task262.json",
+      "size_bytes": 1035
+    },
+    {
+      "path": "task263.json",
+      "size_bytes": 47998
+    },
+    {
+      "path": "task264.json",
+      "size_bytes": 276655
+    },
+    {
+      "path": "task265.json",
+      "size_bytes": 542940
+    },
+    {
+      "path": "task266.json",
+      "size_bytes": 2574
+    },
+    {
+      "path": "task267.json",
+      "size_bytes": 91642
+    },
+    {
+      "path": "task268.json",
+      "size_bytes": 110720
+    },
+    {
+      "path": "task269.json",
+      "size_bytes": 222228
+    },
+    {
+      "path": "task270.json",
+      "size_bytes": 381744
+    },
+    {
+      "path": "task271.json",
+      "size_bytes": 85207
+    },
+    {
+      "path": "task272.json",
+      "size_bytes": 37881
+    },
+    {
+      "path": "task273.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task274.json",
+      "size_bytes": 85467
+    },
+    {
+      "path": "task275.json",
+      "size_bytes": 167568
+    },
+    {
+      "path": "task276.json",
+      "size_bytes": 51988
+    },
+    {
+      "path": "task277.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task278.json",
+      "size_bytes": 453771
+    },
+    {
+      "path": "task279.json",
+      "size_bytes": 348440
+    },
+    {
+      "path": "task280.json",
+      "size_bytes": 519829
+    },
+    {
+      "path": "task281.json",
+      "size_bytes": 249880
+    },
+    {
+      "path": "task282.json",
+      "size_bytes": 144989
+    },
+    {
+      "path": "task283.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task284.json",
+      "size_bytes": 239632
+    },
+    {
+      "path": "task285.json",
+      "size_bytes": 1060365
+    },
+    {
+      "path": "task286.json",
+      "size_bytes": 508049
+    },
+    {
+      "path": "task287.json",
+      "size_bytes": 433909
+    },
+    {
+      "path": "task288.json",
+      "size_bytes": 77171
+    },
+    {
+      "path": "task289.json",
+      "size_bytes": 95681
+    },
+    {
+      "path": "task290.json",
+      "size_bytes": 157810
+    },
+    {
+      "path": "task291.json",
+      "size_bytes": 222027
+    },
+    {
+      "path": "task292.json",
+      "size_bytes": 8378
+    },
+    {
+      "path": "task293.json",
+      "size_bytes": 173055
+    },
+    {
+      "path": "task294.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task295.json",
+      "size_bytes": 88168
+    },
+    {
+      "path": "task296.json",
+      "size_bytes": 46398
+    },
+    {
+      "path": "task297.json",
+      "size_bytes": 91555
+    },
+    {
+      "path": "task298.json",
+      "size_bytes": 93669
+    },
+    {
+      "path": "task299.json",
+      "size_bytes": 5599
+    },
+    {
+      "path": "task300.json",
+      "size_bytes": 86135
+    },
+    {
+      "path": "task301.json",
+      "size_bytes": 89672
+    },
+    {
+      "path": "task302.json",
+      "size_bytes": 249276
+    },
+    {
+      "path": "task303.json",
+      "size_bytes": 662837
+    },
+    {
+      "path": "task304.json",
+      "size_bytes": 84888
+    },
+    {
+      "path": "task305.json",
+      "size_bytes": 432284
+    },
+    {
+      "path": "task306.json",
+      "size_bytes": 592809
+    },
+    {
+      "path": "task307.json",
+      "size_bytes": 68127
+    },
+    {
+      "path": "task308.json",
+      "size_bytes": 186501
+    },
+    {
+      "path": "task309.json",
+      "size_bytes": 33581
+    },
+    {
+      "path": "task310.json",
+      "size_bytes": 552520
+    },
+    {
+      "path": "task311.json",
+      "size_bytes": 31422
+    },
+    {
+      "path": "task312.json",
+      "size_bytes": 248339
+    },
+    {
+      "path": "task313.json",
+      "size_bytes": 280186
+    },
+    {
+      "path": "task314.json",
+      "size_bytes": 117340
+    },
+    {
+      "path": "task315.json",
+      "size_bytes": 84888
+    },
+    {
+      "path": "task316.json",
+      "size_bytes": 100582
+    },
+    {
+      "path": "task317.json",
+      "size_bytes": 144989
+    },
+    {
+      "path": "task318.json",
+      "size_bytes": 55303
+    },
+    {
+      "path": "task319.json",
+      "size_bytes": 261736
+    },
+    {
+      "path": "task320.json",
+      "size_bytes": 157600
+    },
+    {
+      "path": "task321.json",
+      "size_bytes": 68653
+    },
+    {
+      "path": "task322.json",
+      "size_bytes": 24240
+    },
+    {
+      "path": "task323.json",
+      "size_bytes": 187686
+    },
+    {
+      "path": "task324.json",
+      "size_bytes": 380004
+    },
+    {
+      "path": "task325.json",
+      "size_bytes": 138109
+    },
+    {
+      "path": "task326.json",
+      "size_bytes": 61972
+    },
+    {
+      "path": "task327.json",
+      "size_bytes": 47204
+    },
+    {
+      "path": "task328.json",
+      "size_bytes": 268511
+    },
+    {
+      "path": "task329.json",
+      "size_bytes": 73488
+    },
+    {
+      "path": "task330.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task331.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task332.json",
+      "size_bytes": 80401
+    },
+    {
+      "path": "task333.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task334.json",
+      "size_bytes": 38787
+    },
+    {
+      "path": "task335.json",
+      "size_bytes": 373784
+    },
+    {
+      "path": "task336.json",
+      "size_bytes": 20649
+    },
+    {
+      "path": "task337.json",
+      "size_bytes": 37164
+    },
+    {
+      "path": "task338.json",
+      "size_bytes": 529139
+    },
+    {
+      "path": "task339.json",
+      "size_bytes": 19546
+    },
+    {
+      "path": "task340.json",
+      "size_bytes": 374956
+    },
+    {
+      "path": "task341.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task342.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task343.json",
+      "size_bytes": 131704
+    },
+    {
+      "path": "task344.json",
+      "size_bytes": 90312
+    },
+    {
+      "path": "task345.json",
+      "size_bytes": 175594
+    },
+    {
+      "path": "task346.json",
+      "size_bytes": 69548
+    },
+    {
+      "path": "task347.json",
+      "size_bytes": 31776
+    },
+    {
+      "path": "task348.json",
+      "size_bytes": 112573
+    },
+    {
+      "path": "task349.json",
+      "size_bytes": 728639
+    },
+    {
+      "path": "task350.json",
+      "size_bytes": 452525
+    },
+    {
+      "path": "task351.json",
+      "size_bytes": 241184
+    },
+    {
+      "path": "task352.json",
+      "size_bytes": 107096
+    },
+    {
+      "path": "task353.json",
+      "size_bytes": 128975
+    },
+    {
+      "path": "task354.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task355.json",
+      "size_bytes": 196771
+    },
+    {
+      "path": "task356.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task357.json",
+      "size_bytes": 4959
+    },
+    {
+      "path": "task358.json",
+      "size_bytes": 395079
+    },
+    {
+      "path": "task359.json",
+      "size_bytes": 388070
+    },
+    {
+      "path": "task360.json",
+      "size_bytes": 121064
+    },
+    {
+      "path": "task361.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task362.json",
+      "size_bytes": 177589
+    },
+    {
+      "path": "task363.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task364.json",
+      "size_bytes": 385210
+    },
+    {
+      "path": "task365.json",
+      "size_bytes": 106416
+    },
+    {
+      "path": "task366.json",
+      "size_bytes": 404981
+    },
+    {
+      "path": "task367.json",
+      "size_bytes": 376738
+    },
+    {
+      "path": "task368.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task369.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task370.json",
+      "size_bytes": 375426
+    },
+    {
+      "path": "task371.json",
+      "size_bytes": 218052
+    },
+    {
+      "path": "task372.json",
+      "size_bytes": 155644
+    },
+    {
+      "path": "task373.json",
+      "size_bytes": 7909
+    },
+    {
+      "path": "task374.json",
+      "size_bytes": 177589
+    },
+    {
+      "path": "task375.json",
+      "size_bytes": 41152
+    },
+    {
+      "path": "task376.json",
+      "size_bytes": 40918
+    },
+    {
+      "path": "task377.json",
+      "size_bytes": 533939
+    },
+    {
+      "path": "task378.json",
+      "size_bytes": 158175
+    },
+    {
+      "path": "task379.json",
+      "size_bytes": 433040
+    },
+    {
+      "path": "task380.json",
+      "size_bytes": 24331
+    },
+    {
+      "path": "task381.json",
+      "size_bytes": 176259
+    },
+    {
+      "path": "task382.json",
+      "size_bytes": 374724
+    },
+    {
+      "path": "task383.json",
+      "size_bytes": 539334
+    },
+    {
+      "path": "task384.json",
+      "size_bytes": 117442
+    },
+    {
+      "path": "task385.json",
+      "size_bytes": 80859
+    },
+    {
+      "path": "task386.json",
+      "size_bytes": 43182
+    },
+    {
+      "path": "task387.json",
+      "size_bytes": 431278
+    },
+    {
+      "path": "task388.json",
+      "size_bytes": 86472
+    },
+    {
+      "path": "task389.json",
+      "size_bytes": 37742
+    },
+    {
+      "path": "task390.json",
+      "size_bytes": 381744
+    },
+    {
+      "path": "task391.json",
+      "size_bytes": 163232
+    },
+    {
+      "path": "task392.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task393.json",
+      "size_bytes": 131474
+    },
+    {
+      "path": "task394.json",
+      "size_bytes": 37572
+    },
+    {
+      "path": "task395.json",
+      "size_bytes": 33266
+    },
+    {
+      "path": "task396.json",
+      "size_bytes": 230118
+    },
+    {
+      "path": "task397.json",
+      "size_bytes": 176924
+    },
+    {
+      "path": "task398.json",
+      "size_bytes": 255530
+    },
+    {
+      "path": "task399.json",
+      "size_bytes": 50494
+    },
+    {
+      "path": "task400.json",
+      "size_bytes": 501710
+    }
+  ]
+}
