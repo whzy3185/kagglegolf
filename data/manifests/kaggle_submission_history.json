@@ -1,0 +1,33 @@
+{
+  "captured_at": "2026-06-07T20:54:45",
+  "competition": "neurogolf-2026",
+  "selected_submissions": "unavailable via CLI",
+  "fallback_top2_public_score": [
+    {
+      "ref": "53450566",
+      "exp_id": "GOLF_20260607_001_public_6154_repro",
+      "publicScore": 6154.71,
+      "status": "SubmissionStatus.COMPLETE",
+      "date": "2026-06-07 12:27:16.493000"
+    }
+  ],
+  "best_public": {
+    "ref": "53450566",
+    "exp_id": "GOLF_20260607_001_public_6154_repro",
+    "publicScore": 6154.71,
+    "status": "SubmissionStatus.COMPLETE",
+    "date": "2026-06-07 12:27:16.493000"
+  },
+  "rows": [
+    {
+      "ref": "53450566",
+      "fileName": "submission.zip",
+      "date": "2026-06-07 12:27:16.493000",
+      "description": "GOLF_20260607_001_public_6154_repro | public 6154 baseline closure | source=SRC_KAGGLE_NOTEBOOK_OCTAVIO_6154 | changed=all | local=pass",
+      "status": "SubmissionStatus.COMPLETE",
+      "publicScore": "6154.71",
+      "privateScore": ""
+    }
+  ],
+  "raw": "     ref  fileName        date                        description                                                                                                                              status                     publicScore  privateScore  \n--------  --------------  --------------------------  ---------------------------------------------------------------------------------------------------------------------------------------  -------------------------  -----------  ------------  \n53450566  submission.zip  2026-06-07 12:27:16.493000  GOLF_20260607_001_public_6154_repro | public 6154 baseline closure | source=SRC_KAGGLE_NOTEBOOK_OCTAVIO_6154 | changed=all | local=pass  SubmissionStatus.COMPLETE  6154.71                    \n"
+}
