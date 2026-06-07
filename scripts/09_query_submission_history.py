@@ -6,6 +6,8 @@ import re
 from datetime import datetime
 from io import StringIO
 
+import yaml
+
 from _bootstrap import ROOT
 from neurogolf.kaggle_api import run_kaggle
 from neurogolf.paths import root
@@ -56,6 +58,17 @@ def _load_json(path) -> dict:
         return json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError:
         return {}
+
+
+def _target_public_lb() -> float | None:
+    cfg_path = root("configs/competition.yaml")
+    if not cfg_path.exists():
+        return None
+    cfg = yaml.safe_load(cfg_path.read_text(encoding="utf-8")) or {}
+    try:
+        return float((cfg.get("score") or {}).get("target_public_lb"))
+    except (TypeError, ValueError):
+        return None
 
 
 def _write_best_manifest(best_row: dict | None, best_score: float | None) -> dict:
@@ -123,9 +136,13 @@ def _write_reports(rows: list[dict], raw_text: str) -> None:
     scored = [(row, score) for row, score in scored if score is not None]
     best_row, best_score = (max(scored, key=lambda item: item[1]) if scored else (None, None))
     best_manifest = _write_best_manifest(best_row, best_score)
+    target_public_lb = _target_public_lb()
+    target_gap = target_public_lb - best_score if target_public_lb is not None and best_score is not None else None
     payload = {
         "captured_at": datetime.now().isoformat(timespec="seconds"),
         "competition": "neurogolf-2026",
+        "target_public_lb": target_public_lb,
+        "gap_to_target": target_gap,
         "selected_submissions": "unavailable via CLI",
         "fallback_top2_public_score": [
             {
@@ -167,6 +184,8 @@ def _write_reports(rows: list[dict], raw_text: str) -> None:
             f"captured_at: {payload['captured_at']}",
             "selected submissions: unavailable via CLI",
             f"current best public: {payload['best_public'].get('publicScore')}",
+            f"target public: {target_public_lb if target_public_lb is not None else ''}",
+            f"gap to target: {target_gap if target_gap is not None else ''}",
             f"current best exp_id: {payload['best_public'].get('exp_id')}",
             f"current best submission id: {payload['best_public'].get('ref')}",
             "",
@@ -182,6 +201,8 @@ def _write_reports(rows: list[dict], raw_text: str) -> None:
             "# Scorecard",
             "",
             f"Current best public score: {payload['best_public'].get('publicScore')}",
+            f"Target public score: {target_public_lb if target_public_lb is not None else ''}",
+            f"Gap to target: {target_gap if target_gap is not None else ''}",
             f"Current best exp_id: {payload['best_public'].get('exp_id')}",
             f"Current best submission id: {payload['best_public'].get('ref')}",
             "",
@@ -209,6 +230,8 @@ def _write_reports(rows: list[dict], raw_text: str) -> None:
                     "# Current State",
                     "",
                     f"Current best LB: {best_score}",
+                    f"Target LB: {target_public_lb if target_public_lb is not None else ''}",
+                    f"Gap to target: {target_gap if target_gap is not None else ''}",
                     "Current best local score: not computed",
                     f"Current best local validation: {local_validation}, {examples_checked} checked, {examples_failed} failed",
                     f"Current best manifest path: submissions/best/{exp_id}/manifest.json",

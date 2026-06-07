@@ -1,8 +1,10 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-07T21:35:48
+captured_at: 2026-06-07T21:49:44
 selected submissions: unavailable via CLI
 current best public: 6154.71
+target public: 7000.0
+gap to target: 845.29
 current best exp_id: GOLF_20260607_001_public_6154_repro
 current best submission id: 53450566
 

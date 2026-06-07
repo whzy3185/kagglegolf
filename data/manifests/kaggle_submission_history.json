@@ -1,6 +1,8 @@
 {
-  "captured_at": "2026-06-07T21:35:48",
+  "captured_at": "2026-06-07T21:49:44",
   "competition": "neurogolf-2026",
+  "target_public_lb": 7000.0,
+  "gap_to_target": 845.29,
   "selected_submissions": "unavailable via CLI",
   "fallback_top2_public_score": [
     {
