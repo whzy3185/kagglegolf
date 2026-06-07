@@ -1,0 +1,292 @@
+# Evidence Registry
+
+All external sources used for candidates must be listed here before entering an experiment.
+
+## SRC_OFFICIAL_COMPETITION
+
+source_id: SRC_OFFICIAL_COMPETITION
+source_type: competition
+title: The 2026 NeuroGolf Championship
+author_or_team: Neurosynthetic Research Institute / Kaggle
+url_or_identifier: https://www.kaggle.com/competitions/neurogolf-2026
+date_accessed: 2026-06-07
+claimed_score:
+tasks_mentioned: all
+idea_summary: Official task, scoring, and submission contract.
+implementation_hint: Use `task001.onnx` through `task400.onnx` in `submission.zip`.
+risk: low
+rule_status: official
+repro_status: reproduced
+priority: P0
+assigned_exp_id: GOLF_20260607_001_public_6154_repro
+
+## SRC_OFFICIAL_UTILS
+
+source_id: SRC_OFFICIAL_UTILS
+source_type: code
+title: neurogolf_utils.py
+author_or_team: Google LLC / competition host
+url_or_identifier: data/raw/neurogolf-2026/neurogolf_utils/neurogolf_utils.py
+date_accessed: 2026-06-07
+claimed_score:
+tasks_mentioned: all
+idea_summary: Official local validator and scorer behavior; bans Compress in addition to page-listed ops.
+implementation_hint: Mirror tensor names, shape, dtype, opset, file limit, and banned-op checks.
+risk: low
+rule_status: official
+repro_status: reproduced
+priority: P0
+assigned_exp_id: GOLF_20260607_001_public_6154_repro
+
+## SRC_KAGGLE_NOTEBOOK_OCTAVIO_6154
+
+source_id: SRC_KAGGLE_NOTEBOOK_OCTAVIO_6154
+source_type: notebook
+title: [6154.71] ONNX Rewrites + Hand-Built Solvers
+author_or_team: Octavi Grau
+url_or_identifier: https://www.kaggle.com/code/octaviograu/6154-71-onnx-rewrites-hand-built-solvers
+date_accessed: 2026-06-07
+claimed_score: 6154.71
+tasks_mentioned: all
+idea_summary: Public high-score notebook combining manual rewrites and hand-built solvers.
+implementation_hint: Pull notebook metadata and reproduce via public dataset `octaviograu/neurogolf-manual-rewrites-v205`.
+risk: low
+rule_status: public_source
+repro_status: reproduced
+priority: P0
+assigned_exp_id: GOLF_20260607_001_public_6154_repro
+
+## SRC_KAGGLE_DATASET_OCTAVIO_REWRITES_V205
+
+source_id: SRC_KAGGLE_DATASET_OCTAVIO_REWRITES_V205
+source_type: dataset
+title: neurogolf-manual-rewrites-v205
+author_or_team: Octavi Grau
+url_or_identifier: https://www.kaggle.com/datasets/octaviograu/neurogolf-manual-rewrites-v205
+date_accessed: 2026-06-07
+claimed_score: 6154.71
+tasks_mentioned: all
+idea_summary: Complete public `submission/` directory with 400 ONNX task solvers and cost CSV.
+implementation_hint: Copy `submission/task*.onnx`; Kaggle Notebook output uses this dataset directly.
+risk: low
+rule_status: CC0 public dataset
+repro_status: reproduced
+priority: P0
+assigned_exp_id: GOLF_20260607_001_public_6154_repro
+
+## SRC_KAGGLE_NOTEBOOK_JSRDCHT_6029
+
+source_id: SRC_KAGGLE_NOTEBOOK_JSRDCHT_6029
+source_type: notebook
+title: [6029.09 LB] NeuroGolf All-Task ONNX Solution
+author_or_team: Chet
+url_or_identifier: https://www.kaggle.com/code/jsrdcht/6029-09-lb-neurogolf-all-task-onnx-solution
+date_accessed: 2026-06-07
+claimed_score: 6029.09
+tasks_mentioned: all
+idea_summary: Public all-task ONNX solution; major fallback and diff source.
+implementation_hint: Pull dataset `jsrdcht/neurogolf-6029-submission-bundle` and diff task-level costs against 6154.
+risk: low
+rule_status: public_source
+repro_status: reproduced
+priority: P0
+assigned_exp_id: GOLF_20260607_002_public_6029_diff
+
+## SRC_KAGGLE_NOTEBOOK_AFR1STE_5689
+
+source_id: SRC_KAGGLE_NOTEBOOK_AFR1STE_5689
+source_type: notebook
+title: NeuroGolf 5689.51 Current Rules Open Solution
+author_or_team: Afr1ste
+url_or_identifier: https://www.kaggle.com/code/afr1ste/neurogolf-5689-51-current-rules-open-solution
+date_accessed: 2026-06-07
+claimed_score: 5689.51
+tasks_mentioned: all
+idea_summary: Public open artifact and earlier strong baseline.
+implementation_hint: Use as provenance for lower-score fallback and task-level swaps.
+risk: low
+rule_status: public_source
+repro_status: imported
+priority: P1
+assigned_exp_id:
+
+## SRC_KAGGLE_NOTEBOOK_GLM_OPUS_COST_OPT
+
+source_id: SRC_KAGGLE_NOTEBOOK_GLM_OPUS_COST_OPT
+source_type: notebook
+title: GLM vs Opus: ONNX cost-opt (NeuroGolf 2026)
+author_or_team: Chet
+url_or_identifier: https://www.kaggle.com/code/jsrdcht/glm-vs-opus-onnx-cost-opt-neurogolf-2026
+date_accessed: 2026-06-07
+claimed_score:
+tasks_mentioned: unknown
+idea_summary: Public cost-optimization comparison likely useful for rewrite lane.
+implementation_hint: Import next, extract operator rewrite motifs and changed tasks.
+risk: low
+rule_status: public_source
+repro_status: not_started
+priority: P1
+assigned_exp_id:
+
+## SRC_DISCUSSION_BOTTOM15_TASKS
+
+source_id: SRC_DISCUSSION_BOTTOM15_TASKS
+source_type: discussion
+title: My current bottom 15 NeuroGolf Tasks - Any Ideas?
+author_or_team: Tony Li
+url_or_identifier: https://www.kaggle.com/competitions/neurogolf-2026/discussion/704006
+date_accessed: 2026-06-07
+claimed_score: per-task tail scores listed
+tasks_mentioned: 158,233,173,054,025,285,366,133,286,255,349,018,187,145,243
+idea_summary: High-value task list for single-task override and low-score tail improvements.
+implementation_hint: Prioritize these task IDs after first submission.
+risk: low
+rule_status: public_discussion
+repro_status: not_started
+priority: P0
+assigned_exp_id:
+
+## SRC_DISCUSSION_CORRIDOR_ONNX_PATTERNS
+
+source_id: SRC_DISCUSSION_CORRIDOR_ONNX_PATTERNS
+source_type: discussion
+title: Compact ONNX patterns for dynamic corridor / empty-rectangle fill?
+author_or_team: Xu Jinghang111
+url_or_identifier: https://www.kaggle.com/competitions/neurogolf-2026/discussion/704769
+date_accessed: 2026-06-07
+claimed_score:
+tasks_mentioned: corridor and empty-rectangle family
+idea_summary: ReduceSum, MaxPool-style morphology, and Where fills as low-node patterns.
+implementation_hint: Convert into ONNX rewrite playbook examples.
+risk: low
+rule_status: public_discussion
+repro_status: not_started
+priority: P1
+assigned_exp_id:
+
+## SRC_DISCUSSION_SUBMISSION_LIMIT_REENABLED
+
+source_id: SRC_DISCUSSION_SUBMISSION_LIMIT_REENABLED
+source_type: discussion
+title: Submissions amount re-enabled
+author_or_team: Ashley Oldacre
+url_or_identifier: https://www.kaggle.com/competitions/neurogolf-2026/discussion/703112
+date_accessed: 2026-06-07
+claimed_score:
+tasks_mentioned: all
+idea_summary: Host note says competition was reset to allow 100 submissions a day.
+implementation_hint: Keep aggressive submit queue, but still record rule risk.
+risk: low
+rule_status: public_host_discussion
+repro_status: reproduced
+priority: P0
+assigned_exp_id:
+
+## SRC_ARC_GEN_GITHUB
+
+source_id: SRC_ARC_GEN_GITHUB
+source_type: github
+title: google/ARC-GEN
+author_or_team: Google
+url_or_identifier: https://github.com/google/arc-gen
+date_accessed: 2026-06-07
+claimed_score:
+tasks_mentioned: all ARC-AGI-1 tasks
+idea_summary: Procedural benchmark generator used in NeuroGolf and 2025 Google Code Golf.
+implementation_hint: Add adapter for extra per-task validation and synthesis data.
+risk: low
+rule_status: public_github
+repro_status: not_started
+priority: P0
+assigned_exp_id:
+
+## SRC_ARC_GEN_100K_DATASET
+
+source_id: SRC_ARC_GEN_100K_DATASET
+source_type: dataset
+title: The ARC-GEN-100K Dataset
+author_or_team: ARC-GEN authors
+url_or_identifier: https://www.kaggle.com/datasets/arcgen100k/the-arc-gen-100k-dataset
+date_accessed: 2026-06-07
+claimed_score:
+tasks_mentioned: all ARC-AGI-1 training tasks
+idea_summary: 100,000 ARC-GEN example pairs covering all 400 ARC-AGI-1 training tasks.
+implementation_hint: Use for enhanced validation before submitting task overrides.
+risk: low
+rule_status: public_dataset
+repro_status: not_started
+priority: P1
+assigned_exp_id:
+
+## SRC_RE_ARC_GITHUB
+
+source_id: SRC_RE_ARC_GITHUB
+source_type: github
+title: michaelhodel/re-arc
+author_or_team: Michael Hodel
+url_or_identifier: https://github.com/michaelhodel/re-arc
+date_accessed: 2026-06-07
+claimed_score:
+tasks_mentioned: 400 ARC training tasks
+idea_summary: Procedural generators and verified generated examples for all 400 ARC training tasks.
+implementation_hint: Use as independent validation/generator reference; maps well to task bank.
+risk: low
+rule_status: public_github_mit
+repro_status: not_started
+priority: P1
+assigned_exp_id:
+
+## SRC_ARC_DSL_GITHUB
+
+source_id: SRC_ARC_DSL_GITHUB
+source_type: github
+title: michaelhodel/arc-dsl
+author_or_team: Michael Hodel
+url_or_identifier: https://github.com/michaelhodel/arc-dsl
+date_accessed: 2026-06-07
+claimed_score:
+tasks_mentioned: ARC training tasks
+idea_summary: DSL primitives and solver programs for ARC tasks.
+implementation_hint: Translate selected DSL primitives into small ONNX graph templates.
+risk: low
+rule_status: public_github_mit
+repro_status: not_started
+priority: P1
+assigned_exp_id:
+
+## SRC_ARC_PRIZE_2024_REPORT
+
+source_id: SRC_ARC_PRIZE_2024_REPORT
+source_type: paper
+title: ARC Prize 2024 Technical Report
+author_or_team: Chollet, Knoop, Kamradt, Landers
+url_or_identifier: https://arcprize.org/media/arc-prize-2024-technical-report.pdf
+date_accessed: 2026-06-07
+claimed_score: ARC-AGI private SOTA increased to 55.5 percent
+tasks_mentioned: ARC-AGI
+idea_summary: Surveys deep-learning-guided program synthesis and test-time training patterns.
+implementation_hint: Mine program synthesis and validation workflow ideas, not direct ONNX.
+risk: low
+rule_status: public_paper
+repro_status: not_started
+priority: P2
+assigned_exp_id:
+
+## SRC_GOOGLE_CODE_GOLF_2025
+
+source_id: SRC_GOOGLE_CODE_GOLF_2025
+source_type: writeup
+title: NeurIPS 2025 - Google Code Golf Championship
+author_or_team: Google DeepMind / Kaggle community
+url_or_identifier: https://www.kaggle.com/competitions/google-code-golf-2025
+date_accessed: 2026-06-07
+claimed_score:
+tasks_mentioned: 400 ARC-AGI tasks
+idea_summary: Prior ARC code-golf competition; useful for per-task solution strategy and ARC-GEN usage.
+implementation_hint: Review public writeups for task decomposition and reusable rule families.
+risk: low
+rule_status: public_competition
+repro_status: not_started
+priority: P1
+assigned_exp_id:
+

@@ -1,0 +1,25 @@
+{
+  "id": "afr1ste/neurogolf-5689-51-current-rules-open-solution",
+  "id_no": 116884297,
+  "title": "NeuroGolf 5689.51 Current Rules Open Solution",
+  "code_file": "neurogolf-5689-51-current-rules-open-solution.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "afr1ste/neurogolf-5689-51-current-rules-open-artifact"
+  ],
+  "kernel_sources": [
+    "agentzz/neurogolf-submit-6284-v2"
+  ],
+  "competition_sources": [
+    "neurogolf-2026"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:c370a5ff133d162d17c2dca332b50f3e85c0b0ed1471ee18e98e3009eee80b08",
+  "machine_shape": "None"
+}
