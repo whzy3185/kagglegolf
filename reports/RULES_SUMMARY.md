@@ -63,7 +63,10 @@ The rules page permits public external data/tools/models when reasonably accessi
 
 ## Final Submission Rule
 
-Rules page states five submissions per day and up to two final submissions for judging. The user has asked this repo to keep candidates queued aggressively while remaining rule-compliant.
+The formal rules page snapshot states five submissions per day and up to two final submissions for judging.
+
+Current submission quota note:
+Original rule snapshot says 5 submissions/day, but repo evidence source `SRC_DISCUSSION_SUBMISSION_LIMIT_REENABLED` records a host-note claim that the competition was reset to allow 100 submissions/day. That host-note claim is not visible in the official rules snapshot captured here. Current repo policy: treat the rules page as the formal contract and confirm the live submission quota from Kaggle UI or CLI-visible behavior before batch submissions.
 
 ## Raw Page Snapshots
 

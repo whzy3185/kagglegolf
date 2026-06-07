@@ -5,7 +5,6 @@ import json
 import re
 from datetime import datetime
 from io import StringIO
-from pathlib import Path
 
 from _bootstrap import ROOT
 from neurogolf.kaggle_api import run_kaggle
@@ -50,10 +49,80 @@ def _exp_id(row: dict) -> str:
     return desc.split("|", 1)[0].strip()
 
 
+def _load_json(path) -> dict:
+    if not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return {}
+
+
+def _write_best_manifest(best_row: dict | None, best_score: float | None) -> dict:
+    if not best_row:
+        return {}
+    exp_id = _exp_id(best_row)
+    submitted_path = root("submissions", "submitted", exp_id, "manifest.json")
+    current_path = root("submissions", "best", "current_best_manifest.json")
+    base = _load_json(submitted_path) or _load_json(current_path)
+    manifest = {
+        **base,
+        "exp_id": exp_id,
+        "score": best_score,
+        "submission_id": best_row.get("ref"),
+        "status": str(best_row.get("status", "")).replace("SubmissionStatus.", "").lower() or "complete",
+    }
+
+    best_dir = root("submissions", "best", exp_id)
+    best_dir.mkdir(parents=True, exist_ok=True)
+    best_manifest_text = json.dumps(manifest, indent=2)
+    best_dir.joinpath("manifest.json").write_text(best_manifest_text, encoding="utf-8")
+    current_path.write_text(best_manifest_text, encoding="utf-8")
+
+    score_lines = [
+        f"# {exp_id}",
+        "",
+        f"submission id: {best_row.get('ref')}",
+        f"public score: {best_score}",
+        f"status: {best_row.get('status')}",
+        f"source ids: {', '.join(manifest.get('source_ids', []))}",
+        f"local validation: {manifest.get('local_validation', '')}",
+        f"examples checked: {manifest.get('examples_checked', '')}",
+        f"examples failed: {manifest.get('examples_failed', '')}",
+        f"notebook output ONNX matched: {manifest.get('notebook_output_match', '')}",
+        f"package sha256: {manifest.get('package_sha256', '')}",
+        "",
+    ]
+    score_text = "\n".join(score_lines)
+    best_dir.joinpath("score.md").write_text(score_text, encoding="utf-8")
+    root("submissions", "best", "current_best.md").write_text(
+        "\n".join(
+            [
+                "# Current Best",
+                "",
+                f"exp_id: {exp_id}",
+                f"submission id: {best_row.get('ref')}",
+                f"public score: {best_score}",
+                f"status: {str(best_row.get('status', '')).replace('SubmissionStatus.', '').lower()}",
+                f"source ids: {', '.join(manifest.get('source_ids', []))}",
+                f"local validation: {manifest.get('local_validation', '')}",
+                f"examples checked: {manifest.get('examples_checked', '')}",
+                f"examples failed: {manifest.get('examples_failed', '')}",
+                f"notebook output ONNX matched: {manifest.get('notebook_output_match', '')}",
+                f"package sha256: {manifest.get('package_sha256', '')}",
+                "",
+            ]
+        ),
+        encoding="utf-8",
+    )
+    return manifest
+
+
 def _write_reports(rows: list[dict], raw_text: str) -> None:
     scored = [(row, _score(row)) for row in rows]
     scored = [(row, score) for row, score in scored if score is not None]
     best_row, best_score = (max(scored, key=lambda item: item[1]) if scored else (None, None))
+    best_manifest = _write_best_manifest(best_row, best_score)
     payload = {
         "captured_at": datetime.now().isoformat(timespec="seconds"),
         "competition": "neurogolf-2026",
@@ -130,16 +199,22 @@ def _write_reports(rows: list[dict], raw_text: str) -> None:
     root("reports/SCORECARD.md").write_text(scorecard, encoding="utf-8")
 
     if best_row:
+        exp_id = _exp_id(best_row)
+        local_validation = best_manifest.get("local_validation", "unknown")
+        examples_checked = best_manifest.get("examples_checked", "")
+        examples_failed = best_manifest.get("examples_failed", "")
         root("reports/CURRENT_STATE.md").write_text(
             "\n".join(
                 [
                     "# Current State",
                     "",
                     f"Current best LB: {best_score}",
-                    "Current best local score:",
-                    "Current best submission path: submissions/candidates/GOLF_20260607_001_public_6154_repro/submission.zip",
+                    "Current best local score: not computed",
+                    f"Current best local validation: {local_validation}, {examples_checked} checked, {examples_failed} failed",
+                    f"Current best manifest path: submissions/best/{exp_id}/manifest.json",
+                    f"Current best candidate artifact path: submissions/candidates/{exp_id}/submission.zip",
                     "Current candidate in queue:",
-                    f"Current submitted candidate: {_exp_id(best_row)} / submission {best_row.get('ref')} / status {best_row.get('status')}",
+                    f"Current submitted candidate: {exp_id} / submission {best_row.get('ref')} / status {best_row.get('status')}",
                     "Current running Kaggle Notebook: https://www.kaggle.com/code/muelsyse111/neurogolf-submit-current (version 3 submitted via output file)",
                     "Next candidate: GOLF_20260607_002_public_6029_diff",
                     "Known blockers:",

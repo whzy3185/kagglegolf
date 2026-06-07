@@ -88,7 +88,8 @@ idea_summary: Public all-task ONNX solution; major fallback and diff source.
 implementation_hint: Pull dataset `jsrdcht/neurogolf-6029-submission-bundle` and diff task-level costs against 6154.
 risk: low
 rule_status: public_source
-repro_status: reproduced
+repro_status: imported
+diff_status: not_started
 priority: P0
 assigned_exp_id: GOLF_20260607_002_public_6029_diff
 
@@ -174,11 +175,11 @@ url_or_identifier: https://www.kaggle.com/competitions/neurogolf-2026/discussion
 date_accessed: 2026-06-07
 claimed_score:
 tasks_mentioned: all
-idea_summary: Host note says competition was reset to allow 100 submissions a day.
-implementation_hint: Keep aggressive submit queue, but still record rule risk.
+idea_summary: Repo evidence records a host-note claim that submissions were reset to allow 100 per day, but this is not visible in the formal rules snapshot stored under `competition_pages.json`.
+implementation_hint: Treat this as a secondary claim; confirm live quota from Kaggle UI or CLI-visible behavior before batch submits.
 risk: low
 rule_status: public_host_discussion
-repro_status: reproduced
+repro_status: imported
 priority: P0
 assigned_exp_id:
 
@@ -289,4 +290,3 @@ rule_status: public_competition
 repro_status: not_started
 priority: P1
 assigned_exp_id:
-

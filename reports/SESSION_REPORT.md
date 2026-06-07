@@ -1,6 +1,6 @@
 # Session Report
 
-Last updated: 2026-06-07T19:10:09
+Last updated: 2026-06-07T20:54:45
 
 ## Workspace
 
@@ -43,4 +43,4 @@ ref       fileName        date                        description               
 
 ## Notes
 
-Kaggle CLI supports direct Notebook-output submission with `kaggle competitions submit neurogolf-2026 -k <kernel> -v <version> -f submission.zip -m <message>`. The first candidate was submitted this way.
+Kaggle CLI supports direct Notebook-output submission with `kaggle competitions submit neurogolf-2026 -k <kernel> -v <version> -f submission.zip -m <message>`. Earlier manual-submit-only notes are obsolete.

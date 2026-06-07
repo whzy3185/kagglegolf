@@ -129,6 +129,7 @@ def validate_submission_dir(
     payload = {
         "submission_dir": str(submission_dir),
         "file_count": len(results),
+        "expected_task_count": spec.TASK_COUNT,
         "all_structural_ok": all(r.ok for r in results),
         "missing_task_count": len(missing),
         "missing_task_ids_head": missing[:20],
@@ -139,8 +140,9 @@ def validate_submission_dir(
         "failed_files": [asdict(r) for r in results if not r.ok][:30],
         "results": [asdict(r) for r in results],
     }
+    payload["package_complete"] = payload["file_count"] == spec.TASK_COUNT and payload["missing_task_count"] == 0
     payload["ok_for_submission_queue"] = (
-        payload["file_count"] > 0
+        payload["package_complete"]
         and payload["all_structural_ok"]
         and payload["examples_failed"] == 0
         and not payload["has_duplicates"]
@@ -151,4 +153,3 @@ def validate_submission_dir(
 def write_validation(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(payload, indent=2), encoding="utf-8")
-

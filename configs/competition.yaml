@@ -35,7 +35,6 @@ onnx:
   - Compress
 score:
   formula: max(1, 25 - ln(memory_bytes + parameter_count))
-  current_best_lb: null
 source_policy:
   public_code_allowed: true
   public_notebooks_allowed: true

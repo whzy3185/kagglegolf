@@ -8,6 +8,7 @@ Latest validated candidate:
 exp_id: GOLF_20260607_001_public_6154_repro
 local_validation: pass
 file_count: 400
+package_complete: true
 examples_checked: 1200
 examples_failed: 0
 missing_task_count: 0
@@ -19,4 +20,3 @@ Detailed validation is stored at:
 ```text
 submissions/candidates/GOLF_20260607_001_public_6154_repro/local_validation.json
 ```
-
