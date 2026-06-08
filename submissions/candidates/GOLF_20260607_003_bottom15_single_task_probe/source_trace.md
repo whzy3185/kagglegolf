@@ -1,0 +1,5 @@
+# GOLF_20260607_003_bottom15_single_task_probe Source Trace
+
+source_id: SRC_KAGGLE_NOTEBOOK_JSRDCHT_6029
+parent_exp_id: GOLF_20260607_001_public_6154_repro
+changed_tasks: task286

@@ -1,401 +1,401 @@
 task_id,has_solution,best_score,best_cost,correct_on_official_examples,correct_on_arcgen_samples,source_id,method_family,model_path,last_exp_id,risk,notes
-task001,false,,,,,,,,,unknown,
-task002,false,,,,,,,,,unknown,
-task003,false,,,,,,,,,unknown,
-task004,false,,,,,,,,,unknown,
-task005,false,,,,,,,,,unknown,
-task006,false,,,,,,,,,unknown,
-task007,false,,,,,,,,,unknown,
-task008,false,,,,,,,,,unknown,
-task009,false,,,,,,,,,unknown,
-task010,false,,,,,,,,,unknown,
-task011,false,,,,,,,,,unknown,
-task012,false,,,,,,,,,unknown,
-task013,false,,,,,,,,,unknown,
-task014,false,,,,,,,,,unknown,
-task015,false,,,,,,,,,unknown,
-task016,false,,,,,,,,,unknown,
-task017,false,,,,,,,,,unknown,
-task018,false,,,,,,,,,unknown,
-task019,false,,,,,,,,,unknown,
-task020,false,,,,,,,,,unknown,
-task021,false,,,,,,,,,unknown,
-task022,false,,,,,,,,,unknown,
-task023,false,,,,,,,,,unknown,
-task024,false,,,,,,,,,unknown,
-task025,false,,,,,,,,,unknown,
-task026,false,,,,,,,,,unknown,
-task027,false,,,,,,,,,unknown,
-task028,false,,,,,,,,,unknown,
-task029,false,,,,,,,,,unknown,
-task030,false,,,,,,,,,unknown,
-task031,false,,,,,,,,,unknown,
-task032,false,,,,,,,,,unknown,
-task033,false,,,,,,,,,unknown,
-task034,false,,,,,,,,,unknown,
-task035,false,,,,,,,,,unknown,
-task036,false,,,,,,,,,unknown,
-task037,false,,,,,,,,,unknown,
-task038,false,,,,,,,,,unknown,
-task039,false,,,,,,,,,unknown,
-task040,false,,,,,,,,,unknown,
-task041,false,,,,,,,,,unknown,
-task042,false,,,,,,,,,unknown,
-task043,false,,,,,,,,,unknown,
-task044,false,,,,,,,,,unknown,
-task045,false,,,,,,,,,unknown,
-task046,false,,,,,,,,,unknown,
-task047,false,,,,,,,,,unknown,
-task048,false,,,,,,,,,unknown,
-task049,false,,,,,,,,,unknown,
-task050,false,,,,,,,,,unknown,
-task051,false,,,,,,,,,unknown,
-task052,false,,,,,,,,,unknown,
-task053,false,,,,,,,,,unknown,
-task054,false,,,,,,,,,unknown,
-task055,false,,,,,,,,,unknown,
-task056,false,,,,,,,,,unknown,
-task057,false,,,,,,,,,unknown,
-task058,false,,,,,,,,,unknown,
-task059,false,,,,,,,,,unknown,
-task060,false,,,,,,,,,unknown,
-task061,false,,,,,,,,,unknown,
-task062,false,,,,,,,,,unknown,
-task063,false,,,,,,,,,unknown,
-task064,false,,,,,,,,,unknown,
-task065,false,,,,,,,,,unknown,
-task066,false,,,,,,,,,unknown,
-task067,false,,,,,,,,,unknown,
-task068,false,,,,,,,,,unknown,
-task069,false,,,,,,,,,unknown,
-task070,false,,,,,,,,,unknown,
-task071,false,,,,,,,,,unknown,
-task072,false,,,,,,,,,unknown,
-task073,false,,,,,,,,,unknown,
-task074,false,,,,,,,,,unknown,
-task075,false,,,,,,,,,unknown,
-task076,false,,,,,,,,,unknown,
-task077,false,,,,,,,,,unknown,
-task078,false,,,,,,,,,unknown,
-task079,false,,,,,,,,,unknown,
-task080,false,,,,,,,,,unknown,
-task081,false,,,,,,,,,unknown,
-task082,false,,,,,,,,,unknown,
-task083,false,,,,,,,,,unknown,
-task084,false,,,,,,,,,unknown,
-task085,false,,,,,,,,,unknown,
-task086,false,,,,,,,,,unknown,
-task087,false,,,,,,,,,unknown,
-task088,false,,,,,,,,,unknown,
-task089,false,,,,,,,,,unknown,
-task090,false,,,,,,,,,unknown,
-task091,false,,,,,,,,,unknown,
-task092,false,,,,,,,,,unknown,
-task093,false,,,,,,,,,unknown,
-task094,false,,,,,,,,,unknown,
-task095,false,,,,,,,,,unknown,
-task096,false,,,,,,,,,unknown,
-task097,false,,,,,,,,,unknown,
-task098,false,,,,,,,,,unknown,
-task099,false,,,,,,,,,unknown,
-task100,false,,,,,,,,,unknown,
-task101,false,,,,,,,,,unknown,
-task102,false,,,,,,,,,unknown,
-task103,false,,,,,,,,,unknown,
-task104,false,,,,,,,,,unknown,
-task105,false,,,,,,,,,unknown,
-task106,false,,,,,,,,,unknown,
-task107,false,,,,,,,,,unknown,
-task108,false,,,,,,,,,unknown,
-task109,false,,,,,,,,,unknown,
-task110,false,,,,,,,,,unknown,
-task111,false,,,,,,,,,unknown,
-task112,false,,,,,,,,,unknown,
-task113,false,,,,,,,,,unknown,
-task114,false,,,,,,,,,unknown,
-task115,false,,,,,,,,,unknown,
-task116,false,,,,,,,,,unknown,
-task117,false,,,,,,,,,unknown,
-task118,false,,,,,,,,,unknown,
-task119,false,,,,,,,,,unknown,
-task120,false,,,,,,,,,unknown,
-task121,false,,,,,,,,,unknown,
-task122,false,,,,,,,,,unknown,
-task123,false,,,,,,,,,unknown,
-task124,false,,,,,,,,,unknown,
-task125,false,,,,,,,,,unknown,
-task126,false,,,,,,,,,unknown,
-task127,false,,,,,,,,,unknown,
-task128,false,,,,,,,,,unknown,
-task129,false,,,,,,,,,unknown,
-task130,false,,,,,,,,,unknown,
-task131,false,,,,,,,,,unknown,
-task132,false,,,,,,,,,unknown,
-task133,false,,,,,,,,,unknown,
-task134,false,,,,,,,,,unknown,
-task135,false,,,,,,,,,unknown,
-task136,false,,,,,,,,,unknown,
-task137,false,,,,,,,,,unknown,
-task138,false,,,,,,,,,unknown,
-task139,false,,,,,,,,,unknown,
-task140,false,,,,,,,,,unknown,
-task141,false,,,,,,,,,unknown,
-task142,false,,,,,,,,,unknown,
-task143,false,,,,,,,,,unknown,
-task144,false,,,,,,,,,unknown,
-task145,false,,,,,,,,,unknown,
-task146,false,,,,,,,,,unknown,
-task147,false,,,,,,,,,unknown,
-task148,false,,,,,,,,,unknown,
-task149,false,,,,,,,,,unknown,
-task150,false,,,,,,,,,unknown,
-task151,false,,,,,,,,,unknown,
-task152,false,,,,,,,,,unknown,
-task153,false,,,,,,,,,unknown,
-task154,false,,,,,,,,,unknown,
-task155,false,,,,,,,,,unknown,
-task156,false,,,,,,,,,unknown,
-task157,false,,,,,,,,,unknown,
-task158,false,,,,,,,,,unknown,
-task159,false,,,,,,,,,unknown,
-task160,false,,,,,,,,,unknown,
-task161,false,,,,,,,,,unknown,
-task162,false,,,,,,,,,unknown,
-task163,false,,,,,,,,,unknown,
-task164,false,,,,,,,,,unknown,
-task165,false,,,,,,,,,unknown,
-task166,false,,,,,,,,,unknown,
-task167,false,,,,,,,,,unknown,
-task168,false,,,,,,,,,unknown,
-task169,false,,,,,,,,,unknown,
-task170,false,,,,,,,,,unknown,
-task171,false,,,,,,,,,unknown,
-task172,false,,,,,,,,,unknown,
-task173,false,,,,,,,,,unknown,
-task174,false,,,,,,,,,unknown,
-task175,false,,,,,,,,,unknown,
-task176,false,,,,,,,,,unknown,
-task177,false,,,,,,,,,unknown,
-task178,false,,,,,,,,,unknown,
-task179,false,,,,,,,,,unknown,
-task180,false,,,,,,,,,unknown,
-task181,false,,,,,,,,,unknown,
-task182,false,,,,,,,,,unknown,
-task183,false,,,,,,,,,unknown,
-task184,false,,,,,,,,,unknown,
-task185,false,,,,,,,,,unknown,
-task186,false,,,,,,,,,unknown,
-task187,false,,,,,,,,,unknown,
-task188,false,,,,,,,,,unknown,
-task189,false,,,,,,,,,unknown,
-task190,false,,,,,,,,,unknown,
-task191,false,,,,,,,,,unknown,
-task192,false,,,,,,,,,unknown,
-task193,false,,,,,,,,,unknown,
-task194,false,,,,,,,,,unknown,
-task195,false,,,,,,,,,unknown,
-task196,false,,,,,,,,,unknown,
-task197,false,,,,,,,,,unknown,
-task198,false,,,,,,,,,unknown,
-task199,false,,,,,,,,,unknown,
-task200,false,,,,,,,,,unknown,
-task201,false,,,,,,,,,unknown,
-task202,false,,,,,,,,,unknown,
-task203,false,,,,,,,,,unknown,
-task204,false,,,,,,,,,unknown,
-task205,false,,,,,,,,,unknown,
-task206,false,,,,,,,,,unknown,
-task207,false,,,,,,,,,unknown,
-task208,false,,,,,,,,,unknown,
-task209,false,,,,,,,,,unknown,
-task210,false,,,,,,,,,unknown,
-task211,false,,,,,,,,,unknown,
-task212,false,,,,,,,,,unknown,
-task213,false,,,,,,,,,unknown,
-task214,false,,,,,,,,,unknown,
-task215,false,,,,,,,,,unknown,
-task216,false,,,,,,,,,unknown,
-task217,false,,,,,,,,,unknown,
-task218,false,,,,,,,,,unknown,
-task219,false,,,,,,,,,unknown,
-task220,false,,,,,,,,,unknown,
-task221,false,,,,,,,,,unknown,
-task222,false,,,,,,,,,unknown,
-task223,false,,,,,,,,,unknown,
-task224,false,,,,,,,,,unknown,
-task225,false,,,,,,,,,unknown,
-task226,false,,,,,,,,,unknown,
-task227,false,,,,,,,,,unknown,
-task228,false,,,,,,,,,unknown,
-task229,false,,,,,,,,,unknown,
-task230,false,,,,,,,,,unknown,
-task231,false,,,,,,,,,unknown,
-task232,false,,,,,,,,,unknown,
-task233,false,,,,,,,,,unknown,
-task234,false,,,,,,,,,unknown,
-task235,false,,,,,,,,,unknown,
-task236,false,,,,,,,,,unknown,
-task237,false,,,,,,,,,unknown,
-task238,false,,,,,,,,,unknown,
-task239,false,,,,,,,,,unknown,
-task240,false,,,,,,,,,unknown,
-task241,false,,,,,,,,,unknown,
-task242,false,,,,,,,,,unknown,
-task243,false,,,,,,,,,unknown,
-task244,false,,,,,,,,,unknown,
-task245,false,,,,,,,,,unknown,
-task246,false,,,,,,,,,unknown,
-task247,false,,,,,,,,,unknown,
-task248,false,,,,,,,,,unknown,
-task249,false,,,,,,,,,unknown,
-task250,false,,,,,,,,,unknown,
-task251,false,,,,,,,,,unknown,
-task252,false,,,,,,,,,unknown,
-task253,false,,,,,,,,,unknown,
-task254,false,,,,,,,,,unknown,
-task255,false,,,,,,,,,unknown,
-task256,false,,,,,,,,,unknown,
-task257,false,,,,,,,,,unknown,
-task258,false,,,,,,,,,unknown,
-task259,false,,,,,,,,,unknown,
-task260,false,,,,,,,,,unknown,
-task261,false,,,,,,,,,unknown,
-task262,false,,,,,,,,,unknown,
-task263,false,,,,,,,,,unknown,
-task264,false,,,,,,,,,unknown,
-task265,false,,,,,,,,,unknown,
-task266,false,,,,,,,,,unknown,
-task267,false,,,,,,,,,unknown,
-task268,false,,,,,,,,,unknown,
-task269,false,,,,,,,,,unknown,
-task270,false,,,,,,,,,unknown,
-task271,false,,,,,,,,,unknown,
-task272,false,,,,,,,,,unknown,
-task273,false,,,,,,,,,unknown,
-task274,false,,,,,,,,,unknown,
-task275,false,,,,,,,,,unknown,
-task276,false,,,,,,,,,unknown,
-task277,false,,,,,,,,,unknown,
-task278,false,,,,,,,,,unknown,
-task279,false,,,,,,,,,unknown,
-task280,false,,,,,,,,,unknown,
-task281,false,,,,,,,,,unknown,
-task282,false,,,,,,,,,unknown,
-task283,false,,,,,,,,,unknown,
-task284,false,,,,,,,,,unknown,
-task285,false,,,,,,,,,unknown,
-task286,false,,,,,,,,,unknown,
-task287,false,,,,,,,,,unknown,
-task288,false,,,,,,,,,unknown,
-task289,false,,,,,,,,,unknown,
-task290,false,,,,,,,,,unknown,
-task291,false,,,,,,,,,unknown,
-task292,false,,,,,,,,,unknown,
-task293,false,,,,,,,,,unknown,
-task294,false,,,,,,,,,unknown,
-task295,false,,,,,,,,,unknown,
-task296,false,,,,,,,,,unknown,
-task297,false,,,,,,,,,unknown,
-task298,false,,,,,,,,,unknown,
-task299,false,,,,,,,,,unknown,
-task300,false,,,,,,,,,unknown,
-task301,false,,,,,,,,,unknown,
-task302,false,,,,,,,,,unknown,
-task303,false,,,,,,,,,unknown,
-task304,false,,,,,,,,,unknown,
-task305,false,,,,,,,,,unknown,
-task306,false,,,,,,,,,unknown,
-task307,false,,,,,,,,,unknown,
-task308,false,,,,,,,,,unknown,
-task309,false,,,,,,,,,unknown,
-task310,false,,,,,,,,,unknown,
-task311,false,,,,,,,,,unknown,
-task312,false,,,,,,,,,unknown,
-task313,false,,,,,,,,,unknown,
-task314,false,,,,,,,,,unknown,
-task315,false,,,,,,,,,unknown,
-task316,false,,,,,,,,,unknown,
-task317,false,,,,,,,,,unknown,
-task318,false,,,,,,,,,unknown,
-task319,false,,,,,,,,,unknown,
-task320,false,,,,,,,,,unknown,
-task321,false,,,,,,,,,unknown,
-task322,false,,,,,,,,,unknown,
-task323,false,,,,,,,,,unknown,
-task324,false,,,,,,,,,unknown,
-task325,false,,,,,,,,,unknown,
-task326,false,,,,,,,,,unknown,
-task327,false,,,,,,,,,unknown,
-task328,false,,,,,,,,,unknown,
-task329,false,,,,,,,,,unknown,
-task330,false,,,,,,,,,unknown,
-task331,false,,,,,,,,,unknown,
-task332,false,,,,,,,,,unknown,
-task333,false,,,,,,,,,unknown,
-task334,false,,,,,,,,,unknown,
-task335,false,,,,,,,,,unknown,
-task336,false,,,,,,,,,unknown,
-task337,false,,,,,,,,,unknown,
-task338,false,,,,,,,,,unknown,
-task339,false,,,,,,,,,unknown,
-task340,false,,,,,,,,,unknown,
-task341,false,,,,,,,,,unknown,
-task342,false,,,,,,,,,unknown,
-task343,false,,,,,,,,,unknown,
-task344,false,,,,,,,,,unknown,
-task345,false,,,,,,,,,unknown,
-task346,false,,,,,,,,,unknown,
-task347,false,,,,,,,,,unknown,
-task348,false,,,,,,,,,unknown,
-task349,false,,,,,,,,,unknown,
-task350,false,,,,,,,,,unknown,
-task351,false,,,,,,,,,unknown,
-task352,false,,,,,,,,,unknown,
-task353,false,,,,,,,,,unknown,
-task354,false,,,,,,,,,unknown,
-task355,false,,,,,,,,,unknown,
-task356,false,,,,,,,,,unknown,
-task357,false,,,,,,,,,unknown,
-task358,false,,,,,,,,,unknown,
-task359,false,,,,,,,,,unknown,
-task360,false,,,,,,,,,unknown,
-task361,false,,,,,,,,,unknown,
-task362,false,,,,,,,,,unknown,
-task363,false,,,,,,,,,unknown,
-task364,false,,,,,,,,,unknown,
-task365,false,,,,,,,,,unknown,
-task366,false,,,,,,,,,unknown,
-task367,false,,,,,,,,,unknown,
-task368,false,,,,,,,,,unknown,
-task369,false,,,,,,,,,unknown,
-task370,false,,,,,,,,,unknown,
-task371,false,,,,,,,,,unknown,
-task372,false,,,,,,,,,unknown,
-task373,false,,,,,,,,,unknown,
-task374,false,,,,,,,,,unknown,
-task375,false,,,,,,,,,unknown,
-task376,false,,,,,,,,,unknown,
-task377,false,,,,,,,,,unknown,
-task378,false,,,,,,,,,unknown,
-task379,false,,,,,,,,,unknown,
-task380,false,,,,,,,,,unknown,
-task381,false,,,,,,,,,unknown,
-task382,false,,,,,,,,,unknown,
-task383,false,,,,,,,,,unknown,
-task384,false,,,,,,,,,unknown,
-task385,false,,,,,,,,,unknown,
-task386,false,,,,,,,,,unknown,
-task387,false,,,,,,,,,unknown,
-task388,false,,,,,,,,,unknown,
-task389,false,,,,,,,,,unknown,
-task390,false,,,,,,,,,unknown,
-task391,false,,,,,,,,,unknown,
-task392,false,,,,,,,,,unknown,
-task393,false,,,,,,,,,unknown,
-task394,false,,,,,,,,,unknown,
-task395,false,,,,,,,,,unknown,
-task396,false,,,,,,,,,unknown,
-task397,false,,,,,,,,,unknown,
-task398,false,,,,,,,,,unknown,
-task399,false,,,,,,,,,unknown,
-task400,false,,,,,,,,,unknown,
+task001,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task001.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task002,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task002.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task003,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task003.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task004,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task004.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task005,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task005.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task006,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task006.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task007,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task007.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task008,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task008.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task009,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task009.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task010,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task010.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task011,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task011.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task012,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task012.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task013,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task013.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task014,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task014.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task015,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task015.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task016,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task016.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task017,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task017.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task018,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task018.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task019,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task019.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task020,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task020.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task021,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task021.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task022,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task022.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task023,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task023.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task024,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task024.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task025,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task025.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task026,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task026.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task027,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task027.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task028,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task028.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task029,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task029.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task030,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task030.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task031,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task031.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task032,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task032.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task033,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task033.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task034,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task034.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task035,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task035.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task036,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task036.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task037,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task037.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task038,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task038.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task039,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task039.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task040,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task040.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task041,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task041.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task042,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task042.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task043,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task043.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task044,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task044.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task045,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task045.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task046,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task046.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task047,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task047.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task048,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task048.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task049,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task049.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task050,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task050.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task051,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task051.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task052,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task052.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task053,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task053.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task054,true,,,true,,SRC_KAGGLE_NOTEBOOK_JSRDCHT_6029,high_risk_boundary_or_unknown,E:\Jitter\kagglegolf\data\external\public_bundles\jsrdcht_6029_submission_bundle\extracted\task054.onnx,GOLF_20260607_002_public_6029_aggressive_mix,high,override candidate generated 2026-06-07T22:20:54
+task055,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task055.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task056,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task056.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task057,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task057.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task058,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task058.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task059,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task059.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task060,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task060.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task061,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task061.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task062,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task062.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task063,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task063.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task064,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task064.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task065,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task065.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task066,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task066.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task067,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task067.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task068,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task068.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task069,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task069.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task070,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task070.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task071,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task071.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task072,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task072.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task073,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task073.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task074,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task074.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task075,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task075.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task076,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task076.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task077,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task077.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task078,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task078.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task079,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task079.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task080,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task080.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task081,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task081.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task082,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task082.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task083,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task083.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task084,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task084.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task085,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task085.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task086,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task086.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task087,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task087.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task088,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task088.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task089,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task089.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task090,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task090.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task091,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task091.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task092,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task092.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task093,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task093.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task094,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task094.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task095,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task095.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task096,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task096.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task097,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task097.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task098,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task098.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task099,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task099.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task100,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task100.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task101,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task101.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task102,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task102.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task103,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task103.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task104,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task104.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task105,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task105.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task106,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task106.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task107,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task107.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task108,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task108.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task109,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task109.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task110,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task110.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task111,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task111.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task112,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task112.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task113,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task113.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task114,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task114.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task115,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task115.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task116,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task116.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task117,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task117.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task118,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task118.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task119,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task119.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task120,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task120.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task121,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task121.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task122,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task122.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task123,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task123.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task124,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task124.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task125,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task125.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task126,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task126.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task127,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task127.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task128,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task128.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task129,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task129.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task130,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task130.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task131,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task131.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task132,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task132.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task133,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task133.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task134,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task134.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task135,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task135.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task136,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task136.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task137,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task137.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task138,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task138.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task139,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task139.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task140,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task140.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task141,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task141.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task142,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task142.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task143,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task143.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task144,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task144.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task145,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task145.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task146,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task146.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task147,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task147.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task148,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task148.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task149,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task149.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task150,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task150.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task151,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task151.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task152,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task152.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task153,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task153.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task154,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task154.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task155,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task155.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task156,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task156.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task157,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task157.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task158,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task158.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task159,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task159.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task160,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task160.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task161,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task161.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task162,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task162.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task163,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task163.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task164,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task164.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task165,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task165.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task166,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task166.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task167,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task167.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task168,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task168.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task169,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task169.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task170,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task170.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task171,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task171.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task172,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task172.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task173,true,,,true,,SRC_KAGGLE_NOTEBOOK_JSRDCHT_6029,high_risk_boundary_or_unknown,E:\Jitter\kagglegolf\data\external\public_bundles\jsrdcht_6029_submission_bundle\extracted\task173.onnx,GOLF_20260607_002_public_6029_aggressive_mix,high,override candidate generated 2026-06-07T22:20:54
+task174,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task174.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task175,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task175.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task176,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task176.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task177,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task177.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task178,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task178.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task179,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task179.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task180,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task180.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task181,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task181.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task182,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task182.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task183,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task183.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task184,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task184.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task185,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task185.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task186,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task186.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task187,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task187.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task188,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task188.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task189,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task189.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task190,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task190.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task191,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task191.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task192,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task192.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task193,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task193.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task194,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task194.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task195,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task195.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task196,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task196.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task197,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task197.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task198,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task198.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task199,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task199.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task200,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task200.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task201,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task201.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task202,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task202.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task203,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task203.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task204,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task204.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task205,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task205.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task206,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task206.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task207,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task207.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task208,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task208.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task209,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task209.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task210,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task210.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task211,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task211.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task212,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task212.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task213,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task213.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task214,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task214.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task215,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task215.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task216,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task216.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task217,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task217.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task218,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task218.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task219,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task219.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task220,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task220.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task221,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task221.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task222,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task222.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task223,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task223.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task224,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task224.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task225,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task225.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task226,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task226.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task227,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task227.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task228,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task228.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task229,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task229.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task230,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task230.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task231,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task231.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task232,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task232.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task233,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task233.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task234,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task234.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task235,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task235.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task236,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task236.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task237,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task237.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task238,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task238.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task239,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task239.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task240,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task240.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task241,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task241.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task242,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task242.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task243,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task243.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task244,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task244.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task245,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task245.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task246,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task246.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task247,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task247.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task248,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task248.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task249,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task249.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task250,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task250.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task251,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task251.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task252,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task252.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task253,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task253.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task254,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task254.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task255,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task255.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task256,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task256.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task257,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task257.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task258,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task258.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task259,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task259.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task260,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task260.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task261,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task261.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task262,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task262.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task263,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task263.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task264,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task264.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task265,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task265.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task266,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task266.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task267,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task267.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task268,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task268.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task269,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task269.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task270,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task270.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task271,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task271.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task272,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task272.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task273,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task273.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task274,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task274.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task275,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task275.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task276,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task276.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task277,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task277.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task278,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task278.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task279,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task279.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task280,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task280.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task281,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task281.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task282,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task282.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task283,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task283.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task284,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task284.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task285,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task285.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task286,true,,,true,,SRC_KAGGLE_NOTEBOOK_JSRDCHT_6029,single_task_override,E:\Jitter\kagglegolf\data\external\public_bundles\jsrdcht_6029_submission_bundle\extracted\task286.onnx,GOLF_20260607_003_bottom15_single_task_probe,high,override candidate generated 2026-06-07T22:21:04
+task287,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task287.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task288,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task288.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task289,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task289.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task290,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task290.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task291,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task291.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task292,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task292.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task293,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task293.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task294,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task294.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task295,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task295.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task296,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task296.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task297,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task297.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task298,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task298.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task299,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task299.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task300,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task300.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task301,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task301.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task302,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task302.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task303,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task303.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task304,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task304.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task305,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task305.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task306,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task306.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task307,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task307.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task308,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task308.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task309,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task309.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task310,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task310.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task311,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task311.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task312,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task312.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task313,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task313.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task314,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task314.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task315,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task315.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task316,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task316.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task317,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task317.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task318,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task318.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task319,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task319.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task320,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task320.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task321,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task321.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task322,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task322.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task323,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task323.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task324,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task324.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task325,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task325.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task326,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task326.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task327,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task327.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task328,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task328.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task329,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task329.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task330,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task330.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task331,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task331.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task332,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task332.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task333,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task333.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task334,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task334.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task335,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task335.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task336,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task336.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task337,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task337.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task338,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task338.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task339,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task339.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task340,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task340.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task341,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task341.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task342,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task342.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task343,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task343.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task344,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task344.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task345,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task345.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task346,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task346.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task347,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task347.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task348,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task348.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task349,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task349.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task350,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task350.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task351,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task351.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task352,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task352.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task353,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task353.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task354,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task354.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task355,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task355.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task356,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task356.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task357,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task357.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task358,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task358.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task359,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task359.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task360,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task360.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task361,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task361.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task362,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task362.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task363,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task363.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task364,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task364.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task365,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task365.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task366,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task366.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task367,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task367.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task368,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task368.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task369,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task369.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task370,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task370.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task371,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task371.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task372,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task372.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task373,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task373.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task374,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task374.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task375,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task375.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task376,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task376.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task377,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task377.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task378,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task378.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task379,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task379.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task380,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task380.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task381,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task381.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task382,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task382.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task383,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task383.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task384,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task384.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task385,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task385.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task386,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task386.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task387,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task387.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task388,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task388.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task389,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task389.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task390,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task390.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task391,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task391.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task392,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task392.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task393,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task393.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task394,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task394.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task395,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task395.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task396,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task396.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task397,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task397.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task398,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task398.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task399,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task399.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46
+task400,true,,,false,,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,public_full_replace,E:\Jitter\kagglegolf\data\external\public_bundles\beicicc_6645\extracted\task400.onnx,GOLF_20260607_004_public_notebook_full_replace,medium,override candidate generated 2026-06-07T22:13:46

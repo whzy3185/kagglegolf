@@ -17,6 +17,7 @@ venv/
 env/
 
 # Kaggle data and generated artifacts
+/neurogolf-2026.zip
 data/raw/**
 data/interim/**
 data/processed/**

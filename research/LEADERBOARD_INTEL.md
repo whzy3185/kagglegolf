@@ -28,3 +28,22 @@ b'15624483  Bogo de Ch\xc3\xa3o                 2026-06-07 04:57:03.530000  7201
 15626166  where did my tokens go?      2026-06-07 10:54:40.193000  7198.43  
 
 ```
+
+Captured: 2026-06-08T15:33:23
+
+```text
+  teamId  teamName                     submissionDate              score
+--------  ---------------------------  --------------------------  -------
+15948605  CroDoc                       2026-06-08 05:34:46.373000  7700.84
+15630755  5.5 or 4.8?                  2026-06-08 06:23:32.430000  7671.37
+15810244  jacekw (DeepSeek-V5-Pro)     2026-06-08 06:11:52.023000  7636.99
+15625251  Tony Li                      2026-06-08 01:48:22.890000  7632.73
+15633637  David                        2026-06-07 05:38:57.503000  7556.23
+15625404  Santa Neuro Club 10000       2026-06-08 03:27:09.983000  7462.42
+15630942  Fritz Cremer                 2026-06-07 22:21:04.383000  7455.17
+15633124  Pavel                        2026-06-08 04:55:14.120000  7407.92
+15633270  Dziyana Valenta              2026-06-08 06:47:00.736000  7397.59
+15625577  Slow and Steady (400 Tasks)  2026-06-08 06:37:21.040000  7377.02
+```
+
+Target implication: 7000+ is below the current public top-20 threshold, so the next source harvest must prioritize public blends and task-bank mixing over small 6029-only probes.

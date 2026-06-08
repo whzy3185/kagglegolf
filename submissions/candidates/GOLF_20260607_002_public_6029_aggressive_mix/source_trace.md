@@ -1,0 +1,5 @@
+# GOLF_20260607_002_public_6029_aggressive_mix Source Trace
+
+source_id: SRC_KAGGLE_NOTEBOOK_JSRDCHT_6029
+parent_exp_id: GOLF_20260607_001_public_6154_repro
+changed_tasks: task286,task173,task054

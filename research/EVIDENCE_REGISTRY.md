@@ -111,6 +111,42 @@ repro_status: imported
 priority: P1
 assigned_exp_id:
 
+## SRC_KAGGLE_NOTEBOOK_BEICICC_6645
+
+source_id: SRC_KAGGLE_NOTEBOOK_BEICICC_6645
+source_type: notebook
+title: NeuroGolf 6645.39 Public Score Open Solution
+author_or_team: Kun Zhang
+url_or_identifier: https://www.kaggle.com/code/beicicc/neurogolf-6645-39-public-score-open-solution
+date_accessed: 2026-06-07
+claimed_score: 6645.39
+tasks_mentioned: all
+idea_summary: Public full-bundle open solution shipped as a reusable submission artifact with compact per-task ONNX graphs.
+implementation_hint: Normalize the artifact bundle to task001-task400 and use it as the first high-upside full-replace baseline.
+risk: low
+rule_status: public_source
+repro_status: imported
+priority: P0
+assigned_exp_id: GOLF_20260607_004_public_notebook_full_replace
+
+## SRC_KAGGLE_NOTEBOOK_VYANKTESH_MULTI_SOURCE
+
+source_id: SRC_KAGGLE_NOTEBOOK_VYANKTESH_MULTI_SOURCE
+source_type: notebook
+title: NeuroGolf Multi-Source ONNX Solver
+author_or_team: zorojuro
+url_or_identifier: https://www.kaggle.com/code/vyankteshdwivedi/neurogolf-multi-source-onnx-solver
+date_accessed: 2026-06-07
+claimed_score:
+tasks_mentioned: all
+idea_summary: Public multi-source blended ONNX bundle likely useful for top-k task harvest and alternative full-replace fallback.
+implementation_hint: Diff against 6154 and 6645; harvest per-task wins after validating the imported artifact.
+risk: low
+rule_status: public_source
+repro_status: imported
+priority: P1
+assigned_exp_id:
+
 ## SRC_KAGGLE_NOTEBOOK_GLM_OPUS_COST_OPT
 
 source_id: SRC_KAGGLE_NOTEBOOK_GLM_OPUS_COST_OPT
@@ -287,6 +323,78 @@ idea_summary: Prior ARC code-golf competition; useful for per-task solution stra
 implementation_hint: Review public writeups for task decomposition and reusable rule families.
 risk: low
 rule_status: public_competition
+repro_status: not_started
+priority: P1
+assigned_exp_id:
+
+## SRC_KAGGLE_NOTEBOOK_MIRZA_BEST_SCORE
+
+source_id: SRC_KAGGLE_NOTEBOOK_MIRZA_BEST_SCORE
+source_type: notebook
+title: Best Score NeuroGolf Championship NoteBook
+author_or_team: Mirza Yasir Abdullah Baig
+url_or_identifier: https://www.kaggle.com/code/mirzayasirabdullah07/best-score-neurogolf-championship-notebook
+date_accessed: 2026-06-08
+claimed_score:
+tasks_mentioned: all
+idea_summary: Fresh high-vote public notebook discovered after the 6154 baseline; likely blend or public-artifact aggregation source.
+implementation_hint: Import notebook output next, validate structure, then use as full-replace and task-level diff source.
+risk: medium
+rule_status: public_source
+repro_status: not_started
+priority: P0
+assigned_exp_id:
+
+## SRC_KAGGLE_NOTEBOOK_BIOHACK_SUPER_BLEND
+
+source_id: SRC_KAGGLE_NOTEBOOK_BIOHACK_SUPER_BLEND
+source_type: notebook
+title: Neurogolf Super Blend:Best Public Score
+author_or_team: Emre Cirak
+url_or_identifier: https://www.kaggle.com/code/biohack44/neurogolf-super-blend-best-public-score
+date_accessed: 2026-06-08
+claimed_score:
+tasks_mentioned: all
+idea_summary: Public super-blend notebook found by Kaggle Code search; high-value source for full-bundle replacement and per-task harvesting.
+implementation_hint: Download output, normalize task files, reject if structural rules fail, otherwise submit as a full-replace probe.
+risk: medium
+rule_status: public_source
+repro_status: not_started
+priority: P0
+assigned_exp_id:
+
+## SRC_KAGGLE_NOTEBOOK_SEDDIK_SURGICAL_ONNX
+
+source_id: SRC_KAGGLE_NOTEBOOK_SEDDIK_SURGICAL_ONNX
+source_type: notebook
+title: Surgical ONNX: Precision Parameter Reduction
+author_or_team: seddik turki
+url_or_identifier: https://www.kaggle.com/code/seddiktrk/surgical-onnx-precision-parameter-reduction
+date_accessed: 2026-06-08
+claimed_score:
+tasks_mentioned: unknown
+idea_summary: Public ONNX surgery notebook focused on precision and parameter reduction; candidate source for memory-footprint rewrite lane.
+implementation_hint: Extract rewrite motifs only after checking they reduce memory footprint, not only zip size or parameter count.
+risk: medium
+rule_status: public_source
+repro_status: not_started
+priority: P1
+assigned_exp_id:
+
+## SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX
+
+source_id: SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX
+source_type: notebook
+title: [NGC26] Constraint Smart Logic Mix Blending
+author_or_team: Jonathan Chan
+url_or_identifier: https://www.kaggle.com/code/jonathanchan/ngc26-constraint-smart-logic-mix-blending
+date_accessed: 2026-06-08
+claimed_score:
+tasks_mentioned: all
+idea_summary: High-vote public logic/blending notebook; likely useful for task-level selection and rule-family alternatives.
+implementation_hint: Import output, diff task-level models against 6154 and 6645, then submit a small aggressive mix.
+risk: medium
+rule_status: public_source
 repro_status: not_started
 priority: P1
 assigned_exp_id:
