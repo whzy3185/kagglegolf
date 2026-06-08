@@ -8,6 +8,12 @@ from datetime import date, datetime
 from pathlib import Path
 
 from _bootstrap import ROOT
+from neurogolf.evidence_gate import (
+    load_config,
+    parse_direction_registry,
+    parse_evidence_registry,
+    validate_row,
+)
 from neurogolf.experiment_db import EXPERIMENT_FIELDS, append_row
 from neurogolf.notebook_builder import (
     build_kernel_metadata,
@@ -25,7 +31,17 @@ SUBMISSION_QUEUE_FIELDS = [
     "exp_id",
     "candidate_path",
     "risk",
+    "direction_id",
+    "leaderboard_source_id",
+    "paper_source_id",
+    "open_repo_source_id",
+    "historical_competition_source_id",
     "source_id",
+    "evidence_gate_status",
+    "duplicate_hash",
+    "aggressive_change_score",
+    "aggressive_change_classification",
+    "aggressive_change_gate_status",
     "changed_tasks",
     "local_valid",
     "notebook_ready",
@@ -185,7 +201,16 @@ def build_notebook(exp_id: str, candidate: Path, source_ids: list[str], changed_
     return candidate / "notebook.ipynb"
 
 
-def update_task_bank(changed: list[dict], exp_id: str, source_id: str, risk: str, validation_ok: bool) -> None:
+def update_task_bank(
+    changed: list[dict],
+    exp_id: str,
+    source_id: str,
+    risk: str,
+    validation_ok: bool,
+    evidence_gate_status: str,
+) -> None:
+    if evidence_gate_status != "pass":
+        return
     status_path = root("task_bank/task_status.csv")
     best_path = root("task_bank/best_by_task.csv")
     if not status_path.exists() or not best_path.exists():
@@ -215,6 +240,9 @@ def update_task_bank(changed: list[dict], exp_id: str, source_id: str, risk: str
         writer = csv.DictWriter(f, fieldnames=status_fields)
         writer.writeheader()
         writer.writerows(status_rows)
+
+    if risk == "high":
+        return
 
     with best_path.open(newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -251,6 +279,11 @@ def main() -> None:
     parser.add_argument("--full-replace-dir", default="")
     parser.add_argument("--top-k", type=int, default=0)
     parser.add_argument("--source-id", required=True)
+    parser.add_argument("--direction-id", required=True)
+    parser.add_argument("--leaderboard-source-id", required=True)
+    parser.add_argument("--paper-source-id", required=True)
+    parser.add_argument("--open-repo-source-id", required=True)
+    parser.add_argument("--historical-competition-source-id", required=True)
     parser.add_argument("--risk", choices=["low", "medium", "high"], required=True)
     parser.add_argument("--validate", action="store_true")
     parser.add_argument("--pack", action="store_true")
@@ -258,8 +291,43 @@ def main() -> None:
     parser.add_argument("--record", action="store_true")
     args = parser.parse_args()
 
-    if not source_exists(args.source_id):
-        raise SystemExit(f"Unknown source_id: {args.source_id}")
+    source_ids = [
+        args.source_id,
+        args.leaderboard_source_id,
+        args.paper_source_id,
+        args.open_repo_source_id,
+        args.historical_competition_source_id,
+    ]
+    unknown_sources = [source_id for source_id in source_ids if not source_exists(source_id)]
+    if unknown_sources:
+        raise SystemExit(f"Unknown source_id(s): {','.join(unknown_sources)}")
+
+    config = load_config(ROOT)
+    sources = parse_evidence_registry(root("research/EVIDENCE_REGISTRY.md"))
+    directions = parse_direction_registry(root("research/DIRECTION_REGISTRY.md"))
+    direction = directions.get(args.direction_id)
+    if not direction:
+        raise SystemExit(f"Unknown direction_id: {args.direction_id}")
+
+    evidence_row = {
+        "exp_id": args.exp_id,
+        "lane": "S_target_7000_submission_push",
+        "direction_id": args.direction_id,
+        "leaderboard_source_id": args.leaderboard_source_id,
+        "paper_source_id": args.paper_source_id,
+        "open_repo_source_id": args.open_repo_source_id,
+        "historical_competition_source_id": args.historical_competition_source_id,
+    }
+    gate_result = validate_row(
+        evidence_row,
+        config=config,
+        sources=sources,
+        directions=directions,
+    )
+    if gate_result["status"] != "pass":
+        raise SystemExit(
+            f"Evidence gate failed for {args.exp_id}: {'; '.join(gate_result['reasons'])}"
+        )
 
     overrides: list[dict] = []
     if args.full_replace_dir:
@@ -306,9 +374,27 @@ def main() -> None:
             [
                 f"# {args.exp_id} Source Trace",
                 "",
-                f"source_id: {args.source_id}",
-                "parent_exp_id: GOLF_20260607_001_public_6154_repro",
+                f"direction_id: {args.direction_id}",
+                f"primary_source_id: {args.source_id}",
+                "",
+                "leaderboard_basis:",
+                f"  source_id: {args.leaderboard_source_id}",
+                f"  reason: Candidate-specific leaderboard evidence. Direction rationale: {direction['bases']['leaderboard_basis']['reason']}",
+                "",
+                "paper_basis:",
+                f"  source_id: {args.paper_source_id}",
+                f"  reason: {direction['bases']['paper_basis']['reason']}",
+                "",
+                "open_repo_basis:",
+                f"  source_id: {args.open_repo_source_id}",
+                f"  reason: {direction['bases']['open_repo_basis']['reason']}",
+                "",
+                "historical_competition_basis:",
+                f"  source_id: {args.historical_competition_source_id}",
+                f"  reason: {direction['bases']['historical_competition_basis']['reason']}",
+                "",
                 f"changed_tasks: {','.join(r['task_id'] for r in changed)}",
+                "parent_exp_id: GOLF_20260607_001_public_6154_repro",
                 "",
             ]
         ),
@@ -329,6 +415,15 @@ def main() -> None:
         "created_at": datetime.now().isoformat(timespec="seconds"),
         "base": args.base,
         "source_id": args.source_id,
+        "primary_source_id": args.source_id,
+        "direction_id": args.direction_id,
+        "leaderboard_source_id": args.leaderboard_source_id,
+        "paper_source_id": args.paper_source_id,
+        "open_repo_source_id": args.open_repo_source_id,
+        "historical_competition_source_id": args.historical_competition_source_id,
+        "evidence_gate_status": gate_result["status"],
+        "evidence_gate_checked_at": datetime.now().isoformat(timespec="seconds"),
+        "evidence_gate_notes": "; ".join(gate_result["reasons"]),
         "risk": args.risk,
         "changed_tasks": [r["task_id"] for r in changed],
         "changed_task_count": len(changed),
@@ -352,6 +447,11 @@ def main() -> None:
                 "exp_id": args.exp_id,
                 "date": date.today().isoformat(),
                 "lane": "S_target_7000_submission_push",
+                "direction_id": args.direction_id,
+                "leaderboard_source_id": args.leaderboard_source_id,
+                "paper_source_id": args.paper_source_id,
+                "open_repo_source_id": args.open_repo_source_id,
+                "historical_competition_source_id": args.historical_competition_source_id,
                 "source_id": args.source_id,
                 "goal": "submit source-backed task override candidate toward 7000+ target",
                 "changed_tasks": ",".join(r["task_id"] for r in changed),
@@ -386,7 +486,17 @@ notes: generated by submit-ready task override pipeline
                 "exp_id": args.exp_id,
                 "candidate_path": str(candidate),
                 "risk": args.risk,
+                "direction_id": args.direction_id,
+                "leaderboard_source_id": args.leaderboard_source_id,
+                "paper_source_id": args.paper_source_id,
+                "open_repo_source_id": args.open_repo_source_id,
+                "historical_competition_source_id": args.historical_competition_source_id,
                 "source_id": args.source_id,
+                "evidence_gate_status": gate_result["status"],
+                "duplicate_hash": "false",
+                "aggressive_change_score": "",
+                "aggressive_change_classification": "unscored",
+                "aggressive_change_gate_status": "pending",
                 "changed_tasks": ",".join(r["task_id"] for r in changed),
                 "local_valid": local_valid,
                 "notebook_ready": str(bool(notebook_path)).lower(),
@@ -411,7 +521,14 @@ notes: generated by submit-ready task override pipeline
                 "notes": "Notebook embeds candidate zip.",
             },
         )
-        update_task_bank(changed, args.exp_id, args.source_id, args.risk, bool(validation.get("ok_for_submission_queue")))
+        update_task_bank(
+            changed,
+            args.exp_id,
+            args.source_id,
+            args.risk,
+            bool(validation.get("ok_for_submission_queue")),
+            gate_result["status"],
+        )
 
     print(candidate)
     print("changed_tasks", ",".join(r["task_id"] for r in changed))

@@ -1614,5 +1614,18 @@
       "name": "task400.onnx",
       "size_bytes": 3021
     }
-  ]
+  ],
+  "direction_id": "DIR_20260608_002_bottom15_task_override",
+  "leaderboard_source_id": "SRC_DISCUSSION_BOTTOM15_TASKS",
+  "paper_source_id": "SRC_ARC_PRIZE_2024_REPORT",
+  "open_repo_source_id": "SRC_RE_ARC_GITHUB",
+  "historical_competition_source_id": "SRC_GOOGLE_CODE_GOLF_2025",
+  "primary_source_id": "SRC_KAGGLE_NOTEBOOK_JSRDCHT_6029",
+  "evidence_gate_status": "pass",
+  "evidence_gate_checked_at": "2026-06-08T19:53:04",
+  "evidence_gate_notes": "",
+  "aggressive_change_score": 0.5521122576165335,
+  "aggressive_change_classification": "strong",
+  "aggressive_change_checked_at": "2026-06-08T19:57:53",
+  "aggressive_change_gate_pass": true
 }

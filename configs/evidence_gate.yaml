@@ -1,0 +1,38 @@
+strict_mode: true
+required_for_every_exp:
+  direction_id: true
+  leaderboard_source_id: true
+  paper_source_id: true
+  open_repo_source_id: true
+  historical_competition_source_id: true
+source_type_groups:
+  leaderboard:
+    - notebook
+    - dataset
+    - discussion
+    - leaderboard
+  paper:
+    - paper
+    - technical_report
+  open_repo:
+    - github
+  historical_competition:
+    - writeup
+    - competition
+    - historical_competition
+exempt_lanes:
+  - official_contract
+  - bugfix
+  - record_reconciliation
+  - logging
+  - infrastructure
+exempt_requires_parent_exp_id: true
+fail_actions:
+  block_submission_queue: true
+  block_notebook_build: false
+  block_best_by_task_update: true
+  block_competition_submit: true
+default_basis:
+  paper_source_id: SRC_ARC_PRIZE_2024_REPORT
+  open_repo_source_id: SRC_ARC_GEN_GITHUB
+  historical_competition_source_id: SRC_GOOGLE_CODE_GOLF_2025

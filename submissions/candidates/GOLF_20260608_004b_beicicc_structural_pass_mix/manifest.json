@@ -1692,5 +1692,14 @@
       "name": "task400.onnx",
       "size_bytes": 2490
     }
-  ]
+  ],
+  "direction_id": "DIR_20260608_004_beicicc_structural_normalization",
+  "leaderboard_source_id": "SRC_KAGGLE_NOTEBOOK_BEICICC_6645",
+  "paper_source_id": "SRC_ARC_PRIZE_2024_REPORT",
+  "open_repo_source_id": "SRC_ARC_GEN_GITHUB",
+  "historical_competition_source_id": "SRC_GOOGLE_CODE_GOLF_2025",
+  "primary_source_id": "SRC_KAGGLE_NOTEBOOK_BEICICC_6645",
+  "evidence_gate_status": "pass",
+  "evidence_gate_checked_at": "2026-06-08T19:53:04",
+  "evidence_gate_notes": ""
 }

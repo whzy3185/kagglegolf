@@ -6,6 +6,7 @@ import json
 import re
 import shutil
 import subprocess
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
@@ -30,7 +31,17 @@ QUEUE_FIELDS = [
     "exp_id",
     "candidate_path",
     "risk",
+    "direction_id",
+    "leaderboard_source_id",
+    "paper_source_id",
+    "open_repo_source_id",
+    "historical_competition_source_id",
     "source_id",
+    "evidence_gate_status",
+    "duplicate_hash",
+    "aggressive_change_score",
+    "aggressive_change_classification",
+    "aggressive_change_gate_status",
     "changed_tasks",
     "local_valid",
     "notebook_ready",
@@ -125,6 +136,13 @@ def package_sha(candidate: Path) -> str:
     return str(manifest.get("sha256") or manifest.get("package_sha256") or "")
 
 
+def resolve_candidate_path(candidate_path: str, exp_id: str) -> Path:
+    candidate = Path(candidate_path)
+    if candidate.exists():
+        return candidate
+    return root("submissions/candidates", exp_id)
+
+
 def submitted_package_hashes(rows: list[dict], current_exp_id: str) -> set[str]:
     hashes: set[str] = set()
     for row in rows:
@@ -132,7 +150,9 @@ def submitted_package_hashes(rows: list[dict], current_exp_id: str) -> set[str]:
             continue
         candidate_path = row.get("candidate_path", "")
         if candidate_path:
-            sha = package_sha(Path(candidate_path))
+            sha = package_sha(
+                resolve_candidate_path(candidate_path, row.get("exp_id", ""))
+            )
             if sha:
                 hashes.add(sha)
     for manifest in root("submissions/submitted").glob("*/manifest.json"):
@@ -379,10 +399,38 @@ def verify_kernel_output(kernel_slug: str, candidate: Path, exp_id: str, attempt
 
 def submit_candidate(row: dict, all_rows: list[dict]) -> dict:
     exp_id = row["exp_id"]
-    candidate = Path(row["candidate_path"])
+    candidate = resolve_candidate_path(row["candidate_path"], exp_id)
+    row["candidate_path"] = str(candidate)
     notebook = candidate / "notebook.ipynb"
     changed_tasks = [item for item in row.get("changed_tasks", "").split(",") if item.strip()]
     sha = package_sha(candidate)
+
+    gate = subprocess.run(
+        [sys.executable, "scripts/25_validate_evidence_gate.py", "--exp-id", exp_id],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    gate_log = root("reports", f"EVIDENCE_GATE_SUBMIT_{exp_id}.txt")
+    gate_log.write_text(
+        (gate.stdout or "") + (("\n" + gate.stderr) if gate.stderr else ""),
+        encoding="utf-8",
+    )
+    if gate.returncode != 0:
+        row["evidence_gate_status"] = "fail"
+        row["status"] = "evidence_gate_failed"
+        row["next_action"] = "fix_direction_evidence"
+        append_attempt(
+            exp_id,
+            f"""created_at: {datetime.now().isoformat(timespec="seconds")}
+status: evidence_gate_failed
+next_action: fix_direction_evidence
+notes: {gate_log}
+""",
+        )
+        return row
+    row["evidence_gate_status"] = "pass"
 
     if not notebook.exists():
         row["status"] = "notebook_missing"
@@ -392,10 +440,70 @@ def submit_candidate(row: dict, all_rows: list[dict]) -> dict:
         row["status"] = "empty_changed_tasks_rejected"
         row["next_action"] = "inspect_candidate"
         return row
-    if sha and sha in submitted_package_hashes(all_rows, exp_id):
+    duplicate_hash = bool(sha and sha in submitted_package_hashes(all_rows, exp_id))
+    row["duplicate_hash"] = str(duplicate_hash).lower()
+    if duplicate_hash:
         row["status"] = "duplicate_package_rejected"
         row["next_action"] = "build_distinct_candidate"
         return row
+
+    ags = subprocess.run(
+        [sys.executable, "scripts/27_score_aggressive_change.py", "--exp-id", exp_id],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    ags_log = root("reports", f"AGGRESSIVE_CHANGE_SUBMIT_{exp_id}.txt")
+    ags_log.write_text(
+        (ags.stdout or "") + (("\n" + ags.stderr) if ags.stderr else ""),
+        encoding="utf-8",
+    )
+    ags_manifest = root("data/manifests", f"aggressive_change_{exp_id}.json")
+    if ags.returncode != 0 or not ags_manifest.exists():
+        row["aggressive_change_gate_status"] = "fail"
+        row["status"] = "aggressive_change_score_failed"
+        row["next_action"] = "inspect_aggressive_change_score"
+        append_attempt(
+            exp_id,
+            f"""created_at: {datetime.now().isoformat(timespec="seconds")}
+status: aggressive_change_score_failed
+next_action: inspect_aggressive_change_score
+notes: {ags_log}
+""",
+        )
+        return row
+    ags_payload = json.loads(ags_manifest.read_text(encoding="utf-8"))
+    classification = str(ags_payload.get("classification", ""))
+    row["aggressive_change_score"] = f"{float(ags_payload.get('ags', 0.0)):.6f}"
+    row["aggressive_change_classification"] = classification
+    row["aggressive_change_gate_status"] = (
+        "pass" if ags_payload.get("submission_gate_pass") else "fail"
+    )
+    if classification in {"metadata_only", "validation_fail", "evidence_gate_fail"}:
+        row["status"] = "aggressive_change_gate_failed"
+        row["next_action"] = f"resolve_{classification}"
+        append_attempt(
+            exp_id,
+            f"""created_at: {datetime.now().isoformat(timespec="seconds")}
+status: aggressive_change_gate_failed
+classification: {classification}
+AGS: {row['aggressive_change_score']}
+next_action: {row['next_action']}
+""",
+        )
+        return row
+    if classification in {"manual_review", "exploratory_submit"}:
+        append_attempt(
+            exp_id,
+            f"""created_at: {datetime.now().isoformat(timespec="seconds")}
+status: aggressive_policy_calibration_submit
+classification: {classification}
+AGS: {row['aggressive_change_score']}
+risk: {row.get('risk', '')}
+notes: calibration phase permits submission under aggressive user policy
+""",
+        )
 
     kernel_dir, kernel_slug = write_kernel_dir(row, candidate, notebook)
     message = (

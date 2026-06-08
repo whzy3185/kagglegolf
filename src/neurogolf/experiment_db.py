@@ -8,6 +8,11 @@ EXPERIMENT_FIELDS = [
     "exp_id",
     "date",
     "lane",
+    "direction_id",
+    "leaderboard_source_id",
+    "paper_source_id",
+    "open_repo_source_id",
+    "historical_competition_source_id",
     "source_id",
     "goal",
     "changed_tasks",
@@ -34,4 +39,3 @@ def append_row(path: Path, fields: list[str], row: dict) -> None:
     with path.open("a", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=fields)
         writer.writerow({k: row.get(k, "") for k in fields})
-

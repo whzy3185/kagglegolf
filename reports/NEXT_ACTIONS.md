@@ -16,3 +16,11 @@ Next actions:
 2. Refresh public notebooks, prior ARC/code-golf writeups, and open repos before real optimization; target sources that can plausibly add hundreds of points, not isolated byte wins.
 3. Start submit-ready overrides for bottom-15 tasks and high-memory tasks: 158,233,173,054,025,285,366,133,286,255,349,018,187,145,243.
 4. Generate at least one public-bundle full-replacement submission and at least one 6029-derived mixed submission, then submit every validator-pass candidate.
+
+Evidence gate is now mandatory. Every non-exempt candidate must cite:
+1. leaderboard or current public-source basis,
+2. paper / technical-report basis,
+3. open repository basis,
+4. historical competition / writeup basis.
+
+Candidates failing this gate must not enter submission_queue or update best_by_task.
