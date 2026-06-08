@@ -1,6 +1,6 @@
 # Evidence Gate Status
 
-checked_at: 2026-06-08T19:55:00
+checked_at: 2026-06-08T20:02:31
 strict_mode: true
 
 ## Summary

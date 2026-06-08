@@ -1,6 +1,6 @@
 # Aggressive Change: GOLF_20260607_002_public_6029_aggressive_mix
 
-checked_at: 2026-06-08T19:57:44
+checked_at: 2026-06-08T20:02:44
 AGS: 0.5249
 classification: strong
 submission_gate_pass: true

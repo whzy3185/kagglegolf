@@ -1624,10 +1624,10 @@
   "historical_competition_source_id": "SRC_GOOGLE_CODE_GOLF_2025",
   "primary_source_id": "SRC_KAGGLE_NOTEBOOK_JSRDCHT_6029",
   "evidence_gate_status": "pass",
-  "evidence_gate_checked_at": "2026-06-08T19:55:00",
+  "evidence_gate_checked_at": "2026-06-08T20:02:31",
   "evidence_gate_notes": "",
   "aggressive_change_score": 0.5249364359038745,
   "aggressive_change_classification": "strong",
-  "aggressive_change_checked_at": "2026-06-08T19:57:44",
+  "aggressive_change_checked_at": "2026-06-08T20:02:44",
   "aggressive_change_gate_pass": true
 }

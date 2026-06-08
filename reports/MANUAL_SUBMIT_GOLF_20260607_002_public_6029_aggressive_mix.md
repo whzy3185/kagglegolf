@@ -3,7 +3,7 @@
 reason: kernel output did not contain submission.zip: HTTPSConnectionPool(host='api.kaggle.com', port=443): Max retries exceeded with url: /v1/kernels.KernelsApiService/ListKernelSessionOutput (Caused by ProxyError('Unable to connect to proxy', RemoteDisconnected('Remote end closed connection without response')))
 
 
-Candidate: `E:\Jitter\kagglegolf\submissions\candidates\GOLF_20260607_002_public_6029_aggressive_mix`
+Candidate: `E:\kagglegolf\submissions\candidates\GOLF_20260607_002_public_6029_aggressive_mix`
 Kernel: `muelsyse111/neurogolf-submit-current`
 Expected output: `submission.zip`
 

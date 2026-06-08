@@ -1,6 +1,6 @@
 # Aggressive Change: GOLF_20260607_003_bottom15_single_task_probe
 
-checked_at: 2026-06-08T19:57:53
+checked_at: 2026-06-08T20:02:54
 AGS: 0.5521
 classification: strong
 submission_gate_pass: true

@@ -1,7 +1,7 @@
 {
   "exp_id": "GOLF_20260607_004_public_notebook_full_replace",
-  "checked_at": "2026-06-08T19:58:27",
-  "base": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260607_001_public_6154_repro",
+  "checked_at": "2026-06-08T20:03:32",
+  "base": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_001_public_6154_repro",
   "changed_task_count": 400,
   "scored_task_count": 400,
   "evidence_gate_status": "pass",

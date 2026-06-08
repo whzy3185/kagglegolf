@@ -2021,10 +2021,10 @@
   "historical_competition_source_id": "SRC_GOOGLE_CODE_GOLF_2025",
   "primary_source_id": "SRC_KAGGLE_NOTEBOOK_BEICICC_6645",
   "evidence_gate_status": "pass",
-  "evidence_gate_checked_at": "2026-06-08T19:53:04",
+  "evidence_gate_checked_at": "2026-06-08T20:02:31",
   "evidence_gate_notes": "",
   "aggressive_change_score": 0.8318809214201688,
   "aggressive_change_classification": "validation_fail",
-  "aggressive_change_checked_at": "2026-06-08T19:58:27",
+  "aggressive_change_checked_at": "2026-06-08T20:03:32",
   "aggressive_change_gate_pass": false
 }

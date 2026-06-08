@@ -4,7 +4,7 @@ Last updated: 2026-06-07T20:54:45
 
 ## Workspace
 
-- Current directory: E:\Jitter\kagglegolf
+- Current directory: E:\kagglegolf
 - Current branch: main
 - Competition: neurogolf-2026
 
