@@ -77,6 +77,7 @@ def read_rows(source_id: str) -> list[dict]:
     with root(config["csv"]).open(newline="", encoding="utf-8") as handle:
         rows = list(csv.DictReader(handle))
     base = root(BASE_PATH, "onnx")
+    existing_pairs = queued_or_submitted_pairs()
     rejected = {
         (row.get("source_id", ""), row.get("task_id", ""))
         for row in read_csv(root("task_bank/task_submission_delta.csv"))
@@ -91,6 +92,8 @@ def read_rows(source_id: str) -> list[dict]:
         if not model.exists() or not baseline.exists():
             continue
         if digest(model) == digest(baseline):
+            continue
+        if (source_id, row.get("task_id", "")) in existing_pairs:
             continue
         if (source_id, row.get("task_id", "")) in rejected:
             continue
@@ -113,6 +116,20 @@ def read_csv(path: Path) -> list[dict]:
         return []
     with path.open(newline="", encoding="utf-8") as handle:
         return list(csv.DictReader(handle))
+
+
+def queued_or_submitted_pairs() -> set[tuple[str, str]]:
+    pairs: set[tuple[str, str]] = set()
+    for row in read_csv(root("experiments/submission_queue.csv")):
+        source_id = row.get("source_id", "")
+        tasks = [item.strip() for item in str(row.get("changed_tasks", "")).split(",") if item.strip()]
+        if len(tasks) > 5:
+            continue
+        for task_id in tasks:
+            task_id = task_id.strip()
+            if source_id and task_id:
+                pairs.add((source_id, task_id))
+    return pairs
 
 
 def next_exp_id(source_id: str, task_suffix: str) -> str:

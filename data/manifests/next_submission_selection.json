@@ -1,51 +1,119 @@
 {
-  "checked_at": "2026-06-08T20:44:15",
+  "checked_at": "2026-06-08T21:24:15",
   "current_best_score": 6154.71,
   "current_best_exp_id": "GOLF_20260608_006_biohack_super_blend_structural_pass_mix",
-  "candidate_count": 10,
-  "eligible_count": 1,
-  "blocked_count": 9,
-  "selected_exp_id": "GOLF_20260608_016_jonathan_task255_probe",
+  "candidate_count": 13,
+  "eligible_count": 3,
+  "blocked_count": 10,
+  "selected_exp_id": "GOLF_20260608_018_jonathan_task173_probe",
   "selected": {
-    "exp_id": "GOLF_20260608_016_jonathan_task255_probe",
-    "selection_score": 0.654082,
-    "selection_reason": "AGS=0.764; source=0.65; upside=0.10; novelty=0.60; focus=1.00; feedback=1.00; risk_penalty=0.10",
+    "exp_id": "GOLF_20260608_018_jonathan_task173_probe",
+    "selection_score": 0.572045,
+    "selection_reason": "class=operator_family_replacement; AGS=0.728; structural_scale=0.95; source=0.65; upside=0.10; novelty=0.60; feedback=1.00; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=0.40; same_family_negative_penalty=0.30; source_diversity_bonus=0.00; source_negative=recent negative source feedback from GOLF_20260608_008b_jonathan_structural_pass_mix, GOLF_20260608_016_jonathan_task233_probe, GOLF_20260608_016_jonathan_task255_probe; same_family_negative=same source already has negative bottom-tail probe feedback",
     "risk": "medium",
     "source_id": "SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX",
     "changed_task_count": 1,
     "lane": "normal",
+    "structural_class": "operator_family_replacement",
+    "large_structure_bonus": 0.15,
+    "positive_probe_required_for_broad_mix": false,
     "components": {
-      "ags": 0.763607,
+      "ags": 0.728179,
+      "structural_scale_score": 0.9500000000000001,
       "source_priority_score": 0.65,
       "expected_lb_upside": 0.1,
       "novelty_vs_submitted": 0.6,
-      "task_focus_score": 1.0,
       "feedback_value": 1.0,
-      "risk_penalty": 0.1,
-      "known_bad_family_penalty": 0.0
+      "known_bad_family_penalty": 0.0,
+      "small_tuning_penalty": 0.0,
+      "recent_negative_source_penalty": 0.4,
+      "same_family_negative_penalty": 0.3,
+      "source_diversity_bonus": 0.0
     },
-    "package_sha256": "721dd8e599131a5f515915d8db064226c13d52f9d96cdc5083f0241040cad2c5"
+    "package_sha256": "bbfb42bbb315fa5c8e4493d5557cdde9e239cdd8ed1e6547b143fbd354385cb1",
+    "blocking_reasons": []
   },
   "ranked_candidates": [
     {
-      "exp_id": "GOLF_20260608_016_jonathan_task255_probe",
-      "selection_score": 0.654082,
-      "selection_reason": "AGS=0.764; source=0.65; upside=0.10; novelty=0.60; focus=1.00; feedback=1.00; risk_penalty=0.10",
+      "exp_id": "GOLF_20260608_018_jonathan_task173_probe",
+      "selection_score": 0.572045,
+      "selection_reason": "class=operator_family_replacement; AGS=0.728; structural_scale=0.95; source=0.65; upside=0.10; novelty=0.60; feedback=1.00; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=0.40; same_family_negative_penalty=0.30; source_diversity_bonus=0.00; source_negative=recent negative source feedback from GOLF_20260608_008b_jonathan_structural_pass_mix, GOLF_20260608_016_jonathan_task233_probe, GOLF_20260608_016_jonathan_task255_probe; same_family_negative=same source already has negative bottom-tail probe feedback",
       "risk": "medium",
       "source_id": "SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX",
       "changed_task_count": 1,
       "lane": "normal",
+      "structural_class": "operator_family_replacement",
+      "large_structure_bonus": 0.15,
+      "positive_probe_required_for_broad_mix": false,
       "components": {
-        "ags": 0.763607,
+        "ags": 0.728179,
+        "structural_scale_score": 0.9500000000000001,
         "source_priority_score": 0.65,
         "expected_lb_upside": 0.1,
         "novelty_vs_submitted": 0.6,
-        "task_focus_score": 1.0,
         "feedback_value": 1.0,
-        "risk_penalty": 0.1,
-        "known_bad_family_penalty": 0.0
+        "known_bad_family_penalty": 0.0,
+        "small_tuning_penalty": 0.0,
+        "recent_negative_source_penalty": 0.4,
+        "same_family_negative_penalty": 0.3,
+        "source_diversity_bonus": 0.0
       },
-      "package_sha256": "721dd8e599131a5f515915d8db064226c13d52f9d96cdc5083f0241040cad2c5"
+      "package_sha256": "bbfb42bbb315fa5c8e4493d5557cdde9e239cdd8ed1e6547b143fbd354385cb1",
+      "blocking_reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_019_jonathan_top5_mix_probe",
+      "selection_score": 0.534805,
+      "selection_reason": "class=operator_family_replacement; AGS=0.699; structural_scale=0.95; source=0.65; upside=0.10; novelty=0.60; feedback=0.70; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=0.40; same_family_negative_penalty=0.30; source_diversity_bonus=0.00; source_negative=recent negative source feedback from GOLF_20260608_008b_jonathan_structural_pass_mix, GOLF_20260608_016_jonathan_task233_probe, GOLF_20260608_016_jonathan_task255_probe; same_family_negative=same source already has negative bottom-tail probe feedback",
+      "risk": "medium",
+      "source_id": "SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX",
+      "changed_task_count": 5,
+      "lane": "normal",
+      "structural_class": "operator_family_replacement",
+      "large_structure_bonus": 0.15,
+      "positive_probe_required_for_broad_mix": false,
+      "components": {
+        "ags": 0.699221,
+        "structural_scale_score": 0.9500000000000001,
+        "source_priority_score": 0.65,
+        "expected_lb_upside": 0.1,
+        "novelty_vs_submitted": 0.6,
+        "feedback_value": 0.7,
+        "known_bad_family_penalty": 0.0,
+        "small_tuning_penalty": 0.0,
+        "recent_negative_source_penalty": 0.4,
+        "same_family_negative_penalty": 0.3,
+        "source_diversity_bonus": 0.0
+      },
+      "package_sha256": "074525b1db7cd504744039ad56d606681e5701a0c46c67d56209935c260e6ed7",
+      "blocking_reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_017_jonathan_task286_probe",
+      "selection_score": 0.471887,
+      "selection_reason": "class=single_task_probe; AGS=0.688; structural_scale=0.50; source=0.65; upside=0.10; novelty=0.60; feedback=1.00; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=0.40; same_family_negative_penalty=0.30; source_diversity_bonus=0.00; source_negative=recent negative source feedback from GOLF_20260608_008b_jonathan_structural_pass_mix, GOLF_20260608_016_jonathan_task233_probe, GOLF_20260608_016_jonathan_task255_probe; same_family_negative=same source already has negative bottom-tail probe feedback",
+      "risk": "medium",
+      "source_id": "SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX",
+      "changed_task_count": 1,
+      "lane": "normal",
+      "structural_class": "single_task_probe",
+      "large_structure_bonus": 0.0,
+      "positive_probe_required_for_broad_mix": false,
+      "components": {
+        "ags": 0.687546,
+        "structural_scale_score": 0.5,
+        "source_priority_score": 0.65,
+        "expected_lb_upside": 0.1,
+        "novelty_vs_submitted": 0.6,
+        "feedback_value": 1.0,
+        "known_bad_family_penalty": 0.0,
+        "small_tuning_penalty": 0.0,
+        "recent_negative_source_penalty": 0.4,
+        "same_family_negative_penalty": 0.3,
+        "source_diversity_bonus": 0.0
+      },
+      "package_sha256": "ad14ce23892b13101891952a9a9ad7863081191a0fd7c4fc664dc5c4590b4682",
+      "blocking_reasons": []
     }
   ],
   "blocked_candidates": [
@@ -107,6 +175,12 @@
     },
     {
       "exp_id": "GOLF_20260608_016_jonathan_task233_probe",
+      "reasons": [
+        "already_submitted"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260608_016_jonathan_task255_probe",
       "reasons": [
         "already_submitted"
       ]

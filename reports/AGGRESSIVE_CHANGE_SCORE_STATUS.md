@@ -1,6 +1,6 @@
 # Aggressive Change Score Status
 
-last_updated: 2026-06-08T20:40:55
+last_updated: 2026-06-08T21:21:05
 
 | exp_id | AGS | classification | gate | risk |
 | --- | ---: | --- | --- | --- |
@@ -9,3 +9,6 @@ last_updated: 2026-06-08T20:40:55
 | GOLF_20260607_004_public_notebook_full_replace | 0.831881 | validation_fail | false | medium |
 | GOLF_20260608_016_jonathan_task233_probe | 0.883998 | aggressive | true | medium |
 | GOLF_20260608_016_jonathan_task255_probe | 0.763607 | aggressive | true | medium |
+| GOLF_20260608_017_jonathan_task286_probe | 0.687546 | aggressive | true | medium |
+| GOLF_20260608_018_jonathan_task173_probe | 0.728179 | aggressive | true | medium |
+| GOLF_20260608_019_jonathan_top5_mix_probe | 0.699221 | aggressive | true | medium |

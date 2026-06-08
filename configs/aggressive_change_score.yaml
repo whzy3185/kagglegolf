@@ -1,9 +1,39 @@
 calibration_phase: true
 user_policy: aggressive
+strategy_mode: aggressive_structural_exploration
 wl_iterations: 2
 dataflow_path_depth: 3
 differential_max_tasks: 24
 differential_examples_per_task: 3
+prefer_classes:
+  - full_bundle_replacement
+  - solver_replacement
+  - operator_family_replacement
+  - subgraph_rewrite
+  - high_risk_boundary
+deprioritize_classes:
+  - small_tuning
+  - constant_tweak
+  - basic_cleanup
+  - layout_or_dtype_change_without_topology_change
+aggressive_policy:
+  allow_high_risk_submit: true
+  require_high_risk_register: true
+  allow_manual_review_submit: true
+  allow_exploratory_submit: true
+  reject_small_tuning_by_default: true
+  reject_broad_mix_without_probe_feedback: true
+large_structure_bonus:
+  full_bundle_replacement: 0.25
+  solver_replacement: 0.20
+  operator_family_replacement: 0.15
+  large_subgraph_rewrite: 0.15
+  changed_tasks_over_20_with_positive_source: 0.10
+small_tuning_penalty:
+  small_tuning: 0.50
+  constant_tweak: 0.45
+  basic_cleanup: 0.35
+  metadata_only: 1.00
 reference_basis:
   onnx_runtime_graph_optimization: https://onnxruntime.ai/docs/performance/model-optimizations/graph-optimizations.html
   onnx_optimizer: https://github.com/onnx/optimizer
@@ -69,6 +99,7 @@ hard_reject_classifications:
   - metadata_only
   - validation_fail
   - evidence_gate_fail
+  - duplicate_hash
 calibration_submit_classifications:
   - exploratory_submit
   - manual_review

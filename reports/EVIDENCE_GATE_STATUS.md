@@ -1,14 +1,14 @@
 # Evidence Gate Status
 
-checked_at: 2026-06-08T20:44:59
+checked_at: 2026-06-08T21:21:04
 strict_mode: true
 
 ## Summary
 
 | metric | value |
 |---|---:|
-| total_experiments | 11 |
-| pass | 11 |
+| total_experiments | 14 |
+| pass | 14 |
 | fail | 0 |
 | exempt | 0 |
 
@@ -38,6 +38,9 @@ None.
 - GOLF_20260608_006_biohack_super_blend_structural_pass_mix
 - GOLF_20260608_016_jonathan_task233_probe
 - GOLF_20260608_016_jonathan_task255_probe
+- GOLF_20260608_017_jonathan_task286_probe
+- GOLF_20260608_018_jonathan_task173_probe
+- GOLF_20260608_019_jonathan_top5_mix_probe
 
 ## Exempt Experiments
 

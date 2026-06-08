@@ -309,6 +309,86 @@ def write_report(rows: list[dict]) -> None:
     root("reports/TASK_ATTRIBUTION.md").write_text("\n".join(lines), encoding="utf-8")
 
 
+def write_known_bad_report(rows: list[dict]) -> None:
+    latest_by_exp: dict[str, dict] = {}
+    for row in rows:
+        exp_id = row.get("exp_id", "")
+        if exp_id:
+            latest_by_exp[exp_id] = row
+
+    explicit_decisions = {
+        "GOLF_20260607_002_public_6029_aggressive_mix": (
+            "do_not_repeat_same_6029_small_mix"
+        ),
+        "GOLF_20260607_003_bottom15_single_task_probe": (
+            "task286/jsrdcht_6029 not confirmed for current base"
+        ),
+        "GOLF_20260608_004b_beicicc_structural_pass_mix": (
+            "broad Beicicc structural-pass mix is known_bad_family; only allow targeted probe or normalized solver replacement"
+        ),
+        "GOLF_20260608_008b_jonathan_structural_pass_mix": (
+            "broad Jonathan structural-pass mix is known_bad_family; only allow targeted single-task probes with source diversity controls"
+        ),
+        "GOLF_20260608_016_jonathan_task233_probe": (
+            "task233/Jonathan not confirmed; penalize same-source bottom-tail structural probes until source diversity or positive probe exists"
+        ),
+    }
+
+    negative_rows = []
+    for row in rows:
+        delta = number(row.get("delta_vs_parent"))
+        decision = row.get("decision", "")
+        if delta is not None and delta < -0.0001:
+            negative_rows.append(row)
+        elif decision in {"bundle_negative", "negative_or_mixed", "rejected_for_current_base"}:
+            negative_rows.append(row)
+
+    lines = [
+        "# Known Bad Families",
+        "",
+        f"updated_at: {datetime.now().isoformat(timespec='seconds')}",
+        "",
+        "This file is consumed by the automatic selector. It records negative leaderboard feedback that should penalize similar candidates without deleting the source from the alternate task pool.",
+        "",
+        "## Explicit Rules",
+        "",
+        "| exp_id | source_id | task_or_bundle | score | delta_parent | decision | selector_rule |",
+        "|---|---|---|---:|---:|---|---|",
+    ]
+    for exp_id, selector_rule in explicit_decisions.items():
+        row = latest_by_exp.get(exp_id)
+        if not row:
+            continue
+        lines.append(
+            f"| {exp_id} | {row.get('source_id', '')} | {row.get('task_id', '')} | "
+            f"{row.get('public_score', '')} | {row.get('delta_vs_parent', '')} | "
+            f"{row.get('decision', '')} | {selector_rule} |"
+        )
+
+    lines.extend(
+        [
+            "",
+            "## All Negative Feedback",
+            "",
+            "| exp_id | source_id | task_or_bundle | count | score | delta_parent | decision |",
+            "|---|---|---|---:|---:|---:|---|",
+        ]
+    )
+    seen: set[tuple[str, str]] = set()
+    for row in negative_rows:
+        key = (row.get("exp_id", ""), row.get("task_id", ""))
+        if key in seen:
+            continue
+        seen.add(key)
+        lines.append(
+            f"| {row.get('exp_id', '')} | {row.get('source_id', '')} | {row.get('task_id', '')} | "
+            f"{row.get('changed_task_count', '')} | {row.get('public_score', '')} | "
+            f"{row.get('delta_vs_parent', '')} | {row.get('decision', '')} |"
+        )
+    lines.append("")
+    root("reports/KNOWN_BAD_FAMILIES.md").write_text("\n".join(lines), encoding="utf-8")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--exp-id", default="")
@@ -351,6 +431,7 @@ def main() -> None:
     update_best_by_task(generated)
     update_candidate_pool(generated)
     write_report(merged)
+    write_known_bad_report(merged)
     print(f"attributed_experiments={len(processed_exp_ids)}")
     print(f"attribution_rows={len(generated)}")
 

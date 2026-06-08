@@ -56,6 +56,15 @@ QUEUE_FIELDS = [
     "score_delta_vs_best",
     "score_delta_vs_parent",
     "task_attribution_status",
+    "structural_scale_score",
+    "large_structure_bonus",
+    "small_tuning_penalty",
+    "known_bad_family_penalty",
+    "auto_selected_reason",
+    "recent_negative_source_penalty",
+    "same_family_negative_penalty",
+    "source_diversity_bonus",
+    "positive_probe_required_for_broad_mix",
 ]
 
 NOTEBOOK_QUEUE_FIELDS = [
@@ -559,9 +568,26 @@ notes: {ags_log}
     row["aggressive_change_gate_status"] = (
         "pass" if ags_payload.get("submission_gate_pass") else "fail"
     )
-    if classification in {"metadata_only", "validation_fail", "evidence_gate_fail"}:
+    low_value_direct_submit = float(row.get("small_tuning_penalty") or 0.0) >= 0.35
+    needs_positive_probe = str(row.get("positive_probe_required_for_broad_mix", "")).lower() == "true"
+    if classification in {
+        "metadata_only",
+        "validation_fail",
+        "evidence_gate_fail",
+        "duplicate_hash",
+        "small_tuning",
+        "constant_tweak",
+        "basic_cleanup",
+    } or low_value_direct_submit or needs_positive_probe:
+        reason = (
+            "positive_probe_required_for_broad_mix"
+            if needs_positive_probe
+            else "low_value_tuning"
+            if low_value_direct_submit
+            else classification
+        )
         row["status"] = "aggressive_change_gate_failed"
-        row["next_action"] = f"resolve_{classification}"
+        row["next_action"] = f"resolve_{reason}"
         append_attempt(
             exp_id,
             f"""created_at: {datetime.now().isoformat(timespec="seconds")}
@@ -569,6 +595,8 @@ status: aggressive_change_gate_failed
 classification: {classification}
 AGS: {row['aggressive_change_score']}
 next_action: {row['next_action']}
+small_tuning_penalty: {row.get('small_tuning_penalty', '')}
+positive_probe_required_for_broad_mix: {row.get('positive_probe_required_for_broad_mix', '')}
 """,
         )
         return row

@@ -1,0 +1,4 @@
+exp_id=GOLF_20260608_016_jonathan_task255_probe
+AGS=0.763607
+classification=aggressive
+submission_gate_pass=true

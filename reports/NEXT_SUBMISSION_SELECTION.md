@@ -1,19 +1,21 @@
 # Next Submission Selection
 
-checked_at: 2026-06-08T20:44:15
+checked_at: 2026-06-08T21:24:15
 current_best: 6154.71 (GOLF_20260608_006_biohack_super_blend_structural_pass_mix)
-candidate_count: 10
-eligible_count: 1
-blocked_count: 9
-selected_candidate: GOLF_20260608_016_jonathan_task255_probe
-selection_score: 0.654082
-selection_reason: AGS=0.764; source=0.65; upside=0.10; novelty=0.60; focus=1.00; feedback=1.00; risk_penalty=0.10
+candidate_count: 13
+eligible_count: 3
+blocked_count: 10
+selected_candidate: GOLF_20260608_018_jonathan_task173_probe
+selection_score: 0.572045
+selection_reason: class=operator_family_replacement; AGS=0.728; structural_scale=0.95; source=0.65; upside=0.10; novelty=0.60; feedback=1.00; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=0.40; same_family_negative_penalty=0.30; source_diversity_bonus=0.00; source_negative=recent negative source feedback from GOLF_20260608_008b_jonathan_structural_pass_mix, GOLF_20260608_016_jonathan_task233_probe, GOLF_20260608_016_jonathan_task255_probe; same_family_negative=same source already has negative bottom-tail probe feedback
 
 ## Top 10
 
-| rank | exp_id | score | risk | tasks | source |
-|---:|---|---:|---|---:|---|
-| 1 | GOLF_20260608_016_jonathan_task255_probe | 0.654082 | medium | 1 | SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX |
+| rank | exp_id | score | class | risk | tasks | source |
+|---:|---|---:|---|---|---:|---|
+| 1 | GOLF_20260608_018_jonathan_task173_probe | 0.572045 | operator_family_replacement | medium | 1 | SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX |
+| 2 | GOLF_20260608_019_jonathan_top5_mix_probe | 0.534805 | operator_family_replacement | medium | 5 | SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX |
+| 3 | GOLF_20260608_017_jonathan_task286_probe | 0.471887 | single_task_probe | medium | 1 | SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX |
 
 ## Blocked Candidates
 
@@ -26,7 +28,12 @@ selection_reason: AGS=0.764; source=0.65; upside=0.10; novelty=0.60; focus=1.00;
 - GOLF_20260608_005_mirza_structural_pass_mix: already_submitted, aggressive_change_gate_not_passed
 - GOLF_20260608_006_biohack_super_blend_structural_pass_mix: already_submitted, aggressive_change_gate_not_passed
 - GOLF_20260608_016_jonathan_task233_probe: already_submitted
+- GOLF_20260608_016_jonathan_task255_probe: already_submitted
+
+## Negative Feedback Policy
+
+Same-source and same-family negative probes reduce rank but do not hard-block single-task probes. Broad mixes without positive probe feedback are blocked.
 
 ## Next Action
 
-Submit `GOLF_20260608_016_jonathan_task255_probe` through `scripts/19_submit_queue.py --auto-select --limit 1`.
+Submit `GOLF_20260608_018_jonathan_task173_probe` through `scripts/19_submit_queue.py --auto-select --limit 1`.

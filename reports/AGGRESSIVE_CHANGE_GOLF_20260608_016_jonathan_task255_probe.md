@@ -1,6 +1,6 @@
 # Aggressive Change: GOLF_20260608_016_jonathan_task255_probe
 
-checked_at: 2026-06-08T20:40:55
+checked_at: 2026-06-08T21:21:05
 AGS: 0.7636
 classification: aggressive
 submission_gate_pass: true
