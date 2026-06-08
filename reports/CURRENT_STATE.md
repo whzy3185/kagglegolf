@@ -7,10 +7,9 @@ Current best local score: not computed
 Current best local validation: pass, 1200 checked, 0 failed
 Current best manifest path: submissions/best/GOLF_20260607_001_public_6154_repro/manifest.json
 Current best candidate artifact path: submissions/candidates/GOLF_20260607_001_public_6154_repro/submission.zip
-Current candidate in queue: GOLF_20260608_004b_beicicc_structural_pass_mix
+Current candidate in queue: Mirza/Biohack structural-pass harvest candidates pending build
 Current submitted candidate: GOLF_20260607_001_public_6154_repro / submission 53450566 / status SubmissionStatus.COMPLETE
-Recent submitted probes: GOLF_20260607_002_public_6029_aggressive_mix / 53472165 / 6154.59; GOLF_20260607_003_bottom15_single_task_probe / 53472175 / 6154.67
-Current running Kaggle Notebook: https://www.kaggle.com/code/muelsyse111/neurogolf-submit-current (version 5 failed to produce output from sidecar zip)
-Next candidate: GOLF_20260608_004b_beicicc_structural_pass_mix, then Mirza/Biohack/Jonathan public harvest
-Known blockers: Kaggle CLI kernel push does not expose sidecar zip files at runtime; public dataset notebook path failed on Kaggle. 002/003 were submitted by local-zip fallback after notebook-output failure.
-Last updated: 2026-06-08T17:09:09
+Current running Kaggle Notebook: https://www.kaggle.com/code/muelsyse111/neurogolf-submit-current (version 3 submitted via output file)
+Next candidate: GOLF_20260608_005_mirza_structural_pass_mix, then GOLF_20260608_006_biohack_super_blend_structural_pass_mix
+Known blockers: Kaggle Notebook-output sidecar zip path failed; local zip fallback is active for immediate feedback. Mirza/Biohack output download is partial and should be used as task harvest unless full output is recovered.
+Last updated: 2026-06-08T17:31:47

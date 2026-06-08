@@ -1,0 +1,4017 @@
+{
+  "submission_dir": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx",
+  "file_count": 400,
+  "expected_task_count": 400,
+  "all_structural_ok": true,
+  "missing_task_count": 0,
+  "missing_task_ids_head": [],
+  "has_duplicates": false,
+  "examples_checked": 1200,
+  "examples_passed": 1200,
+  "examples_failed": 0,
+  "failed_files": [],
+  "results": [
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task001.onnx",
+      "ok": true,
+      "task_id": "task001",
+      "size_bytes": 1001,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task002.onnx",
+      "ok": true,
+      "task_id": "task002",
+      "size_bytes": 28687,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task003.onnx",
+      "ok": true,
+      "task_id": "task003",
+      "size_bytes": 3904,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task004.onnx",
+      "ok": true,
+      "task_id": "task004",
+      "size_bytes": 4505,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task005.onnx",
+      "ok": true,
+      "task_id": "task005",
+      "size_bytes": 14885,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task006.onnx",
+      "ok": true,
+      "task_id": "task006",
+      "size_bytes": 1310,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task007.onnx",
+      "ok": true,
+      "task_id": "task007",
+      "size_bytes": 1385,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task008.onnx",
+      "ok": true,
+      "task_id": "task008",
+      "size_bytes": 4647,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task009.onnx",
+      "ok": true,
+      "task_id": "task009",
+      "size_bytes": 30710,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task010.onnx",
+      "ok": true,
+      "task_id": "task010",
+      "size_bytes": 6061,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task011.onnx",
+      "ok": true,
+      "task_id": "task011",
+      "size_bytes": 10283,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task012.onnx",
+      "ok": true,
+      "task_id": "task012",
+      "size_bytes": 1546,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task013.onnx",
+      "ok": true,
+      "task_id": "task013",
+      "size_bytes": 22727,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task014.onnx",
+      "ok": true,
+      "task_id": "task014",
+      "size_bytes": 3676,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task015.onnx",
+      "ok": true,
+      "task_id": "task015",
+      "size_bytes": 3834,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task016.onnx",
+      "ok": true,
+      "task_id": "task016",
+      "size_bytes": 158,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task017.onnx",
+      "ok": true,
+      "task_id": "task017",
+      "size_bytes": 10880,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task018.onnx",
+      "ok": true,
+      "task_id": "task018",
+      "size_bytes": 28217,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task019.onnx",
+      "ok": true,
+      "task_id": "task019",
+      "size_bytes": 3021,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task020.onnx",
+      "ok": true,
+      "task_id": "task020",
+      "size_bytes": 14783,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task021.onnx",
+      "ok": true,
+      "task_id": "task021",
+      "size_bytes": 29463,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task022.onnx",
+      "ok": true,
+      "task_id": "task022",
+      "size_bytes": 29851,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task023.onnx",
+      "ok": true,
+      "task_id": "task023",
+      "size_bytes": 2803,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task024.onnx",
+      "ok": true,
+      "task_id": "task024",
+      "size_bytes": 2232,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task025.onnx",
+      "ok": true,
+      "task_id": "task025",
+      "size_bytes": 61508,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task026.onnx",
+      "ok": true,
+      "task_id": "task026",
+      "size_bytes": 1613,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task027.onnx",
+      "ok": true,
+      "task_id": "task027",
+      "size_bytes": 31059,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task028.onnx",
+      "ok": true,
+      "task_id": "task028",
+      "size_bytes": 2539,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task029.onnx",
+      "ok": true,
+      "task_id": "task029",
+      "size_bytes": 12469,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task030.onnx",
+      "ok": true,
+      "task_id": "task030",
+      "size_bytes": 9573,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task031.onnx",
+      "ok": true,
+      "task_id": "task031",
+      "size_bytes": 3612,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task032.onnx",
+      "ok": true,
+      "task_id": "task032",
+      "size_bytes": 1654,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task033.onnx",
+      "ok": true,
+      "task_id": "task033",
+      "size_bytes": 1311,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task034.onnx",
+      "ok": true,
+      "task_id": "task034",
+      "size_bytes": 13730,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task035.onnx",
+      "ok": true,
+      "task_id": "task035",
+      "size_bytes": 9679,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task036.onnx",
+      "ok": true,
+      "task_id": "task036",
+      "size_bytes": 4194,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task037.onnx",
+      "ok": true,
+      "task_id": "task037",
+      "size_bytes": 10137,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task038.onnx",
+      "ok": true,
+      "task_id": "task038",
+      "size_bytes": 1812,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task039.onnx",
+      "ok": true,
+      "task_id": "task039",
+      "size_bytes": 2209,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task040.onnx",
+      "ok": true,
+      "task_id": "task040",
+      "size_bytes": 3111,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task041.onnx",
+      "ok": true,
+      "task_id": "task041",
+      "size_bytes": 1313,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task042.onnx",
+      "ok": true,
+      "task_id": "task042",
+      "size_bytes": 9477,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task043.onnx",
+      "ok": true,
+      "task_id": "task043",
+      "size_bytes": 1181,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task044.onnx",
+      "ok": true,
+      "task_id": "task044",
+      "size_bytes": 25407,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task045.onnx",
+      "ok": true,
+      "task_id": "task045",
+      "size_bytes": 955,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task046.onnx",
+      "ok": true,
+      "task_id": "task046",
+      "size_bytes": 9068,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task047.onnx",
+      "ok": true,
+      "task_id": "task047",
+      "size_bytes": 2117,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task048.onnx",
+      "ok": true,
+      "task_id": "task048",
+      "size_bytes": 5977,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task049.onnx",
+      "ok": true,
+      "task_id": "task049",
+      "size_bytes": 2631,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task050.onnx",
+      "ok": true,
+      "task_id": "task050",
+      "size_bytes": 1776,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task051.onnx",
+      "ok": true,
+      "task_id": "task051",
+      "size_bytes": 8106,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task052.onnx",
+      "ok": true,
+      "task_id": "task052",
+      "size_bytes": 918,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task053.onnx",
+      "ok": true,
+      "task_id": "task053",
+      "size_bytes": 183,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task054.onnx",
+      "ok": true,
+      "task_id": "task054",
+      "size_bytes": 8955,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task055.onnx",
+      "ok": true,
+      "task_id": "task055",
+      "size_bytes": 14976,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task056.onnx",
+      "ok": true,
+      "task_id": "task056",
+      "size_bytes": 1471,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task057.onnx",
+      "ok": true,
+      "task_id": "task057",
+      "size_bytes": 1453,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task058.onnx",
+      "ok": true,
+      "task_id": "task058",
+      "size_bytes": 26982,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task059.onnx",
+      "ok": true,
+      "task_id": "task059",
+      "size_bytes": 12046,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task060.onnx",
+      "ok": true,
+      "task_id": "task060",
+      "size_bytes": 2234,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task061.onnx",
+      "ok": true,
+      "task_id": "task061",
+      "size_bytes": 16988,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task062.onnx",
+      "ok": true,
+      "task_id": "task062",
+      "size_bytes": 14803,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task063.onnx",
+      "ok": true,
+      "task_id": "task063",
+      "size_bytes": 2387,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task064.onnx",
+      "ok": true,
+      "task_id": "task064",
+      "size_bytes": 4579,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task065.onnx",
+      "ok": true,
+      "task_id": "task065",
+      "size_bytes": 1908,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task066.onnx",
+      "ok": true,
+      "task_id": "task066",
+      "size_bytes": 22387,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task067.onnx",
+      "ok": true,
+      "task_id": "task067",
+      "size_bytes": 630,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task068.onnx",
+      "ok": true,
+      "task_id": "task068",
+      "size_bytes": 1520,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task069.onnx",
+      "ok": true,
+      "task_id": "task069",
+      "size_bytes": 36582,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task070.onnx",
+      "ok": true,
+      "task_id": "task070",
+      "size_bytes": 6744,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task071.onnx",
+      "ok": true,
+      "task_id": "task071",
+      "size_bytes": 11757,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task072.onnx",
+      "ok": true,
+      "task_id": "task072",
+      "size_bytes": 1625,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task073.onnx",
+      "ok": true,
+      "task_id": "task073",
+      "size_bytes": 1388,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task074.onnx",
+      "ok": true,
+      "task_id": "task074",
+      "size_bytes": 2235,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task075.onnx",
+      "ok": true,
+      "task_id": "task075",
+      "size_bytes": 7717,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task076.onnx",
+      "ok": true,
+      "task_id": "task076",
+      "size_bytes": 64473,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task077.onnx",
+      "ok": true,
+      "task_id": "task077",
+      "size_bytes": 11626,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task078.onnx",
+      "ok": true,
+      "task_id": "task078",
+      "size_bytes": 2575,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task079.onnx",
+      "ok": true,
+      "task_id": "task079",
+      "size_bytes": 2233,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task080.onnx",
+      "ok": true,
+      "task_id": "task080",
+      "size_bytes": 22186,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task081.onnx",
+      "ok": true,
+      "task_id": "task081",
+      "size_bytes": 3537,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task082.onnx",
+      "ok": true,
+      "task_id": "task082",
+      "size_bytes": 1755,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task083.onnx",
+      "ok": true,
+      "task_id": "task083",
+      "size_bytes": 923,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task084.onnx",
+      "ok": true,
+      "task_id": "task084",
+      "size_bytes": 1945,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task085.onnx",
+      "ok": true,
+      "task_id": "task085",
+      "size_bytes": 2013,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task086.onnx",
+      "ok": true,
+      "task_id": "task086",
+      "size_bytes": 3406,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task087.onnx",
+      "ok": true,
+      "task_id": "task087",
+      "size_bytes": 435,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task088.onnx",
+      "ok": true,
+      "task_id": "task088",
+      "size_bytes": 12966,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task089.onnx",
+      "ok": true,
+      "task_id": "task089",
+      "size_bytes": 110495,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task090.onnx",
+      "ok": true,
+      "task_id": "task090",
+      "size_bytes": 19479,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task091.onnx",
+      "ok": true,
+      "task_id": "task091",
+      "size_bytes": 2988,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task092.onnx",
+      "ok": true,
+      "task_id": "task092",
+      "size_bytes": 3290,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task093.onnx",
+      "ok": true,
+      "task_id": "task093",
+      "size_bytes": 3751,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task094.onnx",
+      "ok": true,
+      "task_id": "task094",
+      "size_bytes": 2051,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task095.onnx",
+      "ok": true,
+      "task_id": "task095",
+      "size_bytes": 3888,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task096.onnx",
+      "ok": true,
+      "task_id": "task096",
+      "size_bytes": 19557,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task097.onnx",
+      "ok": true,
+      "task_id": "task097",
+      "size_bytes": 2695,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task098.onnx",
+      "ok": true,
+      "task_id": "task098",
+      "size_bytes": 3888,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task099.onnx",
+      "ok": true,
+      "task_id": "task099",
+      "size_bytes": 6509,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task100.onnx",
+      "ok": true,
+      "task_id": "task100",
+      "size_bytes": 5315,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task101.onnx",
+      "ok": true,
+      "task_id": "task101",
+      "size_bytes": 32893,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task102.onnx",
+      "ok": true,
+      "task_id": "task102",
+      "size_bytes": 6500,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task103.onnx",
+      "ok": true,
+      "task_id": "task103",
+      "size_bytes": 1582,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task104.onnx",
+      "ok": true,
+      "task_id": "task104",
+      "size_bytes": 5723,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task105.onnx",
+      "ok": true,
+      "task_id": "task105",
+      "size_bytes": 35077,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task106.onnx",
+      "ok": true,
+      "task_id": "task106",
+      "size_bytes": 2939,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task107.onnx",
+      "ok": true,
+      "task_id": "task107",
+      "size_bytes": 58321,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task108.onnx",
+      "ok": true,
+      "task_id": "task108",
+      "size_bytes": 7454,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task109.onnx",
+      "ok": true,
+      "task_id": "task109",
+      "size_bytes": 3836,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task110.onnx",
+      "ok": true,
+      "task_id": "task110",
+      "size_bytes": 16176,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task111.onnx",
+      "ok": true,
+      "task_id": "task111",
+      "size_bytes": 1893,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task112.onnx",
+      "ok": true,
+      "task_id": "task112",
+      "size_bytes": 3852,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task113.onnx",
+      "ok": true,
+      "task_id": "task113",
+      "size_bytes": 499,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task114.onnx",
+      "ok": true,
+      "task_id": "task114",
+      "size_bytes": 4719,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task115.onnx",
+      "ok": true,
+      "task_id": "task115",
+      "size_bytes": 5069,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task116.onnx",
+      "ok": true,
+      "task_id": "task116",
+      "size_bytes": 479,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task117.onnx",
+      "ok": true,
+      "task_id": "task117",
+      "size_bytes": 10682,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task118.onnx",
+      "ok": true,
+      "task_id": "task118",
+      "size_bytes": 18987,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task119.onnx",
+      "ok": true,
+      "task_id": "task119",
+      "size_bytes": 48756,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task120.onnx",
+      "ok": true,
+      "task_id": "task120",
+      "size_bytes": 4834,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task121.onnx",
+      "ok": true,
+      "task_id": "task121",
+      "size_bytes": 3993,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task122.onnx",
+      "ok": true,
+      "task_id": "task122",
+      "size_bytes": 3438,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task123.onnx",
+      "ok": true,
+      "task_id": "task123",
+      "size_bytes": 8565,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task124.onnx",
+      "ok": true,
+      "task_id": "task124",
+      "size_bytes": 2871,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task125.onnx",
+      "ok": true,
+      "task_id": "task125",
+      "size_bytes": 2003,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task126.onnx",
+      "ok": true,
+      "task_id": "task126",
+      "size_bytes": 2488,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task127.onnx",
+      "ok": true,
+      "task_id": "task127",
+      "size_bytes": 3772,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task128.onnx",
+      "ok": true,
+      "task_id": "task128",
+      "size_bytes": 3650,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task129.onnx",
+      "ok": true,
+      "task_id": "task129",
+      "size_bytes": 1196,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task130.onnx",
+      "ok": true,
+      "task_id": "task130",
+      "size_bytes": 1050,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task131.onnx",
+      "ok": true,
+      "task_id": "task131",
+      "size_bytes": 12240,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task132.onnx",
+      "ok": true,
+      "task_id": "task132",
+      "size_bytes": 2287,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task133.onnx",
+      "ok": true,
+      "task_id": "task133",
+      "size_bytes": 189849,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task134.onnx",
+      "ok": true,
+      "task_id": "task134",
+      "size_bytes": 7188,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task135.onnx",
+      "ok": true,
+      "task_id": "task135",
+      "size_bytes": 346,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task136.onnx",
+      "ok": true,
+      "task_id": "task136",
+      "size_bytes": 8371,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task137.onnx",
+      "ok": true,
+      "task_id": "task137",
+      "size_bytes": 2340,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task138.onnx",
+      "ok": true,
+      "task_id": "task138",
+      "size_bytes": 10853,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task139.onnx",
+      "ok": true,
+      "task_id": "task139",
+      "size_bytes": 1588,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task140.onnx",
+      "ok": true,
+      "task_id": "task140",
+      "size_bytes": 435,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task141.onnx",
+      "ok": true,
+      "task_id": "task141",
+      "size_bytes": 1743,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task142.onnx",
+      "ok": true,
+      "task_id": "task142",
+      "size_bytes": 915,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task143.onnx",
+      "ok": true,
+      "task_id": "task143",
+      "size_bytes": 2099,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task144.onnx",
+      "ok": true,
+      "task_id": "task144",
+      "size_bytes": 1626,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task145.onnx",
+      "ok": true,
+      "task_id": "task145",
+      "size_bytes": 32048,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task146.onnx",
+      "ok": true,
+      "task_id": "task146",
+      "size_bytes": 1351,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task147.onnx",
+      "ok": true,
+      "task_id": "task147",
+      "size_bytes": 1306,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task148.onnx",
+      "ok": true,
+      "task_id": "task148",
+      "size_bytes": 10335,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task149.onnx",
+      "ok": true,
+      "task_id": "task149",
+      "size_bytes": 1420,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task150.onnx",
+      "ok": true,
+      "task_id": "task150",
+      "size_bytes": 1054,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task151.onnx",
+      "ok": true,
+      "task_id": "task151",
+      "size_bytes": 3949,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task152.onnx",
+      "ok": true,
+      "task_id": "task152",
+      "size_bytes": 915,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task153.onnx",
+      "ok": true,
+      "task_id": "task153",
+      "size_bytes": 4975,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task154.onnx",
+      "ok": true,
+      "task_id": "task154",
+      "size_bytes": 2826,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task155.onnx",
+      "ok": true,
+      "task_id": "task155",
+      "size_bytes": 1054,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task156.onnx",
+      "ok": true,
+      "task_id": "task156",
+      "size_bytes": 9218,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task157.onnx",
+      "ok": true,
+      "task_id": "task157",
+      "size_bytes": 49526,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task158.onnx",
+      "ok": true,
+      "task_id": "task158",
+      "size_bytes": 159472,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task159.onnx",
+      "ok": true,
+      "task_id": "task159",
+      "size_bytes": 20168,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task160.onnx",
+      "ok": true,
+      "task_id": "task160",
+      "size_bytes": 1914,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task161.onnx",
+      "ok": true,
+      "task_id": "task161",
+      "size_bytes": 5813,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task162.onnx",
+      "ok": true,
+      "task_id": "task162",
+      "size_bytes": 2103,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task163.onnx",
+      "ok": true,
+      "task_id": "task163",
+      "size_bytes": 13789,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task164.onnx",
+      "ok": true,
+      "task_id": "task164",
+      "size_bytes": 479,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task165.onnx",
+      "ok": true,
+      "task_id": "task165",
+      "size_bytes": 6369,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task166.onnx",
+      "ok": true,
+      "task_id": "task166",
+      "size_bytes": 1246,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task167.onnx",
+      "ok": true,
+      "task_id": "task167",
+      "size_bytes": 2375,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task168.onnx",
+      "ok": true,
+      "task_id": "task168",
+      "size_bytes": 8303,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task169.onnx",
+      "ok": true,
+      "task_id": "task169",
+      "size_bytes": 3846,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task170.onnx",
+      "ok": true,
+      "task_id": "task170",
+      "size_bytes": 47329,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task171.onnx",
+      "ok": true,
+      "task_id": "task171",
+      "size_bytes": 1636,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task172.onnx",
+      "ok": true,
+      "task_id": "task172",
+      "size_bytes": 479,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task173.onnx",
+      "ok": true,
+      "task_id": "task173",
+      "size_bytes": 5856,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task174.onnx",
+      "ok": true,
+      "task_id": "task174",
+      "size_bytes": 55104,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task175.onnx",
+      "ok": true,
+      "task_id": "task175",
+      "size_bytes": 5068,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task176.onnx",
+      "ok": true,
+      "task_id": "task176",
+      "size_bytes": 1218,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task177.onnx",
+      "ok": true,
+      "task_id": "task177",
+      "size_bytes": 2698,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task178.onnx",
+      "ok": true,
+      "task_id": "task178",
+      "size_bytes": 11442,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task179.onnx",
+      "ok": true,
+      "task_id": "task179",
+      "size_bytes": 170,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task180.onnx",
+      "ok": true,
+      "task_id": "task180",
+      "size_bytes": 1458,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task181.onnx",
+      "ok": true,
+      "task_id": "task181",
+      "size_bytes": 1230,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task182.onnx",
+      "ok": true,
+      "task_id": "task182",
+      "size_bytes": 462321,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task183.onnx",
+      "ok": true,
+      "task_id": "task183",
+      "size_bytes": 3364,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task184.onnx",
+      "ok": true,
+      "task_id": "task184",
+      "size_bytes": 6823,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task185.onnx",
+      "ok": true,
+      "task_id": "task185",
+      "size_bytes": 16320,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task186.onnx",
+      "ok": true,
+      "task_id": "task186",
+      "size_bytes": 2418,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task187.onnx",
+      "ok": true,
+      "task_id": "task187",
+      "size_bytes": 6346,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task188.onnx",
+      "ok": true,
+      "task_id": "task188",
+      "size_bytes": 2963,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task189.onnx",
+      "ok": true,
+      "task_id": "task189",
+      "size_bytes": 9288,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task190.onnx",
+      "ok": true,
+      "task_id": "task190",
+      "size_bytes": 7038,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task191.onnx",
+      "ok": true,
+      "task_id": "task191",
+      "size_bytes": 8552,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task192.onnx",
+      "ok": true,
+      "task_id": "task192",
+      "size_bytes": 1760,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task193.onnx",
+      "ok": true,
+      "task_id": "task193",
+      "size_bytes": 1530,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task194.onnx",
+      "ok": true,
+      "task_id": "task194",
+      "size_bytes": 7454,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task195.onnx",
+      "ok": true,
+      "task_id": "task195",
+      "size_bytes": 6814,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task196.onnx",
+      "ok": true,
+      "task_id": "task196",
+      "size_bytes": 2477,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task197.onnx",
+      "ok": true,
+      "task_id": "task197",
+      "size_bytes": 1165,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task198.onnx",
+      "ok": true,
+      "task_id": "task198",
+      "size_bytes": 8467,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task199.onnx",
+      "ok": true,
+      "task_id": "task199",
+      "size_bytes": 2222,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task200.onnx",
+      "ok": true,
+      "task_id": "task200",
+      "size_bytes": 2442,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task201.onnx",
+      "ok": true,
+      "task_id": "task201",
+      "size_bytes": 12203,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task202.onnx",
+      "ok": true,
+      "task_id": "task202",
+      "size_bytes": 5974,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task203.onnx",
+      "ok": true,
+      "task_id": "task203",
+      "size_bytes": 7997,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task204.onnx",
+      "ok": true,
+      "task_id": "task204",
+      "size_bytes": 2713,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task205.onnx",
+      "ok": true,
+      "task_id": "task205",
+      "size_bytes": 53591,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task206.onnx",
+      "ok": true,
+      "task_id": "task206",
+      "size_bytes": 19041,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task207.onnx",
+      "ok": true,
+      "task_id": "task207",
+      "size_bytes": 1759,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task208.onnx",
+      "ok": true,
+      "task_id": "task208",
+      "size_bytes": 19596,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task209.onnx",
+      "ok": true,
+      "task_id": "task209",
+      "size_bytes": 60514,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task210.onnx",
+      "ok": true,
+      "task_id": "task210",
+      "size_bytes": 479,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task211.onnx",
+      "ok": true,
+      "task_id": "task211",
+      "size_bytes": 7454,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task212.onnx",
+      "ok": true,
+      "task_id": "task212",
+      "size_bytes": 6074,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task213.onnx",
+      "ok": true,
+      "task_id": "task213",
+      "size_bytes": 16265,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task214.onnx",
+      "ok": true,
+      "task_id": "task214",
+      "size_bytes": 7454,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task215.onnx",
+      "ok": true,
+      "task_id": "task215",
+      "size_bytes": 3024,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task216.onnx",
+      "ok": true,
+      "task_id": "task216",
+      "size_bytes": 17269,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task217.onnx",
+      "ok": true,
+      "task_id": "task217",
+      "size_bytes": 7326,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task218.onnx",
+      "ok": true,
+      "task_id": "task218",
+      "size_bytes": 9764,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task219.onnx",
+      "ok": true,
+      "task_id": "task219",
+      "size_bytes": 59685,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task220.onnx",
+      "ok": true,
+      "task_id": "task220",
+      "size_bytes": 3888,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task221.onnx",
+      "ok": true,
+      "task_id": "task221",
+      "size_bytes": 21930,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task222.onnx",
+      "ok": true,
+      "task_id": "task222",
+      "size_bytes": 1889,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task223.onnx",
+      "ok": true,
+      "task_id": "task223",
+      "size_bytes": 7454,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task224.onnx",
+      "ok": true,
+      "task_id": "task224",
+      "size_bytes": 4784,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task225.onnx",
+      "ok": true,
+      "task_id": "task225",
+      "size_bytes": 5386,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task226.onnx",
+      "ok": true,
+      "task_id": "task226",
+      "size_bytes": 4853,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task227.onnx",
+      "ok": true,
+      "task_id": "task227",
+      "size_bytes": 1417,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task228.onnx",
+      "ok": true,
+      "task_id": "task228",
+      "size_bytes": 4899,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task229.onnx",
+      "ok": true,
+      "task_id": "task229",
+      "size_bytes": 1294,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task230.onnx",
+      "ok": true,
+      "task_id": "task230",
+      "size_bytes": 3888,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task231.onnx",
+      "ok": true,
+      "task_id": "task231",
+      "size_bytes": 3418,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task232.onnx",
+      "ok": true,
+      "task_id": "task232",
+      "size_bytes": 1684,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task233.onnx",
+      "ok": true,
+      "task_id": "task233",
+      "size_bytes": 39834,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task234.onnx",
+      "ok": true,
+      "task_id": "task234",
+      "size_bytes": 13394,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task235.onnx",
+      "ok": true,
+      "task_id": "task235",
+      "size_bytes": 3900,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task236.onnx",
+      "ok": true,
+      "task_id": "task236",
+      "size_bytes": 1511,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task237.onnx",
+      "ok": true,
+      "task_id": "task237",
+      "size_bytes": 2210,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task238.onnx",
+      "ok": true,
+      "task_id": "task238",
+      "size_bytes": 21391,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task239.onnx",
+      "ok": true,
+      "task_id": "task239",
+      "size_bytes": 3938,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task240.onnx",
+      "ok": true,
+      "task_id": "task240",
+      "size_bytes": 3841,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task241.onnx",
+      "ok": true,
+      "task_id": "task241",
+      "size_bytes": 170,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task242.onnx",
+      "ok": true,
+      "task_id": "task242",
+      "size_bytes": 1251,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task243.onnx",
+      "ok": true,
+      "task_id": "task243",
+      "size_bytes": 16926,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task244.onnx",
+      "ok": true,
+      "task_id": "task244",
+      "size_bytes": 5006,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task245.onnx",
+      "ok": true,
+      "task_id": "task245",
+      "size_bytes": 3138,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task246.onnx",
+      "ok": true,
+      "task_id": "task246",
+      "size_bytes": 2621,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task247.onnx",
+      "ok": true,
+      "task_id": "task247",
+      "size_bytes": 2063,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task248.onnx",
+      "ok": true,
+      "task_id": "task248",
+      "size_bytes": 1636,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task249.onnx",
+      "ok": true,
+      "task_id": "task249",
+      "size_bytes": 1635,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task250.onnx",
+      "ok": true,
+      "task_id": "task250",
+      "size_bytes": 7717,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task251.onnx",
+      "ok": true,
+      "task_id": "task251",
+      "size_bytes": 6992,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task252.onnx",
+      "ok": true,
+      "task_id": "task252",
+      "size_bytes": 3972,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task253.onnx",
+      "ok": true,
+      "task_id": "task253",
+      "size_bytes": 3015,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task254.onnx",
+      "ok": true,
+      "task_id": "task254",
+      "size_bytes": 5954,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task255.onnx",
+      "ok": true,
+      "task_id": "task255",
+      "size_bytes": 34023,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task256.onnx",
+      "ok": true,
+      "task_id": "task256",
+      "size_bytes": 7365,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task257.onnx",
+      "ok": true,
+      "task_id": "task257",
+      "size_bytes": 1096,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task258.onnx",
+      "ok": true,
+      "task_id": "task258",
+      "size_bytes": 3888,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task259.onnx",
+      "ok": true,
+      "task_id": "task259",
+      "size_bytes": 4306,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task260.onnx",
+      "ok": true,
+      "task_id": "task260",
+      "size_bytes": 2466,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task261.onnx",
+      "ok": true,
+      "task_id": "task261",
+      "size_bytes": 3888,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task262.onnx",
+      "ok": true,
+      "task_id": "task262",
+      "size_bytes": 1950,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task263.onnx",
+      "ok": true,
+      "task_id": "task263",
+      "size_bytes": 11453,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task264.onnx",
+      "ok": true,
+      "task_id": "task264",
+      "size_bytes": 11409,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task265.onnx",
+      "ok": true,
+      "task_id": "task265",
+      "size_bytes": 2945,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task266.onnx",
+      "ok": true,
+      "task_id": "task266",
+      "size_bytes": 2465,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task267.onnx",
+      "ok": true,
+      "task_id": "task267",
+      "size_bytes": 1321,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task268.onnx",
+      "ok": true,
+      "task_id": "task268",
+      "size_bytes": 18815,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task269.onnx",
+      "ok": true,
+      "task_id": "task269",
+      "size_bytes": 2387,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task270.onnx",
+      "ok": true,
+      "task_id": "task270",
+      "size_bytes": 10862,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task271.onnx",
+      "ok": true,
+      "task_id": "task271",
+      "size_bytes": 1432,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task272.onnx",
+      "ok": true,
+      "task_id": "task272",
+      "size_bytes": 1297,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task273.onnx",
+      "ok": true,
+      "task_id": "task273",
+      "size_bytes": 1601,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task274.onnx",
+      "ok": true,
+      "task_id": "task274",
+      "size_bytes": 3619,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task275.onnx",
+      "ok": true,
+      "task_id": "task275",
+      "size_bytes": 29488,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task276.onnx",
+      "ok": true,
+      "task_id": "task276",
+      "size_bytes": 217,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task277.onnx",
+      "ok": true,
+      "task_id": "task277",
+      "size_bytes": 146695,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task278.onnx",
+      "ok": true,
+      "task_id": "task278",
+      "size_bytes": 5032,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task279.onnx",
+      "ok": true,
+      "task_id": "task279",
+      "size_bytes": 4651,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task280.onnx",
+      "ok": true,
+      "task_id": "task280",
+      "size_bytes": 11540,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task281.onnx",
+      "ok": true,
+      "task_id": "task281",
+      "size_bytes": 4029,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task282.onnx",
+      "ok": true,
+      "task_id": "task282",
+      "size_bytes": 3834,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task283.onnx",
+      "ok": true,
+      "task_id": "task283",
+      "size_bytes": 2116,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task284.onnx",
+      "ok": true,
+      "task_id": "task284",
+      "size_bytes": 5203,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task285.onnx",
+      "ok": true,
+      "task_id": "task285",
+      "size_bytes": 98389,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task286.onnx",
+      "ok": true,
+      "task_id": "task286",
+      "size_bytes": 14243,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task287.onnx",
+      "ok": true,
+      "task_id": "task287",
+      "size_bytes": 1011,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task288.onnx",
+      "ok": true,
+      "task_id": "task288",
+      "size_bytes": 7578,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task289.onnx",
+      "ok": true,
+      "task_id": "task289",
+      "size_bytes": 2005,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task290.onnx",
+      "ok": true,
+      "task_id": "task290",
+      "size_bytes": 1778,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task291.onnx",
+      "ok": true,
+      "task_id": "task291",
+      "size_bytes": 5900,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task292.onnx",
+      "ok": true,
+      "task_id": "task292",
+      "size_bytes": 1209,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task293.onnx",
+      "ok": true,
+      "task_id": "task293",
+      "size_bytes": 7175,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task294.onnx",
+      "ok": true,
+      "task_id": "task294",
+      "size_bytes": 1220,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task295.onnx",
+      "ok": true,
+      "task_id": "task295",
+      "size_bytes": 1994,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task296.onnx",
+      "ok": true,
+      "task_id": "task296",
+      "size_bytes": 2704,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task297.onnx",
+      "ok": true,
+      "task_id": "task297",
+      "size_bytes": 2296,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task298.onnx",
+      "ok": true,
+      "task_id": "task298",
+      "size_bytes": 4216,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task299.onnx",
+      "ok": true,
+      "task_id": "task299",
+      "size_bytes": 1387,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task300.onnx",
+      "ok": true,
+      "task_id": "task300",
+      "size_bytes": 3308,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task301.onnx",
+      "ok": true,
+      "task_id": "task301",
+      "size_bytes": 19286,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task302.onnx",
+      "ok": true,
+      "task_id": "task302",
+      "size_bytes": 2439,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task303.onnx",
+      "ok": true,
+      "task_id": "task303",
+      "size_bytes": 1855,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task304.onnx",
+      "ok": true,
+      "task_id": "task304",
+      "size_bytes": 1547,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task305.onnx",
+      "ok": true,
+      "task_id": "task305",
+      "size_bytes": 1683,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task306.onnx",
+      "ok": true,
+      "task_id": "task306",
+      "size_bytes": 2992,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task307.onnx",
+      "ok": true,
+      "task_id": "task307",
+      "size_bytes": 7454,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task308.onnx",
+      "ok": true,
+      "task_id": "task308",
+      "size_bytes": 4034,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task309.onnx",
+      "ok": true,
+      "task_id": "task309",
+      "size_bytes": 217,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task310.onnx",
+      "ok": true,
+      "task_id": "task310",
+      "size_bytes": 4108,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task311.onnx",
+      "ok": true,
+      "task_id": "task311",
+      "size_bytes": 479,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task312.onnx",
+      "ok": true,
+      "task_id": "task312",
+      "size_bytes": 788,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task313.onnx",
+      "ok": true,
+      "task_id": "task313",
+      "size_bytes": 39724,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task314.onnx",
+      "ok": true,
+      "task_id": "task314",
+      "size_bytes": 28158,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task315.onnx",
+      "ok": true,
+      "task_id": "task315",
+      "size_bytes": 1209,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task316.onnx",
+      "ok": true,
+      "task_id": "task316",
+      "size_bytes": 3697,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task317.onnx",
+      "ok": true,
+      "task_id": "task317",
+      "size_bytes": 3888,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task318.onnx",
+      "ok": true,
+      "task_id": "task318",
+      "size_bytes": 1560,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task319.onnx",
+      "ok": true,
+      "task_id": "task319",
+      "size_bytes": 11412,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task320.onnx",
+      "ok": true,
+      "task_id": "task320",
+      "size_bytes": 1491,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task321.onnx",
+      "ok": true,
+      "task_id": "task321",
+      "size_bytes": 1931,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task322.onnx",
+      "ok": true,
+      "task_id": "task322",
+      "size_bytes": 968,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task323.onnx",
+      "ok": true,
+      "task_id": "task323",
+      "size_bytes": 9125,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task324.onnx",
+      "ok": true,
+      "task_id": "task324",
+      "size_bytes": 92671,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task325.onnx",
+      "ok": true,
+      "task_id": "task325",
+      "size_bytes": 4463,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task326.onnx",
+      "ok": true,
+      "task_id": "task326",
+      "size_bytes": 346,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task327.onnx",
+      "ok": true,
+      "task_id": "task327",
+      "size_bytes": 2356,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task328.onnx",
+      "ok": true,
+      "task_id": "task328",
+      "size_bytes": 14856,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task329.onnx",
+      "ok": true,
+      "task_id": "task329",
+      "size_bytes": 1574,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task330.onnx",
+      "ok": true,
+      "task_id": "task330",
+      "size_bytes": 37731,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task331.onnx",
+      "ok": true,
+      "task_id": "task331",
+      "size_bytes": 3888,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task332.onnx",
+      "ok": true,
+      "task_id": "task332",
+      "size_bytes": 4191,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task333.onnx",
+      "ok": true,
+      "task_id": "task333",
+      "size_bytes": 4530,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task334.onnx",
+      "ok": true,
+      "task_id": "task334",
+      "size_bytes": 2063,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task335.onnx",
+      "ok": true,
+      "task_id": "task335",
+      "size_bytes": 2262,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task336.onnx",
+      "ok": true,
+      "task_id": "task336",
+      "size_bytes": 4934,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task337.onnx",
+      "ok": true,
+      "task_id": "task337",
+      "size_bytes": 159,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task338.onnx",
+      "ok": true,
+      "task_id": "task338",
+      "size_bytes": 5514,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task339.onnx",
+      "ok": true,
+      "task_id": "task339",
+      "size_bytes": 2038,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task340.onnx",
+      "ok": true,
+      "task_id": "task340",
+      "size_bytes": 3695,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task341.onnx",
+      "ok": true,
+      "task_id": "task341",
+      "size_bytes": 8614,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task342.onnx",
+      "ok": true,
+      "task_id": "task342",
+      "size_bytes": 3679,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task343.onnx",
+      "ok": true,
+      "task_id": "task343",
+      "size_bytes": 7380,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task344.onnx",
+      "ok": true,
+      "task_id": "task344",
+      "size_bytes": 10288,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task345.onnx",
+      "ok": true,
+      "task_id": "task345",
+      "size_bytes": 6657,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task346.onnx",
+      "ok": true,
+      "task_id": "task346",
+      "size_bytes": 2959,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task347.onnx",
+      "ok": true,
+      "task_id": "task347",
+      "size_bytes": 1315,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task348.onnx",
+      "ok": true,
+      "task_id": "task348",
+      "size_bytes": 1959,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task349.onnx",
+      "ok": true,
+      "task_id": "task349",
+      "size_bytes": 8197,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task350.onnx",
+      "ok": true,
+      "task_id": "task350",
+      "size_bytes": 2016,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task351.onnx",
+      "ok": true,
+      "task_id": "task351",
+      "size_bytes": 1769,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task352.onnx",
+      "ok": true,
+      "task_id": "task352",
+      "size_bytes": 1079,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task353.onnx",
+      "ok": true,
+      "task_id": "task353",
+      "size_bytes": 2206,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task354.onnx",
+      "ok": true,
+      "task_id": "task354",
+      "size_bytes": 4335,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task355.onnx",
+      "ok": true,
+      "task_id": "task355",
+      "size_bytes": 4606,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task356.onnx",
+      "ok": true,
+      "task_id": "task356",
+      "size_bytes": 1569,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task357.onnx",
+      "ok": true,
+      "task_id": "task357",
+      "size_bytes": 1636,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task358.onnx",
+      "ok": true,
+      "task_id": "task358",
+      "size_bytes": 7583,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task359.onnx",
+      "ok": true,
+      "task_id": "task359",
+      "size_bytes": 2832,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task360.onnx",
+      "ok": true,
+      "task_id": "task360",
+      "size_bytes": 1081,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task361.onnx",
+      "ok": true,
+      "task_id": "task361",
+      "size_bytes": 6275,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task362.onnx",
+      "ok": true,
+      "task_id": "task362",
+      "size_bytes": 2053,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task363.onnx",
+      "ok": true,
+      "task_id": "task363",
+      "size_bytes": 27811,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task364.onnx",
+      "ok": true,
+      "task_id": "task364",
+      "size_bytes": 10500,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task365.onnx",
+      "ok": true,
+      "task_id": "task365",
+      "size_bytes": 14408,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task366.onnx",
+      "ok": true,
+      "task_id": "task366",
+      "size_bytes": 285823,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task367.onnx",
+      "ok": true,
+      "task_id": "task367",
+      "size_bytes": 32977,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task368.onnx",
+      "ok": true,
+      "task_id": "task368",
+      "size_bytes": 13733,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task369.onnx",
+      "ok": true,
+      "task_id": "task369",
+      "size_bytes": 4677,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task370.onnx",
+      "ok": true,
+      "task_id": "task370",
+      "size_bytes": 30914,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task371.onnx",
+      "ok": true,
+      "task_id": "task371",
+      "size_bytes": 1830,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task372.onnx",
+      "ok": true,
+      "task_id": "task372",
+      "size_bytes": 1072,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task373.onnx",
+      "ok": true,
+      "task_id": "task373",
+      "size_bytes": 924,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task374.onnx",
+      "ok": true,
+      "task_id": "task374",
+      "size_bytes": 20142,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task375.onnx",
+      "ok": true,
+      "task_id": "task375",
+      "size_bytes": 1685,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task376.onnx",
+      "ok": true,
+      "task_id": "task376",
+      "size_bytes": 2229,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task377.onnx",
+      "ok": true,
+      "task_id": "task377",
+      "size_bytes": 17361,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task378.onnx",
+      "ok": true,
+      "task_id": "task378",
+      "size_bytes": 7256,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task379.onnx",
+      "ok": true,
+      "task_id": "task379",
+      "size_bytes": 12333,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task380.onnx",
+      "ok": true,
+      "task_id": "task380",
+      "size_bytes": 608,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task381.onnx",
+      "ok": true,
+      "task_id": "task381",
+      "size_bytes": 5721,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task382.onnx",
+      "ok": true,
+      "task_id": "task382",
+      "size_bytes": 67623,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task383.onnx",
+      "ok": true,
+      "task_id": "task383",
+      "size_bytes": 9781,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task384.onnx",
+      "ok": true,
+      "task_id": "task384",
+      "size_bytes": 3017,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task385.onnx",
+      "ok": true,
+      "task_id": "task385",
+      "size_bytes": 183,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task386.onnx",
+      "ok": true,
+      "task_id": "task386",
+      "size_bytes": 1409,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task387.onnx",
+      "ok": true,
+      "task_id": "task387",
+      "size_bytes": 101207,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task388.onnx",
+      "ok": true,
+      "task_id": "task388",
+      "size_bytes": 4623,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task389.onnx",
+      "ok": true,
+      "task_id": "task389",
+      "size_bytes": 1158,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task390.onnx",
+      "ok": true,
+      "task_id": "task390",
+      "size_bytes": 7686,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task391.onnx",
+      "ok": true,
+      "task_id": "task391",
+      "size_bytes": 3352,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task392.onnx",
+      "ok": true,
+      "task_id": "task392",
+      "size_bytes": 13063,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task393.onnx",
+      "ok": true,
+      "task_id": "task393",
+      "size_bytes": 3056,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task394.onnx",
+      "ok": true,
+      "task_id": "task394",
+      "size_bytes": 5232,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task395.onnx",
+      "ok": true,
+      "task_id": "task395",
+      "size_bytes": 1417,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task396.onnx",
+      "ok": true,
+      "task_id": "task396",
+      "size_bytes": 95200,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task397.onnx",
+      "ok": true,
+      "task_id": "task397",
+      "size_bytes": 7851,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task398.onnx",
+      "ok": true,
+      "task_id": "task398",
+      "size_bytes": 8759,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task399.onnx",
+      "ok": true,
+      "task_id": "task399",
+      "size_bytes": 3162,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    },
+    {
+      "path": "E:\\Jitter\\kagglegolf\\submissions\\candidates\\GOLF_20260608_008b_jonathan_structural_pass_mix\\onnx\\task400.onnx",
+      "ok": true,
+      "task_id": "task400",
+      "size_bytes": 2490,
+      "structural_errors": [],
+      "examples_checked": 3,
+      "examples_passed": 3,
+      "examples_failed": 0
+    }
+  ],
+  "package_complete": true,
+  "ok_for_submission_queue": true
+}
