@@ -65,6 +65,9 @@ QUEUE_FIELDS = [
     "same_family_negative_penalty",
     "source_diversity_bonus",
     "positive_probe_required_for_broad_mix",
+    "attribution_value",
+    "bottom_tail_or_memory_tail_bonus",
+    "risk_penalty",
 ]
 
 NOTEBOOK_QUEUE_FIELDS = [
@@ -194,6 +197,67 @@ def submitted_package_hashes(rows: list[dict], current_exp_id: str) -> set[str]:
         if sha:
             hashes.add(sha)
     return hashes
+
+
+def truthy(value: object) -> bool:
+    return str(value).strip().lower() in {"true", "1", "yes", "pass"}
+
+
+def artifact_exists(candidate: Path) -> bool:
+    return (
+        (candidate / "submission.zip").exists()
+        or (candidate / "notebook.ipynb").exists()
+        or (candidate / "kaggle_kernel" / "notebook.ipynb").exists()
+    )
+
+
+def hard_gate_reasons(row: dict) -> list[str]:
+    exp_id = row.get("exp_id", "")
+    candidate = resolve_candidate_path(row.get("candidate_path", ""), exp_id)
+    reasons: list[str] = []
+    if truthy(row.get("submitted")):
+        reasons.append("already_submitted")
+    if not truthy(row.get("local_valid")):
+        reasons.append("local_validation_not_passed")
+    if not truthy(row.get("notebook_ready")):
+        reasons.append("notebook_not_ready")
+    if str(row.get("evidence_gate_status", "")).strip().lower() != "pass":
+        reasons.append("evidence_gate_not_passed")
+    if str(row.get("aggressive_change_gate_status", "")).strip().lower() != "pass":
+        reasons.append("aggressive_change_gate_not_passed")
+    if not str(row.get("changed_tasks", "")).strip():
+        reasons.append("empty_changed_tasks")
+    if not artifact_exists(candidate):
+        reasons.append("missing_artifact")
+    status = str(row.get("status", "")).strip().lower()
+    if status in {
+        "failed_local_validation",
+        "validation_fail",
+        "evidence_gate_failed",
+        "metadata_only",
+        "missing_artifact",
+        "hard_gate_blocked",
+    }:
+        reasons.append(f"blocked_status:{row.get('status')}")
+    return reasons
+
+
+def platform_rejection(text: str) -> bool:
+    lowered = text.lower()
+    return any(
+        token in lowered
+        for token in [
+            "submission limit",
+            "maximum number of submissions",
+            "not allowed",
+            "cannot submit",
+            "competition has ended",
+            "forbidden",
+            "unauthorized",
+            "invalid submission",
+            "platform",
+        ]
+    )
 
 
 def dataset_sources(row: dict, notebook: Path) -> list[str]:
@@ -415,12 +479,26 @@ notes: {(result.stdout or '').strip()[:1000]}
 """,
         )
         return row
+    failure_text = result.stdout or ""
+    if platform_rejection(failure_text):
+        row["status"] = "platform_rejected"
+        row["next_action"] = "review_kaggle_platform_response"
+        append_attempt(
+            exp_id,
+            f"""created_at: {datetime.now().isoformat(timespec="seconds")}
+status: platform_rejected
+submit_path: local_zip_fallback
+fallback_reason: {reason}
+notes: {failure_text.strip()[:1000]}
+""",
+        )
+        return row
     manual = write_manual(
         exp_id,
         candidate,
         "",
         message,
-        f"{reason}; local zip submit also failed: {(result.stdout or '')[:300]}",
+        f"{reason}; local zip submit also failed: {failure_text[:300]}",
     )
     row["status"] = "manual_submit_required"
     row["next_action"] = str(manual)
@@ -492,6 +570,28 @@ def submit_candidate(row: dict, all_rows: list[dict]) -> dict:
     notebook = candidate / "notebook.ipynb"
     changed_tasks = [item for item in row.get("changed_tasks", "").split(",") if item.strip()]
     sha = package_sha(candidate)
+    message = (
+        f"{exp_id} | target7000 aggressive candidate | source={row.get('source_id', '')} | "
+        f"changed={row.get('changed_tasks', '')} | risk={row.get('risk', '')} | local=pass"
+    )
+
+    pre_gate_reasons = [
+        reason
+        for reason in hard_gate_reasons(row)
+        if reason != "already_submitted"
+    ]
+    if pre_gate_reasons:
+        row["status"] = "hard_gate_blocked"
+        row["next_action"] = "fix_hard_gate: " + ", ".join(pre_gate_reasons)
+        append_attempt(
+            exp_id,
+            f"""created_at: {datetime.now().isoformat(timespec="seconds")}
+status: hard_gate_blocked
+hard_gate_reasons: {', '.join(pre_gate_reasons)}
+notes: soft penalties are not submission blockers
+""",
+        )
+        return row
 
     gate = subprocess.run(
         [sys.executable, "scripts/25_validate_evidence_gate.py", "--exp-id", exp_id],
@@ -521,8 +621,15 @@ notes: {gate_log}
     row["evidence_gate_status"] = "pass"
 
     if not notebook.exists():
-        row["status"] = "notebook_missing"
-        row["next_action"] = "build_notebook"
+        if (candidate / "submission.zip").exists():
+            return submit_local_fallback(
+                row,
+                candidate=candidate,
+                message=message,
+                reason="candidate notebook is missing but local submission.zip exists",
+            )
+        row["status"] = "missing_artifact"
+        row["next_action"] = "build_notebook_or_submission_zip"
         return row
     if not changed_tasks:
         row["status"] = "empty_changed_tasks_rejected"
@@ -531,9 +638,14 @@ notes: {gate_log}
     duplicate_hash = bool(sha and sha in submitted_package_hashes(all_rows, exp_id))
     row["duplicate_hash"] = str(duplicate_hash).lower()
     if duplicate_hash:
-        row["status"] = "duplicate_package_rejected"
-        row["next_action"] = "build_distinct_candidate"
-        return row
+        append_attempt(
+            exp_id,
+            f"""created_at: {datetime.now().isoformat(timespec="seconds")}
+status: duplicate_hash_soft_penalty
+package_sha256: {sha}
+notes: duplicate hash is recorded but not a hard blocker under current user policy
+""",
+        )
 
     ags = subprocess.run(
         [sys.executable, "scripts/27_score_aggressive_change.py", "--exp-id", exp_id],
@@ -568,24 +680,12 @@ notes: {ags_log}
     row["aggressive_change_gate_status"] = (
         "pass" if ags_payload.get("submission_gate_pass") else "fail"
     )
-    low_value_direct_submit = float(row.get("small_tuning_penalty") or 0.0) >= 0.35
-    needs_positive_probe = str(row.get("positive_probe_required_for_broad_mix", "")).lower() == "true"
-    if classification in {
+    if row["aggressive_change_gate_status"] != "pass" or classification in {
         "metadata_only",
         "validation_fail",
         "evidence_gate_fail",
-        "duplicate_hash",
-        "small_tuning",
-        "constant_tweak",
-        "basic_cleanup",
-    } or low_value_direct_submit or needs_positive_probe:
-        reason = (
-            "positive_probe_required_for_broad_mix"
-            if needs_positive_probe
-            else "low_value_tuning"
-            if low_value_direct_submit
-            else classification
-        )
+    }:
+        reason = classification if classification else "aggressive_change_gate_not_passed"
         row["status"] = "aggressive_change_gate_failed"
         row["next_action"] = f"resolve_{reason}"
         append_attempt(
@@ -597,6 +697,7 @@ AGS: {row['aggressive_change_score']}
 next_action: {row['next_action']}
 small_tuning_penalty: {row.get('small_tuning_penalty', '')}
 positive_probe_required_for_broad_mix: {row.get('positive_probe_required_for_broad_mix', '')}
+notes: soft penalties do not block; this candidate failed a hard AGS/classification gate
 """,
         )
         return row
@@ -613,11 +714,6 @@ notes: calibration phase permits submission under aggressive user policy
         )
 
     kernel_dir, kernel_slug = write_kernel_dir(row, candidate, notebook)
-    message = (
-        f"{exp_id} | target7000 aggressive candidate | source={row.get('source_id', '')} | "
-        f"changed={row.get('changed_tasks', '')} | risk={row.get('risk', '')} | local=pass"
-    )
-
     push = push_kernel(kernel_dir, exp_id, "primary")
     version = parse_version(push.stdout or "")
 
@@ -725,9 +821,14 @@ notes: output verification failed; attempted local zip fallback
         row["status"] = "submitted_waiting_score"
         row["next_action"] = "poll_submission_results"
     else:
-        manual = write_manual(exp_id, candidate, kernel_slug, message, f"kernel-output submit failed: {str(submit.stdout or '')[:300]}")
-        row["status"] = "manual_submit_required"
-        row["next_action"] = str(manual)
+        failure_text = submit.stdout or ""
+        if platform_rejection(failure_text):
+            row["status"] = "platform_rejected"
+            row["next_action"] = "review_kaggle_platform_response"
+        else:
+            manual = write_manual(exp_id, candidate, kernel_slug, message, f"kernel-output submit failed: {failure_text[:300]}")
+            row["status"] = "manual_submit_required"
+            row["next_action"] = str(manual)
     append_attempt(
         exp_id,
         f"""created_at: {datetime.now().isoformat(timespec="seconds")}
@@ -744,28 +845,101 @@ notes: {(submit.stdout or '').strip()[:1000]}
     return row
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--exp-id", default="")
-    parser.add_argument("--limit", type=int, default=1)
-    parser.add_argument("--auto-select", action="store_true")
-    args = parser.parse_args()
+def poll_submission(exp_id: str) -> None:
+    poll = subprocess.run(
+        [sys.executable, "scripts/20_poll_submission_results.py", "--exp-id", exp_id],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    root("reports", f"POLL_AFTER_SUBMIT_{exp_id}.txt").write_text(
+        (poll.stdout or "") + (("\n" + poll.stderr) if poll.stderr else ""),
+        encoding="utf-8",
+    )
 
-    selected_exp_id = args.exp_id
-    if args.auto_select:
-        selection = subprocess.run(
-            [sys.executable, "scripts/28_select_next_submission.py"],
+
+def checkpoint_commit(submitted_count: int) -> None:
+    subprocess.run(["git", "add", "."], cwd=ROOT, check=False)
+    commit = subprocess.run(
+        [
+            "git",
+            "commit",
+            "-m",
+            f"submit: checkpoint hard-gate eligible submissions {submitted_count}",
+        ],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    root("reports", f"CHECKPOINT_COMMIT_{submitted_count}.txt").write_text(
+        (commit.stdout or "") + (("\n" + commit.stderr) if commit.stderr else ""),
+        encoding="utf-8",
+    )
+    if commit.returncode == 0:
+        push = subprocess.run(
+            ["git", "push"],
             cwd=ROOT,
             capture_output=True,
             text=True,
             check=False,
         )
-        if selection.returncode != 0:
-            raise SystemExit(
-                "automatic candidate selection failed:\n"
-                + (selection.stdout or "")
-                + (selection.stderr or "")
-            )
+        root("reports", f"CHECKPOINT_PUSH_{submitted_count}.txt").write_text(
+            (push.stdout or "") + (("\n" + push.stderr) if push.stderr else ""),
+            encoding="utf-8",
+        )
+
+
+def run_selector() -> None:
+    selection = subprocess.run(
+        [sys.executable, "scripts/28_select_next_submission.py"],
+        cwd=ROOT,
+        capture_output=True,
+        text=True,
+        check=False,
+    )
+    if selection.returncode != 0:
+        raise SystemExit(
+            "automatic candidate selection failed:\n"
+            + (selection.stdout or "")
+            + (selection.stderr or "")
+        )
+
+
+def submit_order(rows: list[dict]) -> list[str]:
+    eligible: list[dict] = []
+    for row in rows:
+        reasons = hard_gate_reasons(row)
+        if reasons:
+            continue
+        eligible.append(row)
+    def sort_key(row: dict) -> tuple[float, int, str]:
+        score_text = str(row.get("selection_score", "")).strip()
+        try:
+            score = float(score_text)
+        except ValueError:
+            score = -1.0
+        try:
+            rank = int(str(row.get("selected_rank", "")).strip() or "999999")
+        except ValueError:
+            rank = 999999
+        return (-score, rank, row.get("exp_id", ""))
+    return [row.get("exp_id", "") for row in sorted(eligible, key=sort_key)]
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--exp-id", default="")
+    parser.add_argument("--limit", type=int, default=1)
+    parser.add_argument("--auto-select", action="store_true")
+    parser.add_argument("--submit-all-eligible", action="store_true")
+    args = parser.parse_args()
+
+    selected_exp_id = args.exp_id
+    if args.auto_select or args.submit_all_eligible:
+        run_selector()
+    if args.auto_select and not args.submit_all_eligible:
         selection_manifest = root("data/manifests/next_submission_selection.json")
         if not selection_manifest.exists():
             raise SystemExit("automatic candidate selection did not create its manifest")
@@ -779,20 +953,42 @@ def main() -> None:
             print("selection_status=no_eligible_candidate")
             return
 
-    rows = read_queue()
     count = 0
-    for i, row in enumerate(rows):
-        if selected_exp_id and row.get("exp_id") != selected_exp_id:
+    if args.submit_all_eligible:
+        ordered_exp_ids = submit_order(read_queue())
+    else:
+        ordered_exp_ids = [row.get("exp_id", "") for row in read_queue()]
+    for exp_id in ordered_exp_ids:
+        if selected_exp_id and exp_id != selected_exp_id:
             continue
-        if row.get("submitted") == "true":
+        rows = read_queue()
+        index = next((idx for idx, item in enumerate(rows) if item.get("exp_id") == exp_id), None)
+        if index is None:
             continue
-        if str(row.get("local_valid", "")).lower() != "true" or str(row.get("notebook_ready", "")).lower() != "true":
+        row = rows[index]
+        if truthy(row.get("submitted")):
             continue
-        rows[i] = submit_candidate(row, rows)
+        if args.submit_all_eligible:
+            reasons = hard_gate_reasons(row)
+            if reasons:
+                row["status"] = "hard_gate_blocked"
+                row["next_action"] = "fix_hard_gate: " + ", ".join(reasons)
+                rows[index] = row
+                write_queue(rows)
+                continue
+        elif str(row.get("local_valid", "")).lower() != "true" or str(row.get("notebook_ready", "")).lower() != "true":
+            continue
+        rows[index] = submit_candidate(row, rows)
+        submitted_status = rows[index].get("status", "")
+        write_queue(rows)
+        poll_submission(exp_id)
         count += 1
+        if args.submit_all_eligible and count % 3 == 0:
+            checkpoint_commit(count)
+        if submitted_status == "platform_rejected":
+            print(f"platform_rejected={exp_id}")
         if count >= args.limit:
             break
-    write_queue(rows)
     print(f"submit_attempts={count}")
 
 

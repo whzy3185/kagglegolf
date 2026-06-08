@@ -1,0 +1,2 @@
+task_id,model_path,source_id,method_family,risk,cost_proxy
+task285,E:\kagglegolf\data\external\public_kernel_outputs\jonathan_zip\official_001_400\task285.onnx,SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX,jonathan_structural_pass_mix,medium,98389

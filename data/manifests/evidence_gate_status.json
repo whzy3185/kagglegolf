@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-06-08T21:21:04",
+  "checked_at": "2026-06-08T22:13:59",
   "strict_mode": true,
   "filters": {
     "exp_id": "",
     "direction_id": ""
   },
-  "total_experiments": 14,
-  "pass_count": 14,
+  "total_experiments": 19,
+  "pass_count": 19,
   "fail_count": 0,
   "exempt_count": 0,
   "failed_exp_ids": [],
@@ -91,6 +91,36 @@
     },
     {
       "exp_id": "GOLF_20260608_019_jonathan_top5_mix_probe",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_020_beicicc_task366_probe",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_021_jsrdcht_memory_task255_probe",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_022_jonathan_task285_probe",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_023_beicicc_task076_probe",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_024_jsrdcht_memory_task285_probe",
       "direction_id": "DIR_20260608_001_public_highscore_harvest",
       "status": "pass",
       "reasons": []

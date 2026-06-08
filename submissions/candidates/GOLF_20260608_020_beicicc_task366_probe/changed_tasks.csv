@@ -1,0 +1,2 @@
+task_id,model_path,source_id,method_family,risk,cost_proxy
+task366,E:\kagglegolf\submissions\candidates\GOLF_20260607_004_public_notebook_full_replace\onnx\task366.onnx,SRC_KAGGLE_NOTEBOOK_BEICICC_6645,beicicc_structural_pass_harvest,medium,

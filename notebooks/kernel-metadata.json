@@ -9,7 +9,8 @@
   "enable_tpu": false,
   "enable_internet": false,
   "dataset_sources": [
-    "octaviograu/neurogolf-manual-rewrites-v205"
+    "octaviograu/neurogolf-manual-rewrites-v205",
+    "jsrdcht/neurogolf-6029-submission-bundle"
   ],
   "competition_sources": [
     "neurogolf-2026"

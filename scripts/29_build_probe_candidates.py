@@ -38,17 +38,35 @@ BOTTOM_TAIL = {
 }
 
 SOURCES = {
+    "SRC_KAGGLE_NOTEBOOK_BIOHACK_SUPER_BLEND": {
+        "csv": "task_bank/candidate_overrides_biohack_partial.csv",
+        "slug": "biohack",
+        "start": 14,
+        "risk": "medium",
+    },
     "SRC_KAGGLE_NOTEBOOK_MIRZA_BEST_SCORE": {
         "csv": "task_bank/candidate_overrides_mirza_partial.csv",
         "slug": "mirza",
         "start": 12,
         "risk": "medium",
     },
-    "SRC_KAGGLE_NOTEBOOK_BIOHACK_SUPER_BLEND": {
-        "csv": "task_bank/candidate_overrides_biohack_partial.csv",
-        "slug": "biohack",
-        "start": 14,
+    "SRC_KAGGLE_NOTEBOOK_SEDDIK_SURGICAL_ONNX": {
+        "csv": "task_bank/candidate_overrides_seddik_surgical_onnx.csv",
+        "slug": "seddik_memory_surgery",
+        "start": 19,
         "risk": "medium",
+    },
+    "SRC_KAGGLE_NOTEBOOK_BEICICC_6645": {
+        "csv": "task_bank/candidate_overrides_beicicc_structural_pass.csv",
+        "slug": "beicicc",
+        "start": 20,
+        "risk": "medium",
+    },
+    "SRC_KAGGLE_NOTEBOOK_JSRDCHT_6029": {
+        "csv": "task_bank/candidate_overrides_6029.csv",
+        "slug": "jsrdcht_memory",
+        "start": 21,
+        "risk": "high",
     },
     "SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX": {
         "csv": "task_bank/candidate_overrides_jonathan_structural_pass.csv",
@@ -74,14 +92,20 @@ def resolve(value: str) -> Path:
 
 def read_rows(source_id: str) -> list[dict]:
     config = SOURCES[source_id]
-    with root(config["csv"]).open(newline="", encoding="utf-8") as handle:
+    csv_path = root(config["csv"])
+    if not csv_path.exists():
+        return []
+    with csv_path.open(newline="", encoding="utf-8") as handle:
         rows = list(csv.DictReader(handle))
     base = root(BASE_PATH, "onnx")
     existing_pairs = queued_or_submitted_pairs()
     rejected = {
         (row.get("source_id", ""), row.get("task_id", ""))
         for row in read_csv(root("task_bank/task_submission_delta.csv"))
-        if row.get("decision") == "rejected_for_current_base"
+        if row.get("decision") in {
+            "rejected_for_current_base",
+            "negative_or_mixed",
+        }
     }
     candidates: list[dict] = []
     for row in rows:
@@ -255,22 +279,38 @@ def main() -> None:
     source_ids = list(SOURCES) if args.auto else [args.source_id]
     generated: list[str] = []
     skipped: list[str] = []
-    for source_id in source_ids:
-        candidates = read_rows(source_id)
+    candidates_by_source = {source_id: read_rows(source_id) for source_id in source_ids}
+    for source_id, candidates in candidates_by_source.items():
         if not candidates:
-            skipped.append(f"{source_id}: no model differs from current baseline")
-            continue
-        if args.mode == "single-task":
-            for row in candidates[: args.top_k]:
+            skipped.append(
+                f"{source_id}: no model differs from current baseline or artifact missing"
+            )
+
+    if args.mode == "single-task":
+        offset = 0
+        while len(generated) < args.limit:
+            made_progress = False
+            for source_id in source_ids:
+                candidates = candidates_by_source.get(source_id, [])
+                if offset >= len(candidates):
+                    continue
+                generated.append(build_candidate(source_id, [candidates[offset]], args.mode))
+                made_progress = True
                 if len(generated) >= args.limit:
                     break
-                generated.append(build_candidate(source_id, [row], args.mode))
-        elif len(generated) < args.limit:
+            if not made_progress:
+                break
+            offset += 1
+    else:
+        for source_id in source_ids:
+            candidates = candidates_by_source.get(source_id, [])
+            if not candidates:
+                continue
             generated.append(
                 build_candidate(source_id, candidates[: args.top_k], args.mode)
             )
-        if len(generated) >= args.limit:
-            break
+            if len(generated) >= args.limit:
+                break
 
     report = [
         "# Probe Candidate Build",

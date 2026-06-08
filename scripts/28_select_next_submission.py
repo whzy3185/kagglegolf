@@ -49,17 +49,20 @@ REQUIRED_QUEUE_FIELDS = [
     "same_family_negative_penalty",
     "source_diversity_bonus",
     "positive_probe_required_for_broad_mix",
+    "attribution_value",
+    "bottom_tail_or_memory_tail_bonus",
+    "risk_penalty",
 ]
 
-BLOCKED_STATUSES = {
+HARD_BLOCKED_STATUSES = {
     "failed_local_validation",
     "validation_fail",
     "evidence_gate_failed",
-    "aggressive_change_gate_failed",
-    "duplicate_package_rejected",
     "metadata_only",
-    "low_value_tuning_rejected",
-    "blocked",
+    "notebook_missing",
+    "missing_artifact",
+    "empty_changed_tasks_rejected",
+    "hard_gate_blocked",
 }
 
 BOTTOM_TAIL = {
@@ -197,6 +200,24 @@ def package_sha(row: dict) -> str:
     return str(payload.get("package_sha256") or payload.get("sha256") or "")
 
 
+def candidate_path(row: dict) -> Path:
+    candidate = Path(str(row.get("candidate_path", "")))
+    if candidate.exists():
+        return candidate
+    return root("submissions/candidates", row.get("exp_id", ""))
+
+
+def artifact_exists(row: dict) -> bool:
+    candidate = candidate_path(row)
+    if (candidate / "submission.zip").exists():
+        return True
+    if (candidate / "notebook.ipynb").exists():
+        return True
+    if (candidate / "kaggle_kernel" / "notebook.ipynb").exists():
+        return True
+    return False
+
+
 def ags_payload(exp_id: str) -> dict:
     path = root("data/manifests", f"aggressive_change_{exp_id}.json")
     if not path.exists():
@@ -283,7 +304,13 @@ def same_source_negative_penalty(row: dict, delta_rows: list[dict]) -> tuple[flo
     if not negatives:
         return 0.0, ""
     worst = min(as_float(item.get("delta_vs_parent"), 0.0) for item in negatives)
-    penalty = min(0.40, 0.20 + min(0.20, abs(worst) / 100.0))
+    small_or_single_negatives = [
+        item for item in negatives if int(as_float(item.get("changed_task_count"), 999)) <= 5
+    ]
+    if len(small_or_single_negatives) >= 2:
+        penalty = 1.0
+    else:
+        penalty = min(1.0, 0.35 + min(0.35, abs(worst) / 50.0))
     examples = ", ".join(sorted({item.get("exp_id", "") for item in negatives})[:3])
     return penalty, f"recent negative source feedback from {examples}"
 
@@ -297,7 +324,7 @@ def same_family_penalty(row: dict, delta_rows: list[dict]) -> tuple[float, str]:
         if item.get("source_id") != source_id or not negative_delta(item):
             continue
         if str(item.get("task_id", "")) in BOTTOM_TAIL:
-            return 0.30, "same source already has negative bottom-tail probe feedback"
+            return 1.0, "same source already has negative bottom-tail probe feedback"
     return 0.0, ""
 
 
@@ -309,10 +336,10 @@ def source_diversity_bonus(row: dict, queue_rows: list[dict], delta_rows: list[d
         if item.get("source_id") == source_id and truthy(item.get("submitted"))
     ]
     if not submitted_same_source:
-        return 0.20
+        return 1.0
     if any(item.get("source_id") == source_id and negative_delta(item) for item in delta_rows):
         return 0.0
-    return 0.10
+    return 0.50
 
 
 def expected_upside(row: dict, source: dict, delta_rows: list[dict], best_score: float) -> float:
@@ -322,6 +349,10 @@ def expected_upside(row: dict, source: dict, delta_rows: list[dict], best_score:
         for item in delta_rows
         if item.get("source_id") == source_id
     ]
+    if deltas and max(deltas) <= 0.0001 and min(deltas) >= -0.0001:
+        return 0.45
+    if deltas and max(deltas) > 0.0001:
+        return 0.85
     if deltas and max(deltas) < -0.001:
         return 0.10
     claimed = as_float(source.get("claimed_score"), -1.0)
@@ -357,18 +388,45 @@ def novelty(row: dict, rows: list[dict]) -> float:
     return 0.60
 
 
-def feedback_value(row: dict) -> float:
+def attribution_value(row: dict) -> float:
     count = len(changed_tasks(row))
     if count == 1:
         return 1.0
     if count <= 5:
         return 0.70
     if count > 20:
-        return 0.40
+        return 0.20
     return 0.55
 
 
-def known_bad_penalty(row: dict, delta_rows: list[dict]) -> tuple[float, str]:
+def bottom_tail_or_memory_tail_bonus(row: dict) -> float:
+    tasks = changed_tasks(row)
+    payload = ags_payload(row.get("exp_id", ""))
+    memory_gain = as_float(
+        (payload.get("memory_profile") or {}).get("expected_gain_ratio"),
+        0.0,
+    )
+    if tasks & BOTTOM_TAIL and memory_gain > 0.05:
+        return 1.0
+    if tasks & BOTTOM_TAIL:
+        return 0.75
+    if memory_gain > 0.20:
+        return 0.80
+    if memory_gain > 0.05:
+        return 0.45
+    return 0.0
+
+
+def risk_penalty(row: dict, high_risk_rows: list[dict]) -> float:
+    base = {"low": 0.0, "medium": 0.35, "high": 0.70}.get(
+        str(row.get("risk", "")).lower(), 0.35
+    )
+    if any(item.get("exp_id") == row.get("exp_id") for item in high_risk_rows):
+        return max(base, 0.70)
+    return base
+
+
+def known_bad_penalty(row: dict, delta_rows: list[dict], known_bad_text: str) -> tuple[float, str]:
     source = row.get("source_id", "")
     tasks = changed_tasks(row)
     count = len(tasks)
@@ -382,7 +440,9 @@ def known_bad_penalty(row: dict, delta_rows: list[dict]) -> tuple[float, str]:
         return 0.70, "broad candidate originates from a failed local family"
     for item in delta_rows:
         if item.get("source_id") == source and item.get("task_id") in tasks and negative_delta(item):
-            return 0.35, f"{item.get('task_id')} already rejected for current base"
+            return 1.0, f"{item.get('task_id')} already rejected for current base"
+    if source in known_bad_text and "known_bad_family" in known_bad_text and count > 20:
+        return 0.70, "source appears in KNOWN_BAD_FAMILIES for broad-family failures"
     return 0.0, ""
 
 
@@ -398,12 +458,13 @@ def base_hard_filter(row: dict) -> list[str]:
         reasons.append("evidence_gate_not_passed")
     if str(row.get("aggressive_change_gate_status", "")).lower() != "pass":
         reasons.append("aggressive_change_gate_not_passed")
-    if truthy(row.get("duplicate_hash")):
-        reasons.append("duplicate_hash")
-    if str(row.get("status", "")).lower() in BLOCKED_STATUSES:
+    status = str(row.get("status", "")).lower()
+    if status in HARD_BLOCKED_STATUSES:
         reasons.append(f"blocked_status:{row.get('status')}")
     if not changed_tasks(row):
         reasons.append("empty_changed_tasks")
+    if not artifact_exists(row):
+        reasons.append("missing_artifact")
     return reasons
 
 
@@ -413,6 +474,8 @@ def score_row(
     sources: dict[str, dict],
     rows: list[dict],
     delta_rows: list[dict],
+    high_risk_rows: list[dict],
+    known_bad_text: str,
     best_score: float,
 ) -> dict:
     source = sources.get(row.get("leaderboard_source_id") or row.get("source_id"), {})
@@ -422,7 +485,7 @@ def score_row(
         large_bonus = max(large_bonus, 0.10)
     structural_scale = min(1.0, STRUCTURAL_SCALE.get(structural, 0.35) + large_bonus)
     small_penalty = SMALL_TUNING_PENALTY.get(structural, 0.0)
-    bad_penalty, bad_reason = known_bad_penalty(row, delta_rows)
+    bad_penalty, bad_reason = known_bad_penalty(row, delta_rows, known_bad_text)
     negative_source_penalty, negative_source_reason = same_source_negative_penalty(row, delta_rows)
     same_family_penalty_value, same_family_reason = same_family_penalty(row, delta_rows)
     diversity_bonus = source_diversity_bonus(row, rows, delta_rows)
@@ -436,25 +499,28 @@ def score_row(
         "source_priority_score": source_priority(source),
         "expected_lb_upside": expected_upside(row, source, delta_rows, best_score),
         "novelty_vs_submitted": novelty(row, rows),
-        "feedback_value": feedback_value(row),
+        "attribution_value": attribution_value(row),
+        "bottom_tail_or_memory_tail_bonus": bottom_tail_or_memory_tail_bonus(row),
         "known_bad_family_penalty": bad_penalty,
         "small_tuning_penalty": small_penalty,
         "recent_negative_source_penalty": negative_source_penalty,
         "same_family_negative_penalty": same_family_penalty_value,
         "source_diversity_bonus": diversity_bonus,
+        "risk_penalty": risk_penalty(row, high_risk_rows),
     }
     total = (
-        0.25 * components["ags"]
+        0.22 * components["ags"]
         + 0.20 * components["structural_scale_score"]
-        + 0.20 * components["source_priority_score"]
+        + 0.18 * components["source_priority_score"]
         + 0.15 * components["expected_lb_upside"]
-        + 0.10 * components["novelty_vs_submitted"]
-        + 0.10 * components["feedback_value"]
+        + 0.10 * components["source_diversity_bonus"]
+        + 0.10 * components["attribution_value"]
+        + 0.05 * components["bottom_tail_or_memory_tail_bonus"]
+        - 0.20 * components["recent_negative_source_penalty"]
+        - 0.20 * components["same_family_negative_penalty"]
         - 0.15 * components["known_bad_family_penalty"]
+        - 0.10 * components["risk_penalty"]
         - 0.15 * components["small_tuning_penalty"]
-        - 0.15 * components["recent_negative_source_penalty"]
-        - 0.15 * components["same_family_negative_penalty"]
-        + 0.05 * components["source_diversity_bonus"]
     )
     reason_parts = [
         f"class={structural}",
@@ -463,12 +529,14 @@ def score_row(
         f"source={components['source_priority_score']:.2f}",
         f"upside={components['expected_lb_upside']:.2f}",
         f"novelty={components['novelty_vs_submitted']:.2f}",
-        f"feedback={components['feedback_value']:.2f}",
+        f"attribution={components['attribution_value']:.2f}",
+        f"tail_bonus={components['bottom_tail_or_memory_tail_bonus']:.2f}",
         f"known_bad_penalty={components['known_bad_family_penalty']:.2f}",
         f"small_tuning_penalty={components['small_tuning_penalty']:.2f}",
         f"recent_negative_source_penalty={components['recent_negative_source_penalty']:.2f}",
         f"same_family_negative_penalty={components['same_family_negative_penalty']:.2f}",
         f"source_diversity_bonus={components['source_diversity_bonus']:.2f}",
+        f"risk_penalty={components['risk_penalty']:.2f}",
     ]
     if bad_reason:
         reason_parts.append(f"known_bad={bad_reason}")
@@ -491,10 +559,10 @@ def score_row(
         "positive_probe_required_for_broad_mix": broad_without_positive,
         "components": components,
         "package_sha256": package_sha(row),
-        "blocking_reasons": (
+        "soft_penalties": (
             ["positive_probe_required_for_broad_mix"] if broad_without_positive else []
         )
-        + (["low_value_tuning_rejected"] if small_penalty >= 0.35 else []),
+        + (["low_value_tuning"] if small_penalty >= 0.35 else []),
     }
 
 
@@ -511,6 +579,25 @@ def update_row_from_score(row: dict, item: dict, rank: int | None) -> None:
     row["same_family_negative_penalty"] = f"{item['components']['same_family_negative_penalty']:.6f}"
     row["source_diversity_bonus"] = f"{item['components']['source_diversity_bonus']:.6f}"
     row["positive_probe_required_for_broad_mix"] = str(item["positive_probe_required_for_broad_mix"]).lower()
+    row["attribution_value"] = f"{item['components']['attribution_value']:.6f}"
+    row["bottom_tail_or_memory_tail_bonus"] = f"{item['components']['bottom_tail_or_memory_tail_bonus']:.6f}"
+    row["risk_penalty"] = f"{item['components']['risk_penalty']:.6f}"
+
+
+def soft_penalty_labels(item: dict) -> list[str]:
+    labels = list(item.get("soft_penalties") or [])
+    components = item.get("components") or {}
+    if as_float(components.get("recent_negative_source_penalty")) > 0:
+        labels.append("recent_negative_source_penalty")
+    if as_float(components.get("same_family_negative_penalty")) > 0:
+        labels.append("same_family_negative_penalty")
+    if as_float(components.get("known_bad_family_penalty")) > 0:
+        labels.append("known_bad_family_penalty")
+    if as_float(components.get("expected_lb_upside")) <= 0.25:
+        labels.append("low_expected_lb_upside")
+    if as_float(item.get("selection_score")) < 0.35:
+        labels.append("low_selection_score")
+    return sorted(set(labels))
 
 
 def main() -> None:
@@ -520,6 +607,9 @@ def main() -> None:
         fields = list(REQUIRED_QUEUE_FIELDS)
     sources = parse_evidence_registry(root("research/EVIDENCE_REGISTRY.md"))
     _, delta_rows = read_csv(root("task_bank/task_submission_delta.csv"))
+    _, high_risk_rows = read_csv(root("task_bank/high_risk_task_bank.csv"))
+    known_bad_path = root("reports/KNOWN_BAD_FAMILIES.md")
+    known_bad_text = known_bad_path.read_text(encoding="utf-8") if known_bad_path.exists() else ""
     best_score, best_exp_id = current_best()
     blocked: list[dict] = []
     scored: list[dict] = []
@@ -538,18 +628,10 @@ def main() -> None:
             sources=sources,
             rows=rows,
             delta_rows=delta_rows,
+            high_risk_rows=high_risk_rows,
+            known_bad_text=known_bad_text,
             best_score=best_score,
         )
-        if item["blocking_reasons"]:
-            blocked.append(
-                {"exp_id": row.get("exp_id", ""), "reasons": item["blocking_reasons"]}
-            )
-            update_row_from_score(row, item, None)
-            row["selection_reason"] = "blocked: " + ", ".join(item["blocking_reasons"]) + "; " + item["selection_reason"]
-            if "low_value_tuning_rejected" in item["blocking_reasons"]:
-                row["status"] = "low_value_tuning_rejected"
-                row["next_action"] = "replace_with_structural_candidate"
-            continue
         scored.append(item)
 
     scored.sort(key=lambda item: (-item["selection_score"], item["exp_id"]))
@@ -573,6 +655,7 @@ def main() -> None:
         "selected": selected,
         "ranked_candidates": scored,
         "blocked_candidates": blocked,
+        "policy": "selection_ordering_only_soft_penalties_do_not_block",
     }
     manifest = root("data/manifests/next_submission_selection.json")
     manifest.parent.mkdir(parents=True, exist_ok=True)
@@ -590,11 +673,30 @@ def main() -> None:
         f"selection_score: {selected['selection_score'] if selected else ''}",
         f"selection_reason: {selected['selection_reason'] if selected else 'No eligible candidate.'}",
         "",
-        "## Top 10",
+        "policy: selection is ordering only, not a blocking gate",
+        "soft_penalties: affect submit order only; hard blocks are local validation, evidence gate, AGS gate, missing artifact, empty changed_tasks, already submitted, or explicit validation/evidence/metadata failure.",
         "",
-        "| rank | exp_id | score | class | risk | tasks | source |",
-        "|---:|---|---:|---|---|---:|---|",
+        "## Eligible Submit Order",
+        "",
+        "| order | exp_id | score | soft_penalties |",
+        "|---:|---|---:|---|",
     ]
+    for index, item in enumerate(scored, start=1):
+        lines.append(
+            f"| {index} | {item['exp_id']} | {item['selection_score']:.6f} | "
+            f"{', '.join(soft_penalty_labels(item)) or 'none'} |"
+        )
+    if not scored:
+        lines.append("| - | none | - | - |")
+    lines.extend(
+        [
+            "",
+            "## Top 10",
+            "",
+            "| rank | exp_id | score | class | risk | tasks | source |",
+            "|---:|---|---:|---|---|---:|---|",
+        ]
+    )
     for index, item in enumerate(scored[:10], start=1):
         lines.append(
             f"| {index} | {item['exp_id']} | {item['selection_score']:.6f} | "
@@ -611,12 +713,12 @@ def main() -> None:
             "",
             "## Negative Feedback Policy",
             "",
-            "Same-source and same-family negative probes reduce rank but do not hard-block single-task probes. Broad mixes without positive probe feedback are blocked.",
+            "Same-source, same-family, known-bad, low-upside, and broad-without-positive-probe signals reduce rank only. They do not block candidates that pass hard gates.",
             "",
             "## Next Action",
             "",
             (
-                f"Submit `{payload['selected_exp_id']}` through `scripts/19_submit_queue.py --auto-select --limit 1`."
+                "Submit all hard-gate eligible candidates through `scripts/19_submit_queue.py --submit-all-eligible --limit 999`."
                 if selected
                 else "Generate a validator-pass probe candidate, score it with AGS, then rerun selection."
             ),
@@ -625,6 +727,36 @@ def main() -> None:
     )
     root("reports/NEXT_SUBMISSION_SELECTION.md").write_text(
         "\n".join(lines), encoding="utf-8"
+    )
+    eligibility_lines = [
+        "# Submit Eligibility",
+        "",
+        f"checked_at: {payload['checked_at']}",
+        "policy: hard gates decide eligibility; soft penalties only order submissions.",
+        "",
+        "| exp_id | eligible | hard_gate_status | soft_penalties | submit_order | reason |",
+        "|---|---:|---|---|---:|---|",
+    ]
+    rank_lookup = {item["exp_id"]: index for index, item in enumerate(scored, start=1)}
+    item_lookup = {item["exp_id"]: item for item in scored}
+    blocked_lookup = {item["exp_id"]: item["reasons"] for item in blocked}
+    for row in rows:
+        exp_id = row.get("exp_id", "")
+        if exp_id in item_lookup:
+            item = item_lookup[exp_id]
+            eligibility_lines.append(
+                f"| {exp_id} | true | pass | {', '.join(soft_penalty_labels(item)) or 'none'} | "
+                f"{rank_lookup[exp_id]} | eligible; soft penalties do not block |"
+            )
+        else:
+            reasons = blocked_lookup.get(exp_id, base_hard_filter(row))
+            status = ", ".join(reasons) if reasons else "not_scored"
+            eligibility_lines.append(
+                f"| {exp_id} | false | {status} | not_applicable |  | hard_gate_blocked |"
+            )
+    root("reports/SUBMIT_ELIGIBILITY.md").write_text(
+        "\n".join(eligibility_lines) + "\n",
+        encoding="utf-8",
     )
     state_path = root("reports/CURRENT_STATE.md")
     if state_path.exists():
@@ -652,4 +784,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

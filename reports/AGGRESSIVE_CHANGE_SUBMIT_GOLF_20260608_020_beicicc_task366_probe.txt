@@ -1,0 +1,4 @@
+exp_id=GOLF_20260608_020_beicicc_task366_probe
+AGS=0.862420
+classification=aggressive
+submission_gate_pass=true

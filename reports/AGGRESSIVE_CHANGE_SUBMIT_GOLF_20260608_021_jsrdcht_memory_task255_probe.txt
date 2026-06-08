@@ -1,0 +1,4 @@
+exp_id=GOLF_20260608_021_jsrdcht_memory_task255_probe
+AGS=0.842472
+classification=aggressive
+submission_gate_pass=true
