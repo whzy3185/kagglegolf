@@ -31,6 +31,8 @@ submissions/**/*.zip
 submissions/**/onnx/
 submissions/**/submission/
 submissions/**/outputs/
+submissions/**/kaggle_kernel/
+submissions/**/kaggle_output*/
 tools/kaggle/**/*.zip
 notebooks/.ipynb_checkpoints/
 notebooks/output/
