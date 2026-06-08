@@ -1,0 +1,7 @@
+# GOLF_20260608_024_jsrdcht_memory_task285_probe
+
+submission_id: 53480285
+public_score: 6148.79
+delta_vs_best: -123.710000
+decision: rejected_for_current_base
+normal_bank_allowed: false

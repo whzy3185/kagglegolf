@@ -1,6 +1,8 @@
 lanes:
   S_target_7000_submission_push:
-    goal: prioritize source-backed candidates that can close the gap from 6154.71 to 7000+ through repeated validated submissions
+    goal: prioritize source-backed candidates that can close the gap from the current best to the 7800+ target through repeated validated submissions
+  S_target_7800_submission_push:
+    goal: prioritize aggressive source-backed candidates toward the 7800+ public target
   A_public_highscore_absorb:
     goal: reproduce and decompose public high-LB notebooks and datasets
   B_onnx_operator_golf:

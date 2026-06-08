@@ -442,7 +442,7 @@ def submit_local_fallback(
         row["next_action"] = str(manual)
         return row
     fallback_message = message.replace(
-        "target7000 aggressive candidate",
+        "target7800 aggressive candidate",
         "fallback_local_zip_after_notebook_output_failure",
     )
     result = run_with_retries(
@@ -571,7 +571,7 @@ def submit_candidate(row: dict, all_rows: list[dict]) -> dict:
     changed_tasks = [item for item in row.get("changed_tasks", "").split(",") if item.strip()]
     sha = package_sha(candidate)
     message = (
-        f"{exp_id} | target7000 aggressive candidate | source={row.get('source_id', '')} | "
+        f"{exp_id} | target7800 aggressive candidate | source={row.get('source_id', '')} | "
         f"changed={row.get('changed_tasks', '')} | risk={row.get('risk', '')} | local=pass"
     )
 
@@ -845,7 +845,71 @@ notes: {(submit.stdout or '').strip()[:1000]}
     return row
 
 
-def poll_submission(exp_id: str) -> None:
+def queue_row(exp_id: str) -> dict:
+    for row in read_queue():
+        if row.get("exp_id") == exp_id:
+            return row
+    return {}
+
+
+def terminal_status(status: str) -> bool:
+    lowered = status.lower()
+    return any(token in lowered for token in ["complete", "failed", "error", "cancelled", "canceled"])
+
+
+def failed_status(status: str) -> bool:
+    lowered = status.lower()
+    return any(token in lowered for token in ["failed", "error", "cancelled", "canceled"])
+
+
+def write_wait_report(exp_id: str, events: list[dict], final_row: dict, outcome: str) -> None:
+    lines = [
+        f"# Submission Wait: {exp_id}",
+        "",
+        f"updated_at: {datetime.now().isoformat(timespec='seconds')}",
+        f"outcome: {outcome}",
+        f"submission_id: {final_row.get('submission_id', '')}",
+        f"status: {final_row.get('status', '')}",
+        f"public_score: {final_row.get('public_score', '')}",
+        "",
+        "## Poll Events",
+        "",
+        "| checked_at | status | public_score | submission_id |",
+        "|---|---|---:|---|",
+    ]
+    for event in events:
+        lines.append(
+            f"| {event.get('checked_at', '')} | {event.get('status', '')} | "
+            f"{event.get('public_score', '')} | {event.get('submission_id', '')} |"
+        )
+    root("reports", f"SUBMISSION_WAIT_{exp_id}.md").write_text(
+        "\n".join(lines) + "\n",
+        encoding="utf-8",
+    )
+
+
+def post_complete_updates(exp_id: str) -> None:
+    commands = [
+        [sys.executable, "scripts/30_record_task_attribution.py", "--exp-id", exp_id],
+        [sys.executable, "scripts/31_sync_high_risk_register.py"],
+        [sys.executable, "scripts/09_query_submission_history.py"],
+    ]
+    for command in commands:
+        result = subprocess.run(
+            command,
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        label = Path(command[1]).stem
+        root("reports", f"POST_COMPLETE_{label}_{exp_id}.txt").write_text(
+            (result.stdout or "") + (("\n" + result.stderr) if result.stderr else ""),
+            encoding="utf-8",
+        )
+
+
+def poll_submission(exp_id: str) -> dict:
     poll = subprocess.run(
         [sys.executable, "scripts/20_poll_submission_results.py", "--exp-id", exp_id],
         cwd=ROOT,
@@ -857,6 +921,66 @@ def poll_submission(exp_id: str) -> None:
         (poll.stdout or "") + (("\n" + poll.stderr) if poll.stderr else ""),
         encoding="utf-8",
     )
+    return queue_row(exp_id)
+
+
+def poll_until_terminal(exp_id: str, *, wait_complete: bool, poll_interval: int, poll_timeout: int) -> dict:
+    start = time.time()
+    events: list[dict] = []
+    final_row = poll_submission(exp_id)
+    while True:
+        event = {
+            "checked_at": datetime.now().isoformat(timespec="seconds"),
+            "status": final_row.get("status", ""),
+            "public_score": final_row.get("public_score", ""),
+            "submission_id": final_row.get("submission_id", ""),
+        }
+        events.append(event)
+        status = str(final_row.get("status", ""))
+        has_score = bool(str(final_row.get("public_score", "")).strip())
+        if terminal_status(status):
+            outcome = "complete" if "complete" in status.lower() else "failed"
+            write_wait_report(exp_id, events, final_row, outcome)
+            if "complete" in status.lower() and has_score:
+                post_complete_updates(exp_id)
+            append_attempt(
+                exp_id,
+                f"""created_at: {datetime.now().isoformat(timespec="seconds")}
+status: poll_terminal_{outcome}
+submission_status: {status}
+public_score: {final_row.get('public_score', '')}
+submission_id: {final_row.get('submission_id', '')}
+notes: see reports/SUBMISSION_WAIT_{exp_id}.md
+""",
+            )
+            return final_row
+        if failed_status(status):
+            write_wait_report(exp_id, events, final_row, "failed")
+            return final_row
+        if not wait_complete:
+            write_wait_report(exp_id, events, final_row, "polled_once")
+            return final_row
+        if time.time() - start >= poll_timeout:
+            final_row["status"] = "pending_timeout"
+            final_row["next_action"] = "poll_submission_results"
+            rows = read_queue()
+            for row in rows:
+                if row.get("exp_id") == exp_id:
+                    row.update(final_row)
+                    break
+            write_queue(rows)
+            write_wait_report(exp_id, events, final_row, "pending_timeout")
+            append_attempt(
+                exp_id,
+                f"""created_at: {datetime.now().isoformat(timespec="seconds")}
+status: pending_timeout
+poll_timeout_seconds: {poll_timeout}
+last_submission_status: {status}
+notes: see reports/SUBMISSION_WAIT_{exp_id}.md
+""",
+            )
+            return final_row
+        time.sleep(max(1, poll_interval))
 
 
 def checkpoint_commit(submitted_count: int) -> None:
@@ -934,6 +1058,10 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=1)
     parser.add_argument("--auto-select", action="store_true")
     parser.add_argument("--submit-all-eligible", action="store_true")
+    parser.add_argument("--poll-after-submit", action="store_true")
+    parser.add_argument("--wait-complete", action="store_true")
+    parser.add_argument("--poll-interval", type=int, default=60)
+    parser.add_argument("--poll-timeout", type=int, default=1800)
     args = parser.parse_args()
 
     selected_exp_id = args.exp_id
@@ -967,6 +1095,13 @@ def main() -> None:
             continue
         row = rows[index]
         if truthy(row.get("submitted")):
+            if args.poll_after_submit or args.wait_complete:
+                poll_until_terminal(
+                    exp_id,
+                    wait_complete=args.wait_complete,
+                    poll_interval=args.poll_interval,
+                    poll_timeout=args.poll_timeout,
+                )
             continue
         if args.submit_all_eligible:
             reasons = hard_gate_reasons(row)
@@ -981,7 +1116,17 @@ def main() -> None:
         rows[index] = submit_candidate(row, rows)
         submitted_status = rows[index].get("status", "")
         write_queue(rows)
-        poll_submission(exp_id)
+        if args.poll_after_submit or args.wait_complete:
+            final_row = poll_until_terminal(
+                exp_id,
+                wait_complete=args.wait_complete,
+                poll_interval=args.poll_interval,
+                poll_timeout=args.poll_timeout,
+            )
+            rows = read_queue()
+            index = next((idx for idx, item in enumerate(rows) if item.get("exp_id") == exp_id), None)
+            if index is not None:
+                submitted_status = rows[index].get("status", final_row.get("status", submitted_status))
         count += 1
         if args.submit_all_eligible and count % 3 == 0:
             checkpoint_commit(count)

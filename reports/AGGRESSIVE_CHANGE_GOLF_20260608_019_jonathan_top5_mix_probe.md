@@ -1,6 +1,6 @@
 # Aggressive Change: GOLF_20260608_019_jonathan_top5_mix_probe
 
-checked_at: 2026-06-08T21:20:22
+checked_at: 2026-06-08T22:23:39
 AGS: 0.6992
 classification: aggressive
 submission_gate_pass: true

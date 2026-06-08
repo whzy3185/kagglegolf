@@ -44,6 +44,12 @@ SOURCES = {
         "start": 14,
         "risk": "medium",
     },
+    "SRC_KAGGLE_NOTEBOOK_KOJIMAR_6272_AUDITED_OVERRIDES": {
+        "csv": "task_bank/candidate_overrides_kojimar_6272.csv",
+        "slug": "kojimar_6272",
+        "start": 26,
+        "risk": "medium",
+    },
     "SRC_KAGGLE_NOTEBOOK_MIRZA_BEST_SCORE": {
         "csv": "task_bank/candidate_overrides_mirza_partial.csv",
         "slug": "mirza",
@@ -88,6 +94,35 @@ def digest(path: Path) -> str:
 def resolve(value: str) -> Path:
     path = Path(value)
     return path if path.is_absolute() else root(value)
+
+
+def current_best_exp_id() -> str:
+    history = root("data/manifests/kaggle_submission_history.json")
+    if history.exists():
+        try:
+            payload = __import__("json").loads(history.read_text(encoding="utf-8"))
+            best = payload.get("best_public") or {}
+            exp_id = str(best.get("exp_id") or "").strip()
+            if exp_id:
+                return exp_id
+        except Exception:
+            pass
+    state = root("reports/CURRENT_STATE.md")
+    if state.exists():
+        text = state.read_text(encoding="utf-8")
+        match = re.search(r"(?m)^Current best submission path:\s*submissions/candidates/([^/\\]+)/", text)
+        if match:
+            return match.group(1)
+        match = re.search(r"(?m)^Current best candidate artifact path:\s*submissions/candidates/([^/\\]+)/", text)
+        if match:
+            return match.group(1)
+    return BASE_EXP_ID
+
+
+def set_base(exp_id: str) -> None:
+    global BASE_EXP_ID, BASE_PATH
+    BASE_EXP_ID = exp_id
+    BASE_PATH = f"submissions/candidates/{exp_id}"
 
 
 def read_rows(source_id: str) -> list[dict]:
@@ -272,7 +307,9 @@ def main() -> None:
     parser.add_argument("--top-k", type=int, default=1)
     parser.add_argument("--auto", action="store_true")
     parser.add_argument("--limit", type=int, default=3)
+    parser.add_argument("--base-exp-id", default="")
     args = parser.parse_args()
+    set_base(args.base_exp_id or current_best_exp_id())
     if not args.auto and not args.source_id:
         raise SystemExit("provide --source-id or --auto")
 

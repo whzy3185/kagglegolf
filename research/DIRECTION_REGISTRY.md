@@ -23,6 +23,13 @@ target_exp_ids:
   - GOLF_20260608_022_jonathan_task285_probe
   - GOLF_20260608_023_beicicc_task076_probe
   - GOLF_20260608_024_jsrdcht_memory_task285_probe
+  - GOLF_20260608_025_kojimar_6272_full_replace
+  - GOLF_20260608_026_kojimar_6272_override_probe_mix
+  - GOLF_20260608_014_biohack_task187_probe
+  - GOLF_20260608_012_mirza_task187_probe
+  - GOLF_20260608_026_beicicc_task169_probe
+  - GOLF_20260608_027_jsrdcht_memory_task018_probe
+  - GOLF_20260608_028_jonathan_task025_probe
 
 hypothesis:
   Current best 6154.71 is too far from the 7000 target. High-score public notebooks may contain stronger full bundles or task-level ONNX variants that can close the gap faster than local micro-optimization.

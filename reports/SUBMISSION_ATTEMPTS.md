@@ -589,3 +589,333 @@ notes: 0%|          | 0.00/883k [00:00<?, ?B/s]
   2%|▏         | 16.0k/883k [00:00<00:26, 33.4kB/s]
 100%|██████████| 883k/883k [00:02<00:00, 369kB/s]  
 Successfully submitted to The 2026 NeuroGolf Championship
+
+## GOLF_20260608_019_jonathan_top5_mix_probe submit attempt
+
+created_at: 2026-06-08T22:23:55
+status: submitted_waiting_score
+submit_path: local_zip_fallback
+fallback_reason: primary and fallback kernel push failed; primary=400 Client Error: Bad Request for url: https://api.kaggle.com/v1/kernels.KernelsApiService/SaveKernel
+; fallback=400 Client Error: Bad Request for url: https://api.kaggle.com/v1/kernels.KernelsApiService/SaveKernel
+
+submission_id: 
+notes: 0%|          | 0.00/887k [00:00<?, ?B/s]
+  2%|▏         | 16.0k/887k [00:01<01:19, 11.2kB/s]
+100%|██████████| 887k/887k [00:03<00:00, 280kB/s]  
+Successfully submitted to The 2026 NeuroGolf Championship
+
+## GOLF_20260608_017_jonathan_task286_probe submit attempt
+
+created_at: 2026-06-08T22:24:15
+status: submitted_waiting_score
+submit_path: local_zip_fallback
+fallback_reason: primary and fallback kernel push failed; primary=400 Client Error: Bad Request for url: https://api.kaggle.com/v1/kernels.KernelsApiService/SaveKernel
+; fallback=400 Client Error: Bad Request for url: https://api.kaggle.com/v1/kernels.KernelsApiService/SaveKernel
+
+submission_id: 
+notes: 0%|          | 0.00/883k [00:00<?, ?B/s]
+  2%|▏         | 16.0k/883k [00:00<00:24, 35.7kB/s]
+100%|██████████| 883k/883k [00:02<00:00, 383kB/s]  
+Successfully submitted to The 2026 NeuroGolf Championship
+
+## GOLF_20260608_017_jonathan_task286_probe submit attempt
+
+created_at: 2026-06-08T22:35:34
+status: poll_terminal_complete
+submission_status: SubmissionStatus.COMPLETE
+public_score: 6153.76
+submission_id: 53480340
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_017_jonathan_task286_probe.md
+
+## GOLF_20260608_018_jonathan_task173_probe submit attempt
+
+created_at: 2026-06-08T22:35:46
+status: poll_terminal_complete
+submission_status: SubmissionStatus.COMPLETE
+public_score: 6153.77
+submission_id: 53480311
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_018_jonathan_task173_probe.md
+
+## GOLF_20260608_019_jonathan_top5_mix_probe submit attempt
+
+created_at: 2026-06-08T22:35:55
+status: poll_terminal_complete
+submission_status: SubmissionStatus.COMPLETE
+public_score: 6139.85
+submission_id: 53480334
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_019_jonathan_top5_mix_probe.md
+
+## GOLF_20260608_020_beicicc_task366_probe submit attempt
+
+created_at: 2026-06-08T22:36:08
+status: poll_terminal_complete
+submission_status: SubmissionStatus.COMPLETE
+public_score: 6143.61
+submission_id: 53479938
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_020_beicicc_task366_probe.md
+
+## GOLF_20260608_021_jsrdcht_memory_task255_probe submit attempt
+
+created_at: 2026-06-08T22:36:20
+status: poll_terminal_complete
+submission_status: SubmissionStatus.COMPLETE
+public_score: 6151.46
+submission_id: 53480149
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_021_jsrdcht_memory_task255_probe.md
+
+## GOLF_20260608_022_jonathan_task285_probe submit attempt
+
+created_at: 2026-06-08T22:36:29
+status: poll_terminal_complete
+submission_status: SubmissionStatus.COMPLETE
+public_score: 6142.81
+submission_id: 53480299
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_022_jonathan_task285_probe.md
+
+## GOLF_20260608_023_beicicc_task076_probe submit attempt
+
+created_at: 2026-06-08T22:36:43
+status: poll_terminal_complete
+submission_status: SubmissionStatus.COMPLETE
+public_score: 6142.58
+submission_id: 53480045
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_023_beicicc_task076_probe.md
+
+## GOLF_20260608_024_jsrdcht_memory_task285_probe submit attempt
+
+created_at: 2026-06-08T22:36:57
+status: poll_terminal_complete
+submission_status: SubmissionStatus.COMPLETE
+public_score: 6148.79
+submission_id: 53480285
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_024_jsrdcht_memory_task285_probe.md
+
+## GOLF_20260608_025_kojimar_6272_full_replace
+
+created_at: 2026-06-08T22:44:30
+submission_path: submissions/candidates/GOLF_20260608_025_kojimar_6272_full_replace/submission.zip
+notebook_path: E:\kagglegolf\submissions\candidates\GOLF_20260608_025_kojimar_6272_full_replace\notebook.ipynb
+changed_tasks: task001,task002,task003,task004,task005,task006,task007,task008,task009,task010,task011,task012,task013,task014,task015,task016,task017,task018,task019,task020,task021,task022,task023,task024,task025,task026,task027,task028,task029,task030,task031,task032,task033,task034,task035,task036,task037,task038,task039,task040,task041,task042,task043,task044,task045,task046,task047,task048,task049,task050,task051,task052,task053,task054,task055,task056,task057,task058,task059,task060,task061,task062,task063,task064,task065,task066,task067,task068,task069,task070,task071,task072,task073,task074,task075,task076,task077,task078,task079,task080,task081,task082,task083,task084,task085,task086,task087,task088,task089,task090,task091,task092,task093,task094,task095,task096,task097,task098,task099,task100,task101,task102,task103,task104,task105,task106,task107,task108,task109,task110,task111,task112,task113,task114,task115,task116,task117,task118,task119,task120,task121,task122,task123,task124,task125,task126,task127,task128,task129,task130,task131,task132,task133,task134,task135,task136,task137,task138,task139,task140,task141,task142,task143,task144,task145,task146,task147,task148,task149,task150,task151,task152,task153,task154,task155,task156,task157,task158,task159,task160,task161,task162,task163,task164,task165,task166,task167,task168,task169,task170,task171,task172,task173,task174,task175,task176,task177,task178,task179,task180,task181,task182,task183,task184,task185,task186,task187,task188,task189,task190,task191,task192,task193,task194,task195,task196,task197,task198,task199,task200,task201,task202,task203,task204,task205,task206,task207,task208,task209,task210,task211,task212,task213,task214,task215,task216,task217,task218,task219,task220,task221,task222,task223,task224,task225,task226,task227,task228,task229,task230,task231,task232,task233,task234,task235,task236,task237,task238,task239,task240,task241,task242,task243,task244,task245,task246,task247,task248,task249,task250,task251,task252,task253,task254,task255,task256,task257,task258,task259,task260,task261,task262,task263,task264,task265,task266,task267,task268,task269,task270,task271,task272,task273,task274,task275,task276,task277,task278,task279,task280,task281,task282,task283,task284,task285,task286,task287,task288,task289,task290,task291,task292,task293,task294,task295,task296,task297,task298,task299,task300,task301,task302,task303,task304,task305,task306,task307,task308,task309,task310,task311,task312,task313,task314,task315,task316,task317,task318,task319,task320,task321,task322,task323,task324,task325,task326,task327,task328,task329,task330,task331,task332,task333,task334,task335,task336,task337,task338,task339,task340,task341,task342,task343,task344,task345,task346,task347,task348,task349,task350,task351,task352,task353,task354,task355,task356,task357,task358,task359,task360,task361,task362,task363,task364,task365,task366,task367,task368,task369,task370,task371,task372,task373,task374,task375,task376,task377,task378,task379,task380,task381,task382,task383,task384,task385,task386,task387,task388,task389,task390,task391,task392,task393,task394,task395,task396,task397,task398,task399,task400
+source_basis: SRC_KAGGLE_NOTEBOOK_KOJIMAR_6272_AUDITED_OVERRIDES
+local_validation: pass
+examples_checked: 1200
+examples_failed: 0
+status: queued_for_submit
+risk: medium
+notes: generated by submit-ready task override pipeline
+
+## GOLF_20260608_025_kojimar_6272_full_replace submit attempt
+
+created_at: 2026-06-08T22:47:04
+kernel_slug: muelsyse111/neurogolf-submit-current
+kernel_version: 11
+kernel_dir: E:\kagglegolf\submissions\candidates\GOLF_20260608_025_kojimar_6272_full_replace\kaggle_kernel
+package_sha256: 94d819192ba5b48686cb317544c121ff8977861580c0d2c1d45d2ab82e5ffbe6
+submit_command: kaggle competitions submit neurogolf-2026 -k muelsyse111/neurogolf-submit-current -v 11 -f submission.zip
+submission_id: 
+status: submitted_waiting_score
+notes:
+
+## GOLF_20260608_014_biohack_task187_probe
+
+created_at: 2026-06-08T23:04:36
+submission_path: submissions/candidates/GOLF_20260608_014_biohack_task187_probe/submission.zip
+notebook_path: E:\kagglegolf\submissions\candidates\GOLF_20260608_014_biohack_task187_probe\notebook.ipynb
+changed_tasks: task187
+source_basis: SRC_KAGGLE_NOTEBOOK_BIOHACK_SUPER_BLEND
+local_validation: pass
+examples_checked: 1200
+examples_failed: 0
+status: queued_for_submit
+risk: medium
+notes: generated by submit-ready task override pipeline
+
+## GOLF_20260608_012_mirza_task187_probe
+
+created_at: 2026-06-08T23:04:45
+submission_path: submissions/candidates/GOLF_20260608_012_mirza_task187_probe/submission.zip
+notebook_path: E:\kagglegolf\submissions\candidates\GOLF_20260608_012_mirza_task187_probe\notebook.ipynb
+changed_tasks: task187
+source_basis: SRC_KAGGLE_NOTEBOOK_MIRZA_BEST_SCORE
+local_validation: pass
+examples_checked: 1200
+examples_failed: 0
+status: queued_for_submit
+risk: medium
+notes: generated by submit-ready task override pipeline
+
+## GOLF_20260608_026_beicicc_task169_probe
+
+created_at: 2026-06-08T23:04:55
+submission_path: submissions/candidates/GOLF_20260608_026_beicicc_task169_probe/submission.zip
+notebook_path: E:\kagglegolf\submissions\candidates\GOLF_20260608_026_beicicc_task169_probe\notebook.ipynb
+changed_tasks: task169
+source_basis: SRC_KAGGLE_NOTEBOOK_BEICICC_6645
+local_validation: pass
+examples_checked: 1200
+examples_failed: 0
+status: queued_for_submit
+risk: medium
+notes: generated by submit-ready task override pipeline
+
+## GOLF_20260608_027_jsrdcht_memory_task018_probe
+
+created_at: 2026-06-08T23:05:06
+submission_path: submissions/candidates/GOLF_20260608_027_jsrdcht_memory_task018_probe/submission.zip
+notebook_path: E:\kagglegolf\submissions\candidates\GOLF_20260608_027_jsrdcht_memory_task018_probe\notebook.ipynb
+changed_tasks: task018
+source_basis: SRC_KAGGLE_NOTEBOOK_JSRDCHT_6029
+local_validation: pass
+examples_checked: 1200
+examples_failed: 0
+status: queued_for_submit
+risk: high
+notes: generated by submit-ready task override pipeline
+
+## GOLF_20260608_028_jonathan_task025_probe
+
+created_at: 2026-06-08T23:05:16
+submission_path: submissions/candidates/GOLF_20260608_028_jonathan_task025_probe/submission.zip
+notebook_path: E:\kagglegolf\submissions\candidates\GOLF_20260608_028_jonathan_task025_probe\notebook.ipynb
+changed_tasks: task025
+source_basis: SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX
+local_validation: pass
+examples_checked: 1200
+examples_failed: 0
+status: queued_for_submit
+risk: medium
+notes: generated by submit-ready task override pipeline
+
+## GOLF_20260608_012_mirza_task187_probe submit attempt
+
+created_at: 2026-06-08T23:06:23
+kernel_slug: muelsyse111/neurogolf-submit-current
+kernel_dir: E:\kagglegolf\submissions\candidates\GOLF_20260608_012_mirza_task187_probe\kaggle_kernel
+package_sha256: 37aea3a24c8a8461458eb232c0a040afc224f32fa090254fabdf5df2038f2a23
+status: manual_submit_required
+notes: pushed but version was not parsed; see E:\kagglegolf\reports\KERNEL_STATUS_GOLF_20260608_012_mirza_task187_probe.txt
+
+## GOLF_20260608_012_mirza_task187_probe submit attempt
+
+created_at: 2026-06-08T23:36:27
+status: pending_timeout
+poll_timeout_seconds: 1800
+last_submission_status: manual_submit_required
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_012_mirza_task187_probe.md
+
+## GOLF_20260608_014_biohack_task187_probe submit attempt
+
+created_at: 2026-06-08T23:37:09
+status: submitted_waiting_score
+submit_path: local_zip_fallback
+fallback_reason: primary and fallback kernel push failed; primary=Expecting value: line 1 column 1 (char 0)
+; fallback=Expecting value: line 1 column 1 (char 0)
+
+submission_id: 
+notes: 0%|          | 0.00/742k [00:00<?, ?B/s]
+  2%|▏         | 16.0k/742k [00:01<01:24, 8.80kB/s]
+100%|██████████| 742k/742k [00:12<00:00, 62.8kB/s] 
+Successfully submitted to The 2026 NeuroGolf Championship
+
+## GOLF_20260608_012_mirza_task187_probe submit attempt
+
+created_at: 2026-06-08T23:48:25
+kernel_slug: muelsyse111/neurogolf-submit-current
+kernel_version: 12
+kernel_dir: E:\kagglegolf\submissions\candidates\GOLF_20260608_012_mirza_task187_probe\kaggle_kernel
+package_sha256: 37aea3a24c8a8461458eb232c0a040afc224f32fa090254fabdf5df2038f2a23
+submit_command: kaggle competitions submit neurogolf-2026 -k muelsyse111/neurogolf-submit-current -v 12 -f submission.zip
+submission_id: 
+status: submitted_waiting_score
+notes:
+
+## GOLF_20260608_012_mirza_task187_probe submit attempt
+
+created_at: 2026-06-08T23:58:29
+status: pending_timeout
+poll_timeout_seconds: 600
+last_submission_status: SubmissionStatus.PENDING
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_012_mirza_task187_probe.md
+
+## GOLF_20260608_026_beicicc_task169_probe submit attempt
+
+created_at: 2026-06-09T00:02:57
+status: submitted_waiting_score
+submit_path: local_zip_fallback
+fallback_reason: kernel output did not contain submission.zip: Kernel log downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260608_026_beicicc_task169_probe\kaggle_output\neurogolf-submit-current.log 
+
+submission_id: 
+notes: 0%|          | 0.00/740k [00:00<?, ?B/s]
+  2%|▏         | 16.0k/740k [00:00<00:19, 37.4kB/s]
+100%|██████████| 740k/740k [00:02<00:00, 277kB/s]  
+Successfully submitted to The 2026 NeuroGolf Championship
+
+## GOLF_20260608_026_beicicc_task169_probe submit attempt
+
+created_at: 2026-06-09T00:02:57
+kernel_slug: muelsyse111/neurogolf-submit-current
+kernel_version: 13
+kernel_dir: E:\kagglegolf\submissions\candidates\GOLF_20260608_026_beicicc_task169_probe\kaggle_kernel
+package_sha256: a673c3fe0edf160d9dce91c11a2042afd690dc5b0e2a31999afd5ae81eeeee35
+status: submitted_waiting_score
+notes: output verification failed; attempted local zip fallback
+
+## GOLF_20260608_026_beicicc_task169_probe submit attempt
+
+created_at: 2026-06-09T00:13:03
+status: pending_timeout
+poll_timeout_seconds: 600
+last_submission_status: SubmissionStatus.PENDING
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_026_beicicc_task169_probe.md
+
+## GOLF_20260608_027_jsrdcht_memory_task018_probe submit attempt
+
+created_at: 2026-06-09T00:17:38
+status: submitted_waiting_score
+submit_path: local_zip_fallback
+fallback_reason: kernel output did not contain submission.zip: Kernel log downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260608_027_jsrdcht_memory_task018_probe\kaggle_output\neurogolf-submit-current.log 
+
+submission_id: 
+notes: 0%|          | 0.00/742k [00:00<?, ?B/s]
+  2%|▏         | 16.0k/742k [00:01<00:52, 14.2kB/s]
+100%|██████████| 742k/742k [00:19<00:00, 14.2kB/s] 
+100%|██████████| 742k/742k [00:22<00:00, 33.9kB/s]
+Successfully submitted to The 2026 NeuroGolf Championship
+
+## GOLF_20260608_027_jsrdcht_memory_task018_probe submit attempt
+
+created_at: 2026-06-09T00:17:38
+kernel_slug: muelsyse111/neurogolf-submit-current
+kernel_version: 14
+kernel_dir: E:\kagglegolf\submissions\candidates\GOLF_20260608_027_jsrdcht_memory_task018_probe\kaggle_kernel
+package_sha256: 38cd64f6ba6b61bd7b74d16b1304070b49ab1dd4080ac4010e3f4df0b95dcf70
+status: submitted_waiting_score
+notes: output verification failed; attempted local zip fallback
+
+## GOLF_20260608_027_jsrdcht_memory_task018_probe submit attempt
+
+created_at: 2026-06-09T00:27:46
+status: pending_timeout
+poll_timeout_seconds: 600
+last_submission_status: SubmissionStatus.PENDING
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_027_jsrdcht_memory_task018_probe.md
+
+## GOLF_20260608_028_jonathan_task025_probe submit attempt
+
+created_at: 2026-06-09T00:28:45
+kernel_slug: muelsyse111/neurogolf-submit-current
+kernel_version: 15
+kernel_dir: E:\kagglegolf\submissions\candidates\GOLF_20260608_028_jonathan_task025_probe\kaggle_kernel
+package_sha256: 78932090201f7fe8f4261bcfc7a72efba14e9438e9092521ebfb6266a54431a0
+submit_command: kaggle competitions submit neurogolf-2026 -k muelsyse111/neurogolf-submit-current -v 15 -f submission.zip
+submission_id: 
+status: submitted_waiting_score
+notes:
+
+## GOLF_20260608_028_jonathan_task025_probe submit attempt
+
+created_at: 2026-06-09T00:38:52
+status: pending_timeout
+poll_timeout_seconds: 600
+last_submission_status: SubmissionStatus.PENDING
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_028_jonathan_task025_probe.md

@@ -1,0 +1,2 @@
+task_id,model_path,source_id,method_family,risk,cost_proxy
+task187,E:\kagglegolf\data\external\public_kernel_outputs\biohack_super_blend\_src_A\task187.onnx,SRC_KAGGLE_NOTEBOOK_BIOHACK_SUPER_BLEND,biohack_partial_public_harvest,medium,8852

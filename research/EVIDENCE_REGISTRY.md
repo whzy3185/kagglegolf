@@ -398,3 +398,21 @@ rule_status: public_source
 repro_status: not_started
 priority: P1
 assigned_exp_id:
+
+## SRC_KAGGLE_NOTEBOOK_KOJIMAR_6272_AUDITED_OVERRIDES
+
+source_id: SRC_KAGGLE_NOTEBOOK_KOJIMAR_6272_AUDITED_OVERRIDES
+source_type: notebook
+title: [6272.50 LB] Audited NeuroGolf ONNX Overrides
+author_or_team: islet / kojimar
+url_or_identifier: https://www.kaggle.com/code/kojimar/6272-50-lb-audited-neurogolf-onnx-overrides
+date_accessed: 2026-06-08
+claimed_score: 6272.50
+tasks_mentioned: all; base_submission plus 300 override ONNX tasks
+idea_summary: Fresh public high-score audited override notebook. Companion dataset kojimar/neurogolf-6272-50-minimal-onnx-assets-v1 provides 400 base ONNX files and 300 overrides, enabling full bundle reproduction and task-level harvest.
+implementation_hint: Rebuild submission by overlaying overrides on base_submission; validate full bundle first, then harvest individual override tasks and targeted probes.
+risk: medium
+rule_status: public_notebook_and_cc0_dataset
+repro_status: reproducing
+priority: P0
+assigned_exp_id: GOLF_20260608_025_kojimar_6272_full_replace

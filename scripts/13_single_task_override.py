@@ -341,7 +341,7 @@ def main() -> None:
 
     evidence_row = {
         "exp_id": args.exp_id,
-        "lane": "S_target_7000_submission_push",
+        "lane": "S_target_7800_submission_push",
         "direction_id": args.direction_id,
         "leaderboard_source_id": args.leaderboard_source_id,
         "paper_source_id": args.paper_source_id,
@@ -476,14 +476,14 @@ def main() -> None:
             {
                 "exp_id": args.exp_id,
                 "date": date.today().isoformat(),
-                "lane": "S_target_7000_submission_push",
+                "lane": "S_target_7800_submission_push",
                 "direction_id": args.direction_id,
                 "leaderboard_source_id": args.leaderboard_source_id,
                 "paper_source_id": args.paper_source_id,
                 "open_repo_source_id": args.open_repo_source_id,
                 "historical_competition_source_id": args.historical_competition_source_id,
                 "source_id": args.source_id,
-                "goal": "submit source-backed task override candidate toward 7000+ target",
+                "goal": "submit source-backed task override candidate toward 7800+ target",
                 "changed_tasks": ",".join(r["task_id"] for r in changed),
                 "method": "task_override",
                 "local_valid": local_valid,

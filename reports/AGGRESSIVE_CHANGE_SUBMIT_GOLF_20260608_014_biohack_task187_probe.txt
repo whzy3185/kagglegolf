@@ -1,0 +1,4 @@
+exp_id=GOLF_20260608_014_biohack_task187_probe
+AGS=0.577931
+classification=strong
+submission_gate_pass=true

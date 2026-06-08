@@ -1,0 +1,13 @@
+{
+  "exp_id": "GOLF_20260608_021_jsrdcht_memory_task255_probe",
+  "source_id": "SRC_KAGGLE_NOTEBOOK_JSRDCHT_6029",
+  "changed_tasks": [
+    "task255"
+  ],
+  "package_sha256": "9c5ce0299327707e9d8f9762a7dd7962fe6ab6e966334caa49df3ec09dcdef6b",
+  "high_risk": true,
+  "normal_bank_allowed": false,
+  "submission_id": "53480149",
+  "public_score": "6151.46",
+  "decision": "rejected_for_current_base"
+}

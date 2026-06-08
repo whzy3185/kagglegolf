@@ -1,0 +1,4 @@
+exp_id=GOLF_20260608_025_kojimar_6272_full_replace
+AGS=0.639500
+classification=strong
+submission_gate_pass=true

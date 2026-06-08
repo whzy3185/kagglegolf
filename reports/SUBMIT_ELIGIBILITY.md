@@ -1,6 +1,6 @@
 # Submit Eligibility
 
-checked_at: 2026-06-08T22:04:43
+checked_at: 2026-06-08T23:05:45
 policy: hard gates decide eligibility; soft penalties only order submissions.
 
 | exp_id | eligible | hard_gate_status | soft_penalties | submit_order | reason |
@@ -15,11 +15,17 @@ policy: hard gates decide eligibility; soft penalties only order submissions.
 | GOLF_20260608_006_biohack_super_blend_structural_pass_mix | false | already_submitted, aggressive_change_gate_not_passed | not_applicable |  | hard_gate_blocked |
 | GOLF_20260608_016_jonathan_task233_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
 | GOLF_20260608_016_jonathan_task255_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
-| GOLF_20260608_017_jonathan_task286_probe | true | pass | low_expected_lb_upside, low_selection_score, recent_negative_source_penalty, same_family_negative_penalty | 8 | eligible; soft penalties do not block |
-| GOLF_20260608_018_jonathan_task173_probe | true | pass | low_expected_lb_upside, low_selection_score, recent_negative_source_penalty, same_family_negative_penalty | 6 | eligible; soft penalties do not block |
-| GOLF_20260608_019_jonathan_top5_mix_probe | true | pass | low_expected_lb_upside, low_selection_score, recent_negative_source_penalty, same_family_negative_penalty | 7 | eligible; soft penalties do not block |
-| GOLF_20260608_020_beicicc_task366_probe | true | pass | low_expected_lb_upside, recent_negative_source_penalty | 1 | eligible; soft penalties do not block |
-| GOLF_20260608_021_jsrdcht_memory_task255_probe | true | pass | low_expected_lb_upside, low_selection_score, recent_negative_source_penalty, same_family_negative_penalty | 3 | eligible; soft penalties do not block |
-| GOLF_20260608_022_jonathan_task285_probe | true | pass | low_expected_lb_upside, low_selection_score, recent_negative_source_penalty, same_family_negative_penalty | 5 | eligible; soft penalties do not block |
-| GOLF_20260608_023_beicicc_task076_probe | true | pass | low_expected_lb_upside, recent_negative_source_penalty | 2 | eligible; soft penalties do not block |
-| GOLF_20260608_024_jsrdcht_memory_task285_probe | true | pass | low_expected_lb_upside, low_selection_score, recent_negative_source_penalty, same_family_negative_penalty | 4 | eligible; soft penalties do not block |
+| GOLF_20260608_017_jonathan_task286_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_018_jonathan_task173_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_019_jonathan_top5_mix_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_020_beicicc_task366_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_021_jsrdcht_memory_task255_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_022_jonathan_task285_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_023_beicicc_task076_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_024_jsrdcht_memory_task285_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_025_kojimar_6272_full_replace | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_014_biohack_task187_probe | true | pass | none | 2 | eligible; soft penalties do not block |
+| GOLF_20260608_012_mirza_task187_probe | true | pass | none | 1 | eligible; soft penalties do not block |
+| GOLF_20260608_026_beicicc_task169_probe | true | pass | low_expected_lb_upside, recent_negative_source_penalty | 3 | eligible; soft penalties do not block |
+| GOLF_20260608_027_jsrdcht_memory_task018_probe | true | pass | low_expected_lb_upside, low_selection_score, recent_negative_source_penalty, same_family_negative_penalty | 5 | eligible; soft penalties do not block |
+| GOLF_20260608_028_jonathan_task025_probe | true | pass | low_expected_lb_upside, low_selection_score, recent_negative_source_penalty, same_family_negative_penalty | 4 | eligible; soft penalties do not block |

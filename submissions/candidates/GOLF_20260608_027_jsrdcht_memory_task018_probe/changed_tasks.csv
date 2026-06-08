@@ -1,0 +1,2 @@
+task_id,model_path,source_id,method_family,risk,cost_proxy
+task018,E:\kagglegolf\data\external\public_bundles\jsrdcht_6029_submission_bundle\extracted\task018.onnx,SRC_KAGGLE_NOTEBOOK_JSRDCHT_6029,high_risk_boundary_or_unknown,high,872209
