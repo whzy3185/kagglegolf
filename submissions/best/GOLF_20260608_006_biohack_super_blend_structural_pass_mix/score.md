@@ -1,9 +1,8 @@
-# Current Best
+# GOLF_20260608_006_biohack_super_blend_structural_pass_mix
 
-exp_id: GOLF_20260608_006_biohack_super_blend_structural_pass_mix
 submission id: 53472838
 public score: 6154.71
-status: complete
+status: SubmissionStatus.COMPLETE
 source ids: SRC_KAGGLE_NOTEBOOK_OCTAVIO_6154, SRC_KAGGLE_DATASET_OCTAVIO_REWRITES_V205
 local validation: pass
 examples checked: 1200
