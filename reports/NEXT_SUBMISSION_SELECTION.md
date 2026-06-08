@@ -1,13 +1,13 @@
 # Next Submission Selection
 
-checked_at: 2026-06-09T00:51:39
-current_best: 6272.50 (GOLF_20260608_025_kojimar_6272_full_replace)
-candidate_count: 25
-eligible_count: 1
-blocked_count: 24
-selected_candidate: GOLF_20260608_029_seddik_surgery_6272
-selection_score: 0.633345
-selection_reason: class=large_subgraph_rewrite; AGS=0.506; structural_scale=0.90; source=0.65; upside=0.45; novelty=1.00; attribution=0.55; tail_bonus=0.75; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=0.00; same_family_negative_penalty=0.00; source_diversity_bonus=1.00; risk_penalty=0.35
+checked_at: 2026-06-09T01:46:54
+current_best: 6272.60 (GOLF_20260608_029_seddik_surgery_6272)
+candidate_count: 27
+eligible_count: 0
+blocked_count: 27
+selected_candidate: none
+selection_score: 
+selection_reason: No eligible candidate.
 
 policy: selection is ordering only, not a blocking gate
 soft_penalties: affect submit order only; hard blocks are local validation, evidence gate, AGS gate, missing artifact, empty changed_tasks, already submitted, or explicit validation/evidence/metadata failure.
@@ -16,13 +16,13 @@ soft_penalties: affect submit order only; hard blocks are local validation, evid
 
 | order | exp_id | score | soft_penalties |
 |---:|---|---:|---|
-| 1 | GOLF_20260608_029_seddik_surgery_6272 | 0.633345 | none |
+| - | none | - | - |
 
 ## Top 10
 
 | rank | exp_id | score | class | risk | tasks | source |
 |---:|---|---:|---|---|---:|---|
-| 1 | GOLF_20260608_029_seddik_surgery_6272 | 0.633345 | large_subgraph_rewrite | medium | 20 | SRC_KAGGLE_NOTEBOOK_SEDDIK_SURGICAL_ONNX |
+| - | none | - | - | - | - | - |
 
 ## Blocked Candidates
 
@@ -50,6 +50,9 @@ soft_penalties: affect submit order only; hard blocks are local validation, evid
 - GOLF_20260608_026_beicicc_task169_probe: already_submitted
 - GOLF_20260608_027_jsrdcht_memory_task018_probe: already_submitted
 - GOLF_20260608_028_jonathan_task025_probe: already_submitted
+- GOLF_20260608_029_seddik_surgery_6272: already_submitted
+- GOLF_20260608_030_beicicc_inline_full: local_validation_not_passed, aggressive_change_gate_not_passed, blocked_status:failed_local_validation
+- GOLF_20260608_031_beicicc_inline_396_mix: already_submitted
 
 ## Negative Feedback Policy
 
@@ -57,4 +60,4 @@ Same-source, same-family, known-bad, low-upside, and broad-without-positive-prob
 
 ## Next Action
 
-Submit all hard-gate eligible candidates through `scripts/19_submit_queue.py --submit-all-eligible --limit 999`.
+Generate a validator-pass probe candidate, score it with AGS, then rerun selection.

@@ -10,6 +10,7 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
+| 53484663 | GOLF_20260608_031_beicicc_inline_396_mix | SubmissionStatus.COMPLETE | 5043.59 |
 | 53484027 | GOLF_20260608_029_seddik_surgery_6272 | SubmissionStatus.COMPLETE | 6272.60 |
 | 53483583 | GOLF_20260608_028_jonathan_task025_probe | SubmissionStatus.COMPLETE | 6259.35 |
 | 53483350 | GOLF_20260608_027_jsrdcht_memory_task018_probe | SubmissionStatus.COMPLETE | 6271.90 |

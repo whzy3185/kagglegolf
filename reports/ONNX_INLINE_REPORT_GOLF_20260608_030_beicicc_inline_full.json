@@ -1,0 +1,3613 @@
+{
+  "source": "",
+  "target": "",
+  "source_dir": "submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx",
+  "target_dir": "data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full",
+  "compress_uniform": true,
+  "inline_functions": true,
+  "task_count": 400,
+  "changed_count": 318,
+  "saved_parameters": 0,
+  "rows": [
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task001.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task001.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task002.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task002.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task003.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task003.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task004.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task004.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task005.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task005.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task006.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task006.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task007.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task007.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task008.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task008.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task009.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task009.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task010.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task010.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task011.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task011.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task012.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task012.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task013.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task013.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task014.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task014.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task015.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task015.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task016.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task016.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task017.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task017.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task018.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task018.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task019.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task019.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task020.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task020.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task021.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task021.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task022.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task022.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task023.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task023.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task024.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task024.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task025.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task025.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task026.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task026.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task027.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task027.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task028.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task028.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task029.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task029.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task030.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task030.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task031.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task031.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task032.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task032.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task033.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task033.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task034.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task034.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task035.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task035.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task036.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task036.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task037.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task037.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task038.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task038.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task039.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task039.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task040.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task040.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task041.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task041.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task042.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task042.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task043.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task043.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task044.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task044.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task045.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task045.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task046.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task046.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task047.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task047.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task048.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task048.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task049.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task049.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task050.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task050.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task051.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task051.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task052.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task052.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task053.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task053.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task054.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task054.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task055.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task055.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task056.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task056.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task057.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task057.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task058.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task058.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task059.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task059.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task060.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task060.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task061.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task061.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task062.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task062.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task063.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task063.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task064.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task064.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task065.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task065.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task066.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task066.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task067.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task067.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task068.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task068.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task069.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task069.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task070.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task070.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task071.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task071.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task072.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task072.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task073.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task073.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task074.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task074.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task075.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task075.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task076.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task076.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task077.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task077.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task078.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task078.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task079.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task079.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task080.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task080.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task081.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task081.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task082.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task082.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task083.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task083.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task084.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task084.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task085.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task085.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task086.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task086.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task087.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task087.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task088.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task088.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task089.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task089.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task090.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task090.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task091.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task091.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task092.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task092.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task093.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task093.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task094.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task094.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task095.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task095.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task096.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task096.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task097.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task097.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task098.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task098.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task099.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task099.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task100.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task100.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task101.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task101.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task102.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task102.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task103.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task103.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task104.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task104.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task105.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task105.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task106.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task106.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task107.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task107.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task108.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task108.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task109.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task109.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task110.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task110.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task111.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task111.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task112.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task112.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task113.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task113.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task114.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task114.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task115.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task115.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task116.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task116.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task117.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task117.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task118.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task118.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task119.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task119.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task120.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task120.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task121.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task121.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task122.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task122.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task123.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task123.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task124.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task124.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task125.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task125.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task126.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task126.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task127.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task127.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task128.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task128.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task129.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task129.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task130.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task130.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task131.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task131.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task132.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task132.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task133.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task133.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task134.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task134.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task135.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task135.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task136.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task136.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task137.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task137.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task138.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task138.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task139.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task139.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task140.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task140.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task141.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task141.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task142.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task142.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task143.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task143.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task144.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task144.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task145.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task145.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task146.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task146.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task147.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task147.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task148.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task148.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task149.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task149.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task150.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task150.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task151.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task151.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task152.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task152.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task153.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task153.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task154.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task154.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task155.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task155.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task156.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task156.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task157.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task157.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task158.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task158.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task159.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task159.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task160.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task160.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task161.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task161.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task162.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task162.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task163.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task163.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task164.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task164.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task165.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task165.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task166.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task166.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task167.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task167.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task168.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task168.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task169.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task169.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task170.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task170.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task171.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task171.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task172.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task172.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task173.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task173.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task174.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task174.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task175.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task175.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task176.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task176.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task177.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task177.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task178.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task178.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task179.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task179.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task180.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task180.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task181.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task181.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task182.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task182.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task183.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task183.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task184.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task184.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task185.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task185.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task186.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task186.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task187.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task187.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task188.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task188.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task189.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task189.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task190.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task190.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task191.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task191.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task192.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task192.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task193.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task193.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task194.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task194.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task195.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task195.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task196.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task196.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task197.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task197.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task198.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task198.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task199.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task199.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task200.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task200.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task201.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task201.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task202.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task202.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task203.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task203.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task204.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task204.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task205.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task205.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task206.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task206.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task207.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task207.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task208.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task208.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task209.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task209.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task210.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task210.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task211.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task211.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task212.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task212.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task213.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task213.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task214.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task214.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task215.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task215.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task216.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task216.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task217.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task217.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task218.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task218.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task219.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task219.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task220.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task220.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task221.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task221.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task222.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task222.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task223.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task223.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task224.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task224.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task225.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task225.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task226.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task226.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task227.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task227.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task228.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task228.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task229.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task229.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task230.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task230.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task231.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task231.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task232.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task232.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task233.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task233.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task234.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task234.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task235.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task235.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task236.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task236.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task237.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task237.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task238.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task238.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task239.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task239.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task240.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task240.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task241.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task241.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task242.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task242.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task243.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task243.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task244.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task244.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task245.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task245.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task246.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task246.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task247.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task247.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task248.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task248.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task249.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task249.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task250.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task250.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task251.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task251.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task252.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task252.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task253.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task253.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task254.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task254.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task255.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task255.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task256.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task256.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task257.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task257.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task258.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task258.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task259.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task259.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task260.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task260.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task261.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task261.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task262.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task262.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task263.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task263.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task264.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task264.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task265.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task265.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task266.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task266.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task267.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task267.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task268.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task268.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task269.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task269.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task270.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task270.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task271.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task271.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task272.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task272.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task273.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task273.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task274.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task274.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task275.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task275.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task276.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task276.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task277.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task277.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task278.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task278.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task279.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task279.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task280.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task280.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task281.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task281.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task282.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task282.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task283.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task283.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task284.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task284.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task285.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task285.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task286.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task286.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task287.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task287.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task288.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task288.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task289.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task289.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task290.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task290.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task291.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task291.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task292.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task292.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task293.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task293.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task294.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task294.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task295.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task295.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task296.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task296.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task297.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task297.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task298.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task298.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task299.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task299.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task300.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task300.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task301.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task301.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task302.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task302.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task303.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task303.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task304.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task304.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task305.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task305.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task306.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task306.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task307.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task307.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task308.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task308.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task309.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task309.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task310.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task310.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task311.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task311.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task312.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task312.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task313.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task313.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task314.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task314.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task315.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task315.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task316.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task316.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task317.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task317.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task318.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task318.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task319.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task319.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task320.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task320.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task321.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task321.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task322.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task322.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task323.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task323.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task324.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task324.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task325.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task325.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task326.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task326.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task327.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task327.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task328.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task328.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task329.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task329.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task330.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task330.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task331.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task331.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task332.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task332.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task333.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task333.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task334.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task334.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task335.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task335.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task336.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task336.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task337.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task337.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task338.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task338.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task339.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task339.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task340.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task340.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task341.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task341.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task342.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task342.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task343.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task343.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task344.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task344.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task345.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task345.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task346.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task346.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task347.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task347.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task348.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task348.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task349.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task349.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task350.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task350.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task351.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task351.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task352.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task352.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task353.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task353.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task354.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task354.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task355.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task355.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task356.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task356.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task357.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task357.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task358.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task358.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task359.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task359.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task360.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task360.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task361.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task361.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task362.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task362.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task363.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task363.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task364.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task364.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task365.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task365.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task366.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task366.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task367.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task367.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task368.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task368.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task369.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task369.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task370.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task370.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task371.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task371.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task372.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task372.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task373.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task373.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task374.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task374.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task375.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task375.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task376.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task376.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task377.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task377.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task378.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task378.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task379.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task379.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task380.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task380.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task381.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task381.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task382.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task382.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task383.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task383.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task384.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task384.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task385.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task385.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task386.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task386.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task387.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task387.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task388.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task388.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task389.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task389.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task390.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task390.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task391.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task391.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task392.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task392.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task393.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task393.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task394.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task394.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task395.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task395.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task396.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task396.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task397.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task397.onnx",
+      "function_nodes_inlined": 1,
+      "functions_removed": 1,
+      "nonstandard_opsets_removed": 1,
+      "status": "inlined",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task398.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task398.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task399.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task399.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    },
+    {
+      "path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260607_004_public_notebook_full_replace\\onnx\\task400.onnx",
+      "output_path": "E:\\kagglegolf\\data\\interim\\beicicc_6645_inline\\GOLF_20260608_030_beicicc_inline_full\\task400.onnx",
+      "function_nodes_inlined": 0,
+      "functions_removed": 0,
+      "nonstandard_opsets_removed": 0,
+      "status": "unchanged",
+      "error": ""
+    }
+  ]
+}

@@ -1,71 +1,13 @@
 {
-  "checked_at": "2026-06-09T00:51:39",
-  "current_best_score": 6272.5,
-  "current_best_exp_id": "GOLF_20260608_025_kojimar_6272_full_replace",
-  "candidate_count": 25,
-  "eligible_count": 1,
-  "blocked_count": 24,
-  "selected_exp_id": "GOLF_20260608_029_seddik_surgery_6272",
-  "selected": {
-    "exp_id": "GOLF_20260608_029_seddik_surgery_6272",
-    "selection_score": 0.633345,
-    "selection_reason": "class=large_subgraph_rewrite; AGS=0.506; structural_scale=0.90; source=0.65; upside=0.45; novelty=1.00; attribution=0.55; tail_bonus=0.75; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=0.00; same_family_negative_penalty=0.00; source_diversity_bonus=1.00; risk_penalty=0.35",
-    "risk": "medium",
-    "source_id": "SRC_KAGGLE_NOTEBOOK_SEDDIK_SURGICAL_ONNX",
-    "changed_task_count": 20,
-    "lane": "normal",
-    "structural_class": "large_subgraph_rewrite",
-    "large_structure_bonus": 0.15,
-    "positive_probe_required_for_broad_mix": false,
-    "components": {
-      "ags": 0.506115,
-      "structural_scale_score": 0.9,
-      "source_priority_score": 0.65,
-      "expected_lb_upside": 0.45,
-      "novelty_vs_submitted": 1.0,
-      "attribution_value": 0.55,
-      "bottom_tail_or_memory_tail_bonus": 0.75,
-      "known_bad_family_penalty": 0.0,
-      "small_tuning_penalty": 0.0,
-      "recent_negative_source_penalty": 0.0,
-      "same_family_negative_penalty": 0.0,
-      "source_diversity_bonus": 1.0,
-      "risk_penalty": 0.35
-    },
-    "package_sha256": "b500baa72993bebd1d6a8778542532dbe75c62ae2799ac4f765207f13a42681c",
-    "soft_penalties": []
-  },
-  "ranked_candidates": [
-    {
-      "exp_id": "GOLF_20260608_029_seddik_surgery_6272",
-      "selection_score": 0.633345,
-      "selection_reason": "class=large_subgraph_rewrite; AGS=0.506; structural_scale=0.90; source=0.65; upside=0.45; novelty=1.00; attribution=0.55; tail_bonus=0.75; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=0.00; same_family_negative_penalty=0.00; source_diversity_bonus=1.00; risk_penalty=0.35",
-      "risk": "medium",
-      "source_id": "SRC_KAGGLE_NOTEBOOK_SEDDIK_SURGICAL_ONNX",
-      "changed_task_count": 20,
-      "lane": "normal",
-      "structural_class": "large_subgraph_rewrite",
-      "large_structure_bonus": 0.15,
-      "positive_probe_required_for_broad_mix": false,
-      "components": {
-        "ags": 0.506115,
-        "structural_scale_score": 0.9,
-        "source_priority_score": 0.65,
-        "expected_lb_upside": 0.45,
-        "novelty_vs_submitted": 1.0,
-        "attribution_value": 0.55,
-        "bottom_tail_or_memory_tail_bonus": 0.75,
-        "known_bad_family_penalty": 0.0,
-        "small_tuning_penalty": 0.0,
-        "recent_negative_source_penalty": 0.0,
-        "same_family_negative_penalty": 0.0,
-        "source_diversity_bonus": 1.0,
-        "risk_penalty": 0.35
-      },
-      "package_sha256": "b500baa72993bebd1d6a8778542532dbe75c62ae2799ac4f765207f13a42681c",
-      "soft_penalties": []
-    }
-  ],
+  "checked_at": "2026-06-09T01:46:54",
+  "current_best_score": 6272.6,
+  "current_best_exp_id": "GOLF_20260608_029_seddik_surgery_6272",
+  "candidate_count": 27,
+  "eligible_count": 0,
+  "blocked_count": 27,
+  "selected_exp_id": "",
+  "selected": null,
+  "ranked_candidates": [],
   "blocked_candidates": [
     {
       "exp_id": "GOLF_20260607_002_public_6029_aggressive_mix",
@@ -215,6 +157,26 @@
     },
     {
       "exp_id": "GOLF_20260608_028_jonathan_task025_probe",
+      "reasons": [
+        "already_submitted"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260608_029_seddik_surgery_6272",
+      "reasons": [
+        "already_submitted"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260608_030_beicicc_inline_full",
+      "reasons": [
+        "local_validation_not_passed",
+        "aggressive_change_gate_not_passed",
+        "blocked_status:failed_local_validation"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260608_031_beicicc_inline_396_mix",
       "reasons": [
         "already_submitted"
       ]

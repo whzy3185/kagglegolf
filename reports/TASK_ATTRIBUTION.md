@@ -1,6 +1,6 @@
 # Task Attribution
 
-updated_at: 2026-06-09T01:09:07
+updated_at: 2026-06-09T01:46:10
 
 | exp_id | task/bundle | count | score | delta parent | strength | decision | normal bank | high-risk bank |
 |---|---|---:|---:|---:|---|---|---|---|
@@ -33,5 +33,6 @@ updated_at: 2026-06-09T01:09:07
 | GOLF_20260608_027_jsrdcht_memory_task018_probe | task018 | 1 | 6271.90 | -0.600000 | strong | rejected_for_current_base | false | true |
 | GOLF_20260608_028_jonathan_task025_probe | task025 | 1 | 6259.35 | -13.150000 | strong | rejected_for_current_base | false | false |
 | GOLF_20260608_029_seddik_surgery_6272 | bundle_20_tasks | 20 | 6272.60 | 0.100000 | weak | multi_task_unresolved | false | false |
+| GOLF_20260608_031_beicicc_inline_396_mix | bundle_396_tasks | 396 | 5043.59 | -1229.010000 | bundle_only | bundle_negative | false | false |
 
 Broad mixes are bundle-level evidence only. High-risk wins remain outside the normal task bank.

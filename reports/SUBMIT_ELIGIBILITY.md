@@ -1,6 +1,6 @@
 # Submit Eligibility
 
-checked_at: 2026-06-09T00:51:39
+checked_at: 2026-06-09T01:46:54
 policy: hard gates decide eligibility; soft penalties only order submissions.
 
 | exp_id | eligible | hard_gate_status | soft_penalties | submit_order | reason |
@@ -29,4 +29,6 @@ policy: hard gates decide eligibility; soft penalties only order submissions.
 | GOLF_20260608_026_beicicc_task169_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
 | GOLF_20260608_027_jsrdcht_memory_task018_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
 | GOLF_20260608_028_jonathan_task025_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
-| GOLF_20260608_029_seddik_surgery_6272 | true | pass | none | 1 | eligible; soft penalties do not block |
+| GOLF_20260608_029_seddik_surgery_6272 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_030_beicicc_inline_full | false | local_validation_not_passed, aggressive_change_gate_not_passed, blocked_status:failed_local_validation | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_031_beicicc_inline_396_mix | false | already_submitted | not_applicable |  | hard_gate_blocked |

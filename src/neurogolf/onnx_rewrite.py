@@ -49,6 +49,17 @@ class RewriteStats:
     error: str = ""
 
 
+@dataclass
+class InlineStats:
+    path: str
+    output_path: str
+    function_nodes_inlined: int
+    functions_removed: int
+    nonstandard_opsets_removed: int
+    status: str
+    error: str = ""
+
+
 def _param_count(initializers: Iterable[onnx.TensorProto]) -> int:
     total = 0
     for init in initializers:
@@ -139,6 +150,74 @@ def compress_uniform_initializers(model: onnx.ModelProto) -> tuple[int, int]:
     return compressed, saved
 
 
+def inline_local_functions(model: onnx.ModelProto) -> tuple[int, int, int]:
+    """Inline FunctionProto calls with concrete graph nodes.
+
+    NeuroGolf public artifacts sometimes package task logic as a custom-domain
+    function, for example golf::Identity. ORT can execute it, but the local
+    structural gate rejects nonstandard opset domains and model.functions. This
+    routine expands such calls into ordinary ONNX nodes and then drops custom
+    function declarations/opset imports.
+    """
+
+    functions = {(func.domain, func.name): func for func in model.functions}
+    if not functions:
+        return 0, 0, 0
+
+    inlined = 0
+    rewritten_nodes = []
+    for call_index, node in enumerate(model.graph.node):
+        func = functions.get((node.domain, node.op_type))
+        if func is None:
+            rewritten_nodes.append(node)
+            continue
+
+        inlined += 1
+        value_map: dict[str, str] = {}
+        for formal, actual in zip(func.input, node.input):
+            value_map[formal] = actual
+        for formal, actual in zip(func.output, node.output):
+            value_map[formal] = actual
+
+        prefix = f"inline_{call_index}_{node.op_type}_"
+        for body_index, body_node in enumerate(func.node):
+            new_node = onnx.NodeProto()
+            new_node.CopyFrom(body_node)
+            del new_node.input[:]
+            del new_node.output[:]
+
+            for name in body_node.input:
+                if not name:
+                    new_node.input.append(name)
+                else:
+                    new_node.input.append(value_map.get(name, prefix + name))
+            for name in body_node.output:
+                mapped = value_map.get(name)
+                if mapped is None:
+                    mapped = prefix + name
+                    value_map[name] = mapped
+                new_node.output.append(mapped)
+            if body_node.name:
+                new_node.name = prefix + body_node.name
+            else:
+                new_node.name = f"{prefix}node_{body_index}"
+            rewritten_nodes.append(new_node)
+
+    if not inlined:
+        return 0, 0, 0
+
+    removed_functions = len(model.functions)
+    del model.graph.node[:]
+    model.graph.node.extend(rewritten_nodes)
+    del model.functions[:]
+
+    kept_opsets = [opset for opset in model.opset_import if opset.domain in {"", "ai.onnx"}]
+    removed_opsets = len(model.opset_import) - len(kept_opsets)
+    del model.opset_import[:]
+    model.opset_import.extend(kept_opsets)
+    return inlined, removed_functions, removed_opsets
+
+
 def rewrite_model(source: Path, target: Path, *, compress_uniform: bool = True) -> RewriteStats:
     before = onnx.load(str(source))
     model = onnx.load(str(source))
@@ -197,6 +276,43 @@ def rewrite_submission_dir(source_dir: Path, target_dir: Path, *, compress_unifo
     for source in sorted(source_dir.glob("task*.onnx")):
         target = target_dir / source.name
         stats = rewrite_model(source, target, compress_uniform=compress_uniform)
+        rows.append(asdict(stats))
+    return rows
+
+
+def inline_model(source: Path, target: Path) -> InlineStats:
+    model = onnx.load(str(source))
+    inlined = removed_functions = removed_opsets = 0
+    status = "unchanged"
+    error = ""
+    try:
+        inlined, removed_functions, removed_opsets = inline_local_functions(model)
+        onnx.checker.check_model(model, full_check=True)
+        status = "inlined" if inlined else "unchanged"
+    except Exception as exc:
+        status = "failed"
+        error = f"{type(exc).__name__}: {exc}"
+        model = onnx.load(str(source))
+
+    target.parent.mkdir(parents=True, exist_ok=True)
+    onnx.save(model, str(target))
+    return InlineStats(
+        path=str(source),
+        output_path=str(target),
+        function_nodes_inlined=inlined if status != "failed" else 0,
+        functions_removed=removed_functions if status != "failed" else 0,
+        nonstandard_opsets_removed=removed_opsets if status != "failed" else 0,
+        status=status,
+        error=error,
+    )
+
+
+def inline_submission_dir(source_dir: Path, target_dir: Path) -> list[dict]:
+    rows = []
+    target_dir.mkdir(parents=True, exist_ok=True)
+    for source in sorted(source_dir.glob("task*.onnx")):
+        target = target_dir / source.name
+        stats = inline_model(source, target)
         rows.append(asdict(stats))
     return rows
 

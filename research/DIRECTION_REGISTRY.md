@@ -168,6 +168,8 @@ target_exp_ids:
   - GOLF_20260607_004_public_notebook_full_replace
   - GOLF_20260608_004b_beicicc_structural_pass_mix
   - GOLF_20260608_004c_beicicc_domain_normalized_mix
+  - GOLF_20260608_030_beicicc_inline_full
+  - GOLF_20260608_031_beicicc_inline_396_mix
 
 hypothesis:
   Beicicc 6645 public solution has stronger leaderboard score than the current 6154 baseline, but its raw artifact fails local structural validation due to nonstandard ONNX domains/functions. Structural-pass task harvesting or safe normalization may recover usable high-score components.

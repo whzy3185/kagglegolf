@@ -1,0 +1,102 @@
+﻿ref                                                                title                                              author                     lastRunTime                 totalVotes  
+-----------------------------------------------------------------  -------------------------------------------------  -------------------------  --------------------------  ----------  
+mirzayasirabdullah07/best-score-neurogolf-championship-notebook    Best Score NeuroGolf Championship NoteBook         Mirza Yasir Abdullah Baig  2026-06-07 12:09:24.833000          63  
+beicicc/neurogolf-6645-39-public-score-open-solution               NeuroGolf 6645.39 Public Score Open Solution       Kun Zhang                  2026-04-30 16:34:13.720000          28  
+jonathanchan/ngc26-constraint-smart-logic-mix-blending             [NGC26] Constraint Smart Logic Mix Blending        Jonathan Chan              2026-05-08 02:56:54.807000         140  
+biohack44/neurogolf-super-blend-best-public-score                  Neurogolf Super Blend:Best Public Score            Emre Cirak                 2026-06-02 08:34:20.517000          22  
+karnakbaevarthur/all-task-description-analysis                     All Task Description Analysis                      Karnakbayev Artur          2026-04-29 10:44:54.137000         145  
+konbu17/neurogolf-2026-blended-till-4-27                           NeuroGolf-2026 Blended till 4/27                   konbu17                    2026-05-06 06:21:54.130000          96  
+afr1ste/neurogolf-5689-51-current-rules-open-solution              NeuroGolf 5689.51 Current Rules Open Solution      Afr1ste                    2026-06-01 00:43:30.617000          90  
+octaviograu/6154-71-onnx-rewrites-hand-built-solvers               [6154.71] ONNX Rewrites + Hand-Built Solvers       Octavi Grau                2026-06-01 10:54:05.900000         112  
+beicicc/neurogolf-6233-36-public-score-open-solution               NeuroGolf 6233.36 Public Score Open Solution       Kun Zhang                  2026-04-27 03:11:54.317000          15  
+massimilianoghiotto/convolution-series-part-3                      Convolution Series - Part 3                        MassimilianoGhiotto        2026-06-03 14:02:49.643000          87  
+konbu17/neurogolf-2026-may-8-updated                               NeuroGolf-2026 [May 8 updated]                     konbu17                    2026-05-09 19:53:37.467000          66  
+svanikkolli/arc-nano-engine                                        ARC Nano-Engine                                    Svanik Kolli               2026-05-21 23:35:15.730000          70  
+rauffauzanrambe/neurogolf-champions-arc-best-public-score          NeuroGolf Champions + ARC Best Public Score        Ra'uf Fauzan Rambe         2026-05-31 07:25:52.667000          18  
+konbu17/neurogolf-2026-till-4-27                                   NeuroGolf-2026 �� till 4/27                         konbu17                    2026-05-06 06:22:04.660000          59  
+vyankteshdwivedi/neurogolf-multi-source-onnx-solver                NeuroGolf Multi-Source ONNX Solver                 zorojuro                   2026-06-06 15:15:11.013000          81  
+magmacot/4200-v5-neurogolf-fix-for-new-system-soon                 [4200+] - v5 NeuroGolf fix for new system soon!    Magmucot                   2026-04-23 10:09:14.147000          72  
+jiweiliu/kaggle-agent-ensemble-with-yash9439                       Kaggle Agent Ensemble with yash9439                Jiwei Liu                  2026-04-18 00:53:24.917000          64  
+b'seddiktrk/surgical-onnx-precision-parameter-reduction              \xe2\x9b\xb3 Surgical ONNX: Precision Parameter Reduction     seddik turki               2026-06-08 14:02:43.127000          67  '
+octaviograu/neurogolf-2026-block-lb-drilling-5740-30               NeuroGolf 2026 - Block-LB Drilling (5740.30)       Octavi Grau                2026-05-12 10:15:31.240000          48  
+yash9439/neurogolf-emsembling                                      NeuroGolf Emsembling                               yash bhaskar               2026-04-17 17:34:01.793000          65  
+karnakbaevarthur/logic-decoder                                     Logic Decoder                                      Karnakbayev Artur          2026-04-23 14:42:04.353000          74  
+jazivxt/infinitesimals                                             Infinitesimals                                     jazivxt                    2026-05-10 15:10:59.220000          77  
+jsrdcht/6029-09-lb-neurogolf-all-task-onnx-solution                [6029.09 LB] NeuroGolf All-Task ONNX Solution      Chet                       2026-05-18 11:02:53.937000          41  
+thisray/neurogolf-4808-21-post-apr-28-update                       NeuroGolf 4808.21 Post Apr 28 Update               thisray                    2026-04-29 02:50:52.467000          37  
+massimilianoghiotto/convolution-series-part-2                      Convolution Series - Part 2                        MassimilianoGhiotto        2026-06-02 09:14:05.757000          47  
+karnakbaevarthur/cross-source-ensemble                             Cross-Source Ensemble                              Karnakbayev Artur          2026-04-23 14:46:18.497000          64  
+b'seddiktrk/neurogolf-2026-prune-unused-initializers                 \xe2\x9b\xb3 NeuroGolf 2026: Prune Unused Initializers        seddik turki               2026-05-26 00:12:00.260000          43  '
+aliafzal9323/neurogolf-2026-tiny-onnx-solver                       NeuroGolf 2026: Tiny-ONNX Solver                   Ali Afzal                  2026-04-21 08:35:59.897000          64  
+massimilianoghiotto/eda-111-best-public-score                      EDA 111 + Best Public Score                        MassimilianoGhiotto        2026-05-31 09:47:10.467000          72  
+foysalemonshanto/the-2026-neurogolf-championship                   The 2026 NeuroGolf Championship                    FOYSAL                     2026-04-21 08:46:29.860000          35  
+massimilianoghiotto/convolution-series-part-1                      Convolution Series - Part 1                        MassimilianoGhiotto        2026-06-02 09:12:20.337000          43  
+limprog/neurogolf-2026-mega-agi-ensemble                           NeuroGolf 2026 �� MEGA AGI Ensemble                 limprog                    2026-04-19 11:20:20.670000          26  
+beicicc/neurogolf-6202-73-public-score-open-solution               NeuroGolf 6202.73 Public Score Open Solution       Kun Zhang                  2026-04-27 02:28:07.537000           6  
+cdeotte/eda-task-026                                               EDA - Task 026                                     Chris Deotte               2026-05-11 00:07:05.253000          25  
+massimilianoghiotto/convolution-series-part-4                      Convolution Series - Part 4                        MassimilianoGhiotto        2026-06-05 10:36:14.447000          14  
+nadeembinshajahan/6151-lb-neurogolf-2026-stable-fp16-surgery       [6151 LB] NeuroGolf 2026: Stable FP16 Surgery      Nadeem                     2026-06-01 14:15:53.013000          23  
+anazemcev/neurogolf-2026-cost-optimal-blend                        NeuroGolf 2026: Cost-Optimal Blend                 Artem1410                  2026-05-24 08:17:28.533000          18  
+biohack44/best-public-with-prune-6067                              Best Public with Prune 6067                        Emre Cirak                 2026-05-26 09:31:37                 16  
+biohack44/neurogolf-new-best-public-6078-ish                       Neurogolf New Best Public:6078-ish                 Emre Cirak                 2026-05-29 18:24:02.373000          12  
+rauffauzanrambe/neurogolf-constraint-smart-logic-ensemble-4k       NeuroGolf: Constraint Smart Logic Ensemble [4K+]   Ra'uf Fauzan Rambe         2026-04-27 03:40:54.687000          12  
+beicicc/neurogolf-5546-64-public-score-open-solution               NeuroGolf 5546.64 Public Score Open Solution       Kun Zhang                  2026-04-26 15:39:53.017000           4  
+rauffauzanrambe/neurogolf-2026-the-best-score-kagglehub            NeuroGolf 2026 The Best score Kagglehub            Ra'uf Fauzan Rambe         2026-05-31 02:52:30.753000           4  
+yash9439/neurogolf-2026-improved-starter-notebook                  NeuroGolf 2026 : Improved Starter Notebook         yash bhaskar               2026-04-16 17:28:52.003000         117  
+biohack44/neurogolf-best-blend-max-public-score                    Neurogolf: Best Blend Max Public Score             Emre Cirak                 2026-06-06 19:32:29.560000           3  
+nadiakhalid/minimal-neural-networks-for-arc-agi-tasks              Minimal Neural Networks for ARC-AGI Tasks          Nadia khalid               2026-04-22 09:53:16.247000          15  
+deep262003/baseline-model-2026-neurogolf                           Baseline Model 2026 NeuroGolf                      So_Good_Person             2026-05-22 09:11:54.547000          13  
+iamsdt/eda-visualization-and-problem-understanding                 EDA, Visualization and Problem Understanding       Shudipto Trafder           2026-04-16 12:29:12.233000          16  
+jocelyndumlao/neurogolf-2026-simple-logic-solver                   NeuroGolf 2026: Simple Logic Solver                Jocelyn Dumlao             2026-05-10 07:04:15.383000          24  
+poonszesen/strategies-explained-openonnxscience                    [Strategies-explained] OpenONNXScience             theredbluepill             2026-04-25 04:37:44.537000           7  
+beicicc/neurogolf-6061-74-public-score-open-solution               NeuroGolf 6061.74 Public Score Open Solution       Kun Zhang                  2026-04-27 01:22:53.680000           2  
+yash9439/neurogolf-2026-cost-optimization                          NeuroGolf 2026 : Cost Optimization                 yash bhaskar               2026-04-17 01:34:16.477000          29  
+emanuellcs/neurogolf-2026-zero-mac-heuristics-dc-pp                NeuroGolf 2026 | Zero-MAC Heuristics + DC & PP     Emanuel L��zaro             2026-04-17 22:08:26.690000          18  
+rauffauzanrambe/neurogolf-predicted-score-pipeline                 Neurogolf predicted score pipeline                 Ra'uf Fauzan Rambe         2026-05-02 15:26:34.073000           3  
+kq5yyy/neurogolf-audit-scorer-arc-appx                             NeuroGolf Audit: Scorer + ARC-APPX                 kq5y                       2026-04-20 00:44:16.193000          11  
+dimokshalashov/task001-optimized                                   task001 optimized                                  Dmitriy Shalashov          2026-04-23 17:37:42.773000           6  
+beicicc/neurogolf-5518-02-public-score-open-solution               NeuroGolf 5518.02 Public Score Open Solution       Kun Zhang                  2026-04-26 15:20:15.027000           4  
+cdeotte/eda-task-116                                               EDA - Task 116                                     Chris Deotte               2026-05-11 00:21:14.297000          10  
+rockerritesh/neurogolf-2026-improved-baseline                      NeuroGolf 2026 - Improved Baseline                 Rocker Ritesh              2026-04-20 00:55:27.140000          13  
+svanikkolli/arc-nano-engine-v2                                     ARC Nano-Engine v2                                 Svanik Kolli               2026-04-30 03:54:39.783000           8  
+rishabhbhartiya/neurogolf                                          Neurogolf                                          Rishabh Bhartiya           2026-04-16 06:34:26.323000           9  
+biohack44/neurogolf-new-best-public-v2-6080-ish                    Neurogolf New Best Public v2:6080-ish              Emre Cirak                 2026-05-30 09:51:02.590000           5  
+beicicc/neurogolf-5637-54-public-score-open-solution               NeuroGolf 5637.54 Public Score Open Solution       Kun Zhang                  2026-04-27 00:45:52.397000           2  
+beicicc/neurogolf-5539-11-public-score-open-solution               NeuroGolf 5539.11 Public Score Open Solution       Kun Zhang                  2026-04-26 15:38:30.030000           2  
+beicicc/neurogolf-5622-41-public-score-open-solution               NeuroGolf 5622.41 Public Score Open Solution       Kun Zhang                  2026-04-26 20:31:30.917000           2  
+beicicc/neurogolf-5433-43-public-score-open-solution               NeuroGolf 5433.43 Public Score Open Solution       Kun Zhang                  2026-04-26 15:10:51.843000           2  
+b"rauffauzanrambe/neurogolf-2026-autonomous-ai-submission-engine     \xf0\x9f\x9b\xb0\xef\xb8\x8f NeuroGolf 2026 Autonomous AI Submission Engine  Ra'uf Fauzan Rambe         2026-04-22 03:07:18.007000           8  "
+mmoffitt/the-2026-neurogolf-metric-migration-manual                The 2026 NeuroGolf "Metric Migration Manual"       Michael D. Moffitt         2026-04-30 18:07:32.353000           8  
+cdeotte/eda-task-032                                               EDA - Task 032                                     Chris Deotte               2026-05-11 00:17:47.510000          10  
+pavelsavchenkov/onnx-tool-exploit-report-apr-25-v2                 ONNX Tool Exploit Report [Apr 25, v2]              Pavel                      2026-04-25 09:50:19.230000          11  
+dimplebhardwaj536/neurogolf                                        NEUROGOLF                                          Dimple Bhardwaj            2026-06-03 11:47:56.390000          11  
+biohack44/neurogolf-superior-blend-notebook                        Neurogolf:Superior Blend Notebook                  Emre Cirak                 2026-06-02 12:46:00.500000           4  
+b'aminmahmoudalifayed/neural-kinetic-golf                            NEURAL KINETIC GOLF\xe2\x80\x9d  \xf0\x9f\x92\xaa                            Dr/ameen Fayed             2026-04-17 10:53:42.577000          13  '
+beicicc/neurogolf-5509-31-public-score-open-solution               NeuroGolf 5509.31 Public Score Open Solution       Kun Zhang                  2026-04-26 15:10:54.283000           1  
+b'rahulchauhan016/neurgolf-2026-advanced-edition-v2                  \xf0\x9f\xa7\xa0 NeurGolf 2026 \xe2\x80\x94 ADVANCED EDITION v2              RAHUL CHAUHAN              2026-05-07 08:27:19.743000           8  '
+ajayrao43/notebookec9ad185db                                       notebookec9ad185db                                 Ajay_Rao_43                2026-06-02 03:03:05.270000           3  
+rahulchauhan016/neurgolf-2026-v3                                   NeurGolf 2026  |   v3                              RAHUL CHAUHAN              2026-05-08 07:08:53.753000           9  
+sebmontreal/2026-neurogolf-championship                            2026 NeuroGolf Championship                        S��bastien henry            2026-04-16 19:27:57.537000           3  
+karnakbaevarthur/optimized-heuristics-cnn-fallback                 Optimized Heuristics & CNN Fallback                Karnakbayev Artur          2026-04-16 16:25:13.833000          13  
+yutodennou/neurogolf-championship-updated-full-code                Neurogolf Championship Updated Full Code           waticson                   2026-04-21 23:43:23.490000           7  
+galaxy2025/neurogolf-public-artifact-v1                            NeuroGolf public artifact v1                       galaxy2025                 2026-06-08 16:30:40.723000           2  
+cdeotte/eda-task-129                                               EDA - Task 129                                     Chris Deotte               2026-05-11 00:19:20.213000          13  
+scottweeden/neurogolf-trace-language-dfa-solvers                   NeuroGolf Trace Language DFA Solvers               Scott Weeden               2026-06-05 20:57:17.557000           2  
+amanatar/arc-neuro-symbolic-orchestrator                           ARC Neuro-Symbolic Orchestrator                    Aman Atar                  2026-05-15 16:02:33.563000           3  
+cdeotte/eda-task-083                                               EDA - Task 083                                     Chris Deotte               2026-05-11 00:18:52.160000           9  
+franksunp/neurogolf-2026-v24-blend                                 neurogolf-2026-v24-blend                           fsun                       2026-05-04 23:24:35.240000           2  
+franksunp/arthur-v8-replication-v2                                 Arthur V8 Replication v2                           fsun                       2026-05-17 03:29:29.903000           2  
+asalhi/task-337-score-20-50-new-metric                             Task 337 - Score 20.50 (new metric)                Ali                        2026-04-22 20:37:49.903000           8  
+cdeotte/eda-task-038                                               EDA - Task 038                                     Chris Deotte               2026-05-11 00:18:23.670000           7  
+adityaravi2/neurogolf-2026-training-notebook                       NeuroGolf 2026 �� Training Notebook                 ADITYA RAVI                2026-05-05 14:31:50.863000           2  
+yutodennou/neurogolf-championship-starter-notebook                 Neurogolf Championship Starter Notebook            waticson                   2026-04-17 06:37:11.380000           5  
+yutodennou/neurogolf-championship-ensemble-full-code               Neurogolf Championship Ensemble Full Code          waticson                   2026-05-03 09:09:39.547000           2  
+b'trnhquangminh140/the-2026-neurogolf-championship-minh-01           The 2026 NeuroGolf Championship - Minh 01          Tr\xe1\xbb\x8bnh Quang Minh           2026-04-16 15:03:28.393000           5  '
+b'aminmahmoudalifayed/case-forge                                     CASE FORGE \xce\xa9 \xf0\x9f\xa6\x85                                     Dr/ameen Fayed             2026-04-17 15:48:50.717000           9  '
+mirzamilanfarabi/neurogolf-onnx-training-apr-18                    NeuroGolf ONNX Training Apr-18                     Mirza Milan Farabi         2026-04-18 23:45:42.530000           5  
+b'rahulchauhan016/neurgolf-2026-v1                                   \xf0\x9f\xa7\xa0 NeurGolf 2026  v1                                RAHUL CHAUHAN              2026-05-07 07:23:38.457000           6  '
+miadul/the-2026-neurogolf-championship                             The 2026 NeuroGolf Championship                    Arif Miah                  2026-04-16 14:26:39.257000          11  
+rauffauzanrambe/ai-gameplay-neurogolf-predicted-submission         AI Gameplay Neurogolf Predicted Submission         Ra'uf Fauzan Rambe         2026-05-31 07:58:37.483000           3  
+karnakbaevarthur/neurogolf-2026-deep-task-transformation-analysis  Neurogolf 2026: Deep Task Transformation Analysis  Karnakbayev Artur          2026-04-20 19:16:54.490000           5  
+b'aminmahmoudalifayed/zenith                                         ZENITH\xf0\x9f\x90\x8e                                            Dr/ameen Fayed             2026-04-17 16:09:38.203000           8  '
+manish756/handcrafted-baseline                                     Handcrafted Baseline                               Manish Swami               2026-04-19 03:54:35.307000           2  

@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-06-09T00:51:39",
+  "checked_at": "2026-06-09T01:19:42",
   "strict_mode": true,
   "filters": {
     "exp_id": "",
     "direction_id": ""
   },
-  "total_experiments": 26,
-  "pass_count": 26,
+  "total_experiments": 28,
+  "pass_count": 28,
   "fail_count": 0,
   "exempt_count": 0,
   "failed_exp_ids": [],
@@ -164,6 +164,18 @@
     {
       "exp_id": "GOLF_20260608_029_seddik_surgery_6272",
       "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_030_beicicc_inline_full",
+      "direction_id": "DIR_20260608_004_beicicc_structural_normalization",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_031_beicicc_inline_396_mix",
+      "direction_id": "DIR_20260608_004_beicicc_structural_normalization",
       "status": "pass",
       "reasons": []
     }

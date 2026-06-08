@@ -1,14 +1,14 @@
 # Evidence Gate Status
 
-checked_at: 2026-06-09T00:51:39
+checked_at: 2026-06-09T01:19:42
 strict_mode: true
 
 ## Summary
 
 | metric | value |
 |---|---:|
-| total_experiments | 26 |
-| pass | 26 |
+| total_experiments | 28 |
+| pass | 28 |
 | fail | 0 |
 | exempt | 0 |
 
@@ -53,6 +53,8 @@ None.
 - GOLF_20260608_027_jsrdcht_memory_task018_probe
 - GOLF_20260608_028_jonathan_task025_probe
 - GOLF_20260608_029_seddik_surgery_6272
+- GOLF_20260608_030_beicicc_inline_full
+- GOLF_20260608_031_beicicc_inline_396_mix
 
 ## Exempt Experiments
 

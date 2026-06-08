@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 
 from _bootstrap import ROOT
-from neurogolf.onnx_rewrite import rewrite_model, rewrite_submission_dir
+from neurogolf.onnx_rewrite import inline_model, inline_submission_dir, rewrite_model, rewrite_submission_dir
 
 
 def write_csv(path: Path, rows: list[dict]) -> None:
@@ -26,6 +26,7 @@ def main() -> None:
     parser.add_argument("--target-dir", default="")
     parser.add_argument("--manifest", default="")
     parser.add_argument("--no-compress-uniform", action="store_true")
+    parser.add_argument("--inline-functions", action="store_true")
     args = parser.parse_args()
 
     compress_uniform = not args.no_compress_uniform
@@ -34,11 +35,17 @@ def main() -> None:
             raise SystemExit("--target-dir is required with --source-dir")
         source_dir = ROOT / args.source_dir
         target_dir = ROOT / args.target_dir
-        rows = rewrite_submission_dir(source_dir, target_dir, compress_uniform=compress_uniform)
+        if args.inline_functions:
+            rows = inline_submission_dir(source_dir, target_dir)
+        else:
+            rows = rewrite_submission_dir(source_dir, target_dir, compress_uniform=compress_uniform)
     elif args.source:
         if not args.target:
             raise SystemExit("--target is required with --source")
-        stats = rewrite_model(ROOT / args.source, ROOT / args.target, compress_uniform=compress_uniform)
+        if args.inline_functions:
+            stats = inline_model(ROOT / args.source, ROOT / args.target)
+        else:
+            stats = rewrite_model(ROOT / args.source, ROOT / args.target, compress_uniform=compress_uniform)
         rows = [stats.__dict__]
     else:
         raise SystemExit("provide --source/--target or --source-dir/--target-dir")
@@ -49,8 +56,13 @@ def main() -> None:
         "source_dir": args.source_dir,
         "target_dir": args.target_dir,
         "compress_uniform": compress_uniform,
+        "inline_functions": args.inline_functions,
         "task_count": len(rows),
-        "changed_count": sum(1 for row in rows if row.get("changed")),
+        "changed_count": sum(
+            1
+            for row in rows
+            if row.get("changed") or row.get("status") in {"inlined", "rewritten"}
+        ),
         "saved_parameters": sum(int(row.get("saved_parameters") or 0) for row in rows),
         "rows": rows,
     }
