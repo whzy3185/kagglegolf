@@ -1,0 +1,4 @@
+exp_id=GOLF_20260608_029_seddik_surgery_6272
+AGS=0.506115
+classification=strong
+submission_gate_pass=true

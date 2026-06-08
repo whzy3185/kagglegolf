@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-06-09T00:27:50",
+  "checked_at": "2026-06-09T00:51:39",
   "strict_mode": true,
   "filters": {
     "exp_id": "",
     "direction_id": ""
   },
-  "total_experiments": 25,
-  "pass_count": 25,
+  "total_experiments": 26,
+  "pass_count": 26,
   "fail_count": 0,
   "exempt_count": 0,
   "failed_exp_ids": [],
@@ -158,6 +158,12 @@
     {
       "exp_id": "GOLF_20260608_028_jonathan_task025_probe",
       "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_029_seddik_surgery_6272",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
       "status": "pass",
       "reasons": []
     }

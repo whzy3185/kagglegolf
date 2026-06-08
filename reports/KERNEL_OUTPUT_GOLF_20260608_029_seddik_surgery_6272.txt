@@ -1,0 +1,2 @@
+Output file downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260608_029_seddik_surgery_6272\kaggle_output\submission.zip
+Kernel log downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260608_029_seddik_surgery_6272\kaggle_output\neurogolf-submit-current.log 

@@ -1,0 +1,4 @@
+﻿ref                                                  title                                          author      lastRunTime                 totalVotes  
+---------------------------------------------------  ---------------------------------------------  ----------  --------------------------  ----------  
+kojimar/6272-50-lb-audited-neurogolf-onnx-overrides  [6272.50 LB] Audited NeuroGolf ONNX Overrides  islet       2026-06-08 07:55:01.783000          21  
+galaxy2025/neurogolf-public-artifact-v1              NeuroGolf public artifact v1                   galaxy2025  2026-06-08 16:30:40.723000           0  

@@ -1,15 +1,16 @@
 # Scorecard
 
-Current best public score: 6272.5
+Current best public score: 6272.6
 Target public score: 7800.0
-Gap to target: 1527.5
-Current best exp_id: GOLF_20260608_025_kojimar_6272_full_replace
-Current best submission id: 53481001
+Gap to target: 1527.3999999999996
+Current best exp_id: GOLF_20260608_029_seddik_surgery_6272
+Current best submission id: 53484027
 
 Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
+| 53484027 | GOLF_20260608_029_seddik_surgery_6272 | SubmissionStatus.COMPLETE | 6272.60 |
 | 53483583 | GOLF_20260608_028_jonathan_task025_probe | SubmissionStatus.COMPLETE | 6259.35 |
 | 53483350 | GOLF_20260608_027_jsrdcht_memory_task018_probe | SubmissionStatus.COMPLETE | 6271.90 |
 | 53482977 | GOLF_20260608_026_beicicc_task169_probe | SubmissionStatus.COMPLETE | 6269.97 |

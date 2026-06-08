@@ -1,9 +1,8 @@
-# Current Best
+# GOLF_20260608_029_seddik_surgery_6272
 
-exp_id: GOLF_20260608_029_seddik_surgery_6272
 submission id: 53484027
 public score: 6272.6
-status: complete
+status: SubmissionStatus.COMPLETE
 source ids: SRC_KAGGLE_NOTEBOOK_SEDDIK_SURGICAL_ONNX, SRC_KAGGLE_NOTEBOOK_KOJIMAR_6272_AUDITED_OVERRIDES
 local validation: pass
 examples checked: 1200

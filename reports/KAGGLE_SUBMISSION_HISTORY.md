@@ -1,15 +1,16 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-09T00:43:11
+captured_at: 2026-06-09T01:09:12
 selected submissions: unavailable via CLI
-current best public: 6272.5
+current best public: 6272.6
 target public: 7800.0
-gap to target: 1527.5
-current best exp_id: GOLF_20260608_025_kojimar_6272_full_replace
-current best submission id: 53481001
+gap to target: 1527.3999999999996
+current best exp_id: GOLF_20260608_029_seddik_surgery_6272
+current best submission id: 53484027
 
 | ref | exp_id | date | status | public_score |
 | --- | --- | --- | --- | --- |
+| 53484027 | GOLF_20260608_029_seddik_surgery_6272 | 2026-06-08 16:53:13.543000 | SubmissionStatus.COMPLETE | 6272.60 |
 | 53483583 | GOLF_20260608_028_jonathan_task025_probe | 2026-06-08 16:28:43.427000 | SubmissionStatus.COMPLETE | 6259.35 |
 | 53483350 | GOLF_20260608_027_jsrdcht_memory_task018_probe | 2026-06-08 16:17:35.790000 | SubmissionStatus.COMPLETE | 6271.90 |
 | 53482977 | GOLF_20260608_026_beicicc_task169_probe | 2026-06-08 16:02:55.803000 | SubmissionStatus.COMPLETE | 6269.97 |
