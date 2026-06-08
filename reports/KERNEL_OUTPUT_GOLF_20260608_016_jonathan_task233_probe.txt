@@ -1,0 +1,1 @@
+Kernel log downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260608_016_jonathan_task233_probe\kaggle_output\neurogolf-submit-current.log 

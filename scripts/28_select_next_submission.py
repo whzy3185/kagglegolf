@@ -424,6 +424,26 @@ def main() -> None:
     root("reports/NEXT_SUBMISSION_SELECTION.md").write_text(
         "\n".join(lines), encoding="utf-8"
     )
+    state_path = root("reports/CURRENT_STATE.md")
+    if state_path.exists():
+        state = state_path.read_text(encoding="utf-8")
+        next_exp = payload["selected_exp_id"]
+        state = re.sub(
+            r"(?m)^Current candidate in queue:.*$",
+            f"Current candidate in queue: {next_exp}",
+            state,
+        )
+        state = re.sub(
+            r"(?m)^Next candidate:.*$",
+            f"Next candidate: {next_exp or 'generate_new_probe'}",
+            state,
+        )
+        state = re.sub(
+            r"(?m)^Last updated:.*$",
+            f"Last updated: {payload['checked_at']}",
+            state,
+        )
+        state_path.write_text(state, encoding="utf-8")
     print(f"eligible={len(ranked)}")
     print(f"selected={payload['selected_exp_id'] or 'none'}")
 

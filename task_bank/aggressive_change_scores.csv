@@ -2,3 +2,5 @@ exp_id,checked_at,ags,classification,submission_gate_pass,risk,changed_task_coun
 GOLF_20260607_002_public_6029_aggressive_mix,2026-06-08T20:02:44,0.524936,strong,true,high,3,0.073506,0.961750,0.515127,0.629402
 GOLF_20260607_003_bottom15_single_task_probe,2026-06-08T20:02:54,0.552112,strong,true,high,1,0.164533,0.961750,0.482891,0.665813
 GOLF_20260607_004_public_notebook_full_replace,2026-06-08T20:03:32,0.831881,validation_fail,false,medium,400,0.884959,0.599325,0.981735,0.953984
+GOLF_20260608_016_jonathan_task233_probe,2026-06-08T20:37:20,0.883998,aggressive,true,medium,1,0.972054,0.961750,0.591708,0.988822
+GOLF_20260608_016_jonathan_task255_probe,2026-06-08T20:40:55,0.763607,aggressive,true,medium,1,0.694655,0.961750,0.526579,0.877862

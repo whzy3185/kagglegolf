@@ -1,6 +1,6 @@
 # Task Attribution
 
-updated_at: 2026-06-08T20:25:16
+updated_at: 2026-06-08T20:40:28
 
 | exp_id | task/bundle | count | score | delta parent | strength | decision | normal bank | high-risk bank |
 |---|---|---:|---:|---:|---|---|---|---|
@@ -12,5 +12,6 @@ updated_at: 2026-06-08T20:25:16
 | GOLF_20260608_008b_jonathan_structural_pass_mix | bundle_397_tasks | 397 | 5595.78 | -558.930000 | bundle_only | bundle_negative | false | false |
 | GOLF_20260608_005_mirza_structural_pass_mix | bundle_400_tasks | 400 | 6154.71 | 0.000000 | bundle_only | bundle_tie | false | false |
 | GOLF_20260608_006_biohack_super_blend_structural_pass_mix | bundle_400_tasks | 400 | 6154.71 | 0.000000 | bundle_only | bundle_tie | false | false |
+| GOLF_20260608_016_jonathan_task233_probe | task233 | 1 | 6144.03 | -10.680000 | strong | rejected_for_current_base | false | false |
 
 Broad mixes are bundle-level evidence only. High-risk wins remain outside the normal task bank.

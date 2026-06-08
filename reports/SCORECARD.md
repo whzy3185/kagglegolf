@@ -10,6 +10,7 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
+| 53477350 | GOLF_20260608_016_jonathan_task233_probe | SubmissionStatus.COMPLETE | 6144.03 |
 | 53472838 | GOLF_20260608_006_biohack_super_blend_structural_pass_mix | SubmissionStatus.COMPLETE | 6154.71 |
 | 53472836 | GOLF_20260608_005_mirza_structural_pass_mix | SubmissionStatus.COMPLETE | 6154.71 |
 | 53472715 | GOLF_20260608_008b_jonathan_structural_pass_mix | SubmissionStatus.COMPLETE | 5595.78 |

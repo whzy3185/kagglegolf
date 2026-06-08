@@ -13,6 +13,8 @@ target_exp_ids:
   - GOLF_20260608_006_biohack_super_blend_structural_pass_mix
   - GOLF_20260608_008_jonathan_constraint_logic_mix
   - GOLF_20260608_008b_jonathan_structural_pass_mix
+  - GOLF_20260608_016_jonathan_task233_probe
+  - GOLF_20260608_016_jonathan_task255_probe
 
 hypothesis:
   Current best 6154.71 is too far from the 7000 target. High-score public notebooks may contain stronger full bundles or task-level ONNX variants that can close the gap faster than local micro-optimization.

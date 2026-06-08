@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-06-08T20:02:31",
+  "checked_at": "2026-06-08T20:44:59",
   "strict_mode": true,
   "filters": {
     "exp_id": "",
     "direction_id": ""
   },
-  "total_experiments": 9,
-  "pass_count": 9,
+  "total_experiments": 11,
+  "pass_count": 11,
   "fail_count": 0,
   "exempt_count": 0,
   "failed_exp_ids": [],
@@ -61,6 +61,18 @@
     },
     {
       "exp_id": "GOLF_20260608_006_biohack_super_blend_structural_pass_mix",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_016_jonathan_task233_probe",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_016_jonathan_task255_probe",
       "direction_id": "DIR_20260608_001_public_highscore_harvest",
       "status": "pass",
       "reasons": []

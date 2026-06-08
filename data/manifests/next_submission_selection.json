@@ -1,13 +1,53 @@
 {
-  "checked_at": "2026-06-08T20:21:58",
+  "checked_at": "2026-06-08T20:44:15",
   "current_best_score": 6154.71,
   "current_best_exp_id": "GOLF_20260608_006_biohack_super_blend_structural_pass_mix",
-  "candidate_count": 8,
-  "eligible_count": 0,
-  "blocked_count": 8,
-  "selected_exp_id": "",
-  "selected": null,
-  "ranked_candidates": [],
+  "candidate_count": 10,
+  "eligible_count": 1,
+  "blocked_count": 9,
+  "selected_exp_id": "GOLF_20260608_016_jonathan_task255_probe",
+  "selected": {
+    "exp_id": "GOLF_20260608_016_jonathan_task255_probe",
+    "selection_score": 0.654082,
+    "selection_reason": "AGS=0.764; source=0.65; upside=0.10; novelty=0.60; focus=1.00; feedback=1.00; risk_penalty=0.10",
+    "risk": "medium",
+    "source_id": "SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX",
+    "changed_task_count": 1,
+    "lane": "normal",
+    "components": {
+      "ags": 0.763607,
+      "source_priority_score": 0.65,
+      "expected_lb_upside": 0.1,
+      "novelty_vs_submitted": 0.6,
+      "task_focus_score": 1.0,
+      "feedback_value": 1.0,
+      "risk_penalty": 0.1,
+      "known_bad_family_penalty": 0.0
+    },
+    "package_sha256": "721dd8e599131a5f515915d8db064226c13d52f9d96cdc5083f0241040cad2c5"
+  },
+  "ranked_candidates": [
+    {
+      "exp_id": "GOLF_20260608_016_jonathan_task255_probe",
+      "selection_score": 0.654082,
+      "selection_reason": "AGS=0.764; source=0.65; upside=0.10; novelty=0.60; focus=1.00; feedback=1.00; risk_penalty=0.10",
+      "risk": "medium",
+      "source_id": "SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX",
+      "changed_task_count": 1,
+      "lane": "normal",
+      "components": {
+        "ags": 0.763607,
+        "source_priority_score": 0.65,
+        "expected_lb_upside": 0.1,
+        "novelty_vs_submitted": 0.6,
+        "task_focus_score": 1.0,
+        "feedback_value": 1.0,
+        "risk_penalty": 0.1,
+        "known_bad_family_penalty": 0.0
+      },
+      "package_sha256": "721dd8e599131a5f515915d8db064226c13d52f9d96cdc5083f0241040cad2c5"
+    }
+  ],
   "blocked_candidates": [
     {
       "exp_id": "GOLF_20260607_002_public_6029_aggressive_mix",
@@ -63,6 +103,12 @@
       "reasons": [
         "already_submitted",
         "aggressive_change_gate_not_passed"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260608_016_jonathan_task233_probe",
+      "reasons": [
+        "already_submitted"
       ]
     }
   ]
