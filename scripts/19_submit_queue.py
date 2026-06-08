@@ -50,6 +50,12 @@ QUEUE_FIELDS = [
     "public_score",
     "status",
     "next_action",
+    "selection_score",
+    "selected_rank",
+    "selection_reason",
+    "score_delta_vs_best",
+    "score_delta_vs_parent",
+    "task_attribution_status",
 ]
 
 NOTEBOOK_QUEUE_FIELDS = [
@@ -77,10 +83,17 @@ def read_queue() -> list[dict]:
 def write_queue(rows: list[dict]) -> None:
     path = root("experiments/submission_queue.csv")
     path.parent.mkdir(parents=True, exist_ok=True)
+    fields = list(QUEUE_FIELDS)
+    if path.exists() and path.stat().st_size:
+        with path.open(newline="", encoding="utf-8") as existing:
+            current_fields = list(csv.DictReader(existing).fieldnames or [])
+        fields = current_fields + [field for field in fields if field not in current_fields]
+    for row in rows:
+        fields.extend(field for field in row if field not in fields)
     with path.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=QUEUE_FIELDS)
+        writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
-        writer.writerows({k: row.get(k, "") for k in QUEUE_FIELDS} for row in rows)
+        writer.writerows({k: row.get(k, "") for k in fields} for row in rows)
 
 
 def upsert_csv(path: Path, fields: list[str], key: str, row: dict) -> None:
@@ -642,12 +655,41 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--exp-id", default="")
     parser.add_argument("--limit", type=int, default=1)
+    parser.add_argument("--auto-select", action="store_true")
     args = parser.parse_args()
+
+    selected_exp_id = args.exp_id
+    if args.auto_select:
+        selection = subprocess.run(
+            [sys.executable, "scripts/28_select_next_submission.py"],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+        if selection.returncode != 0:
+            raise SystemExit(
+                "automatic candidate selection failed:\n"
+                + (selection.stdout or "")
+                + (selection.stderr or "")
+            )
+        selection_manifest = root("data/manifests/next_submission_selection.json")
+        if not selection_manifest.exists():
+            raise SystemExit("automatic candidate selection did not create its manifest")
+        selected_exp_id = str(
+            json.loads(selection_manifest.read_text(encoding="utf-8")).get(
+                "selected_exp_id", ""
+            )
+        )
+        if not selected_exp_id:
+            print("submit_attempts=0")
+            print("selection_status=no_eligible_candidate")
+            return
 
     rows = read_queue()
     count = 0
     for i, row in enumerate(rows):
-        if args.exp_id and row.get("exp_id") != args.exp_id:
+        if selected_exp_id and row.get("exp_id") != selected_exp_id:
             continue
         if row.get("submitted") == "true":
             continue

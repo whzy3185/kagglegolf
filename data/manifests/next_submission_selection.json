@@ -1,0 +1,69 @@
+{
+  "checked_at": "2026-06-08T20:21:58",
+  "current_best_score": 6154.71,
+  "current_best_exp_id": "GOLF_20260608_006_biohack_super_blend_structural_pass_mix",
+  "candidate_count": 8,
+  "eligible_count": 0,
+  "blocked_count": 8,
+  "selected_exp_id": "",
+  "selected": null,
+  "ranked_candidates": [],
+  "blocked_candidates": [
+    {
+      "exp_id": "GOLF_20260607_002_public_6029_aggressive_mix",
+      "reasons": [
+        "already_submitted"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260607_003_bottom15_single_task_probe",
+      "reasons": [
+        "already_submitted"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260607_004_public_notebook_full_replace",
+      "reasons": [
+        "local_validation_not_passed",
+        "aggressive_change_gate_not_passed",
+        "blocked_status:failed_local_validation"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260608_004b_beicicc_structural_pass_mix",
+      "reasons": [
+        "already_submitted",
+        "aggressive_change_gate_not_passed"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260608_008_jonathan_constraint_logic_mix",
+      "reasons": [
+        "local_validation_not_passed",
+        "aggressive_change_gate_not_passed",
+        "blocked_status:failed_local_validation"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260608_008b_jonathan_structural_pass_mix",
+      "reasons": [
+        "already_submitted",
+        "aggressive_change_gate_not_passed"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260608_005_mirza_structural_pass_mix",
+      "reasons": [
+        "already_submitted",
+        "aggressive_change_gate_not_passed"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260608_006_biohack_super_blend_structural_pass_mix",
+      "reasons": [
+        "already_submitted",
+        "aggressive_change_gate_not_passed"
+      ]
+    }
+  ]
+}

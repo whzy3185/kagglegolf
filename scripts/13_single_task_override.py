@@ -50,6 +50,12 @@ SUBMISSION_QUEUE_FIELDS = [
     "public_score",
     "status",
     "next_action",
+    "selection_score",
+    "selected_rank",
+    "selection_reason",
+    "score_delta_vs_best",
+    "score_delta_vs_parent",
+    "task_attribution_status",
 ]
 
 NOTEBOOK_QUEUE_FIELDS = [
