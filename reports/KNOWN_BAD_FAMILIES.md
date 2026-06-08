@@ -1,6 +1,6 @@
 # Known Bad Families
 
-updated_at: 2026-06-09T01:46:10
+updated_at: 2026-06-09T02:24:48
 
 This file is consumed by the automatic selector. It records negative leaderboard feedback that should penalize similar candidates without deleting the source from the alternate task pool.
 
@@ -44,3 +44,4 @@ This file is consumed by the automatic selector. It records negative leaderboard
 | GOLF_20260608_027_jsrdcht_memory_task018_probe | SRC_KAGGLE_NOTEBOOK_JSRDCHT_6029 | task018 | 1 | 6271.90 | -0.600000 | rejected_for_current_base |
 | GOLF_20260608_028_jonathan_task025_probe | SRC_KAGGLE_NOTEBOOK_JONATHAN_CONSTRAINT_MIX | task025 | 1 | 6259.35 | -13.150000 | rejected_for_current_base |
 | GOLF_20260608_031_beicicc_inline_396_mix | SRC_KAGGLE_NOTEBOOK_BEICICC_6645 | bundle_396_tasks | 396 | 5043.59 | -1229.010000 | bundle_negative |
+| GOLF_20260608_032_biohack_best_blend_max_full | SRC_KAGGLE_NOTEBOOK_BIOHACK_BEST_BLEND_MAX_PUBLIC | bundle_400_tasks | 400 | 6255.14 | -17.460000 | bundle_negative |

@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-06-09T01:19:42",
+  "checked_at": "2026-06-09T02:02:21",
   "strict_mode": true,
   "filters": {
     "exp_id": "",
     "direction_id": ""
   },
-  "total_experiments": 28,
-  "pass_count": 28,
+  "total_experiments": 29,
+  "pass_count": 29,
   "fail_count": 0,
   "exempt_count": 0,
   "failed_exp_ids": [],
@@ -176,6 +176,12 @@
     {
       "exp_id": "GOLF_20260608_031_beicicc_inline_396_mix",
       "direction_id": "DIR_20260608_004_beicicc_structural_normalization",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_032_biohack_best_blend_max_full",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
       "status": "pass",
       "reasons": []
     }

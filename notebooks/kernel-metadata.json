@@ -9,8 +9,7 @@
   "enable_tpu": false,
   "enable_internet": false,
   "dataset_sources": [
-    "octaviograu/neurogolf-manual-rewrites-v205",
-    "beicicc/neurogolf-6645-39-open-submission-artifact"
+    "octaviograu/neurogolf-manual-rewrites-v205"
   ],
   "competition_sources": [
     "neurogolf-2026"

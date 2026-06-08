@@ -416,3 +416,21 @@ rule_status: public_notebook_and_cc0_dataset
 repro_status: reproducing
 priority: P0
 assigned_exp_id: GOLF_20260608_025_kojimar_6272_full_replace
+
+## SRC_KAGGLE_NOTEBOOK_BIOHACK_BEST_BLEND_MAX_PUBLIC
+
+source_id: SRC_KAGGLE_NOTEBOOK_BIOHACK_BEST_BLEND_MAX_PUBLIC
+source_type: notebook
+title: Neurogolf: Best Blend Max Public Score
+author_or_team: Emre Cirak / biohack44
+url_or_identifier: https://www.kaggle.com/code/biohack44/neurogolf-best-blend-max-public-score
+date_accessed: 2026-06-09
+claimed_score:
+tasks_mentioned: all
+idea_summary: Public per-task max blend notebook that scores two existing submissions through the official scorer and keeps the locally correct lower-cost task model. The notebook output audit reports 400 tasks, 0 incorrect, 0 other problems, and local total 6258.50.
+implementation_hint: Pull notebook output, filter task001-task400 from the output directory, validate locally, then submit as a full-bundle replacement or harvest source.
+risk: medium
+rule_status: public_notebook_output
+repro_status: reproducing
+priority: P0
+assigned_exp_id: GOLF_20260608_032_biohack_best_blend_max_full

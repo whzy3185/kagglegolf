@@ -1,0 +1,4 @@
+exp_id=GOLF_20260608_032_biohack_best_blend_max_full
+AGS=0.588640
+classification=strong
+submission_gate_pass=true

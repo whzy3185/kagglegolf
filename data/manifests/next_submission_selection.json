@@ -1,10 +1,10 @@
 {
-  "checked_at": "2026-06-09T01:46:54",
+  "checked_at": "2026-06-09T02:24:48",
   "current_best_score": 6272.6,
   "current_best_exp_id": "GOLF_20260608_029_seddik_surgery_6272",
-  "candidate_count": 27,
+  "candidate_count": 28,
   "eligible_count": 0,
-  "blocked_count": 27,
+  "blocked_count": 28,
   "selected_exp_id": "",
   "selected": null,
   "ranked_candidates": [],
@@ -177,6 +177,12 @@
     },
     {
       "exp_id": "GOLF_20260608_031_beicicc_inline_396_mix",
+      "reasons": [
+        "already_submitted"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260608_032_biohack_best_blend_max_full",
       "reasons": [
         "already_submitted"
       ]

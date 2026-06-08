@@ -1,14 +1,14 @@
 # Evidence Gate Status
 
-checked_at: 2026-06-09T01:19:42
+checked_at: 2026-06-09T02:02:21
 strict_mode: true
 
 ## Summary
 
 | metric | value |
 |---|---:|
-| total_experiments | 28 |
-| pass | 28 |
+| total_experiments | 29 |
+| pass | 29 |
 | fail | 0 |
 | exempt | 0 |
 
@@ -55,6 +55,7 @@ None.
 - GOLF_20260608_029_seddik_surgery_6272
 - GOLF_20260608_030_beicicc_inline_full
 - GOLF_20260608_031_beicicc_inline_396_mix
+- GOLF_20260608_032_biohack_best_blend_max_full
 
 ## Exempt Experiments
 
