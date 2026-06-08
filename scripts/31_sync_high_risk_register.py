@@ -73,20 +73,27 @@ def main() -> None:
         destination = root("submissions/high_risk", exp_id)
         destination.mkdir(parents=True, exist_ok=True)
         candidate_manifest = root("submissions/candidates", exp_id, "manifest.json")
-        payload = (
+        source_manifest = (
             json.loads(candidate_manifest.read_text(encoding="utf-8"))
             if candidate_manifest.exists()
-            else {"exp_id": exp_id}
+            else {}
         )
-        payload.update(
-            {
-                "high_risk": True,
-                "normal_bank_allowed": False,
-                "submission_id": item.get("submission_id", ""),
-                "public_score": item.get("public_score", ""),
-                "decision": row["decision"],
-            }
-        )
+        payload = {
+            "exp_id": exp_id,
+            "source_id": item.get("source_id", ""),
+            "changed_tasks": [
+                task
+                for task in str(item.get("changed_tasks", "")).split(",")
+                if task
+            ],
+            "package_sha256": source_manifest.get("package_sha256")
+            or source_manifest.get("sha256", ""),
+            "high_risk": True,
+            "normal_bank_allowed": False,
+            "submission_id": item.get("submission_id", ""),
+            "public_score": item.get("public_score", ""),
+            "decision": row["decision"],
+        }
         (destination / "manifest.json").write_text(
             json.dumps(payload, indent=2), encoding="utf-8"
         )

@@ -225,17 +225,63 @@ def update_best_by_task(attributions: list[dict]) -> None:
                     )
             continue
         existing = by_task.get(item["task_id"])
-        if not existing or existing.get("last_changed_exp_id") != item["exp_id"]:
+        if not existing:
             continue
         if item["keep_in_normal_bank"] == "true":
-            existing["status"] = "confirmed_lb_win"
-            existing["lb_delta_if_known"] = item["delta_vs_parent"]
-        else:
+            changed_path = root(
+                "submissions/candidates", item["exp_id"], "changed_tasks.csv"
+            )
+            changed_rows = read_csv(changed_path)[1]
+            changed = next(
+                (
+                    row
+                    for row in changed_rows
+                    if row.get("task_id") == item["task_id"]
+                ),
+                {},
+            )
+            existing.update(
+                {
+                    "best_model_path": changed.get(
+                        "model_path", existing.get("best_model_path", "")
+                    ),
+                    "source_id": item["source_id"],
+                    "method": changed.get("method_family", "confirmed_probe"),
+                    "local_correct": "true",
+                    "local_cost": changed.get(
+                        "cost_proxy", existing.get("local_cost", "")
+                    ),
+                    "lb_delta_if_known": item["delta_vs_parent"],
+                    "last_changed_exp_id": item["exp_id"],
+                    "status": "confirmed_lb_win",
+                    "notes": "Promoted by positive single-task leaderboard attribution.",
+                }
+            )
+        elif existing.get("last_changed_exp_id") == item["exp_id"]:
             existing["status"] = "alternate_not_promoted"
             existing["lb_delta_if_known"] = item["delta_vs_parent"]
             existing["notes"] = item["decision"]
     if fields:
         write_csv(path, fields, rows)
+
+
+def update_candidate_pool(attributions: list[dict]) -> None:
+    path = root("task_bank/task_candidate_pool.csv")
+    fields, rows = read_csv(path)
+    if not fields:
+        return
+    by_key = {
+        (item["exp_id"], item["task_id"]): item
+        for item in attributions
+        if not item["task_id"].startswith("bundle_")
+    }
+    for row in rows:
+        item = by_key.get((row.get("source_exp_id", ""), row.get("task_id", "")))
+        if not item:
+            continue
+        row["recommended_action"] = item["decision"]
+        row["utility_proxy"] = item["delta_vs_parent"]
+    write_csv(path, fields, rows)
 
 
 def write_report(rows: list[dict]) -> None:
@@ -303,6 +349,7 @@ def main() -> None:
     write_csv(output_path, ATTRIBUTION_FIELDS, merged)
     write_csv(queue_path, queue_fields, queue_rows)
     update_best_by_task(generated)
+    update_candidate_pool(generated)
     write_report(merged)
     print(f"attributed_experiments={len(processed_exp_ids)}")
     print(f"attribution_rows={len(generated)}")

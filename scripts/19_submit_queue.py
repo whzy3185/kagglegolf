@@ -279,11 +279,7 @@ def write_kernel_dir(row: dict, candidate: Path, notebook: Path, kernel_slug: st
         shutil.rmtree(kernel_dir)
     kernel_dir.mkdir(parents=True, exist_ok=True)
     source_zip = candidate / "submission.zip"
-    if source_zip.exists():
-        shutil.copy2(source_zip, kernel_dir / "submission_source.zip")
-        write_zip_copy_notebook(kernel_dir / code_file, row["exp_id"], row.get("source_id", ""), row.get("changed_tasks", ""))
-    else:
-        shutil.copy2(notebook, kernel_dir / code_file)
+    shutil.copy2(notebook, kernel_dir / code_file)
     title = kernel_slug.split("/", 1)[1]
     meta = {
         "id": kernel_slug,
@@ -350,6 +346,76 @@ python scripts/09_query_submission_history.py
         encoding="utf-8",
     )
     return manual
+
+
+def submit_local_fallback(
+    row: dict,
+    *,
+    candidate: Path,
+    message: str,
+    reason: str,
+) -> dict:
+    exp_id = row["exp_id"]
+    submission_zip = candidate / "submission.zip"
+    if not submission_zip.exists():
+        manual = write_manual(
+            exp_id,
+            candidate,
+            "",
+            message,
+            f"{reason}; local submission.zip is missing",
+        )
+        row["status"] = "manual_submit_required"
+        row["next_action"] = str(manual)
+        return row
+    fallback_message = message.replace(
+        "target7000 aggressive candidate",
+        "fallback_local_zip_after_notebook_output_failure",
+    )
+    result = run_with_retries(
+        [
+            "competitions",
+            "submit",
+            COMPETITION,
+            "-f",
+            str(submission_zip),
+            "-m",
+            fallback_message,
+        ],
+        cwd=ROOT,
+        timeout=300,
+    )
+    log = root("reports", f"LOCAL_FALLBACK_SUBMIT_{exp_id}.txt")
+    log.write_text(result.stdout or "", encoding="utf-8")
+    ref_match = re.search(r"(\d{6,})", result.stdout or "")
+    if result.returncode == 0:
+        row["submitted"] = "true"
+        row["submission_id"] = (
+            ref_match.group(1) if ref_match else row.get("submission_id", "")
+        )
+        row["status"] = "submitted_waiting_score"
+        row["next_action"] = "poll_submission_results"
+        append_attempt(
+            exp_id,
+            f"""created_at: {datetime.now().isoformat(timespec="seconds")}
+status: submitted_waiting_score
+submit_path: local_zip_fallback
+fallback_reason: {reason}
+submission_id: {row.get('submission_id', '')}
+notes: {(result.stdout or '').strip()[:1000]}
+""",
+        )
+        return row
+    manual = write_manual(
+        exp_id,
+        candidate,
+        "",
+        message,
+        f"{reason}; local zip submit also failed: {(result.stdout or '')[:300]}",
+    )
+    row["status"] = "manual_submit_required"
+    row["next_action"] = str(manual)
+    return row
 
 
 def append_attempt(exp_id: str, block: str) -> None:
@@ -541,27 +607,16 @@ notes: calibration phase permits submission under aggressive user policy
             push = fallback_push
             version = parse_version(push.stdout or "")
         else:
-            manual = write_manual(
-                exp_id,
-                candidate,
-                kernel_slug,
-                message,
-                f"kaggle kernels push failed; primary={str(push.stdout or '')[:160]}; fallback={str(fallback_push.stdout or '')[:160]}",
+            return submit_local_fallback(
+                row,
+                candidate=candidate,
+                message=message,
+                reason=(
+                    "primary and fallback kernel push failed; "
+                    f"primary={str(push.stdout or '')[:160]}; "
+                    f"fallback={str(fallback_push.stdout or '')[:160]}"
+                ),
             )
-            row["status"] = "manual_submit_required"
-            row["next_action"] = str(manual)
-            update_notebook_queue(exp_id, notebook, kernel_slug, "push_failed", "false", str(manual))
-            append_attempt(
-                exp_id,
-                f"""created_at: {datetime.now().isoformat(timespec="seconds")}
-kernel_slug: {kernel_slug}
-kernel_dir: {kernel_dir}
-package_sha256: {sha}
-status: manual_submit_required
-notes: primary and fallback kernel push failed
-""",
-            )
-            return row
 
     status = run_with_retries(["kernels", "status", kernel_slug], cwd=ROOT, timeout=120, attempts=2)
     status_log = root("reports", f"KERNEL_STATUS_{exp_id}.txt")
@@ -587,10 +642,20 @@ notes: pushed but version was not parsed; see {status_log}
 
     output_ok, output_note = verify_kernel_output(kernel_slug, candidate, exp_id)
     if not output_ok:
-        manual = write_manual(exp_id, candidate, kernel_slug, message, f"kernel output did not contain submission.zip: {output_note}")
-        row["status"] = "manual_submit_required"
-        row["next_action"] = str(manual)
-        update_notebook_queue(exp_id, notebook, kernel_slug, "output_missing", "false", str(manual))
+        fallback = submit_local_fallback(
+            row,
+            candidate=candidate,
+            message=message,
+            reason=f"kernel output did not contain submission.zip: {output_note}",
+        )
+        update_notebook_queue(
+            exp_id,
+            notebook,
+            kernel_slug,
+            "output_missing_local_fallback",
+            "false",
+            fallback.get("status", ""),
+        )
         append_attempt(
             exp_id,
             f"""created_at: {datetime.now().isoformat(timespec="seconds")}
@@ -598,11 +663,11 @@ kernel_slug: {kernel_slug}
 kernel_version: {version}
 kernel_dir: {kernel_dir}
 package_sha256: {sha}
-status: manual_submit_required
-notes: output verification failed before competition submit
+status: {fallback.get('status', '')}
+notes: output verification failed; attempted local zip fallback
 """,
         )
-        return row
+        return fallback
 
     update_notebook_queue(exp_id, notebook, kernel_slug, "output_verified", "true", output_note)
 

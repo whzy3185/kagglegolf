@@ -218,8 +218,7 @@ def update_task_bank(
     if evidence_gate_status != "pass":
         return
     status_path = root("task_bank/task_status.csv")
-    best_path = root("task_bank/best_by_task.csv")
-    if not status_path.exists() or not best_path.exists():
+    if not status_path.exists():
         return
 
     changed_by_task = {row["task_id"]: row for row in changed}
@@ -247,32 +246,57 @@ def update_task_bank(
         writer.writeheader()
         writer.writerows(status_rows)
 
-    if risk == "high":
-        return
-
-    with best_path.open(newline="", encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        best_rows = list(reader)
-        best_fields = reader.fieldnames or []
-    for row in best_rows:
-        if row["task_id"] in changed_by_task:
-            item = changed_by_task[row["task_id"]]
-            row.update(
-                {
-                    "best_model_path": item["model_path"],
-                    "source_id": source_id,
-                    "method": item.get("method_family", "override"),
-                    "local_correct": str(validation_ok).lower(),
-                    "local_cost": item.get("cost_proxy", ""),
-                    "last_changed_exp_id": exp_id,
-                    "status": "candidate",
-                    "notes": f"risk={risk}; pending LB delta",
-                }
+    pool_path = root("task_bank/task_candidate_pool.csv")
+    pool_fields = [
+        "task_id",
+        "candidate_model_path",
+        "source_id",
+        "source_exp_id",
+        "method_family",
+        "memory_footprint",
+        "parameter_count",
+        "file_size",
+        "cost_proxy",
+        "utility_proxy",
+        "local_valid",
+        "risk",
+        "candidate_rank",
+        "recommended_action",
+    ]
+    pool_rows: list[dict] = []
+    if pool_path.exists() and pool_path.stat().st_size:
+        with pool_path.open(newline="", encoding="utf-8") as handle:
+            pool_rows = list(csv.DictReader(handle))
+    for item in changed:
+        pool_rows = [
+            row
+            for row in pool_rows
+            if not (
+                row.get("task_id") == item["task_id"]
+                and row.get("source_exp_id") == exp_id
             )
-    with best_path.open("w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=best_fields)
+        ]
+        model_path = resolve_path(item["model_path"])
+        pool_rows.append(
+            {
+                "task_id": item["task_id"],
+                "candidate_model_path": str(model_path),
+                "source_id": source_id,
+                "source_exp_id": exp_id,
+                "method_family": item.get("method_family", "override"),
+                "file_size": model_path.stat().st_size if model_path.exists() else "",
+                "cost_proxy": item.get("cost_proxy", ""),
+                "local_valid": str(validation_ok).lower(),
+                "risk": risk,
+                "recommended_action": "await_submission_attribution",
+            }
+        )
+    with pool_path.open("w", newline="", encoding="utf-8") as handle:
+        writer = csv.DictWriter(handle, fieldnames=pool_fields)
         writer.writeheader()
-        writer.writerows(best_rows)
+        writer.writerows(
+            {field: row.get(field, "") for field in pool_fields} for row in pool_rows
+        )
 
 
 def main() -> None:

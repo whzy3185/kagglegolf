@@ -37,6 +37,7 @@ tools/kaggle/**/*.zip
 notebooks/.ipynb_checkpoints/
 notebooks/output/
 notebooks/submission_payload.b64
+reports/submissions_raw_*.txt
 *.onnx
 *.ort
 *.trace
