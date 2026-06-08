@@ -1,6 +1,6 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-08T22:18:27
+captured_at: 2026-06-08T22:23:28
 selected submissions: unavailable via CLI
 current best public: 6154.71
 target public: 7000.0
@@ -10,7 +10,10 @@ current best submission id: 53472838
 
 | ref | exp_id | date | status | public_score |
 | --- | --- | --- | --- | --- |
-| 53480149 | GOLF_20260608_021_jsrdcht_memory_task255_probe | 2026-06-08 14:18:20.137000 | SubmissionStatus.PENDING |  |
+| 53480311 | GOLF_20260608_018_jonathan_task173_probe | 2026-06-08 14:23:20.807000 | SubmissionStatus.PENDING |  |
+| 53480299 | GOLF_20260608_022_jonathan_task285_probe | 2026-06-08 14:23:02.823000 | SubmissionStatus.PENDING |  |
+| 53480285 | GOLF_20260608_024_jsrdcht_memory_task285_probe | 2026-06-08 14:22:41.053000 | SubmissionStatus.PENDING |  |
+| 53480149 | GOLF_20260608_021_jsrdcht_memory_task255_probe | 2026-06-08 14:18:20.137000 | SubmissionStatus.COMPLETE | 6151.46 |
 | 53480045 | GOLF_20260608_023_beicicc_task076_probe | 2026-06-08 14:13:52.637000 | SubmissionStatus.COMPLETE | 6142.58 |
 | 53479938 | GOLF_20260608_020_beicicc_task366_probe | 2026-06-08 14:09:20.843000 | SubmissionStatus.COMPLETE | 6143.61 |
 | 53478548 | GOLF_20260608_016_jonathan_task255_probe | 2026-06-08 13:21:40.813000 | SubmissionStatus.COMPLETE | 6144.05 |

@@ -538,3 +538,54 @@ kernel_dir: E:\kagglegolf\submissions\candidates\GOLF_20260608_021_jsrdcht_memor
 package_sha256: 9c5ce0299327707e9d8f9762a7dd7962fe6ab6e966334caa49df3ec09dcdef6b
 status: submitted_waiting_score
 notes: output verification failed; attempted local zip fallback
+
+## GOLF_20260608_024_jsrdcht_memory_task285_probe submit attempt
+
+created_at: 2026-06-08T22:22:42
+status: submitted_waiting_score
+submit_path: local_zip_fallback
+fallback_reason: kernel output did not contain submission.zip: Kernel log downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260608_024_jsrdcht_memory_task285_probe\kaggle_output\neurogolf-submit-current.log 
+
+submission_id: 
+notes: 0%|          | 0.00/884k [00:00<?, ?B/s]
+  2%|▏         | 16.0k/884k [00:01<01:37, 9.16kB/s]
+100%|██████████| 884k/884k [00:04<00:00, 209kB/s]  
+Successfully submitted to The 2026 NeuroGolf Championship
+
+## GOLF_20260608_024_jsrdcht_memory_task285_probe submit attempt
+
+created_at: 2026-06-08T22:22:42
+kernel_slug: muelsyse111/neurogolf-submit-current
+kernel_version: 10
+kernel_dir: E:\kagglegolf\submissions\candidates\GOLF_20260608_024_jsrdcht_memory_task285_probe\kaggle_kernel
+package_sha256: caa0e04d7792faf7ed957d4bed0ce0d72711cb25952084cd3cafda2c2578ccb7
+status: submitted_waiting_score
+notes: output verification failed; attempted local zip fallback
+
+## GOLF_20260608_022_jonathan_task285_probe submit attempt
+
+created_at: 2026-06-08T22:23:04
+status: submitted_waiting_score
+submit_path: local_zip_fallback
+fallback_reason: primary and fallback kernel push failed; primary=400 Client Error: Bad Request for url: https://api.kaggle.com/v1/kernels.KernelsApiService/SaveKernel
+; fallback=400 Client Error: Bad Request for url: https://api.kaggle.com/v1/kernels.KernelsApiService/SaveKernel
+
+submission_id: 
+notes: 0%|          | 0.00/909k [00:00<?, ?B/s]
+  2%|▏         | 16.0k/909k [00:00<00:26, 34.6kB/s]
+100%|██████████| 909k/909k [00:02<00:00, 388kB/s]  
+Successfully submitted to The 2026 NeuroGolf Championship
+
+## GOLF_20260608_018_jonathan_task173_probe submit attempt
+
+created_at: 2026-06-08T22:23:22
+status: submitted_waiting_score
+submit_path: local_zip_fallback
+fallback_reason: primary and fallback kernel push failed; primary=400 Client Error: Bad Request for url: https://api.kaggle.com/v1/kernels.KernelsApiService/SaveKernel
+; fallback=400 Client Error: Bad Request for url: https://api.kaggle.com/v1/kernels.KernelsApiService/SaveKernel
+
+submission_id: 
+notes: 0%|          | 0.00/883k [00:00<?, ?B/s]
+  2%|▏         | 16.0k/883k [00:00<00:26, 33.4kB/s]
+100%|██████████| 883k/883k [00:02<00:00, 369kB/s]  
+Successfully submitted to The 2026 NeuroGolf Championship
