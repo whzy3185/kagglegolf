@@ -1,6 +1,6 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-09T20:46:20
+captured_at: 2026-06-09T20:54:48
 selected submissions: unavailable via CLI
 current best public: 6290.69
 target public: 7800.0
@@ -10,7 +10,9 @@ current best submission id: 53502021
 
 | ref | exp_id | date | status | public_score |
 | --- | --- | --- | --- | --- |
-| 53505537 | GOLF_20260609_062_public_single_task_task076_jonathan | 2026-06-09 12:45:41.263000 | SubmissionStatus.PENDING |  |
+| 53505728 | GOLF_20260609_064_public_single_task_task101_jonathan | 2026-06-09 12:54:36.267000 | SubmissionStatus.PENDING |  |
+| 53505684 | GOLF_20260609_063_public_single_task_task096_jonathan | 2026-06-09 12:52:19.637000 | SubmissionStatus.COMPLETE | 6277.86 |
+| 53505537 | GOLF_20260609_062_public_single_task_task076_jonathan | 2026-06-09 12:45:41.263000 | SubmissionStatus.COMPLETE | 6278.39 |
 | 53502021 | GOLF_20260609_061_arc_dsl_task325_component_count_diagonal | 2026-06-09 10:13:26.747000 | SubmissionStatus.COMPLETE | 6290.69 |
 | 53498594 | GOLF_20260609_060_arc_dsl_task057_single_object_hconcat | 2026-06-09 07:37:48.397000 | SubmissionStatus.COMPLETE | 6290.00 |
 | 53498437 | GOLF_20260609_059_arc_dsl_task278_size_two_outbox | 2026-06-09 07:30:21.593000 | SubmissionStatus.COMPLETE | 6289.36 |
@@ -58,5 +60,3 @@ current best submission id: 53502021
 | 53479938 | GOLF_20260608_020_beicicc_task366_probe | 2026-06-08 14:09:20.843000 | SubmissionStatus.COMPLETE | 6143.61 |
 | 53478548 | GOLF_20260608_016_jonathan_task255_probe | 2026-06-08 13:21:40.813000 | SubmissionStatus.COMPLETE | 6144.05 |
 | 53477350 | GOLF_20260608_016_jonathan_task233_probe | 2026-06-08 12:37:37.320000 | SubmissionStatus.COMPLETE | 6144.03 |
-| 53472838 | GOLF_20260608_006_biohack_super_blend_structural_pass_mix | 2026-06-08 09:35:38.743000 | SubmissionStatus.COMPLETE | 6154.71 |
-| 53472836 | GOLF_20260608_005_mirza_structural_pass_mix | 2026-06-08 09:35:31.680000 | SubmissionStatus.COMPLETE | 6154.71 |

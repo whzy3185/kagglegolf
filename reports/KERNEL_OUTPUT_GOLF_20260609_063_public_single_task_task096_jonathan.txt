@@ -1,0 +1,2 @@
+Output file downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260609_063_public_single_task_task096_jonathan\kaggle_output\submission.zip
+Kernel log downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260609_063_public_single_task_task096_jonathan\kaggle_output\neurogolf-submit-current.log 

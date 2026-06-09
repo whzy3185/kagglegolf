@@ -1,0 +1,4 @@
+exp_id=GOLF_20260609_064_public_single_task_task101_jonathan
+AGS=0.835551
+classification=aggressive
+submission_gate_pass=true

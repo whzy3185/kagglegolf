@@ -10,7 +10,9 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
-| 53505537 | GOLF_20260609_062_public_single_task_task076_jonathan | SubmissionStatus.PENDING |  |
+| 53505728 | GOLF_20260609_064_public_single_task_task101_jonathan | SubmissionStatus.PENDING |  |
+| 53505684 | GOLF_20260609_063_public_single_task_task096_jonathan | SubmissionStatus.COMPLETE | 6277.86 |
+| 53505537 | GOLF_20260609_062_public_single_task_task076_jonathan | SubmissionStatus.COMPLETE | 6278.39 |
 | 53502021 | GOLF_20260609_061_arc_dsl_task325_component_count_diagonal | SubmissionStatus.COMPLETE | 6290.69 |
 | 53498594 | GOLF_20260609_060_arc_dsl_task057_single_object_hconcat | SubmissionStatus.COMPLETE | 6290.00 |
 | 53498437 | GOLF_20260609_059_arc_dsl_task278_size_two_outbox | SubmissionStatus.COMPLETE | 6289.36 |
@@ -58,5 +60,3 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 | 53479938 | GOLF_20260608_020_beicicc_task366_probe | SubmissionStatus.COMPLETE | 6143.61 |
 | 53478548 | GOLF_20260608_016_jonathan_task255_probe | SubmissionStatus.COMPLETE | 6144.05 |
 | 53477350 | GOLF_20260608_016_jonathan_task233_probe | SubmissionStatus.COMPLETE | 6144.03 |
-| 53472838 | GOLF_20260608_006_biohack_super_blend_structural_pass_mix | SubmissionStatus.COMPLETE | 6154.71 |
-| 53472836 | GOLF_20260608_005_mirza_structural_pass_mix | SubmissionStatus.COMPLETE | 6154.71 |

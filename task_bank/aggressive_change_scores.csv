@@ -51,3 +51,5 @@ GOLF_20260609_059_arc_dsl_task278_size_two_outbox,2026-06-09T15:29:43,0.781807,a
 GOLF_20260609_060_arc_dsl_task057_single_object_hconcat,2026-06-09T15:37:15,0.735881,aggressive,true,medium,1,1,0.606825,0.961750,0.551141,0.842730
 GOLF_20260609_061_arc_dsl_task325_component_count_diagonal,2026-06-09T18:12:34,0.721237,aggressive,true,medium,1,1,0.622866,0.961750,0.460969,0.849146
 GOLF_20260609_062_public_single_task_task076_jonathan,2026-06-09T20:44:37,0.816589,aggressive,true,medium,1,1,0.884198,0.961750,0.443779,0.953679
+GOLF_20260609_063_public_single_task_task096_jonathan,2026-06-09T20:51:28,0.888958,aggressive,true,medium,1,1,0.942245,0.961750,0.662520,0.976898
+GOLF_20260609_064_public_single_task_task101_jonathan,2026-06-09T20:53:40,0.835551,aggressive,true,medium,1,1,0.817915,0.961750,0.635732,0.927166
