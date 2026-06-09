@@ -10,7 +10,7 @@
   "open_repo_source_id": "SRC_ARC_DSL_GITHUB",
   "historical_competition_source_id": "SRC_GOOGLE_CODE_GOLF_2025",
   "evidence_gate_status": "pass",
-  "evidence_gate_checked_at": "2026-06-09T10:53:28",
+  "evidence_gate_checked_at": "2026-06-09T11:20:44",
   "evidence_gate_notes": "",
   "risk": "medium",
   "changed_tasks": [
@@ -1626,7 +1626,7 @@
   ],
   "aggressive_change_score": 0.6480218990823584,
   "aggressive_change_classification": "strong",
-  "aggressive_change_checked_at": "2026-06-09T10:53:50",
+  "aggressive_change_checked_at": "2026-06-09T11:20:45",
   "aggressive_change_gate_pass": true,
   "aggressive_content_changed_task_count": 1
 }

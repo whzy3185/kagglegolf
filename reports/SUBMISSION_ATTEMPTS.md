@@ -1366,3 +1366,63 @@ status: pending_timeout
 poll_timeout_seconds: 300
 last_submission_status: SubmissionStatus.PENDING
 notes: see reports/SUBMISSION_WAIT_GOLF_20260608_040_rogermt_task128_after020_probe.md
+
+## GOLF_20260608_041_rogermt_task153_after020_probe submit attempt
+
+created_at: 2026-06-09T11:15:40
+kernel_slug: muelsyse111/neurogolf-submit-current
+kernel_version: 27
+kernel_dir: E:\kagglegolf\submissions\candidates\GOLF_20260608_041_rogermt_task153_after020_probe\kaggle_kernel
+package_sha256: e81a37945a410e92740df6f5f2a7a3e441feca53befb58150ab743505de1e223
+submit_command: kaggle competitions submit neurogolf-2026 -k muelsyse111/neurogolf-submit-current -v 27 -f submission.zip
+submission_id: 
+status: submitted_waiting_score
+notes:
+
+## GOLF_20260608_041_rogermt_task153_after020_probe submit attempt
+
+created_at: 2026-06-09T11:20:44
+status: pending_timeout
+poll_timeout_seconds: 300
+last_submission_status: SubmissionStatus.PENDING
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_041_rogermt_task153_after020_probe.md
+
+## GOLF_20260608_044_rogermt_task092_after020_probe submit attempt
+
+created_at: 2026-06-09T11:21:40
+kernel_slug: muelsyse111/neurogolf-submit-current
+kernel_version: 28
+kernel_dir: E:\kagglegolf\submissions\candidates\GOLF_20260608_044_rogermt_task092_after020_probe\kaggle_kernel
+package_sha256: d9e52067d5dea9ad163f9ecdaf97f1fd211550ffed7f84e0699d8a793411e825
+submit_command: kaggle competitions submit neurogolf-2026 -k muelsyse111/neurogolf-submit-current -v 28 -f submission.zip
+submission_id: 
+status: submitted_waiting_score
+notes:
+
+## GOLF_20260608_044_rogermt_task092_after020_probe submit attempt
+
+created_at: 2026-06-09T11:26:44
+status: pending_timeout
+poll_timeout_seconds: 300
+last_submission_status: SubmissionStatus.PENDING
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_044_rogermt_task092_after020_probe.md
+
+## GOLF_20260608_039_rogermt_task255_after020_probe submit attempt
+
+created_at: 2026-06-09T11:27:40
+kernel_slug: muelsyse111/neurogolf-submit-current
+kernel_version: 29
+kernel_dir: E:\kagglegolf\submissions\candidates\GOLF_20260608_039_rogermt_task255_after020_probe\kaggle_kernel
+package_sha256: d05d9a0283a0c3e127ea8796e5b7dcd7c705add44947269b34b70c30931e6a0f
+submit_command: kaggle competitions submit neurogolf-2026 -k muelsyse111/neurogolf-submit-current -v 29 -f submission.zip
+submission_id: 
+status: submitted_waiting_score
+notes:
+
+## GOLF_20260608_039_rogermt_task255_after020_probe submit attempt
+
+created_at: 2026-06-09T11:32:46
+status: pending_timeout
+poll_timeout_seconds: 300
+last_submission_status: SubmissionStatus.PENDING
+notes: see reports/SUBMISSION_WAIT_GOLF_20260608_039_rogermt_task255_after020_probe.md

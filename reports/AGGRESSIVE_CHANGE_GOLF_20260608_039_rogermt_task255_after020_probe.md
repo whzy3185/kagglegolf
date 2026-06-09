@@ -1,6 +1,6 @@
 # Aggressive Change: GOLF_20260608_039_rogermt_task255_after020_probe
 
-checked_at: 2026-06-09T10:53:50
+checked_at: 2026-06-09T11:26:45
 AGS: 0.7766
 classification: aggressive
 submission_gate_pass: true

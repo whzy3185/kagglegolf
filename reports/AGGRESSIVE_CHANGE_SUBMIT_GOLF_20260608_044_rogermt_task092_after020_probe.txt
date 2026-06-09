@@ -1,0 +1,4 @@
+exp_id=GOLF_20260608_044_rogermt_task092_after020_probe
+AGS=0.648022
+classification=strong
+submission_gate_pass=true
