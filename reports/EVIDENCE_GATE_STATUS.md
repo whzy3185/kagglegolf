@@ -1,14 +1,14 @@
 # Evidence Gate Status
 
-checked_at: 2026-06-09T14:53:04
+checked_at: 2026-06-09T15:37:14
 strict_mode: true
 
 ## Summary
 
 | metric | value |
 |---|---:|
-| total_experiments | 57 |
-| pass | 57 |
+| total_experiments | 59 |
+| pass | 59 |
 | fail | 0 |
 | exempt | 0 |
 
@@ -84,6 +84,8 @@ None.
 - GOLF_20260609_056_arc_dsl_task384_scaled_object_crop
 - GOLF_20260609_057_arc_dsl_task310_least_color_crop
 - GOLF_20260609_058_arc_dsl_task097_remove_isolated
+- GOLF_20260609_059_arc_dsl_task278_size_two_outbox
+- GOLF_20260609_060_arc_dsl_task057_single_object_hconcat
 
 ## Exempt Experiments
 

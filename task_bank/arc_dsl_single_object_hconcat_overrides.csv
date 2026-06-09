@@ -1,0 +1,2 @@
+task_id,candidate_model_path,source_id,source_exp_id,method_family,memory_footprint,parameter_count,file_size,cost_proxy,utility_proxy,local_valid,risk,candidate_rank,recommended_action
+task057,data/interim/arc_dsl_task057/task057.onnx,SRC_ARC_DSL_GITHUB,GOLF_20260609_060_arc_dsl_task057_single_object_hconcat,arc_dsl_single_object_hconcat,15448,10,1040,15458,15.354118,true,medium,1,submit_single_task

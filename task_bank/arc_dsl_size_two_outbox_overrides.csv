@@ -1,0 +1,2 @@
+task_id,candidate_model_path,source_id,source_exp_id,method_family,memory_footprint,parameter_count,file_size,cost_proxy,utility_proxy,local_valid,risk,candidate_rank,recommended_action
+task278,data/interim/arc_dsl_task278/task278.onnx,SRC_ARC_DSL_GITHUB,GOLF_20260609_059_arc_dsl_task278_size_two_outbox,arc_dsl_size_two_outbox,25200,30,1120,25230,14.864211,true,medium,1,submit_single_task

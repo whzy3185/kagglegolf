@@ -1,9 +1,8 @@
-# Current Best
+# GOLF_20260609_059_arc_dsl_task278_size_two_outbox
 
-exp_id: GOLF_20260609_059_arc_dsl_task278_size_two_outbox
 submission id: 53498437
 public score: 6289.36
-status: complete
+status: SubmissionStatus.COMPLETE
 source ids: SRC_ARC_DSL_GITHUB, SRC_DISCUSSION_AGENT_HARNESS_6580, SRC_ARC_PRIZE_2024_REPORT, SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP
 local validation: pass
 examples checked: 1200

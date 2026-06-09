@@ -1,15 +1,16 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-09T15:02:18
+captured_at: 2026-06-09T15:35:32
 selected submissions: unavailable via CLI
-current best public: 6289.17
+current best public: 6289.36
 target public: 7800.0
-gap to target: 1510.83
-current best exp_id: GOLF_20260609_058_arc_dsl_task097_remove_isolated
-current best submission id: 53497706
+gap to target: 1510.6400000000003
+current best exp_id: GOLF_20260609_059_arc_dsl_task278_size_two_outbox
+current best submission id: 53498437
 
 | ref | exp_id | date | status | public_score |
 | --- | --- | --- | --- | --- |
+| 53498437 | GOLF_20260609_059_arc_dsl_task278_size_two_outbox | 2026-06-09 07:30:21.593000 | SubmissionStatus.COMPLETE | 6289.36 |
 | 53497706 | GOLF_20260609_058_arc_dsl_task097_remove_isolated | 2026-06-09 06:54:53.193000 | SubmissionStatus.COMPLETE | 6289.17 |
 | 53497538 | GOLF_20260609_057_arc_dsl_task310_least_color_crop | 2026-06-09 06:46:34.887000 | SubmissionStatus.COMPLETE | 6288.04 |
 | 53497261 | GOLF_20260609_056_arc_dsl_task384_scaled_object_crop | 2026-06-09 06:34:25.390000 | SubmissionStatus.COMPLETE | 6287.77 |
@@ -59,4 +60,3 @@ current best submission id: 53497706
 | 53472715 | GOLF_20260608_008b_jonathan_structural_pass_mix | 2026-06-08 09:29:53.913000 | SubmissionStatus.COMPLETE | 5595.78 |
 | 53472483 | GOLF_20260608_004b_beicicc_structural_pass_mix | 2026-06-08 09:19:27.230000 | SubmissionStatus.COMPLETE | 5948.07 |
 | 53472175 | GOLF_20260607_003_bottom15_single_task_probe | 2026-06-08 09:06:36.363000 | SubmissionStatus.COMPLETE | 6154.67 |
-| 53472165 | GOLF_20260607_002_public_6029_aggressive_mix | 2026-06-08 09:06:14.707000 | SubmissionStatus.COMPLETE | 6154.59 |

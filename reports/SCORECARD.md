@@ -1,15 +1,16 @@
 # Scorecard
 
-Current best public score: 6289.17
+Current best public score: 6289.36
 Target public score: 7800.0
-Gap to target: 1510.83
-Current best exp_id: GOLF_20260609_058_arc_dsl_task097_remove_isolated
-Current best submission id: 53497706
+Gap to target: 1510.6400000000003
+Current best exp_id: GOLF_20260609_059_arc_dsl_task278_size_two_outbox
+Current best submission id: 53498437
 
 Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
+| 53498437 | GOLF_20260609_059_arc_dsl_task278_size_two_outbox | SubmissionStatus.COMPLETE | 6289.36 |
 | 53497706 | GOLF_20260609_058_arc_dsl_task097_remove_isolated | SubmissionStatus.COMPLETE | 6289.17 |
 | 53497538 | GOLF_20260609_057_arc_dsl_task310_least_color_crop | SubmissionStatus.COMPLETE | 6288.04 |
 | 53497261 | GOLF_20260609_056_arc_dsl_task384_scaled_object_crop | SubmissionStatus.COMPLETE | 6287.77 |
@@ -59,4 +60,3 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 | 53472715 | GOLF_20260608_008b_jonathan_structural_pass_mix | SubmissionStatus.COMPLETE | 5595.78 |
 | 53472483 | GOLF_20260608_004b_beicicc_structural_pass_mix | SubmissionStatus.COMPLETE | 5948.07 |
 | 53472175 | GOLF_20260607_003_bottom15_single_task_probe | SubmissionStatus.COMPLETE | 6154.67 |
-| 53472165 | GOLF_20260607_002_public_6029_aggressive_mix | SubmissionStatus.COMPLETE | 6154.59 |
