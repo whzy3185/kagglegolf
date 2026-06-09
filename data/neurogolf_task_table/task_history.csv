@@ -399,3 +399,4 @@ timestamp,task_id,old_score,new_score,delta,old_cost,new_cost,candidate_id,notes
 2026-06-09T18:31:02,task398,,13.657922169750098,,,84295.0,current,score_or_cost_updated
 2026-06-09T18:31:02,task399,,17.48302277539568,,,1839.0,current,score_or_cost_updated
 2026-06-09T18:31:02,task400,,14.532534757896764,,,35153.0,current,score_or_cost_updated
+2026-06-09T19:03:05,task325,14.330533108254256,15.016315905469595,0.6857827972153387,43022.0,21670.0,current,score_or_cost_updated

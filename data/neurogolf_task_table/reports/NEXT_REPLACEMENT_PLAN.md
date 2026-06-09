@@ -1,6 +1,6 @@
 # Next Replacement Plan
 
-updated_at: 2026-06-09T18:47:56
+updated_at: 2026-06-09T19:04:34
 
 
 The list is generated from current cost, score gap, correctness, solver-source availability and ONNX template simplicity.

@@ -1,14 +1,14 @@
 # Task Scoreboard Summary
 
-updated_at: 2026-06-09T18:47:56
+updated_at: 2026-06-09T19:04:34
 
-current_total_score: 6290.005130
+current_total_score: 6290.690912
 
-average_score: 15.725013
+average_score: 15.726727
 
 target_total_score: 10000.000000
 
-total_gap: 3709.994870
+total_gap: 3709.309088
 
 pass/fail/missing: 400/0/0
 
@@ -182,6 +182,7 @@ pass/fail/missing: 400/0/0
 
 | timestamp | task_id | old_score | new_score | delta | candidate_id |
 | --- | --- | --- | --- | --- | --- |
+| 2026-06-09T19:03:05 | task325 | 14.330533108254256 | 15.016315905469595 | 0.6857827972153387 | current |
 | 2026-06-09T18:31:02 | task001 |  | 17.047384888349 |  | current |
 | 2026-06-09T18:31:02 | task002 |  | 13.514517676859928 |  | current |
 | 2026-06-09T18:31:02 | task003 |  | 17.918291413894426 |  | current |
@@ -201,12 +202,12 @@ pass/fail/missing: 400/0/0
 | 2026-06-09T18:31:02 | task017 |  | 14.57051253772697 |  | current |
 | 2026-06-09T18:31:02 | task018 |  | 11.926440386857584 |  | current |
 | 2026-06-09T18:31:02 | task019 |  | 13.69353305881371 |  | current |
-| 2026-06-09T18:31:02 | task020 |  | 16.061599593526992 |  | current |
 
 ## Recent Drops
 
 | timestamp | task_id | old_score | new_score | delta | candidate_id |
 | --- | --- | --- | --- | --- | --- |
+| 2026-06-09T19:03:05 | task325 | 14.330533108254256 | 15.016315905469595 | 0.6857827972153387 | current |
 | 2026-06-09T18:31:02 | task001 |  | 17.047384888349 |  | current |
 | 2026-06-09T18:31:02 | task002 |  | 13.514517676859928 |  | current |
 | 2026-06-09T18:31:02 | task003 |  | 17.918291413894426 |  | current |
@@ -226,7 +227,6 @@ pass/fail/missing: 400/0/0
 | 2026-06-09T18:31:02 | task017 |  | 14.57051253772697 |  | current |
 | 2026-06-09T18:31:02 | task018 |  | 11.926440386857584 |  | current |
 | 2026-06-09T18:31:02 | task019 |  | 13.69353305881371 |  | current |
-| 2026-06-09T18:31:02 | task020 |  | 16.061599593526992 |  | current |
 
 ## Priority Replacement Tasks
 
