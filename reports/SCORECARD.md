@@ -1,16 +1,18 @@
 # Scorecard
 
-Current best public score: 6276.54
+Current best public score: 6278.32
 Target public score: 7800.0
-Gap to target: 1523.46
-Current best exp_id: GOLF_20260608_042_rogermt_task159_after020_probe
-Current best submission id: 53492927
+Gap to target: 1521.6800000000003
+Current best exp_id: GOLF_20260608_046_rogermt_positive_stack_255_128_208
+Current best submission id: 53493813
 
 Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
-| 53493476 | GOLF_20260608_039_rogermt_task255_after020_probe | SubmissionStatus.PENDING |  |
+| 53493813 | GOLF_20260608_046_rogermt_positive_stack_255_128_208 | SubmissionStatus.COMPLETE | 6278.32 |
+| 53493697 | GOLF_20260608_045_rogermt_positive_stack_128_208 | SubmissionStatus.COMPLETE | 6277.36 |
+| 53493476 | GOLF_20260608_039_rogermt_task255_after020_probe | SubmissionStatus.COMPLETE | 6276.02 |
 | 53493355 | GOLF_20260608_044_rogermt_task092_after020_probe | SubmissionStatus.COMPLETE | 6274.06 |
 | 53493248 | GOLF_20260608_041_rogermt_task153_after020_probe | SubmissionStatus.COMPLETE | 6275.05 |
 | 53493106 | GOLF_20260608_040_rogermt_task128_after020_probe | SubmissionStatus.COMPLETE | 6275.22 |

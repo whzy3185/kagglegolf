@@ -1,6 +1,6 @@
 # Known Bad Families
 
-updated_at: 2026-06-09T11:13:12
+updated_at: 2026-06-09T11:49:59
 
 This file is consumed by the automatic selector. It records negative leaderboard feedback that should penalize similar candidates without deleting the source from the alternate task pool.
 
@@ -48,3 +48,5 @@ This file is consumed by the automatic selector. It records negative leaderboard
 | GOLF_20260608_034_rogermt_6273_full_replace | SRC_HF_ROGERMT_6273_SUBMISSION | bundle_400_tasks | 400 | 6272.50 | -0.100000 | bundle_negative |
 | GOLF_20260608_037_rogermt_task062_optimized_probe | SRC_HF_ROGERMT_6273_SUBMISSION | task062 | 1 | 6272.54 | -0.060000 | rejected_for_current_base |
 | GOLF_20260608_038_rogermt_task243_optimized_probe | SRC_HF_ROGERMT_6273_SUBMISSION | task243 | 1 | 6272.19 | -0.410000 | rejected_for_current_base |
+| GOLF_20260608_041_rogermt_task153_after020_probe | SRC_HF_ROGERMT_6273_SUBMISSION | task153 | 1 | 6275.05 | -0.020000 | rejected_for_current_base |
+| GOLF_20260608_044_rogermt_task092_after020_probe | SRC_HF_ROGERMT_6273_SUBMISSION | task092 | 1 | 6274.06 | -1.010000 | rejected_for_current_base |

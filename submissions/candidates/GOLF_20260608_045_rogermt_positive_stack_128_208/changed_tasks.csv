@@ -1,0 +1,3 @@
+task_id,model_path,source_id,method_family,risk,cost_proxy
+task208,E:\kagglegolf\data\external\hf_rogermt_neurogolf_solver\medal-solvers\optimized\task208.onnx,SRC_HF_ROGERMT_6273_SUBMISSION,score_delta_stack,medium,
+task128,E:\kagglegolf\data\external\hf_rogermt_neurogolf_solver\medal-solvers\optimized\task128.onnx,SRC_HF_ROGERMT_6273_SUBMISSION,score_delta_stack,medium,

@@ -1,6 +1,6 @@
 # Task Attribution
 
-updated_at: 2026-06-09T11:13:12
+updated_at: 2026-06-09T11:49:59
 
 | exp_id | task/bundle | count | score | delta parent | strength | decision | normal bank | high-risk bank |
 |---|---|---:|---:|---:|---|---|---|---|
@@ -40,8 +40,16 @@ updated_at: 2026-06-09T11:13:12
 | GOLF_20260608_036_rogermt_task020_optimized_probe | task020 | 1 | 6275.07 | 2.470000 | strong | confirmed_win | true | false |
 | GOLF_20260608_037_rogermt_task062_optimized_probe | task062 | 1 | 6272.54 | -0.060000 | strong | rejected_for_current_base | false | false |
 | GOLF_20260608_038_rogermt_task243_optimized_probe | task243 | 1 | 6272.19 | -0.410000 | strong | rejected_for_current_base | false | false |
+| GOLF_20260608_039_rogermt_task255_after020_probe | task255 | 1 | 6276.02 | 0.950000 | strong | confirmed_win | true | false |
 | GOLF_20260608_040_rogermt_task128_after020_probe | task128 | 1 | 6275.22 | 0.150000 | strong | confirmed_win | true | false |
+| GOLF_20260608_041_rogermt_task153_after020_probe | task153 | 1 | 6275.05 | -0.020000 | strong | rejected_for_current_base | false | false |
 | GOLF_20260608_042_rogermt_task159_after020_probe | task159 | 1 | 6276.54 | 1.470000 | strong | confirmed_win | true | false |
 | GOLF_20260608_043_rogermt_task208_after020_probe | task208 | 1 | 6275.74 | 0.670000 | strong | confirmed_win | true | false |
+| GOLF_20260608_044_rogermt_task092_after020_probe | task092 | 1 | 6274.06 | -1.010000 | strong | rejected_for_current_base | false | false |
+| GOLF_20260608_045_rogermt_positive_stack_128_208 | task208 | 2 | 6277.36 | 0.820000 | suspected | suspected_mix_win | false | false |
+| GOLF_20260608_045_rogermt_positive_stack_128_208 | task128 | 2 | 6277.36 | 0.820000 | suspected | suspected_mix_win | false | false |
+| GOLF_20260608_046_rogermt_positive_stack_255_128_208 | task255 | 3 | 6278.32 | 1.780000 | suspected | suspected_mix_win | false | false |
+| GOLF_20260608_046_rogermt_positive_stack_255_128_208 | task208 | 3 | 6278.32 | 1.780000 | suspected | suspected_mix_win | false | false |
+| GOLF_20260608_046_rogermt_positive_stack_255_128_208 | task128 | 3 | 6278.32 | 1.780000 | suspected | suspected_mix_win | false | false |
 
 Broad mixes are bundle-level evidence only. High-risk wins remain outside the normal task bank.

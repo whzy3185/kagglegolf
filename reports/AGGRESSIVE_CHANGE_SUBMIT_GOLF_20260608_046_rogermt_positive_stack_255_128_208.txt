@@ -1,0 +1,4 @@
+exp_id=GOLF_20260608_046_rogermt_positive_stack_255_128_208
+AGS=0.738664
+classification=aggressive
+submission_gate_pass=true

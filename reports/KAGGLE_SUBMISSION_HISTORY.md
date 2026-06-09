@@ -1,16 +1,18 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-09T11:27:46
+captured_at: 2026-06-09T11:49:59
 selected submissions: unavailable via CLI
-current best public: 6276.54
+current best public: 6278.32
 target public: 7800.0
-gap to target: 1523.46
-current best exp_id: GOLF_20260608_042_rogermt_task159_after020_probe
-current best submission id: 53492927
+gap to target: 1521.6800000000003
+current best exp_id: GOLF_20260608_046_rogermt_positive_stack_255_128_208
+current best submission id: 53493813
 
 | ref | exp_id | date | status | public_score |
 | --- | --- | --- | --- | --- |
-| 53493476 | GOLF_20260608_039_rogermt_task255_after020_probe | 2026-06-09 03:27:38.787000 | SubmissionStatus.PENDING |  |
+| 53493813 | GOLF_20260608_046_rogermt_positive_stack_255_128_208 | 2026-06-09 03:44:04.060000 | SubmissionStatus.COMPLETE | 6278.32 |
+| 53493697 | GOLF_20260608_045_rogermt_positive_stack_128_208 | 2026-06-09 03:38:04.703000 | SubmissionStatus.COMPLETE | 6277.36 |
+| 53493476 | GOLF_20260608_039_rogermt_task255_after020_probe | 2026-06-09 03:27:38.787000 | SubmissionStatus.COMPLETE | 6276.02 |
 | 53493355 | GOLF_20260608_044_rogermt_task092_after020_probe | 2026-06-09 03:21:38.757000 | SubmissionStatus.COMPLETE | 6274.06 |
 | 53493248 | GOLF_20260608_041_rogermt_task153_after020_probe | 2026-06-09 03:15:38.347000 | SubmissionStatus.COMPLETE | 6275.05 |
 | 53493106 | GOLF_20260608_040_rogermt_task128_after020_probe | 2026-06-09 03:07:08.147000 | SubmissionStatus.COMPLETE | 6275.22 |

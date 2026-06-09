@@ -1,29 +1,29 @@
 {
-  "checked_at": "2026-06-09T11:14:47",
+  "checked_at": "2026-06-09T11:37:09",
   "current_best_score": 6276.54,
   "current_best_exp_id": "GOLF_20260608_042_rogermt_task159_after020_probe",
-  "candidate_count": 40,
-  "eligible_count": 3,
-  "blocked_count": 37,
-  "selected_exp_id": "GOLF_20260608_041_rogermt_task153_after020_probe",
+  "candidate_count": 42,
+  "eligible_count": 2,
+  "blocked_count": 40,
+  "selected_exp_id": "GOLF_20260608_045_rogermt_positive_stack_128_208",
   "selected": {
-    "exp_id": "GOLF_20260608_041_rogermt_task153_after020_probe",
-    "selection_score": 0.558097,
-    "selection_reason": "class=operator_family_replacement; AGS=0.707; structural_scale=0.95; source=1.00; upside=0.85; novelty=0.60; attribution=1.00; tail_bonus=0.80; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.35; source_negative=recent negative source feedback from GOLF_20260608_034_rogermt_6273_full_replace, GOLF_20260608_037_rogermt_task062_optimized_probe, GOLF_20260608_038_rogermt_task243_optimized_probe",
+    "exp_id": "GOLF_20260608_045_rogermt_positive_stack_128_208",
+    "selection_score": 0.535142,
+    "selection_reason": "class=operator_family_replacement; AGS=0.739; structural_scale=0.95; source=1.00; upside=0.85; novelty=0.25; attribution=0.70; tail_bonus=0.80; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.35; source_negative=recent negative source feedback from GOLF_20260608_034_rogermt_6273_full_replace, GOLF_20260608_037_rogermt_task062_optimized_probe, GOLF_20260608_038_rogermt_task243_optimized_probe",
     "risk": "medium",
     "source_id": "SRC_HF_ROGERMT_6273_SUBMISSION",
-    "changed_task_count": 1,
+    "changed_task_count": 2,
     "lane": "normal",
     "structural_class": "operator_family_replacement",
     "large_structure_bonus": 0.15,
     "positive_probe_required_for_broad_mix": false,
     "components": {
-      "ags": 0.707258,
+      "ags": 0.739281,
       "structural_scale_score": 0.9500000000000001,
       "source_priority_score": 1.0,
       "expected_lb_upside": 0.85,
-      "novelty_vs_submitted": 0.6,
-      "attribution_value": 1.0,
+      "novelty_vs_submitted": 0.25,
+      "attribution_value": 0.7,
       "bottom_tail_or_memory_tail_bonus": 0.8,
       "known_bad_family_penalty": 0.0,
       "small_tuning_penalty": 0.0,
@@ -32,28 +32,28 @@
       "source_diversity_bonus": 0.0,
       "risk_penalty": 0.35
     },
-    "package_sha256": "e81a37945a410e92740df6f5f2a7a3e441feca53befb58150ab743505de1e223",
+    "package_sha256": "4a340d02230ba474497fde9e69da1946b4edca83a583c2467d3fbcf552022195",
     "soft_penalties": []
   },
   "ranked_candidates": [
     {
-      "exp_id": "GOLF_20260608_041_rogermt_task153_after020_probe",
-      "selection_score": 0.558097,
-      "selection_reason": "class=operator_family_replacement; AGS=0.707; structural_scale=0.95; source=1.00; upside=0.85; novelty=0.60; attribution=1.00; tail_bonus=0.80; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.35; source_negative=recent negative source feedback from GOLF_20260608_034_rogermt_6273_full_replace, GOLF_20260608_037_rogermt_task062_optimized_probe, GOLF_20260608_038_rogermt_task243_optimized_probe",
+      "exp_id": "GOLF_20260608_045_rogermt_positive_stack_128_208",
+      "selection_score": 0.535142,
+      "selection_reason": "class=operator_family_replacement; AGS=0.739; structural_scale=0.95; source=1.00; upside=0.85; novelty=0.25; attribution=0.70; tail_bonus=0.80; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.35; source_negative=recent negative source feedback from GOLF_20260608_034_rogermt_6273_full_replace, GOLF_20260608_037_rogermt_task062_optimized_probe, GOLF_20260608_038_rogermt_task243_optimized_probe",
       "risk": "medium",
       "source_id": "SRC_HF_ROGERMT_6273_SUBMISSION",
-      "changed_task_count": 1,
+      "changed_task_count": 2,
       "lane": "normal",
       "structural_class": "operator_family_replacement",
       "large_structure_bonus": 0.15,
       "positive_probe_required_for_broad_mix": false,
       "components": {
-        "ags": 0.707258,
+        "ags": 0.739281,
         "structural_scale_score": 0.9500000000000001,
         "source_priority_score": 1.0,
         "expected_lb_upside": 0.85,
-        "novelty_vs_submitted": 0.6,
-        "attribution_value": 1.0,
+        "novelty_vs_submitted": 0.25,
+        "attribution_value": 0.7,
         "bottom_tail_or_memory_tail_bonus": 0.8,
         "known_bad_family_penalty": 0.0,
         "small_tuning_penalty": 0.0,
@@ -62,56 +62,27 @@
         "source_diversity_bonus": 0.0,
         "risk_penalty": 0.35
       },
-      "package_sha256": "e81a37945a410e92740df6f5f2a7a3e441feca53befb58150ab743505de1e223",
+      "package_sha256": "4a340d02230ba474497fde9e69da1946b4edca83a583c2467d3fbcf552022195",
       "soft_penalties": []
     },
     {
-      "exp_id": "GOLF_20260608_044_rogermt_task092_after020_probe",
-      "selection_score": 0.505065,
-      "selection_reason": "class=operator_family_replacement; AGS=0.648; structural_scale=0.95; source=1.00; upside=0.85; novelty=0.60; attribution=1.00; tail_bonus=0.00; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.35; source_negative=recent negative source feedback from GOLF_20260608_034_rogermt_6273_full_replace, GOLF_20260608_037_rogermt_task062_optimized_probe, GOLF_20260608_038_rogermt_task243_optimized_probe",
+      "exp_id": "GOLF_20260608_046_rogermt_positive_stack_255_128_208",
+      "selection_score": 0.332506,
+      "selection_reason": "class=operator_family_replacement; AGS=0.739; structural_scale=0.95; source=1.00; upside=0.85; novelty=0.60; attribution=0.70; tail_bonus=0.75; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=1.00; source_diversity_bonus=0.00; risk_penalty=0.35; source_negative=recent negative source feedback from GOLF_20260608_034_rogermt_6273_full_replace, GOLF_20260608_037_rogermt_task062_optimized_probe, GOLF_20260608_038_rogermt_task243_optimized_probe; same_family_negative=same source already has negative bottom-tail probe feedback",
       "risk": "medium",
       "source_id": "SRC_HF_ROGERMT_6273_SUBMISSION",
-      "changed_task_count": 1,
+      "changed_task_count": 3,
       "lane": "normal",
       "structural_class": "operator_family_replacement",
       "large_structure_bonus": 0.15,
       "positive_probe_required_for_broad_mix": false,
       "components": {
-        "ags": 0.648022,
+        "ags": 0.738664,
         "structural_scale_score": 0.9500000000000001,
         "source_priority_score": 1.0,
         "expected_lb_upside": 0.85,
         "novelty_vs_submitted": 0.6,
-        "attribution_value": 1.0,
-        "bottom_tail_or_memory_tail_bonus": 0.0,
-        "known_bad_family_penalty": 0.0,
-        "small_tuning_penalty": 0.0,
-        "recent_negative_source_penalty": 1.0,
-        "same_family_negative_penalty": 0.0,
-        "source_diversity_bonus": 0.0,
-        "risk_penalty": 0.35
-      },
-      "package_sha256": "d9e52067d5dea9ad163f9ecdaf97f1fd211550ffed7f84e0699d8a793411e825",
-      "soft_penalties": []
-    },
-    {
-      "exp_id": "GOLF_20260608_039_rogermt_task255_after020_probe",
-      "selection_score": 0.370844,
-      "selection_reason": "class=operator_family_replacement; AGS=0.777; structural_scale=0.95; source=1.00; upside=0.85; novelty=0.00; attribution=1.00; tail_bonus=0.75; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=1.00; source_diversity_bonus=0.00; risk_penalty=0.35; source_negative=recent negative source feedback from GOLF_20260608_034_rogermt_6273_full_replace, GOLF_20260608_037_rogermt_task062_optimized_probe, GOLF_20260608_038_rogermt_task243_optimized_probe; same_family_negative=same source already has negative bottom-tail probe feedback",
-      "risk": "medium",
-      "source_id": "SRC_HF_ROGERMT_6273_SUBMISSION",
-      "changed_task_count": 1,
-      "lane": "normal",
-      "structural_class": "operator_family_replacement",
-      "large_structure_bonus": 0.15,
-      "positive_probe_required_for_broad_mix": false,
-      "components": {
-        "ags": 0.776562,
-        "structural_scale_score": 0.9500000000000001,
-        "source_priority_score": 1.0,
-        "expected_lb_upside": 0.85,
-        "novelty_vs_submitted": 0.0,
-        "attribution_value": 1.0,
+        "attribution_value": 0.7,
         "bottom_tail_or_memory_tail_bonus": 0.75,
         "known_bad_family_penalty": 0.0,
         "small_tuning_penalty": 0.0,
@@ -120,7 +91,7 @@
         "source_diversity_bonus": 0.0,
         "risk_penalty": 0.35
       },
-      "package_sha256": "d05d9a0283a0c3e127ea8796e5b7dcd7c705add44947269b34b70c30931e6a0f",
+      "package_sha256": "8d4feec1e9d6b8b45165f6c4b6e180bb7147c340f7f8f4c9c76ce5a58b820b80",
       "soft_penalties": []
     }
   ],
@@ -340,7 +311,19 @@
       ]
     },
     {
+      "exp_id": "GOLF_20260608_039_rogermt_task255_after020_probe",
+      "reasons": [
+        "already_submitted"
+      ]
+    },
+    {
       "exp_id": "GOLF_20260608_040_rogermt_task128_after020_probe",
+      "reasons": [
+        "already_submitted"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260608_041_rogermt_task153_after020_probe",
       "reasons": [
         "already_submitted"
       ]
@@ -353,6 +336,12 @@
     },
     {
       "exp_id": "GOLF_20260608_043_rogermt_task208_after020_probe",
+      "reasons": [
+        "already_submitted"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260608_044_rogermt_task092_after020_probe",
       "reasons": [
         "already_submitted"
       ]

@@ -1,8 +1,8 @@
 # Current Best
 
-exp_id: GOLF_20260608_042_rogermt_task159_after020_probe
-submission id: 53492927
-public score: 6276.54
+exp_id: GOLF_20260608_046_rogermt_positive_stack_255_128_208
+submission id: 53493813
+public score: 6278.32
 status: complete
 source ids: SRC_KAGGLE_NOTEBOOK_SEDDIK_SURGICAL_ONNX, SRC_KAGGLE_NOTEBOOK_KOJIMAR_6272_AUDITED_OVERRIDES
 local validation: pass
