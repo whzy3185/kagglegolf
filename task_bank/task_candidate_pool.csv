@@ -3761,4 +3761,5 @@ task155,E:\kagglegolf\data\interim\arc_dsl_compiled\task155.onnx,SRC_ARC_DSL_GIT
 task300,E:\kagglegolf\data\interim\arc_dsl_task300\task300.onnx,SRC_ARC_DSL_GITHUB,GOLF_20260609_054_arc_dsl_task300_largest_color_crop,arc_dsl_largest_color_crop,,,2495,41344,0.620000,true,medium,,confirmed_win
 task242,E:\kagglegolf\data\interim\arc_dsl_task242\task242.onnx,SRC_ARC_DSL_GITHUB,GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop,single_task_override,,,875,,0.940000,true,medium,,confirmed_win
 task384,E:\kagglegolf\data\interim\arc_dsl_task384\task384.onnx,SRC_ARC_DSL_GITHUB,GOLF_20260609_056_arc_dsl_task384_scaled_object_crop,single_task_override,,,2717,,0.980000,true,medium,,confirmed_win
-task310,E:\kagglegolf\data\interim\arc_dsl_task310\task310.onnx,SRC_ARC_DSL_GITHUB,GOLF_20260609_057_arc_dsl_task310_least_color_crop,single_task_override,,,2770,,,true,medium,,await_submission_attribution
+task310,E:\kagglegolf\data\interim\arc_dsl_task310\task310.onnx,SRC_ARC_DSL_GITHUB,GOLF_20260609_057_arc_dsl_task310_least_color_crop,single_task_override,,,2770,,0.270000,true,medium,,confirmed_win
+task097,E:\kagglegolf\data\interim\arc_dsl_task097\task097.onnx,SRC_ARC_DSL_GITHUB,GOLF_20260609_058_arc_dsl_task097_remove_isolated,single_task_override,,,808,,1.130000,true,medium,,confirmed_win

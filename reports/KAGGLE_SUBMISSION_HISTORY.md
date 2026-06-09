@@ -1,16 +1,17 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-09T14:46:41
+captured_at: 2026-06-09T15:02:18
 selected submissions: unavailable via CLI
-current best public: 6287.77
+current best public: 6289.17
 target public: 7800.0
-gap to target: 1512.2299999999996
-current best exp_id: GOLF_20260609_056_arc_dsl_task384_scaled_object_crop
-current best submission id: 53497261
+gap to target: 1510.83
+current best exp_id: GOLF_20260609_058_arc_dsl_task097_remove_isolated
+current best submission id: 53497706
 
 | ref | exp_id | date | status | public_score |
 | --- | --- | --- | --- | --- |
-| 53497538 | GOLF_20260609_057_arc_dsl_task310_least_color_crop | 2026-06-09 06:46:34.887000 | SubmissionStatus.PENDING |  |
+| 53497706 | GOLF_20260609_058_arc_dsl_task097_remove_isolated | 2026-06-09 06:54:53.193000 | SubmissionStatus.COMPLETE | 6289.17 |
+| 53497538 | GOLF_20260609_057_arc_dsl_task310_least_color_crop | 2026-06-09 06:46:34.887000 | SubmissionStatus.COMPLETE | 6288.04 |
 | 53497261 | GOLF_20260609_056_arc_dsl_task384_scaled_object_crop | 2026-06-09 06:34:25.390000 | SubmissionStatus.COMPLETE | 6287.77 |
 | 53496989 | GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop | 2026-06-09 06:24:02.317000 | SubmissionStatus.COMPLETE | 6286.79 |
 | 53496682 | GOLF_20260609_054_arc_dsl_task300_largest_color_crop | 2026-06-09 06:09:27.027000 | SubmissionStatus.COMPLETE | 6285.68 |
@@ -59,4 +60,3 @@ current best submission id: 53497261
 | 53472483 | GOLF_20260608_004b_beicicc_structural_pass_mix | 2026-06-08 09:19:27.230000 | SubmissionStatus.COMPLETE | 5948.07 |
 | 53472175 | GOLF_20260607_003_bottom15_single_task_probe | 2026-06-08 09:06:36.363000 | SubmissionStatus.COMPLETE | 6154.67 |
 | 53472165 | GOLF_20260607_002_public_6029_aggressive_mix | 2026-06-08 09:06:14.707000 | SubmissionStatus.COMPLETE | 6154.59 |
-| 53450566 | GOLF_20260607_001_public_6154_repro | 2026-06-07 12:27:16.493000 | SubmissionStatus.COMPLETE | 6154.71 |

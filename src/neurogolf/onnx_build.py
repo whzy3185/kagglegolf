@@ -1133,3 +1133,88 @@ def build_least_color_bbox_crop_network(
     onnx.shape_inference.infer_shapes(model, strict_mode=True)
     path.parent.mkdir(parents=True, exist_ok=True)
     onnx.save(model, str(path))
+
+
+def build_remove_isolated_foreground_network(path: Path) -> None:
+    """Replace isolated eight-neighbor foreground pixels with background."""
+
+    import onnx
+    from onnx import TensorProto, helper, numpy_helper
+
+    shape = list(spec.TENSOR_SHAPE)
+    x = helper.make_tensor_value_info(spec.INPUT_NAME, TensorProto.FLOAT, shape)
+    y = helper.make_tensor_value_info(spec.OUTPUT_NAME, TensorProto.FLOAT, shape)
+    neighbor_kernel = np.ones((1, 1, 3, 3), dtype=np.float32)
+    neighbor_kernel[0, 0, 1, 1] = 0.0
+    background = np.zeros((1, 10, 1, 1), dtype=np.float32)
+    background[0, 0, 0, 0] = 1.0
+    initializers = [
+        numpy_helper.from_array(np.array([0], dtype=np.int64), "zero_channel"),
+        numpy_helper.from_array(np.array(0.0, dtype=np.float32), "zero"),
+        numpy_helper.from_array(neighbor_kernel, "neighbor_kernel"),
+        numpy_helper.from_array(background, "background_onehot"),
+    ]
+    nodes = [
+        helper.make_node(
+            "ReduceSum",
+            ["input"],
+            ["valid_plane"],
+            axes=[1],
+            keepdims=1,
+        ),
+        helper.make_node(
+            "Gather",
+            ["input", "zero_channel"],
+            ["zero_plane"],
+            axis=1,
+        ),
+        helper.make_node(
+            "Sub",
+            ["valid_plane", "zero_plane"],
+            ["foreground_plane"],
+        ),
+        helper.make_node(
+            "Conv",
+            ["foreground_plane", "neighbor_kernel"],
+            ["neighbor_count"],
+            pads=[1, 1, 1, 1],
+            strides=[1, 1],
+        ),
+        helper.make_node(
+            "Greater",
+            ["neighbor_count", "zero"],
+            ["has_neighbor"],
+        ),
+        helper.make_node(
+            "Greater",
+            ["foreground_plane", "zero"],
+            ["is_foreground"],
+        ),
+        helper.make_node("Not", ["has_neighbor"], ["has_no_neighbor"]),
+        helper.make_node(
+            "And",
+            ["is_foreground", "has_no_neighbor"],
+            ["is_isolated"],
+        ),
+        helper.make_node(
+            "Where",
+            ["is_isolated", "background_onehot", "input"],
+            [spec.OUTPUT_NAME],
+        ),
+    ]
+    graph = helper.make_graph(
+        nodes,
+        "arc_dsl_remove_isolated_foreground",
+        [x],
+        [y],
+        initializer=initializers,
+    )
+    model = helper.make_model(
+        graph,
+        ir_version=spec.IR_VERSION,
+        opset_imports=[helper.make_opsetid("", spec.OPSET)],
+    )
+    onnx.checker.check_model(model, full_check=True)
+    onnx.shape_inference.infer_shapes(model, strict_mode=True)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    onnx.save(model, str(path))

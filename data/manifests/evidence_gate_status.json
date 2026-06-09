@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-06-09T14:45:38",
+  "checked_at": "2026-06-09T14:53:04",
   "strict_mode": true,
   "filters": {
     "exp_id": "",
     "direction_id": ""
   },
-  "total_experiments": 56,
-  "pass_count": 56,
+  "total_experiments": 57,
+  "pass_count": 57,
   "fail_count": 0,
   "exempt_count": 0,
   "failed_exp_ids": [],
@@ -343,6 +343,12 @@
     },
     {
       "exp_id": "GOLF_20260609_057_arc_dsl_task310_least_color_crop",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_058_arc_dsl_task097_remove_isolated",
       "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
       "status": "pass",
       "reasons": []

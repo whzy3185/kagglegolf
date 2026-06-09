@@ -76,14 +76,48 @@ def _write_best_manifest(best_row: dict | None, best_score: float | None) -> dic
         return {}
     exp_id = _exp_id(best_row)
     submitted_path = root("submissions", "submitted", exp_id, "manifest.json")
+    candidate_path = root("submissions", "candidates", exp_id, "manifest.json")
+    validation_path = root("submissions", "candidates", exp_id, "local_validation.json")
     current_path = root("submissions", "best", "current_best_manifest.json")
-    base = _load_json(submitted_path) or _load_json(current_path)
+    base = _load_json(submitted_path) or _load_json(candidate_path) or _load_json(current_path)
+    validation = _load_json(validation_path)
+    source_ids = base.get("source_ids") or [
+        source_id
+        for source_id in [
+            base.get("primary_source_id"),
+            base.get("leaderboard_source_id"),
+            base.get("paper_source_id"),
+            base.get("open_repo_source_id"),
+            base.get("historical_competition_source_id"),
+        ]
+        if source_id
+    ]
+    source_ids = list(dict.fromkeys(source_ids))
     manifest = {
-        **base,
         "exp_id": exp_id,
         "score": best_score,
         "submission_id": best_row.get("ref"),
         "status": str(best_row.get("status", "")).replace("SubmissionStatus.", "").lower() or "complete",
+        "source_ids": source_ids,
+        "package_sha256": base.get("package_sha256") or base.get("sha256") or "",
+        "direction_id": base.get("direction_id", ""),
+        "primary_source_id": base.get("primary_source_id") or base.get("source_id") or "",
+        "leaderboard_source_id": base.get("leaderboard_source_id", ""),
+        "paper_source_id": base.get("paper_source_id", ""),
+        "open_repo_source_id": base.get("open_repo_source_id", ""),
+        "historical_competition_source_id": base.get("historical_competition_source_id", ""),
+        "risk": base.get("risk", ""),
+        "changed_tasks": base.get("changed_tasks", []),
+        "local_validation": "pass"
+        if base.get("validation_ok") or validation.get("ok_for_submission_queue")
+        else "not recorded",
+        "examples_checked": validation.get("examples_checked", ""),
+        "examples_failed": validation.get("examples_failed", ""),
+        "notebook_output_match": f"{base.get('file_count')}/{base.get('file_count')}"
+        if base.get("file_count")
+        else "",
+        "aggressive_change_score": base.get("aggressive_change_score", ""),
+        "aggressive_change_classification": base.get("aggressive_change_classification", ""),
     }
 
     best_dir = root("submissions", "best", exp_id)
@@ -99,11 +133,11 @@ def _write_best_manifest(best_row: dict | None, best_score: float | None) -> dic
         f"public score: {best_score}",
         f"status: {best_row.get('status')}",
         f"source ids: {', '.join(manifest.get('source_ids', []))}",
-        f"local validation: {manifest.get('local_validation', '')}",
-        f"examples checked: {manifest.get('examples_checked', '')}",
-        f"examples failed: {manifest.get('examples_failed', '')}",
-        f"notebook output ONNX matched: {manifest.get('notebook_output_match', '')}",
-        f"package sha256: {manifest.get('package_sha256', '')}",
+        f"local validation: {manifest.get('local_validation') or 'not recorded'}",
+        f"examples checked: {manifest.get('examples_checked') or 'not recorded'}",
+        f"examples failed: {manifest.get('examples_failed') if manifest.get('examples_failed') != '' else 'not recorded'}",
+        f"notebook output ONNX matched: {manifest.get('notebook_output_match') or 'not recorded'}",
+        f"package sha256: {manifest.get('package_sha256') or 'not recorded'}",
         "",
     ]
     score_text = "\n".join(score_lines)
@@ -118,11 +152,11 @@ def _write_best_manifest(best_row: dict | None, best_score: float | None) -> dic
                 f"public score: {best_score}",
                 f"status: {str(best_row.get('status', '')).replace('SubmissionStatus.', '').lower()}",
                 f"source ids: {', '.join(manifest.get('source_ids', []))}",
-                f"local validation: {manifest.get('local_validation', '')}",
-                f"examples checked: {manifest.get('examples_checked', '')}",
-                f"examples failed: {manifest.get('examples_failed', '')}",
-                f"notebook output ONNX matched: {manifest.get('notebook_output_match', '')}",
-                f"package sha256: {manifest.get('package_sha256', '')}",
+                f"local validation: {manifest.get('local_validation') or 'not recorded'}",
+                f"examples checked: {manifest.get('examples_checked') or 'not recorded'}",
+                f"examples failed: {manifest.get('examples_failed') if manifest.get('examples_failed') != '' else 'not recorded'}",
+                f"notebook output ONNX matched: {manifest.get('notebook_output_match') or 'not recorded'}",
+                f"package sha256: {manifest.get('package_sha256') or 'not recorded'}",
                 "",
             ]
         ),
