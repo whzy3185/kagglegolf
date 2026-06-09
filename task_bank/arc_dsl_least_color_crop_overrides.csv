@@ -1,0 +1,2 @@
+task_id,candidate_model_path,source_id,source_exp_id,method_family,memory_footprint,parameter_count,file_size,cost_proxy,utility_proxy,local_valid,risk,candidate_rank,recommended_action
+task310,data/interim/arc_dsl_task310/task310.onnx,SRC_ARC_DSL_GITHUB,GOLF_20260609_057_arc_dsl_task310_least_color_crop,arc_dsl_least_color_crop,19602,43,2770,19645,15.114422,true,medium,1,submit_single_task

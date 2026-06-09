@@ -1,16 +1,18 @@
 # Scorecard
 
-Current best public score: 6285.85
+Current best public score: 6287.77
 Target public score: 7800.0
-Gap to target: 1514.1499999999996
-Current best exp_id: GOLF_20260609_053_arc_dsl_axis_reverse_pair
-Current best submission id: 53496300
+Gap to target: 1512.2299999999996
+Current best exp_id: GOLF_20260609_056_arc_dsl_task384_scaled_object_crop
+Current best submission id: 53497261
 
 Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
-| 53496989 | GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop | SubmissionStatus.PENDING |  |
+| 53497538 | GOLF_20260609_057_arc_dsl_task310_least_color_crop | SubmissionStatus.PENDING |  |
+| 53497261 | GOLF_20260609_056_arc_dsl_task384_scaled_object_crop | SubmissionStatus.COMPLETE | 6287.77 |
+| 53496989 | GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop | SubmissionStatus.COMPLETE | 6286.79 |
 | 53496682 | GOLF_20260609_054_arc_dsl_task300_largest_color_crop | SubmissionStatus.COMPLETE | 6285.68 |
 | 53496300 | GOLF_20260609_053_arc_dsl_axis_reverse_pair | SubmissionStatus.COMPLETE | 6285.85 |
 | 53495970 | GOLF_20260609_052_arc_dsl_task249_hconcat_self | SubmissionStatus.COMPLETE | 6285.06 |

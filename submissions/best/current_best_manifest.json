@@ -1,7 +1,7 @@
 {
-  "exp_id": "GOLF_20260609_053_arc_dsl_axis_reverse_pair",
-  "score": 6285.85,
-  "submission_id": "53496300",
+  "exp_id": "GOLF_20260609_056_arc_dsl_task384_scaled_object_crop",
+  "score": 6287.77,
+  "submission_id": "53497261",
   "status": "complete",
   "source_ids": [
     "SRC_KAGGLE_NOTEBOOK_SEDDIK_SURGICAL_ONNX",

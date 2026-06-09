@@ -641,3 +641,495 @@ def build_zero_bbox_vertical_mirror_crop_network(
     onnx.shape_inference.infer_shapes(model, strict_mode=True)
     path.parent.mkdir(parents=True, exist_ok=True)
     onnx.save(model, str(path))
+
+
+def build_nonzero_bbox_scaled_crop_network(
+    path: Path,
+    *,
+    max_output_height: int,
+    max_output_width: int,
+    scale: int = 1,
+) -> None:
+    """Crop the nonzero bounding box and optionally upscale it.
+
+    The graph gathers only the verified maximum output extent before padding,
+    avoiding a full 30x30 dynamic crop intermediate. Rows and columns outside
+    the example-specific bounding box are masked to zero-hot padding.
+    """
+
+    import onnx
+    from onnx import TensorProto, helper, numpy_helper
+
+    if scale <= 0:
+        raise ValueError("scale must be positive")
+    if max_output_height <= 0 or max_output_height > 30:
+        raise ValueError("max_output_height must be within the 30x30 tensor")
+    if max_output_width <= 0 or max_output_width > 30:
+        raise ValueError("max_output_width must be within the 30x30 tensor")
+
+    shape = list(spec.TENSOR_SHAPE)
+    x = helper.make_tensor_value_info(spec.INPUT_NAME, TensorProto.FLOAT, shape)
+    y = helper.make_tensor_value_info(spec.OUTPUT_NAME, TensorProto.FLOAT, shape)
+    row_output_offsets = np.arange(max_output_height, dtype=np.int64)
+    column_output_offsets = np.arange(max_output_width, dtype=np.int64)
+    initializers = [
+        numpy_helper.from_array(np.array([0], dtype=np.int64), "zero_channel"),
+        numpy_helper.from_array(
+            np.arange(29, -1, -1, dtype=np.int64),
+            "reverse_coordinates",
+        ),
+        numpy_helper.from_array(np.array([29], dtype=np.int64), "last_index"),
+        numpy_helper.from_array(np.array([1], dtype=np.int64), "one"),
+        numpy_helper.from_array(np.array([scale], dtype=np.int64), "scale"),
+        numpy_helper.from_array(
+            row_output_offsets,
+            "row_output_offsets",
+        ),
+        numpy_helper.from_array(
+            column_output_offsets,
+            "column_output_offsets",
+        ),
+        numpy_helper.from_array(
+            row_output_offsets // scale,
+            "row_source_offsets",
+        ),
+        numpy_helper.from_array(
+            column_output_offsets // scale,
+            "column_source_offsets",
+        ),
+    ]
+    nodes = [
+        helper.make_node(
+            "ReduceSum",
+            ["input"],
+            ["valid_plane"],
+            axes=[1],
+            keepdims=1,
+        ),
+        helper.make_node(
+            "Gather",
+            ["input", "zero_channel"],
+            ["zero_plane"],
+            axis=1,
+        ),
+        helper.make_node(
+            "Sub",
+            ["valid_plane", "zero_plane"],
+            ["nonzero_plane"],
+        ),
+        helper.make_node(
+            "ReduceMax",
+            ["nonzero_plane"],
+            ["nonzero_rows"],
+            axes=[0, 1, 3],
+            keepdims=0,
+        ),
+        helper.make_node(
+            "ArgMax",
+            ["nonzero_rows"],
+            ["row_start"],
+            axis=0,
+            keepdims=1,
+        ),
+        helper.make_node(
+            "Gather",
+            ["nonzero_rows", "reverse_coordinates"],
+            ["reversed_nonzero_rows"],
+            axis=0,
+        ),
+        helper.make_node(
+            "ArgMax",
+            ["reversed_nonzero_rows"],
+            ["reverse_row_start"],
+            axis=0,
+            keepdims=1,
+        ),
+        helper.make_node(
+            "Sub",
+            ["last_index", "reverse_row_start"],
+            ["row_end"],
+        ),
+        helper.make_node("Sub", ["row_end", "row_start"], ["row_span"]),
+        helper.make_node("Add", ["row_span", "one"], ["crop_height"]),
+        helper.make_node(
+            "Mul",
+            ["crop_height", "scale"],
+            ["output_height"],
+        ),
+        helper.make_node(
+            "ReduceMax",
+            ["nonzero_plane"],
+            ["nonzero_columns"],
+            axes=[0, 1, 2],
+            keepdims=0,
+        ),
+        helper.make_node(
+            "ArgMax",
+            ["nonzero_columns"],
+            ["column_start"],
+            axis=0,
+            keepdims=1,
+        ),
+        helper.make_node(
+            "Gather",
+            ["nonzero_columns", "reverse_coordinates"],
+            ["reversed_nonzero_columns"],
+            axis=0,
+        ),
+        helper.make_node(
+            "ArgMax",
+            ["reversed_nonzero_columns"],
+            ["reverse_column_start"],
+            axis=0,
+            keepdims=1,
+        ),
+        helper.make_node(
+            "Sub",
+            ["last_index", "reverse_column_start"],
+            ["column_end"],
+        ),
+        helper.make_node(
+            "Sub",
+            ["column_end", "column_start"],
+            ["column_span"],
+        ),
+        helper.make_node("Add", ["column_span", "one"], ["crop_width"]),
+        helper.make_node(
+            "Mul",
+            ["crop_width", "scale"],
+            ["output_width"],
+        ),
+        helper.make_node(
+            "Add",
+            ["row_start", "row_source_offsets"],
+            ["gather_rows"],
+        ),
+        helper.make_node(
+            "Add",
+            ["column_start", "column_source_offsets"],
+            ["gather_columns"],
+        ),
+        helper.make_node(
+            "Gather",
+            ["input", "gather_rows"],
+            ["cropped_rows"],
+            axis=2,
+        ),
+        helper.make_node(
+            "Gather",
+            ["cropped_rows", "gather_columns"],
+            ["fixed_crop"],
+            axis=3,
+        ),
+        helper.make_node(
+            "Less",
+            ["row_output_offsets", "output_height"],
+            ["inside_rows"],
+        ),
+        helper.make_node(
+            "Less",
+            ["column_output_offsets", "output_width"],
+            ["inside_columns"],
+        ),
+        helper.make_node(
+            "Unsqueeze",
+            ["inside_rows"],
+            ["row_mask"],
+            axes=[0, 1, 3],
+        ),
+        helper.make_node(
+            "Unsqueeze",
+            ["inside_columns"],
+            ["column_mask"],
+            axes=[0, 1, 2],
+        ),
+        helper.make_node("And", ["row_mask", "column_mask"], ["crop_mask"]),
+        helper.make_node(
+            "Cast",
+            ["crop_mask"],
+            ["crop_mask_float"],
+            to=TensorProto.FLOAT,
+        ),
+        helper.make_node(
+            "Mul",
+            ["fixed_crop", "crop_mask_float"],
+            ["masked_crop"],
+        ),
+        helper.make_node(
+            "Pad",
+            ["masked_crop"],
+            [spec.OUTPUT_NAME],
+            mode="constant",
+            pads=[
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                30 - max_output_height,
+                30 - max_output_width,
+            ],
+            value=0.0,
+        ),
+    ]
+    graph = helper.make_graph(
+        nodes,
+        f"arc_dsl_nonzero_bbox_scaled_crop_{scale}",
+        [x],
+        [y],
+        initializer=initializers,
+    )
+    model = helper.make_model(
+        graph,
+        ir_version=spec.IR_VERSION,
+        opset_imports=[helper.make_opsetid("", spec.OPSET)],
+    )
+    onnx.checker.check_model(model, full_check=True)
+    onnx.shape_inference.infer_shapes(model, strict_mode=True)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    onnx.save(model, str(path))
+
+
+def build_least_color_bbox_crop_network(
+    path: Path,
+    *,
+    max_output_size: int,
+) -> None:
+    """Crop the bounding box of the least frequent color present."""
+
+    import onnx
+    from onnx import TensorProto, helper, numpy_helper
+
+    if max_output_size <= 0 or max_output_size > 30:
+        raise ValueError("max_output_size must be within the 30x30 tensor")
+
+    shape = list(spec.TENSOR_SHAPE)
+    x = helper.make_tensor_value_info(spec.INPUT_NAME, TensorProto.FLOAT, shape)
+    y = helper.make_tensor_value_info(spec.OUTPUT_NAME, TensorProto.FLOAT, shape)
+    output_offsets = np.arange(max_output_size, dtype=np.int64)
+    initializers = [
+        numpy_helper.from_array(np.array(0.0, dtype=np.float32), "zero"),
+        numpy_helper.from_array(np.array(901.0, dtype=np.float32), "large_count"),
+        numpy_helper.from_array(
+            np.arange(29, -1, -1, dtype=np.int64),
+            "reverse_coordinates",
+        ),
+        numpy_helper.from_array(np.array([29], dtype=np.int64), "last_index"),
+        numpy_helper.from_array(np.array([30], dtype=np.int64), "axis_limit"),
+        numpy_helper.from_array(np.array([1], dtype=np.int64), "one"),
+        numpy_helper.from_array(output_offsets, "output_offsets"),
+    ]
+    nodes = [
+        helper.make_node(
+            "ReduceSum",
+            ["input"],
+            ["color_counts"],
+            axes=[2, 3],
+            keepdims=0,
+        ),
+        helper.make_node(
+            "Greater",
+            ["color_counts", "zero"],
+            ["color_present"],
+        ),
+        helper.make_node(
+            "Where",
+            ["color_present", "color_counts", "large_count"],
+            ["present_color_counts"],
+        ),
+        helper.make_node(
+            "ArgMin",
+            ["present_color_counts"],
+            ["selected_color"],
+            axis=1,
+            keepdims=0,
+        ),
+        helper.make_node(
+            "Gather",
+            ["input", "selected_color"],
+            ["selected_plane"],
+            axis=1,
+        ),
+        helper.make_node(
+            "ReduceMax",
+            ["selected_plane"],
+            ["selected_rows"],
+            axes=[0, 1, 3],
+            keepdims=0,
+        ),
+        helper.make_node(
+            "ArgMax",
+            ["selected_rows"],
+            ["row_start"],
+            axis=0,
+            keepdims=1,
+        ),
+        helper.make_node(
+            "Gather",
+            ["selected_rows", "reverse_coordinates"],
+            ["reversed_selected_rows"],
+            axis=0,
+        ),
+        helper.make_node(
+            "ArgMax",
+            ["reversed_selected_rows"],
+            ["reverse_row_start"],
+            axis=0,
+            keepdims=1,
+        ),
+        helper.make_node(
+            "Sub",
+            ["last_index", "reverse_row_start"],
+            ["row_end"],
+        ),
+        helper.make_node("Sub", ["row_end", "row_start"], ["row_span"]),
+        helper.make_node("Add", ["row_span", "one"], ["crop_height"]),
+        helper.make_node(
+            "ReduceMax",
+            ["selected_plane"],
+            ["selected_columns"],
+            axes=[0, 1, 2],
+            keepdims=0,
+        ),
+        helper.make_node(
+            "ArgMax",
+            ["selected_columns"],
+            ["column_start"],
+            axis=0,
+            keepdims=1,
+        ),
+        helper.make_node(
+            "Gather",
+            ["selected_columns", "reverse_coordinates"],
+            ["reversed_selected_columns"],
+            axis=0,
+        ),
+        helper.make_node(
+            "ArgMax",
+            ["reversed_selected_columns"],
+            ["reverse_column_start"],
+            axis=0,
+            keepdims=1,
+        ),
+        helper.make_node(
+            "Sub",
+            ["last_index", "reverse_column_start"],
+            ["column_end"],
+        ),
+        helper.make_node(
+            "Sub",
+            ["column_end", "column_start"],
+            ["column_span"],
+        ),
+        helper.make_node("Add", ["column_span", "one"], ["crop_width"]),
+        helper.make_node(
+            "Add",
+            ["row_start", "output_offsets"],
+            ["unclipped_gather_rows"],
+        ),
+        helper.make_node(
+            "Less",
+            ["unclipped_gather_rows", "axis_limit"],
+            ["rows_in_bounds"],
+        ),
+        helper.make_node(
+            "Where",
+            ["rows_in_bounds", "unclipped_gather_rows", "last_index"],
+            ["gather_rows"],
+        ),
+        helper.make_node(
+            "Add",
+            ["column_start", "output_offsets"],
+            ["unclipped_gather_columns"],
+        ),
+        helper.make_node(
+            "Less",
+            ["unclipped_gather_columns", "axis_limit"],
+            ["columns_in_bounds"],
+        ),
+        helper.make_node(
+            "Where",
+            ["columns_in_bounds", "unclipped_gather_columns", "last_index"],
+            ["gather_columns"],
+        ),
+        helper.make_node(
+            "Gather",
+            ["input", "gather_rows"],
+            ["cropped_rows"],
+            axis=2,
+        ),
+        helper.make_node(
+            "Gather",
+            ["cropped_rows", "gather_columns"],
+            ["fixed_crop"],
+            axis=3,
+        ),
+        helper.make_node(
+            "Less",
+            ["output_offsets", "crop_height"],
+            ["inside_rows"],
+        ),
+        helper.make_node(
+            "Less",
+            ["output_offsets", "crop_width"],
+            ["inside_columns"],
+        ),
+        helper.make_node(
+            "Unsqueeze",
+            ["inside_rows"],
+            ["row_mask"],
+            axes=[0, 1, 3],
+        ),
+        helper.make_node(
+            "Unsqueeze",
+            ["inside_columns"],
+            ["column_mask"],
+            axes=[0, 1, 2],
+        ),
+        helper.make_node("And", ["row_mask", "column_mask"], ["crop_mask"]),
+        helper.make_node(
+            "Cast",
+            ["crop_mask"],
+            ["crop_mask_float"],
+            to=TensorProto.FLOAT,
+        ),
+        helper.make_node(
+            "Mul",
+            ["fixed_crop", "crop_mask_float"],
+            ["masked_crop"],
+        ),
+        helper.make_node(
+            "Pad",
+            ["masked_crop"],
+            [spec.OUTPUT_NAME],
+            mode="constant",
+            pads=[
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                30 - max_output_size,
+                30 - max_output_size,
+            ],
+            value=0.0,
+        ),
+    ]
+    graph = helper.make_graph(
+        nodes,
+        "arc_dsl_least_color_bbox_crop",
+        [x],
+        [y],
+        initializer=initializers,
+    )
+    model = helper.make_model(
+        graph,
+        ir_version=spec.IR_VERSION,
+        opset_imports=[helper.make_opsetid("", spec.OPSET)],
+    )
+    onnx.checker.check_model(model, full_check=True)
+    onnx.shape_inference.infer_shapes(model, strict_mode=True)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    onnx.save(model, str(path))

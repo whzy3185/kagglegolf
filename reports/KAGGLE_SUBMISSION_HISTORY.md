@@ -1,16 +1,18 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-09T14:24:08
+captured_at: 2026-06-09T14:46:41
 selected submissions: unavailable via CLI
-current best public: 6285.85
+current best public: 6287.77
 target public: 7800.0
-gap to target: 1514.1499999999996
-current best exp_id: GOLF_20260609_053_arc_dsl_axis_reverse_pair
-current best submission id: 53496300
+gap to target: 1512.2299999999996
+current best exp_id: GOLF_20260609_056_arc_dsl_task384_scaled_object_crop
+current best submission id: 53497261
 
 | ref | exp_id | date | status | public_score |
 | --- | --- | --- | --- | --- |
-| 53496989 | GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop | 2026-06-09 06:24:02.317000 | SubmissionStatus.PENDING |  |
+| 53497538 | GOLF_20260609_057_arc_dsl_task310_least_color_crop | 2026-06-09 06:46:34.887000 | SubmissionStatus.PENDING |  |
+| 53497261 | GOLF_20260609_056_arc_dsl_task384_scaled_object_crop | 2026-06-09 06:34:25.390000 | SubmissionStatus.COMPLETE | 6287.77 |
+| 53496989 | GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop | 2026-06-09 06:24:02.317000 | SubmissionStatus.COMPLETE | 6286.79 |
 | 53496682 | GOLF_20260609_054_arc_dsl_task300_largest_color_crop | 2026-06-09 06:09:27.027000 | SubmissionStatus.COMPLETE | 6285.68 |
 | 53496300 | GOLF_20260609_053_arc_dsl_axis_reverse_pair | 2026-06-09 05:49:22.600000 | SubmissionStatus.COMPLETE | 6285.85 |
 | 53495970 | GOLF_20260609_052_arc_dsl_task249_hconcat_self | 2026-06-09 05:33:57.050000 | SubmissionStatus.COMPLETE | 6285.06 |

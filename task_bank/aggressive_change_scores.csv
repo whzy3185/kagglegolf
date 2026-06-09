@@ -44,3 +44,5 @@ GOLF_20260609_052_arc_dsl_task249_hconcat_self,2026-06-09T13:33:02,0.833730,aggr
 GOLF_20260609_053_arc_dsl_axis_reverse_pair,2026-06-09T13:48:54,0.720210,aggressive,true,medium,2,2,0.524937,0.961750,0.618301,0.809975
 GOLF_20260609_054_arc_dsl_task300_largest_color_crop,2026-06-09T14:08:19,0.724731,aggressive,true,medium,1,1,0.569952,0.961750,0.563586,0.827981
 GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop,2026-06-09T14:22:42,0.705369,aggressive,true,medium,1,1,0.526300,0.961750,0.551522,0.810520
+GOLF_20260609_056_arc_dsl_task384_scaled_object_crop,2026-06-09T14:33:58,0.710998,aggressive,true,medium,1,1,0.535635,0.961750,0.560570,0.814254
+GOLF_20260609_057_arc_dsl_task310_least_color_crop,2026-06-09T14:45:39,0.674339,aggressive,true,medium,1,1,0.522053,0.961750,0.423627,0.808821
