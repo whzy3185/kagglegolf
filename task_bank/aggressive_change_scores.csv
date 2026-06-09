@@ -23,3 +23,7 @@ GOLF_20260608_031_beicicc_inline_396_mix,2026-06-09T01:20:26,0.847457,aggressive
 GOLF_20260608_032_biohack_best_blend_max_full,2026-06-09T02:03:08,0.588640,strong,true,medium,400,,0.074555,0.969700,0.779996,0.629822
 GOLF_20260608_033_massimiliano_task258_groupconv_probe,2026-06-09T09:31:30,0.459899,metadata_only,false,low,1,,0.000000,0.961750,0.353800,0.600000
 GOLF_20260608_034_rogermt_6273_full_replace,2026-06-09T09:40:38,0.534040,full_bundle_replacement,true,medium,400,20,0.001683,0.969700,0.663000,0.600673
+GOLF_20260608_035_rogermt_task255_optimized_probe,2026-06-09T10:42:07,0.776562,aggressive,true,medium,1,1,0.822430,0.961750,0.371800,0.928972
+GOLF_20260608_036_rogermt_task020_optimized_probe,2026-06-09T10:08:35,0.846371,aggressive,true,medium,1,1,0.884099,0.961750,0.573428,0.953640
+GOLF_20260608_038_rogermt_task243_optimized_probe,2026-06-09T10:24:49,0.738538,aggressive,true,medium,1,1,0.696133,0.961750,0.415142,0.878453
+GOLF_20260608_037_rogermt_task062_optimized_probe,2026-06-09T10:36:00,0.767734,aggressive,true,medium,1,1,0.720248,0.961750,0.502240,0.888099

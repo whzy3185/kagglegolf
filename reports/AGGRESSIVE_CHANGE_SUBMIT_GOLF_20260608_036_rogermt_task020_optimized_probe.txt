@@ -1,0 +1,4 @@
+exp_id=GOLF_20260608_036_rogermt_task020_optimized_probe
+AGS=0.846371
+classification=aggressive
+submission_gate_pass=true

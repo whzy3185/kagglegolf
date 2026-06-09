@@ -1,10 +1,10 @@
 # Next Submission Selection
 
-checked_at: 2026-06-09T10:03:25
-current_best: 6272.60 (GOLF_20260608_029_seddik_surgery_6272)
-candidate_count: 30
+checked_at: 2026-06-09T10:49:39
+current_best: 6275.07 (GOLF_20260608_036_rogermt_task020_optimized_probe)
+candidate_count: 34
 eligible_count: 0
-blocked_count: 30
+blocked_count: 34
 selected_candidate: none
 selection_score: 
 selection_reason: No eligible candidate.
@@ -56,6 +56,10 @@ soft_penalties: affect submit order only; hard blocks are local validation, evid
 - GOLF_20260608_032_biohack_best_blend_max_full: already_submitted
 - GOLF_20260608_033_massimiliano_task258_groupconv_probe: aggressive_change_gate_not_passed
 - GOLF_20260608_034_rogermt_6273_full_replace: already_submitted
+- GOLF_20260608_035_rogermt_task255_optimized_probe: already_submitted
+- GOLF_20260608_036_rogermt_task020_optimized_probe: already_submitted
+- GOLF_20260608_037_rogermt_task062_optimized_probe: already_submitted
+- GOLF_20260608_038_rogermt_task243_optimized_probe: already_submitted
 
 ## Negative Feedback Policy
 

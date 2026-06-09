@@ -1,14 +1,14 @@
 # Evidence Gate Status
 
-checked_at: 2026-06-09T09:40:13
+checked_at: 2026-06-09T10:42:06
 strict_mode: true
 
 ## Summary
 
 | metric | value |
 |---|---:|
-| total_experiments | 31 |
-| pass | 31 |
+| total_experiments | 35 |
+| pass | 35 |
 | fail | 0 |
 | exempt | 0 |
 
@@ -58,6 +58,10 @@ None.
 - GOLF_20260608_032_biohack_best_blend_max_full
 - GOLF_20260608_033_massimiliano_task258_groupconv_probe
 - GOLF_20260608_034_rogermt_6273_full_replace
+- GOLF_20260608_035_rogermt_task255_optimized_probe
+- GOLF_20260608_036_rogermt_task020_optimized_probe
+- GOLF_20260608_037_rogermt_task062_optimized_probe
+- GOLF_20260608_038_rogermt_task243_optimized_probe
 
 ## Exempt Experiments
 

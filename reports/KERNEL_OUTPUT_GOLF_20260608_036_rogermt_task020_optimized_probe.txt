@@ -1,0 +1,2 @@
+Output file downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260608_036_rogermt_task020_optimized_probe\kaggle_output\submission.zip
+Kernel log downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260608_036_rogermt_task020_optimized_probe\kaggle_output\neurogolf-submit-current.log 

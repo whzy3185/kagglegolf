@@ -1,15 +1,19 @@
 # Scorecard
 
-Current best public score: 6272.6
+Current best public score: 6275.07
 Target public score: 7800.0
-Gap to target: 1527.3999999999996
-Current best exp_id: GOLF_20260608_029_seddik_surgery_6272
-Current best submission id: 53484027
+Gap to target: 1524.9300000000003
+Current best exp_id: GOLF_20260608_036_rogermt_task020_optimized_probe
+Current best submission id: 53492101
 
 Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
+| 53492734 | GOLF_20260608_035_rogermt_task255_optimized_probe | SubmissionStatus.COMPLETE | 6273.55 |
+| 53492627 | GOLF_20260608_037_rogermt_task062_optimized_probe | SubmissionStatus.COMPLETE | 6272.54 |
+| 53492430 | GOLF_20260608_038_rogermt_task243_optimized_probe | SubmissionStatus.COMPLETE | 6272.19 |
+| 53492101 | GOLF_20260608_036_rogermt_task020_optimized_probe | SubmissionStatus.COMPLETE | 6275.07 |
 | 53491613 | GOLF_20260608_034_rogermt_6273_full_replace | SubmissionStatus.COMPLETE | 6272.50 |
 | 53485394 | GOLF_20260608_032_biohack_best_blend_max_full | SubmissionStatus.COMPLETE | 6255.14 |
 | 53484663 | GOLF_20260608_031_beicicc_inline_396_mix | SubmissionStatus.COMPLETE | 5043.59 |

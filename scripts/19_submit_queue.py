@@ -1061,7 +1061,7 @@ def main() -> None:
     parser.add_argument("--poll-after-submit", action="store_true")
     parser.add_argument("--wait-complete", action="store_true")
     parser.add_argument("--poll-interval", type=int, default=60)
-    parser.add_argument("--poll-timeout", type=int, default=1800)
+    parser.add_argument("--poll-timeout", type=int, default=300)
     args = parser.parse_args()
 
     selected_exp_id = args.exp_id
