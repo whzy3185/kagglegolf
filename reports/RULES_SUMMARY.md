@@ -1,6 +1,6 @@
 # Rules Summary
 
-Last updated: 2026-06-07
+Last updated: 2026-06-09
 
 ## Official Files
 
@@ -53,6 +53,25 @@ cost = memory_footprint_bytes + parameter_count
 
 MACs do not contribute under the current utility changelog.
 
+The host's May 4 update explicitly removed MACs after profiler issues. Current optimization order is:
+
+1. functional correctness;
+2. cumulative runtime memory footprint;
+3. parameter count.
+
+Constant tensor values contribute to parameter count. Tensor dimensions must be positive and statically known after shape inference, using shapes verified by the official ONNX Runtime.
+
+## Pinned Runtime
+
+The host-published compatibility stack is:
+
+```text
+numpy==2.4.4
+onnx==1.21.0
+onnxruntime==1.24.4
+onnx-tool==1.0.1
+```
+
 ## Public/Private Validation
 
 Correctness is checked against ARC-AGI public training v1 task examples plus a small private benchmark suite to discourage overfitting.
@@ -63,10 +82,13 @@ The rules page permits public external data/tools/models when reasonably accessi
 
 ## Final Submission Rule
 
-The formal rules page snapshot states five submissions per day and up to two final submissions for judging.
+The original rules snapshot stated five submissions per day and up to two final submissions for judging.
 
-Current submission quota note:
-Original rule snapshot says 5 submissions/day, but repo evidence source `SRC_DISCUSSION_SUBMISSION_LIMIT_REENABLED` records a host-note claim that the competition was reset to allow 100 submissions/day. That host-note claim is not visible in the official rules snapshot captured here. Current repo policy: treat the rules page as the formal contract and confirm the live submission quota from Kaggle UI or CLI-visible behavior before batch submissions.
+Current effective quota:
+
+- Kaggle staff topic `703112`, posted 2026-05-28, states that the competition was reset to allow 100 submissions per day.
+- Live competition metadata also reports `max_daily_submissions=100`.
+- Project policy therefore uses 100/day as the current platform quota and records any platform rejection directly.
 
 ## Raw Page Snapshots
 

@@ -111,6 +111,24 @@ repro_status: imported
 priority: P1
 assigned_exp_id:
 
+## SRC_KAGGLE_DATASET_AFR1STE_6335
+
+source_id: SRC_KAGGLE_DATASET_AFR1STE_6335
+source_type: dataset
+title: NeuroGolf 6335.19 Controlled Public Artifact
+author_or_team: Afr1ste
+url_or_identifier: https://www.kaggle.com/datasets/afr1ste/neurogolf-6335-19-controlled-public-artifact
+date_accessed: 2026-06-09
+claimed_score: 6335.19
+tasks_mentioned: all
+idea_summary: Public controlled artifact with task000-task400 ONNX files and a claimed public score higher than the current 6278.32 best.
+implementation_hint: Use task001-task400 as an official full-replace candidate, then harvest validated task-level wins if the full replacement is not enough.
+risk: medium
+rule_status: CC0 public dataset
+repro_status: imported
+priority: P0
+assigned_exp_id: GOLF_20260608_048_afr1ste_6335_full_replace
+
 ## SRC_KAGGLE_NOTEBOOK_BEICICC_6645
 
 source_id: SRC_KAGGLE_NOTEBOOK_BEICICC_6645
@@ -470,3 +488,111 @@ rule_status: public_open_repository_artifact
 repro_status: reproducing
 priority: P0
 assigned_exp_id: GOLF_20260608_034_rogermt_6273_full_replace
+
+## SRC_DISCUSSION_AGENT_HARNESS_6580
+
+source_id: SRC_DISCUSSION_AGENT_HARNESS_6580
+source_type: discussion
+title: Some thoughts on my agent workflow and sub-harness
+author_or_team: Andrey Yunoshev
+url_or_identifier: https://www.kaggle.com/competitions/neurogolf-2026/discussion/703914
+date_accessed: 2026-06-09
+claimed_score: approximately 6580 at publication
+tasks_mentioned: all
+idea_summary: Per-task dossiers, semantic search over attempts and tools, per-node cost profiles, repeated task passes, asynchronous submission work and DAG-chain enumeration.
+implementation_hint: Keep a persistent task history and compile recurring ARC semantics into reusable ONNX templates while continuing work during pending submissions.
+risk: low
+rule_status: public_discussion
+repro_status: reproduced
+priority: P0
+assigned_exp_id:
+
+## SRC_DISCUSSION_TOKEN_OVERFIT_TIMEOUT
+
+source_id: SRC_DISCUSSION_TOKEN_OVERFIT_TIMEOUT
+source_type: discussion
+title: Token, Overfit, and Timeout
+author_or_team: Tony Li and public commenters
+url_or_identifier: https://www.kaggle.com/competitions/neurogolf-2026/discussion/704762
+date_accessed: 2026-06-09
+claimed_score: 74xx workflow evidence
+tasks_mentioned: 192,319,118,359,018,285,096,048,355,219,358,350,212,335,246,022,375,009,074,070
+idea_summary: Persist failed optimization memory, profile runtime, and treat synthetic validation as a risk signal rather than an absolute hidden-set oracle.
+implementation_hint: Add overfit and runtime task tags to the task bank; prioritize rule-preserving structural rewrites on slow tasks.
+risk: low
+rule_status: public_discussion
+repro_status: imported
+priority: P0
+assigned_exp_id:
+
+## SRC_DISCUSSION_HOST_MAY4_METRIC
+
+source_id: SRC_DISCUSSION_HOST_MAY4_METRIC
+source_type: discussion
+title: NeuroGolf Update for May 4th
+author_or_team: Michael D. Moffitt / competition host
+url_or_identifier: https://www.kaggle.com/competitions/neurogolf-2026/discussion/696953
+date_accessed: 2026-06-09
+claimed_score:
+tasks_mentioned: all
+idea_summary: MACs were removed; cumulative memory footprint and parameter count are the current cost objective. Positive and ORT-verified static dimensions are enforced.
+implementation_hint: Rank graph rewrites by official memory and parameter deltas, not MAC or file-size proxies.
+risk: low
+rule_status: official_host_update
+repro_status: reproduced
+priority: P0
+assigned_exp_id:
+
+## SRC_DISCUSSION_ONNX_RUNTIME_STACK
+
+source_id: SRC_DISCUSSION_ONNX_RUNTIME_STACK
+source_type: discussion
+title: Question About ONNX Runtime Compatibility
+author_or_team: Tony Li / Michael D. Moffitt
+url_or_identifier: https://www.kaggle.com/competitions/neurogolf-2026/discussion/693088
+date_accessed: 2026-06-09
+claimed_score:
+tasks_mentioned: all
+idea_summary: Host-pinned stack is numpy 2.4.4, onnx 1.21.0, onnxruntime 1.24.4 and onnx-tool 1.0.1.
+implementation_hint: Reproduce the pinned environment for final structural and runtime checks.
+risk: low
+rule_status: official_host_update
+repro_status: reproduced
+priority: P0
+assigned_exp_id:
+
+## SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP
+
+source_id: SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP
+source_type: writeup
+title: 1st place write-up: Code Golf International
+author_or_team: Seek64, Luke G, sisyphus-cg, 4atj, Mukundan
+url_or_identifier: https://www.kaggle.com/competitions/google-code-golf-2025/writeups/cgi
+date_accessed: 2026-06-09
+claimed_score: 962070, first place
+tasks_mentioned: all 400 ARC-AGI-1 training tasks
+idea_summary: Manual task-specific optimization, repeated revisits, recurring semantic motifs, enumerate-and-verify search, pysearch formula synthesis and public per-task benchmarks.
+implementation_hint: Compile common ARC-DSL motifs into static ONNX builders and revisit high-value tasks multiple times.
+risk: low
+rule_status: public_winner_writeup
+repro_status: imported
+priority: P0
+assigned_exp_id:
+
+## SRC_GOOGLE_CODE_GOLF_2025_CGI_REPO
+
+source_id: SRC_GOOGLE_CODE_GOLF_2025_CGI_REPO
+source_type: github
+title: Seek64/NeurIPS-Code-Golf-2025
+author_or_team: Code Golf International
+url_or_identifier: https://github.com/Seek64/NeurIPS-Code-Golf-2025/tree/9a5d156eabdc35732688751c091bf57277f70c21
+date_accessed: 2026-06-09
+claimed_score: 962070, first place
+tasks_mentioned: all 400 ARC-AGI-1 training tasks
+idea_summary: Published winning solver corpus and reproducible package builder at the final competition commit.
+implementation_hint: Mine task semantics and reusable solver families; translate behavior into ONNX rather than Python byte tricks.
+risk: low
+rule_status: public_github
+repro_status: source_confirmed_clone_blocked
+priority: P0
+assigned_exp_id:

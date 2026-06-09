@@ -47,3 +47,28 @@ Captured: 2026-06-08T15:33:23
 ```
 
 Target implication: 7000+ is below the current public top-20 threshold, so the next source harvest must prioritize public blends and task-bank mixing over small 6029-only probes.
+
+## Google Code Golf 2025 Final Reference
+
+Captured from the authenticated Kaggle leaderboard on 2026-06-09.
+
+```text
+1  Code Golf International       962070  384 submissions
+2  jailctf merger                961805  169 submissions
+3  ox jam!                       961784  330 submissions
+4  FuunAgent                     957810  573 submissions
+5  HIMAGINE THE FUTURE.          957568   51 submissions
+6  Theoretical Syntax Golfers    957527   38 submissions
+7  LogicLynx                     957513   88 submissions
+8  import itertools              957177  569 submissions
+9  Santa Golf Club 2500          957151  290 submissions
+10 lv1.dev                       956458   39 submissions
+```
+
+The winning write-up reports a manual, task-specific, repeatedly revisited workflow across all 400 tasks. Submission counts varied greatly among top teams, so count alone is not predictive; high-quality per-task semantics and strong score benchmarks were the common advantage.
+
+Current strategy implication:
+
+- Continue frequent hard-gate-valid submissions, but concentrate engineering effort on reusable semantic compiler families.
+- Treat public bundles as task sources and score references, not as a plausible path to 7000 through indiscriminate blending.
+- Prioritize high-cost tasks whose ARC-DSL rules map to a compact static ONNX template.
