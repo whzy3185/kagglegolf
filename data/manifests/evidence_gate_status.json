@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-06-09T10:42:06",
+  "checked_at": "2026-06-09T11:06:04",
   "strict_mode": true,
   "filters": {
     "exp_id": "",
     "direction_id": ""
   },
-  "total_experiments": 35,
-  "pass_count": 35,
+  "total_experiments": 41,
+  "pass_count": 41,
   "fail_count": 0,
   "exempt_count": 0,
   "failed_exp_ids": [],
@@ -217,6 +217,42 @@
     },
     {
       "exp_id": "GOLF_20260608_038_rogermt_task243_optimized_probe",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_039_rogermt_task255_after020_probe",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_040_rogermt_task128_after020_probe",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_041_rogermt_task153_after020_probe",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_042_rogermt_task159_after020_probe",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_043_rogermt_task208_after020_probe",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_044_rogermt_task092_after020_probe",
       "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
       "status": "pass",
       "reasons": []

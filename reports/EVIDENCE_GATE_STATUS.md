@@ -1,14 +1,14 @@
 # Evidence Gate Status
 
-checked_at: 2026-06-09T10:42:06
+checked_at: 2026-06-09T11:06:04
 strict_mode: true
 
 ## Summary
 
 | metric | value |
 |---|---:|
-| total_experiments | 35 |
-| pass | 35 |
+| total_experiments | 41 |
+| pass | 41 |
 | fail | 0 |
 | exempt | 0 |
 
@@ -62,6 +62,12 @@ None.
 - GOLF_20260608_036_rogermt_task020_optimized_probe
 - GOLF_20260608_037_rogermt_task062_optimized_probe
 - GOLF_20260608_038_rogermt_task243_optimized_probe
+- GOLF_20260608_039_rogermt_task255_after020_probe
+- GOLF_20260608_040_rogermt_task128_after020_probe
+- GOLF_20260608_041_rogermt_task153_after020_probe
+- GOLF_20260608_042_rogermt_task159_after020_probe
+- GOLF_20260608_043_rogermt_task208_after020_probe
+- GOLF_20260608_044_rogermt_task092_after020_probe
 
 ## Exempt Experiments
 

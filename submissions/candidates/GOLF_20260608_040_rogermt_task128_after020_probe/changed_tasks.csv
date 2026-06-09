@@ -1,0 +1,2 @@
+task_id,model_path,source_id,method_family,risk,cost_proxy
+task128,E:\kagglegolf\data\external\hf_rogermt_neurogolf_solver\medal-solvers\optimized\task128.onnx,SRC_HF_ROGERMT_6273_SUBMISSION,single_task_override,medium,

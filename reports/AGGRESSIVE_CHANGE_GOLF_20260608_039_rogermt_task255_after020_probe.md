@@ -1,0 +1,40 @@
+# Aggressive Change: GOLF_20260608_039_rogermt_task255_after020_probe
+
+checked_at: 2026-06-09T10:53:50
+AGS: 0.7766
+classification: aggressive
+submission_gate_pass: true
+risk: medium
+content_changed_task_count: 1
+
+## Layers
+
+- structural_delta: 0.8224
+- semantic_risk_adjusted_validity: 0.9617
+- competition_value: 0.3718
+- novelty_and_source_strength: 0.9290
+
+## Structural Delta
+
+- op_family_delta: 0.7665
+- topology_delta: 0.5614
+- wl_subgraph_delta: 0.9230
+- dataflow_path_delta: 0.9287
+- initializer_structure_delta: 1.0000
+- memory_profile_delta: 0.8667
+- rewrite_class_score: 0.7500
+
+## Rewrite Classes
+
+- initializer_elimination: 1
+- operator_family_rewrite: 1
+- topology_rewrite: 1
+
+## Differential Testing
+
+- score: 1.0
+- checked: 3
+- base_candidate_matches: 3
+- optimizer_level_matches: 3
+- expected_passes: 3
+- errors: 0
