@@ -41,6 +41,9 @@ target_exp_ids:
   - GOLF_20260608_026_beicicc_task169_probe
   - GOLF_20260608_027_jsrdcht_memory_task018_probe
   - GOLF_20260608_028_jonathan_task025_probe
+  - GOLF_20260609_074_galaxy_task284_surgical
+  - GOLF_20260609_075_stack_task067_task129_galaxy284
+  - GOLF_20260609_076_stack_galaxy313
 
 hypothesis:
   Current best 6154.71 is too far from the 7000 target. High-score public notebooks may contain stronger full bundles or task-level ONNX variants that can close the gap faster than local micro-optimization.
@@ -158,6 +161,14 @@ target_exp_ids:
   - GOLF_20260609_059_arc_dsl_task278_size_two_outbox
   - GOLF_20260609_060_arc_dsl_task057_single_object_hconcat
   - GOLF_20260609_061_arc_dsl_task325_component_count_diagonal
+  - GOLF_20260609_066_arc_dsl_task223_upscale_s3
+  - GOLF_20260609_067_arc_dsl_task307_upscale_s2
+  - GOLF_20260609_068_arc_dsl_task087_rot180
+  - GOLF_20260609_069_arc_dsl_task140_rot180
+  - GOLF_20260609_070_arc_dsl_task380_rot270
+  - GOLF_20260609_071_arc_dsl_task067_first_hsplit
+  - GOLF_20260609_072_arc_dsl_task129_most_color_canvas
+  - GOLF_20260609_073_stack_task067_task129
 
 hypothesis:
   NeuroGolf scoring is strongly affected by memory footprint and graph cost. Structural ONNX rewrites can improve high-tail tasks when public bundles do not provide direct wins.

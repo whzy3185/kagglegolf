@@ -1,6 +1,6 @@
 # Task Attribution
 
-updated_at: 2026-06-09T20:58:14
+updated_at: 2026-06-09T22:29:33
 
 | exp_id | task/bundle | count | score | delta parent | strength | decision | normal bank | high-risk bank |
 |---|---|---:|---:|---:|---|---|---|---|
@@ -69,5 +69,18 @@ updated_at: 2026-06-09T20:58:14
 | GOLF_20260609_061_arc_dsl_task325_component_count_diagonal | task325 | 1 | 6290.69 | 0.690000 | strong | confirmed_win | true | false |
 | GOLF_20260609_062_public_single_task_task076_jonathan | task076 | 1 | 6278.39 | -12.300000 | strong | rejected_for_current_base | false | false |
 | GOLF_20260609_063_public_single_task_task096_jonathan | task096 | 1 | 6277.86 | -12.830000 | strong | rejected_for_current_base | false | false |
+| GOLF_20260609_064_public_single_task_task101_jonathan | task101 | 1 | 6278.52 | -12.170000 | strong | rejected_for_current_base | false | false |
+| GOLF_20260609_065_public_single_task_task255_jonathan | task255 | 1 | 6279.06 | -11.630000 | strong | rejected_for_current_base | false | false |
+| GOLF_20260609_066_arc_dsl_task223_upscale_s3 | task223 | 1 | 6287.69 | -3.000000 | strong | rejected_for_current_base | false | false |
+| GOLF_20260609_067_arc_dsl_task307_upscale_s2 | task307 | 1 | 6287.69 | -3.000000 | strong | rejected_for_current_base | false | false |
+| GOLF_20260609_068_arc_dsl_task087_rot180 | task087 | 1 | 6286.10 | -4.590000 | strong | rejected_for_current_base | false | false |
+| GOLF_20260609_069_arc_dsl_task140_rot180 | task140 | 1 | 6286.10 | -4.590000 | strong | rejected_for_current_base | false | false |
+| GOLF_20260609_070_arc_dsl_task380_rot270 | task380 | 1 | 6286.78 | -3.910000 | strong | rejected_for_current_base | false | false |
+| GOLF_20260609_071_arc_dsl_task067_first_hsplit | task067 | 1 | 6291.15 | 0.460000 | strong | confirmed_win | true | false |
+| GOLF_20260609_072_arc_dsl_task129_most_color_canvas | task129 | 1 | 6291.17 | 0.480000 | strong | confirmed_win | true | false |
+| GOLF_20260609_073_stack_task067_task129 | task129 | 1 | 6291.63 | 0.480000 | strong | confirmed_win | true | false |
+| GOLF_20260609_074_galaxy_task284_surgical | task284 | 1 | 6291.62 | 0.470000 | strong | confirmed_win | true | false |
+| GOLF_20260609_075_stack_task067_task129_galaxy284 | task284 | 1 | 6292.10 | 0.470000 | strong | confirmed_win | true | false |
+| GOLF_20260609_076_stack_galaxy313 | task313 | 1 | 6292.27 | 0.170000 | strong | confirmed_win | true | false |
 
 Broad mixes are bundle-level evidence only. High-risk wins remain outside the normal task bank.

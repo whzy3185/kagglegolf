@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-06-09T20:56:42",
+  "checked_at": "2026-06-09T22:25:53",
   "strict_mode": true,
   "filters": {
     "exp_id": "",
     "direction_id": ""
   },
-  "total_experiments": 64,
-  "pass_count": 64,
+  "total_experiments": 75,
+  "pass_count": 75,
   "fail_count": 0,
   "exempt_count": 0,
   "failed_exp_ids": [],
@@ -391,6 +391,72 @@
     },
     {
       "exp_id": "GOLF_20260609_065_public_single_task_task255_jonathan",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_066_arc_dsl_task223_upscale_s3",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_067_arc_dsl_task307_upscale_s2",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_068_arc_dsl_task087_rot180",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_069_arc_dsl_task140_rot180",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_070_arc_dsl_task380_rot270",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_071_arc_dsl_task067_first_hsplit",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_072_arc_dsl_task129_most_color_canvas",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_073_stack_task067_task129",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_074_galaxy_task284_surgical",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_075_stack_task067_task129_galaxy284",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_076_stack_galaxy313",
       "direction_id": "DIR_20260608_001_public_highscore_harvest",
       "status": "pass",
       "reasons": []

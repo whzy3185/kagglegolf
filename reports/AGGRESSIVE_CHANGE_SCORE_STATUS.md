@@ -1,6 +1,6 @@
 # Aggressive Change Score Status
 
-last_updated: 2026-06-09T20:56:43
+last_updated: 2026-06-09T22:25:54
 
 | exp_id | AGS | classification | gate | risk |
 | --- | ---: | --- | --- | --- |
@@ -59,3 +59,14 @@ last_updated: 2026-06-09T20:56:43
 | GOLF_20260609_063_public_single_task_task096_jonathan | 0.888958 | aggressive | true | medium |
 | GOLF_20260609_064_public_single_task_task101_jonathan | 0.835551 | aggressive | true | medium |
 | GOLF_20260609_065_public_single_task_task255_jonathan | 0.854118 | aggressive | true | medium |
+| GOLF_20260609_066_arc_dsl_task223_upscale_s3 | 0.856017 | aggressive | true | medium |
+| GOLF_20260609_067_arc_dsl_task307_upscale_s2 | 0.856017 | aggressive | true | medium |
+| GOLF_20260609_068_arc_dsl_task087_rot180 | 0.699099 | aggressive | true | medium |
+| GOLF_20260609_069_arc_dsl_task140_rot180 | 0.699099 | aggressive | true | medium |
+| GOLF_20260609_070_arc_dsl_task380_rot270 | 0.690100 | aggressive | true | medium |
+| GOLF_20260609_071_arc_dsl_task067_first_hsplit | 0.671612 | aggressive | true | medium |
+| GOLF_20260609_072_arc_dsl_task129_most_color_canvas | 0.717978 | aggressive | true | medium |
+| GOLF_20260609_073_stack_task067_task129 | 0.717978 | aggressive | true | medium |
+| GOLF_20260609_074_galaxy_task284_surgical | 0.550700 | strong | true | medium |
+| GOLF_20260609_075_stack_task067_task129_galaxy284 | 0.550700 | strong | true | medium |
+| GOLF_20260609_076_stack_galaxy313 | 0.579752 | strong | true | medium |

@@ -1,14 +1,14 @@
 # Evidence Gate Status
 
-checked_at: 2026-06-09T20:56:42
+checked_at: 2026-06-09T22:25:53
 strict_mode: true
 
 ## Summary
 
 | metric | value |
 |---|---:|
-| total_experiments | 64 |
-| pass | 64 |
+| total_experiments | 75 |
+| pass | 75 |
 | fail | 0 |
 | exempt | 0 |
 
@@ -91,6 +91,17 @@ None.
 - GOLF_20260609_063_public_single_task_task096_jonathan
 - GOLF_20260609_064_public_single_task_task101_jonathan
 - GOLF_20260609_065_public_single_task_task255_jonathan
+- GOLF_20260609_066_arc_dsl_task223_upscale_s3
+- GOLF_20260609_067_arc_dsl_task307_upscale_s2
+- GOLF_20260609_068_arc_dsl_task087_rot180
+- GOLF_20260609_069_arc_dsl_task140_rot180
+- GOLF_20260609_070_arc_dsl_task380_rot270
+- GOLF_20260609_071_arc_dsl_task067_first_hsplit
+- GOLF_20260609_072_arc_dsl_task129_most_color_canvas
+- GOLF_20260609_073_stack_task067_task129
+- GOLF_20260609_074_galaxy_task284_surgical
+- GOLF_20260609_075_stack_task067_task129_galaxy284
+- GOLF_20260609_076_stack_galaxy313
 
 ## Exempt Experiments
 

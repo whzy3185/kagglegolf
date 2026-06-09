@@ -1,0 +1,12 @@
+task_id,arc_id,primitive,candidate_model_path,candidate_score,base_score,delta_score,candidate_total_cost,base_total_cost,candidate_correctness,validation_ok,examples_checked,examples_failed,status,error
+task067,2dee498d,first_hsplit_3,task_bank/tasks/task067/task067.onnx,19.706695,19.247427,0.459268,199,315,pass,true,266,0,accepted,
+task083,f25ffba3_like_tile,fixed_mirror_tile_3x4,task_bank/tasks/task083/task083.onnx,14.507061,17.504458,-2.997398,36060,1800,pass,true,266,0,rejected,
+task142,mirror_tile_3x3,fixed_mirror_tile_3x3,task_bank/tasks/task142/task142.onnx,14.507061,17.504458,-2.997398,36060,1800,pass,true,266,0,rejected,
+task152,mirror_tile_3x3,fixed_mirror_tile_3x3,task_bank/tasks/task152/task152.onnx,14.507061,17.504458,-2.997398,36060,1800,pass,true,267,0,rejected,
+task116,8be77c9e,fixed_vconcat_vmirror_3x4,task_bank/tasks/task116/task116.onnx,0.000000,21.598803,-21.598803,36060,30,fail,false,267,244,rejected,
+task164,6d0aefbc,fixed_hconcat_hmirror_3x3,task_bank/tasks/task164/task164.onnx,14.507061,21.598803,-7.091742,36060,30,pass,true,267,0,rejected,
+task172,8be77c9e,fixed_vconcat_vmirror_3x3,task_bank/tasks/task172/task172.onnx,14.507061,21.598803,-7.091742,36060,30,pass,true,267,0,rejected,
+task210,8be77c9e,fixed_vconcat_vmirror_3x3,task_bank/tasks/task210/task210.onnx,14.507061,21.598803,-7.091742,36060,30,pass,true,266,0,rejected,
+task311,6d0aefbc,fixed_hconcat_hmirror_3x3,task_bank/tasks/task311/task311.onnx,14.507061,21.598803,-7.091742,36060,30,pass,true,266,0,rejected,
+task129,5582e5ca,most_color_canvas_3x3,task_bank/tasks/task129/task129.onnx,18.787394,18.306676,0.480718,499,807,pass,true,265,0,accepted,
+task135,5bd6f4ac,fixed_crop_r0_c6_3x3,task_bank/tasks/task135/task135.onnx,16.714487,19.113896,-2.399409,3966,360,pass,true,266,0,rejected,

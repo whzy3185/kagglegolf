@@ -241,6 +241,265 @@ def build_hconcat_self_network(path: Path) -> None:
     onnx.save(model, str(path))
 
 
+def build_spatial_repeat_network(path: Path, *, scale: int) -> None:
+    """Repeat height and width positions by a fixed integer scale.
+
+    This matches simple ARC-DSL ``upscale`` tasks while preserving NeuroGolf's
+    zero-hot padding outside the true grid: repeated padding remains zero-hot.
+    """
+    if scale not in {2, 3}:
+        raise ValueError("scale must be 2 or 3")
+    import onnx
+    from onnx import TensorProto, helper, numpy_helper
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    shape = [1, 10, 30, 30]
+    x = helper.make_tensor_value_info(spec.INPUT_NAME, TensorProto.FLOAT, shape)
+    y = helper.make_tensor_value_info(spec.OUTPUT_NAME, TensorProto.FLOAT, shape)
+    row_index = np.array([min(i // scale, 29) for i in range(30)], dtype=np.int64)
+    col_index = np.array([min(i // scale, 29) for i in range(30)], dtype=np.int64)
+    initializers = [
+        numpy_helper.from_array(row_index, "row_repeat_index"),
+        numpy_helper.from_array(col_index, "col_repeat_index"),
+    ]
+    nodes = [
+        helper.make_node("Gather", [spec.INPUT_NAME, "row_repeat_index"], ["rows_repeated"], axis=2),
+        helper.make_node("Gather", ["rows_repeated", "col_repeat_index"], [spec.OUTPUT_NAME], axis=3),
+    ]
+    graph = helper.make_graph(nodes, "spatial_repeat", [x], [y], initializers)
+    model = helper.make_model(graph, ir_version=10, opset_imports=[helper.make_opsetid("", 10)])
+    onnx.checker.check_model(model)
+    onnx.save(model, str(path))
+
+
+def build_fixed_3x3_rotation_network(path: Path, *, rotation: str) -> None:
+    """Rotate the top-left 3x3 grid, leaving zero-hot padding untouched."""
+    if rotation not in {"rot180", "rot270"}:
+        raise ValueError("rotation must be rot180 or rot270")
+    import onnx
+    from onnx import TensorProto, helper, numpy_helper
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    shape = [1, 10, 30, 30]
+    x = helper.make_tensor_value_info(spec.INPUT_NAME, TensorProto.FLOAT, shape)
+    y = helper.make_tensor_value_info(spec.OUTPUT_NAME, TensorProto.FLOAT, shape)
+    rev3 = np.array([2, 1, 0] + list(range(3, 30)), dtype=np.int64)
+    initializers = [numpy_helper.from_array(rev3, "rev3")]
+    nodes = []
+    if rotation == "rot180":
+        nodes.extend(
+            [
+                helper.make_node("Gather", [spec.INPUT_NAME, "rev3"], ["h_reversed"], axis=2),
+                helper.make_node("Gather", ["h_reversed", "rev3"], [spec.OUTPUT_NAME], axis=3),
+            ]
+        )
+    else:
+        nodes.extend(
+            [
+                helper.make_node("Transpose", [spec.INPUT_NAME], ["transposed_hw"], perm=[0, 1, 3, 2]),
+                helper.make_node("Gather", ["transposed_hw", "rev3"], [spec.OUTPUT_NAME], axis=2),
+            ]
+        )
+    graph = helper.make_graph(nodes, "fixed_3x3_rotation", [x], [y], initializers)
+    model = helper.make_model(graph, ir_version=10, opset_imports=[helper.make_opsetid("", 10)])
+    onnx.checker.check_model(model)
+    onnx.save(model, str(path))
+
+
+def build_fixed_mirror_tile_network(path: Path, *, height: int, width: int) -> None:
+    """Tile a fixed valid rectangle with horizontal and vertical mirrors.
+
+    This implements ARC-DSL patterns such as
+    ``vconcat(hconcat(I, hmirror(I)), vmirror(hconcat(I, hmirror(I))))`` for
+    tasks whose public and generated examples have fixed dimensions.
+    """
+    if not (1 <= height <= 15 and 1 <= width <= 15):
+        raise ValueError("height and width must fit a doubled 30x30 canvas")
+    import onnx
+    from onnx import TensorProto, helper, numpy_helper
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    shape = [1, 10, 30, 30]
+    x = helper.make_tensor_value_info(spec.INPUT_NAME, TensorProto.FLOAT, shape)
+    y = helper.make_tensor_value_info(spec.OUTPUT_NAME, TensorProto.FLOAT, shape)
+    rows = np.array(
+        list(range(height)) + list(range(height - 1, -1, -1)) + [height] * (30 - 2 * height),
+        dtype=np.int64,
+    )
+    cols = np.array(
+        list(range(width)) + list(range(width - 1, -1, -1)) + [width] * (30 - 2 * width),
+        dtype=np.int64,
+    )
+    initializers = [
+        numpy_helper.from_array(rows, "mirror_tile_rows"),
+        numpy_helper.from_array(cols, "mirror_tile_cols"),
+    ]
+    nodes = [
+        helper.make_node("Gather", [spec.INPUT_NAME, "mirror_tile_rows"], ["rows_tiled"], axis=2),
+        helper.make_node("Gather", ["rows_tiled", "mirror_tile_cols"], [spec.OUTPUT_NAME], axis=3),
+    ]
+    graph = helper.make_graph(nodes, "fixed_mirror_tile", [x], [y], initializers)
+    model = helper.make_model(graph, ir_version=10, opset_imports=[helper.make_opsetid("", 10)])
+    onnx.checker.check_model(model)
+    onnx.save(model, str(path))
+
+
+def build_fixed_mirror_concat_network(path: Path, *, height: int, width: int, mode: str) -> None:
+    """Concatenate a fixed rectangle with its horizontal or vertical mirror."""
+    if mode not in {"hconcat_hmirror", "vconcat_vmirror"}:
+        raise ValueError("mode must be hconcat_hmirror or vconcat_vmirror")
+    if not (1 <= height <= 30 and 1 <= width <= 30):
+        raise ValueError("height and width must fit a 30x30 canvas")
+    import onnx
+    from onnx import TensorProto, helper, numpy_helper
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    shape = [1, 10, 30, 30]
+    x = helper.make_tensor_value_info(spec.INPUT_NAME, TensorProto.FLOAT, shape)
+    y = helper.make_tensor_value_info(spec.OUTPUT_NAME, TensorProto.FLOAT, shape)
+    if mode == "hconcat_hmirror":
+        if width > 15:
+            raise ValueError("width must be <= 15 for horizontal concat")
+        rows = np.arange(30, dtype=np.int64)
+        cols = np.array(
+            list(range(width)) + list(range(width - 1, -1, -1)) + [width] * (30 - 2 * width),
+            dtype=np.int64,
+        )
+    else:
+        if height > 15:
+            raise ValueError("height must be <= 15 for vertical concat")
+        rows = np.array(
+            list(range(height)) + list(range(height - 1, -1, -1)) + [height] * (30 - 2 * height),
+            dtype=np.int64,
+        )
+        cols = np.arange(30, dtype=np.int64)
+    initializers = [
+        numpy_helper.from_array(rows, "mirror_concat_rows"),
+        numpy_helper.from_array(cols, "mirror_concat_cols"),
+    ]
+    nodes = [
+        helper.make_node("Gather", [spec.INPUT_NAME, "mirror_concat_rows"], ["rows_concat"], axis=2),
+        helper.make_node("Gather", ["rows_concat", "mirror_concat_cols"], [spec.OUTPUT_NAME], axis=3),
+    ]
+    graph = helper.make_graph(nodes, "fixed_mirror_concat", [x], [y], initializers)
+    model = helper.make_model(graph, ir_version=10, opset_imports=[helper.make_opsetid("", 10)])
+    onnx.checker.check_model(model)
+    onnx.save(model, str(path))
+
+
+def build_dynamic_first_hsplit_network(path: Path, *, parts: int = 3) -> None:
+    """Keep the first horizontal split of a valid zero-hot-padded grid."""
+    if parts <= 1:
+        raise ValueError("parts must be > 1")
+    import onnx
+    from onnx import TensorProto, helper, numpy_helper
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    shape = [1, 10, 30, 30]
+    x = helper.make_tensor_value_info(spec.INPUT_NAME, TensorProto.FLOAT, shape)
+    y = helper.make_tensor_value_info(spec.OUTPUT_NAME, TensorProto.FLOAT, shape)
+    column_indices = np.arange(30, dtype=np.float32).reshape(1, 1, 1, 30)
+    zero_hot = np.zeros((1, 10, 1, 1), dtype=np.float32)
+    initializers = [
+        numpy_helper.from_array(column_indices, "column_indices_float"),
+        numpy_helper.from_array(np.array(float(parts), dtype=np.float32), "parts_float"),
+        numpy_helper.from_array(zero_hot, "zero_hot"),
+    ]
+    nodes = [
+        helper.make_node("ReduceMax", [spec.INPUT_NAME], ["valid_columns"], axes=[0, 1, 2], keepdims=0),
+        helper.make_node("ReduceSum", ["valid_columns"], ["valid_width_float"], axes=[0], keepdims=0),
+        helper.make_node("Div", ["valid_width_float", "parts_float"], ["split_width_float"]),
+        helper.make_node("Less", ["column_indices_float", "split_width_float"], ["inside_first_split"]),
+        helper.make_node("Where", ["inside_first_split", spec.INPUT_NAME, "zero_hot"], [spec.OUTPUT_NAME]),
+    ]
+    graph = helper.make_graph(nodes, "dynamic_first_hsplit", [x], [y], initializers)
+    model = helper.make_model(graph, ir_version=10, opset_imports=[helper.make_opsetid("", 10)])
+    onnx.checker.check_model(model)
+    onnx.save(model, str(path))
+
+
+def build_fixed_crop_network(
+    path: Path,
+    *,
+    row_start: int,
+    col_start: int,
+    height: int,
+    width: int,
+) -> None:
+    """Crop a fixed rectangle to the top-left and zero-hot pad the rest."""
+    if not (0 <= row_start < 30 and 0 <= col_start < 30):
+        raise ValueError("crop start must be inside 30x30")
+    if not (1 <= height <= 30 and 1 <= width <= 30):
+        raise ValueError("crop size must be positive")
+    if row_start + height > 30 or col_start + width > 30:
+        raise ValueError("crop must fit inside 30x30")
+    import onnx
+    from onnx import TensorProto, helper, numpy_helper
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    shape = [1, 10, 30, 30]
+    x = helper.make_tensor_value_info(spec.INPUT_NAME, TensorProto.FLOAT, shape)
+    y = helper.make_tensor_value_info(spec.OUTPUT_NAME, TensorProto.FLOAT, shape)
+    rows = np.arange(row_start, row_start + height, dtype=np.int64)
+    cols = np.arange(col_start, col_start + width, dtype=np.int64)
+    initializers = [
+        numpy_helper.from_array(rows, "crop_rows"),
+        numpy_helper.from_array(cols, "crop_cols"),
+    ]
+    nodes = [
+        helper.make_node("Gather", [spec.INPUT_NAME, "crop_rows"], ["row_crop"], axis=2),
+        helper.make_node("Gather", ["row_crop", "crop_cols"], ["small_crop"], axis=3),
+        helper.make_node(
+            "Pad",
+            ["small_crop"],
+            [spec.OUTPUT_NAME],
+            pads=[0, 0, 0, 0, 0, 0, 30 - height, 30 - width],
+            value=0.0,
+        ),
+    ]
+    graph = helper.make_graph(nodes, "fixed_crop", [x], [y], initializers)
+    model = helper.make_model(graph, ir_version=10, opset_imports=[helper.make_opsetid("", 10)])
+    onnx.checker.check_model(model)
+    onnx.save(model, str(path))
+
+
+def build_most_color_canvas_network(path: Path, *, height: int, width: int) -> None:
+    """Fill a fixed rectangle with the most frequent input color."""
+    if not (1 <= height <= 30 and 1 <= width <= 30):
+        raise ValueError("canvas size must fit 30x30")
+    import onnx
+    from onnx import TensorProto, helper, numpy_helper
+
+    path.parent.mkdir(parents=True, exist_ok=True)
+    shape = [1, 10, 30, 30]
+    x = helper.make_tensor_value_info(spec.INPUT_NAME, TensorProto.FLOAT, shape)
+    y = helper.make_tensor_value_info(spec.OUTPUT_NAME, TensorProto.FLOAT, shape)
+    initializers = [
+        numpy_helper.from_array(np.array(10, dtype=np.int64), "depth"),
+        numpy_helper.from_array(np.array([0.0, 1.0], dtype=np.float32), "onehot_values"),
+        numpy_helper.from_array(np.array([1, 10, 1, 1], dtype=np.int64), "reshape_shape"),
+        numpy_helper.from_array(np.array([1, 10, height, width], dtype=np.int64), "canvas_shape"),
+    ]
+    nodes = [
+        helper.make_node("ReduceSum", [spec.INPUT_NAME], ["color_counts"], axes=[0, 2, 3], keepdims=0),
+        helper.make_node("ArgMax", ["color_counts"], ["most_color"], axis=0, keepdims=1),
+        helper.make_node("OneHot", ["most_color", "depth", "onehot_values"], ["onehot_color"], axis=1),
+        helper.make_node("Reshape", ["onehot_color", "reshape_shape"], ["onehot_4d"]),
+        helper.make_node("Expand", ["onehot_4d", "canvas_shape"], ["small_canvas"]),
+        helper.make_node(
+            "Pad",
+            ["small_canvas"],
+            [spec.OUTPUT_NAME],
+            pads=[0, 0, 0, 0, 0, 0, 30 - height, 30 - width],
+            value=0.0,
+        ),
+    ]
+    graph = helper.make_graph(nodes, "most_color_canvas", [x], [y], initializers)
+    model = helper.make_model(graph, ir_version=10, opset_imports=[helper.make_opsetid("", 10)])
+    onnx.checker.check_model(model)
+    onnx.save(model, str(path))
+
+
 def build_valid_axis_reverse_network(path: Path, *, axis: int) -> None:
     """Reverse rows or columns inside the valid zero-hot-padded grid."""
 

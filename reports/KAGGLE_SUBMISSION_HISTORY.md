@@ -1,16 +1,27 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-09T20:57:54
+captured_at: 2026-06-09T22:29:39
 selected submissions: unavailable via CLI
-current best public: 6290.69
+current best public: 6292.27
 target public: 7800.0
-gap to target: 1509.3100000000004
-current best exp_id: GOLF_20260609_061_arc_dsl_task325_component_count_diagonal
-current best submission id: 53502021
+gap to target: 1507.7299999999996
+current best exp_id: GOLF_20260609_076_stack_galaxy313
+current best submission id: 53508093
 
 | ref | exp_id | date | status | public_score |
 | --- | --- | --- | --- | --- |
-| 53505803 | GOLF_20260609_065_public_single_task_task255_jonathan | 2026-06-09 12:57:42.550000 | SubmissionStatus.PENDING |  |
+| 53508093 | GOLF_20260609_076_stack_galaxy313 | 2026-06-09 14:26:32.070000 | SubmissionStatus.COMPLETE | 6292.27 |
+| 53507998 | GOLF_20260609_075_stack_task067_task129_galaxy284 | 2026-06-09 14:23:37.150000 | SubmissionStatus.COMPLETE | 6292.10 |
+| 53507931 | GOLF_20260609_074_galaxy_task284_surgical | 2026-06-09 14:20:52.140000 | SubmissionStatus.COMPLETE | 6291.62 |
+| 53507550 | GOLF_20260609_073_stack_task067_task129 | 2026-06-09 14:05:27.707000 | SubmissionStatus.COMPLETE | 6291.63 |
+| 53507473 | GOLF_20260609_072_arc_dsl_task129_most_color_canvas | 2026-06-09 14:02:32.790000 | SubmissionStatus.COMPLETE | 6291.17 |
+| 53507369 | GOLF_20260609_071_arc_dsl_task067_first_hsplit | 2026-06-09 13:58:07.813000 | SubmissionStatus.COMPLETE | 6291.15 |
+| 53506626 | GOLF_20260609_070_arc_dsl_task380_rot270 | 2026-06-09 13:31:55.523000 | SubmissionStatus.COMPLETE | 6286.78 |
+| 53506517 | GOLF_20260609_069_arc_dsl_task140_rot180 | 2026-06-09 13:28:45.877000 | SubmissionStatus.COMPLETE | 6286.10 |
+| 53506477 | GOLF_20260609_068_arc_dsl_task087_rot180 | 2026-06-09 13:27:26.217000 | SubmissionStatus.COMPLETE | 6286.10 |
+| 53506348 | GOLF_20260609_067_arc_dsl_task307_upscale_s2 | 2026-06-09 13:22:56.757000 | SubmissionStatus.COMPLETE | 6287.69 |
+| 53506323 | GOLF_20260609_066_arc_dsl_task223_upscale_s3 | 2026-06-09 13:21:35.310000 | SubmissionStatus.COMPLETE | 6287.69 |
+| 53505803 | GOLF_20260609_065_public_single_task_task255_jonathan | 2026-06-09 12:57:42.550000 | SubmissionStatus.COMPLETE | 6279.06 |
 | 53505728 | GOLF_20260609_064_public_single_task_task101_jonathan | 2026-06-09 12:54:36.267000 | SubmissionStatus.COMPLETE | 6278.52 |
 | 53505684 | GOLF_20260609_063_public_single_task_task096_jonathan | 2026-06-09 12:52:19.637000 | SubmissionStatus.COMPLETE | 6277.86 |
 | 53505537 | GOLF_20260609_062_public_single_task_task076_jonathan | 2026-06-09 12:45:41.263000 | SubmissionStatus.COMPLETE | 6278.39 |
@@ -49,14 +60,3 @@ current best submission id: 53502021
 | 53483350 | GOLF_20260608_027_jsrdcht_memory_task018_probe | 2026-06-08 16:17:35.790000 | SubmissionStatus.COMPLETE | 6271.90 |
 | 53482977 | GOLF_20260608_026_beicicc_task169_probe | 2026-06-08 16:02:55.803000 | SubmissionStatus.COMPLETE | 6269.97 |
 | 53482589 | GOLF_20260608_012_mirza_task187_probe | 2026-06-08 15:48:24.070000 | SubmissionStatus.COMPLETE | 6272.26 |
-| 53482307 | GOLF_20260608_014_biohack_task187_probe | 2026-06-08 15:37:07.237000 | SubmissionStatus.COMPLETE | 6272.26 |
-| 53481001 | GOLF_20260608_025_kojimar_6272_full_replace | 2026-06-08 14:47:03.033000 | SubmissionStatus.COMPLETE | 6272.50 |
-| 53480340 | GOLF_20260608_017_jonathan_task286_probe | 2026-06-08 14:24:13.750000 | SubmissionStatus.COMPLETE | 6153.76 |
-| 53480334 | GOLF_20260608_019_jonathan_top5_mix_probe | 2026-06-08 14:23:53.773000 | SubmissionStatus.COMPLETE | 6139.85 |
-| 53480311 | GOLF_20260608_018_jonathan_task173_probe | 2026-06-08 14:23:20.807000 | SubmissionStatus.COMPLETE | 6153.77 |
-| 53480299 | GOLF_20260608_022_jonathan_task285_probe | 2026-06-08 14:23:02.823000 | SubmissionStatus.COMPLETE | 6142.81 |
-| 53480285 | GOLF_20260608_024_jsrdcht_memory_task285_probe | 2026-06-08 14:22:41.053000 | SubmissionStatus.COMPLETE | 6148.79 |
-| 53480149 | GOLF_20260608_021_jsrdcht_memory_task255_probe | 2026-06-08 14:18:20.137000 | SubmissionStatus.COMPLETE | 6151.46 |
-| 53480045 | GOLF_20260608_023_beicicc_task076_probe | 2026-06-08 14:13:52.637000 | SubmissionStatus.COMPLETE | 6142.58 |
-| 53479938 | GOLF_20260608_020_beicicc_task366_probe | 2026-06-08 14:09:20.843000 | SubmissionStatus.COMPLETE | 6143.61 |
-| 53478548 | GOLF_20260608_016_jonathan_task255_probe | 2026-06-08 13:21:40.813000 | SubmissionStatus.COMPLETE | 6144.05 |

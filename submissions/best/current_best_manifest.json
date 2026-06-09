@@ -1,29 +1,29 @@
 {
-  "exp_id": "GOLF_20260609_061_arc_dsl_task325_component_count_diagonal",
-  "score": 6290.69,
-  "submission_id": "53502021",
+  "exp_id": "GOLF_20260609_076_stack_galaxy313",
+  "score": 6292.27,
+  "submission_id": "53508093",
   "status": "complete",
   "source_ids": [
-    "SRC_ARC_DSL_GITHUB",
-    "SRC_DISCUSSION_AGENT_HARNESS_6580",
+    "SRC_KAGGLE_NOTEBOOK_GALAXY_PUBLIC_ARTIFACT_V1",
     "SRC_ARC_PRIZE_2024_REPORT",
+    "SRC_ARC_DSL_GITHUB",
     "SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP"
   ],
-  "package_sha256": "01fdaf2054ad29895f59b49eb2131fb6bfaa8cc429ef25d346827b1081417ade",
-  "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
-  "primary_source_id": "SRC_ARC_DSL_GITHUB",
-  "leaderboard_source_id": "SRC_DISCUSSION_AGENT_HARNESS_6580",
+  "package_sha256": "0486ce9c29cf5220caaea6627c507b54bf3e2105c41be38ea802a67a41e48d4c",
+  "direction_id": "DIR_20260608_001_public_highscore_harvest",
+  "primary_source_id": "SRC_KAGGLE_NOTEBOOK_GALAXY_PUBLIC_ARTIFACT_V1",
+  "leaderboard_source_id": "SRC_KAGGLE_NOTEBOOK_GALAXY_PUBLIC_ARTIFACT_V1",
   "paper_source_id": "SRC_ARC_PRIZE_2024_REPORT",
   "open_repo_source_id": "SRC_ARC_DSL_GITHUB",
   "historical_competition_source_id": "SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP",
   "risk": "medium",
   "changed_tasks": [
-    "task325"
+    "task313"
   ],
   "local_validation": "pass",
   "examples_checked": 1200,
   "examples_failed": 0,
   "notebook_output_match": "400/400",
-  "aggressive_change_score": 0.7212370992068702,
-  "aggressive_change_classification": "aggressive"
+  "aggressive_change_score": 0.579752103504227,
+  "aggressive_change_classification": "strong"
 }

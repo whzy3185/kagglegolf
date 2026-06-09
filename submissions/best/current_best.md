@@ -1,12 +1,12 @@
 # Current Best
 
-exp_id: GOLF_20260609_061_arc_dsl_task325_component_count_diagonal
-submission id: 53502021
-public score: 6290.69
+exp_id: GOLF_20260609_076_stack_galaxy313
+submission id: 53508093
+public score: 6292.27
 status: complete
-source ids: SRC_ARC_DSL_GITHUB, SRC_DISCUSSION_AGENT_HARNESS_6580, SRC_ARC_PRIZE_2024_REPORT, SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP
+source ids: SRC_KAGGLE_NOTEBOOK_GALAXY_PUBLIC_ARTIFACT_V1, SRC_ARC_PRIZE_2024_REPORT, SRC_ARC_DSL_GITHUB, SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP
 local validation: pass
 examples checked: 1200
 examples failed: 0
 notebook output ONNX matched: 400/400
-package sha256: 01fdaf2054ad29895f59b49eb2131fb6bfaa8cc429ef25d346827b1081417ade
+package sha256: 0486ce9c29cf5220caaea6627c507b54bf3e2105c41be38ea802a67a41e48d4c

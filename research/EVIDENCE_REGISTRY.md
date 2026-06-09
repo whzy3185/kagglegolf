@@ -596,3 +596,21 @@ rule_status: public_github
 repro_status: source_confirmed_clone_blocked
 priority: P0
 assigned_exp_id:
+
+## SRC_KAGGLE_NOTEBOOK_GALAXY_PUBLIC_ARTIFACT_V1
+
+source_id: SRC_KAGGLE_NOTEBOOK_GALAXY_PUBLIC_ARTIFACT_V1
+source_type: notebook
+title: NeuroGolf public artifact v1
+author_or_team: galaxy2025
+url_or_identifier: https://www.kaggle.com/code/galaxy2025/neurogolf-public-artifact-v1
+date_accessed: 2026-06-09
+claimed_score: 6272 public artifact
+tasks_mentioned: task017,task020,task021,task036,task044,task051,task058,task065,task077,task080,task096,task115,task117,task128,task134,task157,task203,task209,task233,task255,task267,task284,task285,task286,task293,task301,task313,task332,task342,task343,task357,task358,task367,task382,task383
+idea_summary: Public artifact with identity-preserving surgical ONNX rewrites and an audit CSV listing task-level before/after cost deltas.
+implementation_hint: Harvest only task-level ONNX that passes official validation and improves current-best per-task score; avoid full bundle replacement.
+risk: medium
+rule_status: public_notebook_output
+repro_status: reproduced
+priority: P0
+assigned_exp_id: GOLF_20260609_074_galaxy_task284_surgical

@@ -1,16 +1,27 @@
 # Scorecard
 
-Current best public score: 6290.69
+Current best public score: 6292.27
 Target public score: 7800.0
-Gap to target: 1509.3100000000004
-Current best exp_id: GOLF_20260609_061_arc_dsl_task325_component_count_diagonal
-Current best submission id: 53502021
+Gap to target: 1507.7299999999996
+Current best exp_id: GOLF_20260609_076_stack_galaxy313
+Current best submission id: 53508093
 
 Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
-| 53505803 | GOLF_20260609_065_public_single_task_task255_jonathan | SubmissionStatus.PENDING |  |
+| 53508093 | GOLF_20260609_076_stack_galaxy313 | SubmissionStatus.COMPLETE | 6292.27 |
+| 53507998 | GOLF_20260609_075_stack_task067_task129_galaxy284 | SubmissionStatus.COMPLETE | 6292.10 |
+| 53507931 | GOLF_20260609_074_galaxy_task284_surgical | SubmissionStatus.COMPLETE | 6291.62 |
+| 53507550 | GOLF_20260609_073_stack_task067_task129 | SubmissionStatus.COMPLETE | 6291.63 |
+| 53507473 | GOLF_20260609_072_arc_dsl_task129_most_color_canvas | SubmissionStatus.COMPLETE | 6291.17 |
+| 53507369 | GOLF_20260609_071_arc_dsl_task067_first_hsplit | SubmissionStatus.COMPLETE | 6291.15 |
+| 53506626 | GOLF_20260609_070_arc_dsl_task380_rot270 | SubmissionStatus.COMPLETE | 6286.78 |
+| 53506517 | GOLF_20260609_069_arc_dsl_task140_rot180 | SubmissionStatus.COMPLETE | 6286.10 |
+| 53506477 | GOLF_20260609_068_arc_dsl_task087_rot180 | SubmissionStatus.COMPLETE | 6286.10 |
+| 53506348 | GOLF_20260609_067_arc_dsl_task307_upscale_s2 | SubmissionStatus.COMPLETE | 6287.69 |
+| 53506323 | GOLF_20260609_066_arc_dsl_task223_upscale_s3 | SubmissionStatus.COMPLETE | 6287.69 |
+| 53505803 | GOLF_20260609_065_public_single_task_task255_jonathan | SubmissionStatus.COMPLETE | 6279.06 |
 | 53505728 | GOLF_20260609_064_public_single_task_task101_jonathan | SubmissionStatus.COMPLETE | 6278.52 |
 | 53505684 | GOLF_20260609_063_public_single_task_task096_jonathan | SubmissionStatus.COMPLETE | 6277.86 |
 | 53505537 | GOLF_20260609_062_public_single_task_task076_jonathan | SubmissionStatus.COMPLETE | 6278.39 |
@@ -49,14 +60,3 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 | 53483350 | GOLF_20260608_027_jsrdcht_memory_task018_probe | SubmissionStatus.COMPLETE | 6271.90 |
 | 53482977 | GOLF_20260608_026_beicicc_task169_probe | SubmissionStatus.COMPLETE | 6269.97 |
 | 53482589 | GOLF_20260608_012_mirza_task187_probe | SubmissionStatus.COMPLETE | 6272.26 |
-| 53482307 | GOLF_20260608_014_biohack_task187_probe | SubmissionStatus.COMPLETE | 6272.26 |
-| 53481001 | GOLF_20260608_025_kojimar_6272_full_replace | SubmissionStatus.COMPLETE | 6272.50 |
-| 53480340 | GOLF_20260608_017_jonathan_task286_probe | SubmissionStatus.COMPLETE | 6153.76 |
-| 53480334 | GOLF_20260608_019_jonathan_top5_mix_probe | SubmissionStatus.COMPLETE | 6139.85 |
-| 53480311 | GOLF_20260608_018_jonathan_task173_probe | SubmissionStatus.COMPLETE | 6153.77 |
-| 53480299 | GOLF_20260608_022_jonathan_task285_probe | SubmissionStatus.COMPLETE | 6142.81 |
-| 53480285 | GOLF_20260608_024_jsrdcht_memory_task285_probe | SubmissionStatus.COMPLETE | 6148.79 |
-| 53480149 | GOLF_20260608_021_jsrdcht_memory_task255_probe | SubmissionStatus.COMPLETE | 6151.46 |
-| 53480045 | GOLF_20260608_023_beicicc_task076_probe | SubmissionStatus.COMPLETE | 6142.58 |
-| 53479938 | GOLF_20260608_020_beicicc_task366_probe | SubmissionStatus.COMPLETE | 6143.61 |
-| 53478548 | GOLF_20260608_016_jonathan_task255_probe | SubmissionStatus.COMPLETE | 6144.05 |
