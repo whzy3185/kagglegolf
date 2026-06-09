@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-06-09T20:53:39",
+  "checked_at": "2026-06-09T20:56:42",
   "strict_mode": true,
   "filters": {
     "exp_id": "",
     "direction_id": ""
   },
-  "total_experiments": 63,
-  "pass_count": 63,
+  "total_experiments": 64,
+  "pass_count": 64,
   "fail_count": 0,
   "exempt_count": 0,
   "failed_exp_ids": [],
@@ -385,6 +385,12 @@
     },
     {
       "exp_id": "GOLF_20260609_064_public_single_task_task101_jonathan",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_065_public_single_task_task255_jonathan",
       "direction_id": "DIR_20260608_001_public_highscore_harvest",
       "status": "pass",
       "reasons": []

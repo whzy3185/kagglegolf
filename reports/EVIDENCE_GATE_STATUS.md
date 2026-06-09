@@ -1,14 +1,14 @@
 # Evidence Gate Status
 
-checked_at: 2026-06-09T20:53:39
+checked_at: 2026-06-09T20:56:42
 strict_mode: true
 
 ## Summary
 
 | metric | value |
 |---|---:|
-| total_experiments | 63 |
-| pass | 63 |
+| total_experiments | 64 |
+| pass | 64 |
 | fail | 0 |
 | exempt | 0 |
 
@@ -90,6 +90,7 @@ None.
 - GOLF_20260609_062_public_single_task_task076_jonathan
 - GOLF_20260609_063_public_single_task_task096_jonathan
 - GOLF_20260609_064_public_single_task_task101_jonathan
+- GOLF_20260609_065_public_single_task_task255_jonathan
 
 ## Exempt Experiments
 
