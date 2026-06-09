@@ -1,6 +1,6 @@
 # Known Bad Families
 
-updated_at: 2026-06-09T10:49:14
+updated_at: 2026-06-09T11:13:12
 
 This file is consumed by the automatic selector. It records negative leaderboard feedback that should penalize similar candidates without deleting the source from the alternate task pool.
 
