@@ -1,6 +1,6 @@
 # Aggressive Change Score Status
 
-last_updated: 2026-06-09T22:25:54
+last_updated: 2026-06-09T22:36:06
 
 | exp_id | AGS | classification | gate | risk |
 | --- | ---: | --- | --- | --- |
@@ -70,3 +70,6 @@ last_updated: 2026-06-09T22:25:54
 | GOLF_20260609_074_galaxy_task284_surgical | 0.550700 | strong | true | medium |
 | GOLF_20260609_075_stack_task067_task129_galaxy284 | 0.550700 | strong | true | medium |
 | GOLF_20260609_076_stack_galaxy313 | 0.579752 | strong | true | medium |
+| GOLF_20260609_077_stack_galaxy332 | 0.565176 | strong | true | medium |
+| GOLF_20260609_078_stack_galaxy021 | 0.576463 | strong | true | medium |
+| GOLF_20260609_079_stack_galaxy301 | 0.575063 | strong | true | medium |

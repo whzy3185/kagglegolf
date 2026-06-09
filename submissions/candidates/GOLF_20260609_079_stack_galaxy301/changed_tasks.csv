@@ -1,0 +1,2 @@
+task_id,model_path,source_id,method_family,risk,cost_proxy
+task301,E:\kagglegolf\data\kaggle_code_single_task\extracted_onnx\galaxy2025_neurogolf_public_artifact_v1\task301.onnx,SRC_KAGGLE_NOTEBOOK_GALAXY_PUBLIC_ARTIFACT_V1,single_task_override,medium,

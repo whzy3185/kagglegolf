@@ -1,15 +1,18 @@
 # Scorecard
 
-Current best public score: 6292.27
+Current best public score: 6292.44
 Target public score: 7800.0
-Gap to target: 1507.7299999999996
-Current best exp_id: GOLF_20260609_076_stack_galaxy313
-Current best submission id: 53508093
+Gap to target: 1507.5600000000004
+Current best exp_id: GOLF_20260609_078_stack_galaxy021
+Current best submission id: 53508290
 
 Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
+| 53508370 | GOLF_20260609_079_stack_galaxy301 | SubmissionStatus.PENDING |  |
+| 53508290 | GOLF_20260609_078_stack_galaxy021 | SubmissionStatus.COMPLETE | 6292.44 |
+| 53508229 | GOLF_20260609_077_stack_galaxy332 | SubmissionStatus.COMPLETE | 6292.37 |
 | 53508093 | GOLF_20260609_076_stack_galaxy313 | SubmissionStatus.COMPLETE | 6292.27 |
 | 53507998 | GOLF_20260609_075_stack_task067_task129_galaxy284 | SubmissionStatus.COMPLETE | 6292.10 |
 | 53507931 | GOLF_20260609_074_galaxy_task284_surgical | SubmissionStatus.COMPLETE | 6291.62 |
@@ -57,6 +60,3 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 | 53484663 | GOLF_20260608_031_beicicc_inline_396_mix | SubmissionStatus.COMPLETE | 5043.59 |
 | 53484027 | GOLF_20260608_029_seddik_surgery_6272 | SubmissionStatus.COMPLETE | 6272.60 |
 | 53483583 | GOLF_20260608_028_jonathan_task025_probe | SubmissionStatus.COMPLETE | 6259.35 |
-| 53483350 | GOLF_20260608_027_jsrdcht_memory_task018_probe | SubmissionStatus.COMPLETE | 6271.90 |
-| 53482977 | GOLF_20260608_026_beicicc_task169_probe | SubmissionStatus.COMPLETE | 6269.97 |
-| 53482589 | GOLF_20260608_012_mirza_task187_probe | SubmissionStatus.COMPLETE | 6272.26 |

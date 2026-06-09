@@ -1,14 +1,14 @@
 # Evidence Gate Status
 
-checked_at: 2026-06-09T22:25:53
+checked_at: 2026-06-09T22:36:05
 strict_mode: true
 
 ## Summary
 
 | metric | value |
 |---|---:|
-| total_experiments | 75 |
-| pass | 75 |
+| total_experiments | 78 |
+| pass | 78 |
 | fail | 0 |
 | exempt | 0 |
 
@@ -102,6 +102,9 @@ None.
 - GOLF_20260609_074_galaxy_task284_surgical
 - GOLF_20260609_075_stack_task067_task129_galaxy284
 - GOLF_20260609_076_stack_galaxy313
+- GOLF_20260609_077_stack_galaxy332
+- GOLF_20260609_078_stack_galaxy021
+- GOLF_20260609_079_stack_galaxy301
 
 ## Exempt Experiments
 

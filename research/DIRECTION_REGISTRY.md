@@ -44,6 +44,9 @@ target_exp_ids:
   - GOLF_20260609_074_galaxy_task284_surgical
   - GOLF_20260609_075_stack_task067_task129_galaxy284
   - GOLF_20260609_076_stack_galaxy313
+  - GOLF_20260609_077_stack_galaxy332
+  - GOLF_20260609_078_stack_galaxy021
+  - GOLF_20260609_079_stack_galaxy301
 
 hypothesis:
   Current best 6154.71 is too far from the 7000 target. High-score public notebooks may contain stronger full bundles or task-level ONNX variants that can close the gap faster than local micro-optimization.

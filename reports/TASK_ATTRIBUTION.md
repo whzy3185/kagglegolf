@@ -1,6 +1,6 @@
 # Task Attribution
 
-updated_at: 2026-06-09T22:29:33
+updated_at: 2026-06-09T22:38:10
 
 | exp_id | task/bundle | count | score | delta parent | strength | decision | normal bank | high-risk bank |
 |---|---|---:|---:|---:|---|---|---|---|
@@ -82,5 +82,7 @@ updated_at: 2026-06-09T22:29:33
 | GOLF_20260609_074_galaxy_task284_surgical | task284 | 1 | 6291.62 | 0.470000 | strong | confirmed_win | true | false |
 | GOLF_20260609_075_stack_task067_task129_galaxy284 | task284 | 1 | 6292.10 | 0.470000 | strong | confirmed_win | true | false |
 | GOLF_20260609_076_stack_galaxy313 | task313 | 1 | 6292.27 | 0.170000 | strong | confirmed_win | true | false |
+| GOLF_20260609_077_stack_galaxy332 | task332 | 1 | 6292.37 | 0.100000 | strong | confirmed_win | true | false |
+| GOLF_20260609_078_stack_galaxy021 | task021 | 1 | 6292.44 | 0.070000 | strong | confirmed_win | true | false |
 
 Broad mixes are bundle-level evidence only. High-risk wins remain outside the normal task bank.
