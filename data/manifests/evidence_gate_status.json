@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-06-09T18:12:32",
+  "checked_at": "2026-06-09T20:44:36",
   "strict_mode": true,
   "filters": {
     "exp_id": "",
     "direction_id": ""
   },
-  "total_experiments": 60,
-  "pass_count": 60,
+  "total_experiments": 61,
+  "pass_count": 61,
   "fail_count": 0,
   "exempt_count": 0,
   "failed_exp_ids": [],
@@ -368,6 +368,12 @@
     {
       "exp_id": "GOLF_20260609_061_arc_dsl_task325_component_count_diagonal",
       "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_062_public_single_task_task076_jonathan",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
       "status": "pass",
       "reasons": []
     }

@@ -10,7 +10,7 @@
   "open_repo_source_id": "SRC_ARC_GEN_GITHUB",
   "historical_competition_source_id": "SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP",
   "evidence_gate_status": "pass",
-  "evidence_gate_checked_at": "2026-06-09T20:17:30",
+  "evidence_gate_checked_at": "2026-06-09T20:44:36",
   "evidence_gate_notes": "",
   "risk": "medium",
   "changed_tasks": [
@@ -1623,5 +1623,10 @@
       "name": "task400.onnx",
       "size_bytes": 3021
     }
-  ]
+  ],
+  "aggressive_change_score": 0.8165894521298711,
+  "aggressive_change_classification": "aggressive",
+  "aggressive_change_checked_at": "2026-06-09T20:44:37",
+  "aggressive_change_gate_pass": true,
+  "aggressive_content_changed_task_count": 1
 }
