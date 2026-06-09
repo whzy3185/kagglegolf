@@ -1,6 +1,6 @@
 # Submit Eligibility
 
-checked_at: 2026-06-09T11:37:09
+checked_at: 2026-06-09T12:07:36
 policy: hard gates decide eligibility; soft penalties only order submissions.
 
 | exp_id | eligible | hard_gate_status | soft_penalties | submit_order | reason |
@@ -45,5 +45,7 @@ policy: hard gates decide eligibility; soft penalties only order submissions.
 | GOLF_20260608_042_rogermt_task159_after020_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
 | GOLF_20260608_043_rogermt_task208_after020_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
 | GOLF_20260608_044_rogermt_task092_after020_probe | false | already_submitted | not_applicable |  | hard_gate_blocked |
-| GOLF_20260608_045_rogermt_positive_stack_128_208 | true | pass | recent_negative_source_penalty | 1 | eligible; soft penalties do not block |
-| GOLF_20260608_046_rogermt_positive_stack_255_128_208 | true | pass | low_selection_score, recent_negative_source_penalty, same_family_negative_penalty | 2 | eligible; soft penalties do not block |
+| GOLF_20260608_045_rogermt_positive_stack_128_208 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_046_rogermt_positive_stack_255_128_208 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_047_vyanktesh_multi_source_full | false | local_validation_not_passed, aggressive_change_gate_not_passed, blocked_status:failed_local_validation | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_047b_vyanktesh_except_task133 | true | pass | none | 1 | eligible; soft penalties do not block |

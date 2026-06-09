@@ -1,15 +1,24 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-09T11:49:59
+captured_at: 2026-06-09T14:24:08
 selected submissions: unavailable via CLI
-current best public: 6278.32
+current best public: 6285.85
 target public: 7800.0
-gap to target: 1521.6800000000003
-current best exp_id: GOLF_20260608_046_rogermt_positive_stack_255_128_208
-current best submission id: 53493813
+gap to target: 1514.1499999999996
+current best exp_id: GOLF_20260609_053_arc_dsl_axis_reverse_pair
+current best submission id: 53496300
 
 | ref | exp_id | date | status | public_score |
 | --- | --- | --- | --- | --- |
+| 53496989 | GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop | 2026-06-09 06:24:02.317000 | SubmissionStatus.PENDING |  |
+| 53496682 | GOLF_20260609_054_arc_dsl_task300_largest_color_crop | 2026-06-09 06:09:27.027000 | SubmissionStatus.COMPLETE | 6285.68 |
+| 53496300 | GOLF_20260609_053_arc_dsl_axis_reverse_pair | 2026-06-09 05:49:22.600000 | SubmissionStatus.COMPLETE | 6285.85 |
+| 53495970 | GOLF_20260609_052_arc_dsl_task249_hconcat_self | 2026-06-09 05:33:57.050000 | SubmissionStatus.COMPLETE | 6285.06 |
+| 53495622 | GOLF_20260609_051_arc_dsl_task303_frontier_fill | 2026-06-09 05:16:49.750000 | SubmissionStatus.COMPLETE | 6282.47 |
+| 53495329 | GOLF_20260609_050_arc_dsl_task070_bbox_fill | 2026-06-09 05:02:09.213000 | SubmissionStatus.COMPLETE | 6280.33 |
+| 53494834 | GOLF_20260608_049_afr1ste_compress_rewrite_structural_mix | 2026-06-09 04:36:09.180000 | SubmissionStatus.COMPLETE | 3450.39 |
+| 53494549 | GOLF_20260608_048b_afr1ste_6335_structural_pass_mix | 2026-06-09 04:21:30.540000 | SubmissionStatus.COMPLETE | 4894.51 |
+| 53494347 | GOLF_20260608_047b_vyanktesh_except_task133 | 2026-06-09 04:12:08.307000 | SubmissionStatus.COMPLETE | 6235.30 |
 | 53493813 | GOLF_20260608_046_rogermt_positive_stack_255_128_208 | 2026-06-09 03:44:04.060000 | SubmissionStatus.COMPLETE | 6278.32 |
 | 53493697 | GOLF_20260608_045_rogermt_positive_stack_128_208 | 2026-06-09 03:38:04.703000 | SubmissionStatus.COMPLETE | 6277.36 |
 | 53493476 | GOLF_20260608_039_rogermt_task255_after020_probe | 2026-06-09 03:27:38.787000 | SubmissionStatus.COMPLETE | 6276.02 |

@@ -5,6 +5,7 @@ import csv
 import json
 import subprocess
 import sys
+from datetime import datetime
 from pathlib import Path
 
 from _bootstrap import ROOT
@@ -70,6 +71,40 @@ def complete_status(value: object) -> bool:
     return "complete" in str(value).lower()
 
 
+def update_wait_report(exp_id: str, history_row: dict) -> None:
+    path = root("reports", f"SUBMISSION_WAIT_{exp_id}.md")
+    if not path.exists():
+        return
+    text = path.read_text(encoding="utf-8")
+    status = str(history_row.get("status", ""))
+    score = str(history_row.get("publicScore", ""))
+    submission_id = str(history_row.get("ref", ""))
+    outcome = "complete" if complete_status(status) and score else status or "pending"
+    replacements = {
+        "updated_at:": f"updated_at: {datetime.now().isoformat(timespec='seconds')}",
+        "outcome:": f"outcome: {outcome}",
+        "submission_id:": f"submission_id: {submission_id}",
+        "status:": f"status: {status}",
+        "public_score:": f"public_score: {score}",
+    }
+    lines = text.splitlines()
+    seen = set()
+    for index, line in enumerate(lines):
+        for prefix, replacement in replacements.items():
+            if prefix in seen or not line.startswith(prefix):
+                continue
+            lines[index] = replacement
+            seen.add(prefix)
+            break
+    event = (
+        f"| {datetime.now().isoformat(timespec='seconds')} | {status} | "
+        f"{score} | {submission_id} |"
+    )
+    if event not in lines:
+        lines.append(event)
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--exp-id", default="")
@@ -111,6 +146,7 @@ def main() -> None:
             continue
         hist = rows_by_exp.get(exp_id)
         if hist:
+            update_wait_report(exp_id, hist)
             row["submitted"] = "true"
             row["submission_id"] = hist.get("ref", "")
             row["public_score"] = hist.get("publicScore", "")

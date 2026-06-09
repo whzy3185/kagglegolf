@@ -1,0 +1,3 @@
+task_id,model_path,source_id,method_family,risk,cost_proxy
+task150,E:\kagglegolf\data\interim\arc_dsl_compiled\task150.onnx,SRC_ARC_DSL_GITHUB,arc_dsl_vmirror_compile,medium,681
+task155,E:\kagglegolf\data\interim\arc_dsl_compiled\task155.onnx,SRC_ARC_DSL_GITHUB,arc_dsl_hmirror_compile,medium,681

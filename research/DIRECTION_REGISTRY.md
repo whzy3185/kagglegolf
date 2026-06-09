@@ -13,6 +13,11 @@ target_exp_ids:
   - GOLF_20260608_006_biohack_super_blend_structural_pass_mix
   - GOLF_20260608_032_biohack_best_blend_max_full
   - GOLF_20260608_034_rogermt_6273_full_replace
+  - GOLF_20260608_047_vyanktesh_multi_source_full
+  - GOLF_20260608_047b_vyanktesh_except_task133
+  - GOLF_20260608_048_afr1ste_6335_full_replace
+  - GOLF_20260608_048b_afr1ste_6335_structural_pass_mix
+  - GOLF_20260608_049_afr1ste_compress_rewrite_structural_mix
   - GOLF_20260608_008_jonathan_constraint_logic_mix
   - GOLF_20260608_008b_jonathan_structural_pass_mix
   - GOLF_20260608_016_jonathan_task233_probe
@@ -137,6 +142,12 @@ target_exp_ids:
   - GOLF_20260608_044_rogermt_task092_after020_probe
   - GOLF_20260608_045_rogermt_positive_stack_128_208
   - GOLF_20260608_046_rogermt_positive_stack_255_128_208
+  - GOLF_20260609_050_arc_dsl_task070_bbox_fill
+  - GOLF_20260609_051_arc_dsl_task303_frontier_fill
+  - GOLF_20260609_052_arc_dsl_task249_hconcat_self
+  - GOLF_20260609_053_arc_dsl_axis_reverse_pair
+  - GOLF_20260609_054_arc_dsl_task300_largest_color_crop
+  - GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop
 
 hypothesis:
   NeuroGolf scoring is strongly affected by memory footprint and graph cost. Structural ONNX rewrites can improve high-tail tasks when public bundles do not provide direct wins.

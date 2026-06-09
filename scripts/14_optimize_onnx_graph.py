@@ -27,6 +27,7 @@ def main() -> None:
     parser.add_argument("--manifest", default="")
     parser.add_argument("--no-compress-uniform", action="store_true")
     parser.add_argument("--inline-functions", action="store_true")
+    parser.add_argument("--replace-batch-compress", action="store_true")
     args = parser.parse_args()
 
     compress_uniform = not args.no_compress_uniform
@@ -38,14 +39,24 @@ def main() -> None:
         if args.inline_functions:
             rows = inline_submission_dir(source_dir, target_dir)
         else:
-            rows = rewrite_submission_dir(source_dir, target_dir, compress_uniform=compress_uniform)
+            rows = rewrite_submission_dir(
+                source_dir,
+                target_dir,
+                compress_uniform=compress_uniform,
+                replace_batch_compress=args.replace_batch_compress,
+            )
     elif args.source:
         if not args.target:
             raise SystemExit("--target is required with --source")
         if args.inline_functions:
             stats = inline_model(ROOT / args.source, ROOT / args.target)
         else:
-            stats = rewrite_model(ROOT / args.source, ROOT / args.target, compress_uniform=compress_uniform)
+            stats = rewrite_model(
+                ROOT / args.source,
+                ROOT / args.target,
+                compress_uniform=compress_uniform,
+                replace_batch_compress=args.replace_batch_compress,
+            )
         rows = [stats.__dict__]
     else:
         raise SystemExit("provide --source/--target or --source-dir/--target-dir")
@@ -57,6 +68,7 @@ def main() -> None:
         "target_dir": args.target_dir,
         "compress_uniform": compress_uniform,
         "inline_functions": args.inline_functions,
+        "replace_batch_compress": args.replace_batch_compress,
         "task_count": len(rows),
         "changed_count": sum(
             1

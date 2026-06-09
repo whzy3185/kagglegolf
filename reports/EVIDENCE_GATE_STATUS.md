@@ -1,14 +1,14 @@
 # Evidence Gate Status
 
-checked_at: 2026-06-09T11:43:10
+checked_at: 2026-06-09T14:22:42
 strict_mode: true
 
 ## Summary
 
 | metric | value |
 |---|---:|
-| total_experiments | 43 |
-| pass | 43 |
+| total_experiments | 54 |
+| pass | 54 |
 | fail | 0 |
 | exempt | 0 |
 
@@ -70,6 +70,17 @@ None.
 - GOLF_20260608_044_rogermt_task092_after020_probe
 - GOLF_20260608_045_rogermt_positive_stack_128_208
 - GOLF_20260608_046_rogermt_positive_stack_255_128_208
+- GOLF_20260608_047_vyanktesh_multi_source_full
+- GOLF_20260608_047b_vyanktesh_except_task133
+- GOLF_20260608_048_afr1ste_6335_full_replace
+- GOLF_20260608_048b_afr1ste_6335_structural_pass_mix
+- GOLF_20260608_049_afr1ste_compress_rewrite_structural_mix
+- GOLF_20260609_050_arc_dsl_task070_bbox_fill
+- GOLF_20260609_051_arc_dsl_task303_frontier_fill
+- GOLF_20260609_052_arc_dsl_task249_hconcat_self
+- GOLF_20260609_053_arc_dsl_axis_reverse_pair
+- GOLF_20260609_054_arc_dsl_task300_largest_color_crop
+- GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop
 
 ## Exempt Experiments
 

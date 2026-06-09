@@ -1,8 +1,8 @@
 # Current Best
 
-exp_id: GOLF_20260608_046_rogermt_positive_stack_255_128_208
-submission id: 53493813
-public score: 6278.32
+exp_id: GOLF_20260609_053_arc_dsl_axis_reverse_pair
+submission id: 53496300
+public score: 6285.85
 status: complete
 source ids: SRC_KAGGLE_NOTEBOOK_SEDDIK_SURGICAL_ONNX, SRC_KAGGLE_NOTEBOOK_KOJIMAR_6272_AUDITED_OVERRIDES
 local validation: pass

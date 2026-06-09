@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-06-09T11:43:10",
+  "checked_at": "2026-06-09T14:22:42",
   "strict_mode": true,
   "filters": {
     "exp_id": "",
     "direction_id": ""
   },
-  "total_experiments": 43,
-  "pass_count": 43,
+  "total_experiments": 54,
+  "pass_count": 54,
   "fail_count": 0,
   "exempt_count": 0,
   "failed_exp_ids": [],
@@ -265,6 +265,72 @@
     },
     {
       "exp_id": "GOLF_20260608_046_rogermt_positive_stack_255_128_208",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_047_vyanktesh_multi_source_full",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_047b_vyanktesh_except_task133",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_048_afr1ste_6335_full_replace",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_048b_afr1ste_6335_structural_pass_mix",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260608_049_afr1ste_compress_rewrite_structural_mix",
+      "direction_id": "DIR_20260608_001_public_highscore_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_050_arc_dsl_task070_bbox_fill",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_051_arc_dsl_task303_frontier_fill",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_052_arc_dsl_task249_hconcat_self",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_053_arc_dsl_axis_reverse_pair",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_054_arc_dsl_task300_largest_color_crop",
+      "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop",
       "direction_id": "DIR_20260608_003_memory_first_onnx_surgery",
       "status": "pass",
       "reasons": []

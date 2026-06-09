@@ -1,13 +1,13 @@
 # Next Submission Selection
 
-checked_at: 2026-06-09T11:37:09
-current_best: 6276.54 (GOLF_20260608_042_rogermt_task159_after020_probe)
-candidate_count: 42
-eligible_count: 2
-blocked_count: 40
-selected_candidate: GOLF_20260608_045_rogermt_positive_stack_128_208
-selection_score: 0.535142
-selection_reason: class=operator_family_replacement; AGS=0.739; structural_scale=0.95; source=1.00; upside=0.85; novelty=0.25; attribution=0.70; tail_bonus=0.80; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.35; source_negative=recent negative source feedback from GOLF_20260608_034_rogermt_6273_full_replace, GOLF_20260608_037_rogermt_task062_optimized_probe, GOLF_20260608_038_rogermt_task243_optimized_probe
+checked_at: 2026-06-09T12:07:36
+current_best: 6278.32 (GOLF_20260608_046_rogermt_positive_stack_255_128_208)
+candidate_count: 44
+eligible_count: 1
+blocked_count: 43
+selected_candidate: GOLF_20260608_047b_vyanktesh_except_task133
+selection_score: 0.654683
+selection_reason: class=full_bundle_replacement; AGS=0.614; structural_scale=1.00; source=0.65; upside=0.45; novelty=1.00; attribution=0.20; tail_bonus=1.00; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=0.00; same_family_negative_penalty=0.00; source_diversity_bonus=1.00; risk_penalty=0.35
 
 policy: selection is ordering only, not a blocking gate
 soft_penalties: affect submit order only; hard blocks are local validation, evidence gate, AGS gate, missing artifact, empty changed_tasks, already submitted, or explicit validation/evidence/metadata failure.
@@ -16,15 +16,13 @@ soft_penalties: affect submit order only; hard blocks are local validation, evid
 
 | order | exp_id | score | soft_penalties |
 |---:|---|---:|---|
-| 1 | GOLF_20260608_045_rogermt_positive_stack_128_208 | 0.535142 | recent_negative_source_penalty |
-| 2 | GOLF_20260608_046_rogermt_positive_stack_255_128_208 | 0.332506 | low_selection_score, recent_negative_source_penalty, same_family_negative_penalty |
+| 1 | GOLF_20260608_047b_vyanktesh_except_task133 | 0.654683 | none |
 
 ## Top 10
 
 | rank | exp_id | score | class | risk | tasks | source |
 |---:|---|---:|---|---|---:|---|
-| 1 | GOLF_20260608_045_rogermt_positive_stack_128_208 | 0.535142 | operator_family_replacement | medium | 2 | SRC_HF_ROGERMT_6273_SUBMISSION |
-| 2 | GOLF_20260608_046_rogermt_positive_stack_255_128_208 | 0.332506 | operator_family_replacement | medium | 3 | SRC_HF_ROGERMT_6273_SUBMISSION |
+| 1 | GOLF_20260608_047b_vyanktesh_except_task133 | 0.654683 | full_bundle_replacement | medium | 399 | SRC_KAGGLE_NOTEBOOK_VYANKTESH_MULTI_SOURCE |
 
 ## Blocked Candidates
 
@@ -68,6 +66,9 @@ soft_penalties: affect submit order only; hard blocks are local validation, evid
 - GOLF_20260608_042_rogermt_task159_after020_probe: already_submitted
 - GOLF_20260608_043_rogermt_task208_after020_probe: already_submitted
 - GOLF_20260608_044_rogermt_task092_after020_probe: already_submitted
+- GOLF_20260608_045_rogermt_positive_stack_128_208: already_submitted
+- GOLF_20260608_046_rogermt_positive_stack_255_128_208: already_submitted
+- GOLF_20260608_047_vyanktesh_multi_source_full: local_validation_not_passed, aggressive_change_gate_not_passed, blocked_status:failed_local_validation
 
 ## Negative Feedback Policy
 

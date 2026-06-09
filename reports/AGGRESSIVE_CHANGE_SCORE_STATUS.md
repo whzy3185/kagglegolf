@@ -1,6 +1,6 @@
 # Aggressive Change Score Status
 
-last_updated: 2026-06-09T11:43:13
+last_updated: 2026-06-09T14:22:42
 
 | exp_id | AGS | classification | gate | risk |
 | --- | ---: | --- | --- | --- |
@@ -40,3 +40,12 @@ last_updated: 2026-06-09T11:43:13
 | GOLF_20260608_043_rogermt_task208_after020_probe | 0.764889 | aggressive | true | medium |
 | GOLF_20260608_045_rogermt_positive_stack_128_208 | 0.739281 | aggressive | true | medium |
 | GOLF_20260608_046_rogermt_positive_stack_255_128_208 | 0.738664 | aggressive | true | medium |
+| GOLF_20260608_047b_vyanktesh_except_task133 | 0.614467 | strong | true | medium |
+| GOLF_20260608_048b_afr1ste_6335_structural_pass_mix | 0.824027 | aggressive | true | medium |
+| GOLF_20260608_049_afr1ste_compress_rewrite_structural_mix | 0.858190 | aggressive | true | high |
+| GOLF_20260609_050_arc_dsl_task070_bbox_fill | 0.843256 | aggressive | true | medium |
+| GOLF_20260609_051_arc_dsl_task303_frontier_fill | 0.828875 | aggressive | true | medium |
+| GOLF_20260609_052_arc_dsl_task249_hconcat_self | 0.833730 | aggressive | true | medium |
+| GOLF_20260609_053_arc_dsl_axis_reverse_pair | 0.720210 | aggressive | true | medium |
+| GOLF_20260609_054_arc_dsl_task300_largest_color_crop | 0.724731 | aggressive | true | medium |
+| GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop | 0.705369 | aggressive | true | medium |

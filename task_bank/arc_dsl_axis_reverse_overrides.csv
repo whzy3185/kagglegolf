@@ -1,0 +1,3 @@
+task_id,candidate_model_path,source_id,source_exp_id,method_family,memory_footprint,parameter_count,file_size,cost_proxy,utility_proxy,local_valid,risk,candidate_rank,recommended_action
+task150,data/interim/arc_dsl_compiled/task150.onnx,SRC_ARC_DSL_GITHUB,GOLF_20260609_053_arc_dsl_axis_reverse_pair,arc_dsl_vmirror_compile,650,31,774,681,18.476438,true,medium,1,submit_pair
+task155,data/interim/arc_dsl_compiled/task155.onnx,SRC_ARC_DSL_GITHUB,GOLF_20260609_053_arc_dsl_axis_reverse_pair,arc_dsl_hmirror_compile,650,31,774,681,18.476438,true,medium,2,submit_pair

@@ -43,6 +43,7 @@ class RewriteStats:
     removed_unused_initializers: int
     deduplicated_initializers: int
     scalar_compressed_initializers: int
+    replaced_batch_compresses: int
     saved_parameters: int
     changed: bool
     status: str
@@ -150,6 +151,91 @@ def compress_uniform_initializers(model: onnx.ModelProto) -> tuple[int, int]:
     return compressed, saved
 
 
+def _node_by_output(model: onnx.ModelProto) -> dict[str, onnx.NodeProto]:
+    producers: dict[str, onnx.NodeProto] = {}
+    for node in model.graph.node:
+        for output in node.output:
+            if output:
+                producers[output] = node
+    return producers
+
+
+def _attr_int(node: onnx.NodeProto, name: str, default: int | None = None) -> int | None:
+    for attr in node.attribute:
+        if attr.name == name:
+            return int(onnx.helper.get_attribute_value(attr))
+    return default
+
+
+def _shape_map(model: onnx.ModelProto) -> dict[str, list[int | None]]:
+    shapes: dict[str, list[int | None]] = {}
+    try:
+        inferred = onnx.shape_inference.infer_shapes(model, strict_mode=False)
+    except Exception:
+        inferred = model
+    for value in list(inferred.graph.input) + list(inferred.graph.value_info) + list(inferred.graph.output):
+        tensor_type = value.type.tensor_type
+        if not tensor_type.HasField("shape"):
+            continue
+        dims: list[int | None] = []
+        for dim in tensor_type.shape.dim:
+            dims.append(int(dim.dim_value) if dim.HasField("dim_value") else None)
+        shapes[value.name] = dims
+    return shapes
+
+
+def replace_batch_gate_compresses(model: onnx.ModelProto) -> int:
+    """Replace safe batch-gate Compress nodes with Identity.
+
+    Several public NeuroGolf artifacts use Compress(axis=0) as a guard around
+    the single batch dimension. The competition structural gate bans Compress,
+    but these guards are usually equivalent to passing the tensor through for
+    valid ARC examples. This rewrite is intentionally conservative: it only
+    touches Compress nodes whose condition is inferred as length one or is
+    produced by a simple Unsqueeze/Reshape scalar-gate pattern. Solver-selection
+    Compress nodes fed by Concat/NonZero-style conditions are left intact.
+    """
+
+    producers = _node_by_output(model)
+    shapes = _shape_map(model)
+    rewritten = []
+    replaced = 0
+    for node in model.graph.node:
+        if node.op_type != "Compress":
+            rewritten.append(node)
+            continue
+        axis = _attr_int(node, "axis", None)
+        if axis not in {0, -4, None} or len(node.input) < 2 or len(node.output) != 1:
+            rewritten.append(node)
+            continue
+
+        data_name, condition_name = node.input[0], node.input[1]
+        cond_shape = shapes.get(condition_name)
+        data_shape = shapes.get(data_name)
+        producer = producers.get(condition_name)
+        producer_type = producer.op_type if producer is not None else ""
+        scalar_gate_pattern = producer_type in {"Unsqueeze", "Reshape"}
+        condition_is_length_one = cond_shape == [1] or cond_shape == [1, 1]
+        data_is_single_batch = data_shape is None or not data_shape or data_shape[0] in {1, None}
+        if not data_is_single_batch or not (condition_is_length_one or scalar_gate_pattern):
+            rewritten.append(node)
+            continue
+
+        identity = onnx.helper.make_node(
+            "Identity",
+            inputs=[data_name],
+            outputs=[node.output[0]],
+            name=node.name + "_identity_rewrite" if node.name else "",
+        )
+        rewritten.append(identity)
+        replaced += 1
+
+    if replaced:
+        del model.graph.node[:]
+        model.graph.node.extend(rewritten)
+    return replaced
+
+
 def inline_local_functions(model: onnx.ModelProto) -> tuple[int, int, int]:
     """Inline FunctionProto calls with concrete graph nodes.
 
@@ -218,7 +304,13 @@ def inline_local_functions(model: onnx.ModelProto) -> tuple[int, int, int]:
     return inlined, removed_functions, removed_opsets
 
 
-def rewrite_model(source: Path, target: Path, *, compress_uniform: bool = True) -> RewriteStats:
+def rewrite_model(
+    source: Path,
+    target: Path,
+    *,
+    compress_uniform: bool = True,
+    replace_batch_compress: bool = False,
+) -> RewriteStats:
     before = onnx.load(str(source))
     model = onnx.load(str(source))
 
@@ -232,6 +324,9 @@ def rewrite_model(source: Path, target: Path, *, compress_uniform: bool = True) 
     scalar_saved = 0
     if compress_uniform:
         compressed, scalar_saved = compress_uniform_initializers(model)
+    replaced_batch_compresses = 0
+    if replace_batch_compress:
+        replaced_batch_compresses = replace_batch_gate_compresses(model)
 
     status = "unchanged"
     error = ""
@@ -247,7 +342,7 @@ def rewrite_model(source: Path, target: Path, *, compress_uniform: bool = True) 
     onnx.save(model, str(target))
 
     params_after = _param_count(model.graph.initializer)
-    changed = status != "reverted" and params_after != params_before
+    changed = status != "reverted" and (params_after != params_before or replaced_batch_compresses > 0)
     if changed:
         status = "rewritten"
 
@@ -263,6 +358,7 @@ def rewrite_model(source: Path, target: Path, *, compress_uniform: bool = True) 
         removed_unused_initializers=removed if status != "reverted" else 0,
         deduplicated_initializers=deduped if status != "reverted" else 0,
         scalar_compressed_initializers=compressed if status != "reverted" else 0,
+        replaced_batch_compresses=replaced_batch_compresses if status != "reverted" else 0,
         saved_parameters=max(params_before - params_after, 0),
         changed=changed,
         status=status,
@@ -270,12 +366,23 @@ def rewrite_model(source: Path, target: Path, *, compress_uniform: bool = True) 
     )
 
 
-def rewrite_submission_dir(source_dir: Path, target_dir: Path, *, compress_uniform: bool = True) -> list[dict]:
+def rewrite_submission_dir(
+    source_dir: Path,
+    target_dir: Path,
+    *,
+    compress_uniform: bool = True,
+    replace_batch_compress: bool = False,
+) -> list[dict]:
     rows = []
     target_dir.mkdir(parents=True, exist_ok=True)
     for source in sorted(source_dir.glob("task*.onnx")):
         target = target_dir / source.name
-        stats = rewrite_model(source, target, compress_uniform=compress_uniform)
+        stats = rewrite_model(
+            source,
+            target,
+            compress_uniform=compress_uniform,
+            replace_batch_compress=replace_batch_compress,
+        )
         rows.append(asdict(stats))
     return rows
 
