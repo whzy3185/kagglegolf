@@ -1,6 +1,6 @@
 # Next Replacement Plan
 
-updated_at: 2026-06-09T19:04:34
+updated_at: 2026-06-09T20:38:33
 
 
 The list is generated from current cost, score gap, correctness, solver-source availability and ONNX template simplicity.
@@ -13,7 +13,6 @@ The list is generated from current cost, score gap, correctness, solver-source a
 | task018 | 11.926440386857584 | 25.0 | 13.073559613142416 | 476184.0 | pass | none | medium | not_obvious | 13.07356 | 31.147119 | external/arc_dsl/solvers.py |  | unknown | true |
 | task285 | 12.112179904635754 | 25.0 | 12.887820095364246 | 395466.0 | pass | none | medium | not_obvious | 12.88782 | 30.77564 | external/arc_dsl/solvers.py |  | unknown | true |
 | task101 | 12.166837180696787 | 25.0 | 12.833162819303213 | 374431.0 | pass | none | medium | not_obvious | 12.833163 | 30.666326 | external/arc_dsl/solvers.py |  | unknown | true |
-| task076 | 12.292867258634116 | 25.0 | 12.707132741365884 | 330094.0 | pass | none | medium | not_obvious | 12.707133 | 30.414265 | external/arc_dsl/solvers.py |  | unknown | true |
 | task133 | 12.810671762888107 | 25.0 | 12.189328237111893 | 196679.0 | pass | none | medium | not_obvious | 12.189328 | 29.378656 | external/arc_dsl/solvers.py |  | unknown | true |
 | task096 | 12.827184286371278 | 25.0 | 12.172815713628722 | 193458.0 | pass | none | medium | not_obvious | 12.172816 | 29.345631 | external/arc_dsl/solvers.py |  | unknown | true |
 | task158 | 12.837576257600388 | 25.0 | 12.162423742399612 | 191458.0 | pass | none | medium | not_obvious | 12.162424 | 29.324847 | external/arc_dsl/solvers.py |  | unknown | true |
@@ -37,3 +36,4 @@ The list is generated from current cost, score gap, correctness, solver-source a
 | task085 | 13.36328292042622 | 25.0 | 11.63671707957378 | 113178.0 | pass | none | medium | not_obvious | 11.636717 | 28.273434 | external/arc_dsl/solvers.py |  | unknown | true |
 | task205 | 13.370955104619776 | 25.0 | 11.629044895380224 | 112313.0 | pass | none | medium | not_obvious | 11.629045 | 28.25809 | external/arc_dsl/solvers.py |  | unknown | true |
 | task243 | 13.401208814053447 | 25.0 | 11.598791185946553 | 108966.0 | pass | none | medium | not_obvious | 11.598791 | 28.197582 | external/arc_dsl/solvers.py |  | unknown | true |
+| task370 | 13.407505785810647 | 25.0 | 11.592494214189353 | 108282.0 | pass | none | medium | not_obvious | 11.592494 | 28.184988 | external/arc_dsl/solvers.py |  | unknown | true |

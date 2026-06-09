@@ -1,0 +1,16 @@
+ref,title,author,lastRunTime,totalVotes,search_source,single_task_candidate,source_pull_status,output_pull_status,output_files
+cdeotte/eda-task-026,EDA - Task 026,Chris Deotte,2026-05-11 00:07:05.253000,25,search_cdeotte_user.csv,true,ok,ok,outputs/cdeotte__eda-task-026/eda-task-026.log
+cdeotte/eda-task-116,EDA - Task 116,Chris Deotte,2026-05-11 00:21:14.297000,10,search_cdeotte_user.csv,true,ok,ok,outputs/cdeotte__eda-task-116/eda-task-116.log
+cdeotte/eda-task-032,EDA - Task 032,Chris Deotte,2026-05-11 00:17:47.510000,10,search_cdeotte_user.csv,true,ok,ok,outputs/cdeotte__eda-task-032/eda-task-032.log
+cdeotte/eda-task-083,EDA - Task 083,Chris Deotte,2026-05-11 00:18:52.160000,9,search_cdeotte_user.csv,true,ok,ok,outputs/cdeotte__eda-task-083/eda-task-083.log
+cdeotte/eda-task-129,EDA - Task 129,Chris Deotte,2026-05-11 00:19:20.213000,13,search_cdeotte_user.csv,true,ok,ok,outputs/cdeotte__eda-task-129/eda-task-129.log
+cdeotte/eda-task-038,EDA - Task 038,Chris Deotte,2026-05-11 00:18:23.670000,7,search_cdeotte_user.csv,true,ok,ok,outputs/cdeotte__eda-task-038/eda-task-038.log
+iamsdt/eda-visualization-and-problem-understanding,"EDA, Visualization and Problem Understanding",Shudipto Trafder,2026-04-16 12:29:12.233000,16,search_eda_task.csv,true,ok,ok,outputs/iamsdt__eda-visualization-and-problem-understanding/eda-visualization-and-problem-understanding.log
+massimilianoghiotto/eda-111-best-public-score,EDA 111 + Best Public Score,MassimilianoGhiotto,2026-05-31 09:47:10.467000,72,search_eda_task.csv,true,ok,"fail:1:'gbk' codec can't encode character '\u2578' in position 2451: illegal multibyte sequence
+",outputs/massimilianoghiotto__eda-111-best-public-score/eda-111-best-public-score.log;outputs/massimilianoghiotto__eda-111-best-public-score/submission.zip
+karnakbaevarthur/neurogolf-2026-deep-task-transformation-analysis,Neurogolf 2026: Deep Task Transformation Analysis,Karnakbayev Artur,2026-04-20 19:16:54.490000,5,search_eda_task.csv,true,ok,"fail:1:'gbk' codec can't encode character '\u2705' in position 1115: illegal multibyte sequence
+",outputs/karnakbaevarthur__neurogolf-2026-deep-task-transformation-analysis/neurogolf-2026-deep-task-transformation-analysis.log
+usman707/neurogolf-detailed-eda-insights,⛳ NeuroGolf Detailed EDA + Insights ,Usman Khan,2026-04-16 23:06:56.633000,3,search_eda_task.csv,true,ok,ok,outputs/usman707__neurogolf-detailed-eda-insights/neurogolf-detailed-eda-insights.log
+karnakbaevarthur/all-task-description-analysis,All Task Description Analysis,Karnakbayev Artur,2026-04-29 10:44:54.137000,145,search_onnx_solver.csv,true,ok,"fail:1:'gbk' codec can't encode character '\U0001f680' in position 1128: illegal multibyte sequence
+",outputs/karnakbaevarthur__all-task-description-analysis/all-task-description-analysis.log;outputs/karnakbaevarthur__all-task-description-analysis/merged_submission.zip
+jsrdcht/6029-09-lb-neurogolf-all-task-onnx-solution,[6029.09 LB] NeuroGolf All-Task ONNX Solution,Chet,2026-05-18 11:02:53.937000,41,search_onnx_solver.csv,true,ok,ok,outputs/jsrdcht__6029-09-lb-neurogolf-all-task-onnx-solution/6029-09-lb-neurogolf-all-task-onnx-solution.log;outputs/jsrdcht__6029-09-lb-neurogolf-all-task-onnx-solution/submission.zip

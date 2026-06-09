@@ -1,0 +1,29 @@
+{
+  "id": "jonathanchan/ngc26-constraint-smart-logic-mix-blending",
+  "id_no": 116645148,
+  "title": "[NGC26] Constraint Smart Logic Mix Blending",
+  "code_file": "ngc26-constraint-smart-logic-mix-blending.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "jonathanchan/sub4971-98",
+    "jonathanchan/sub4979-07"
+  ],
+  "kernel_sources": [
+    "jonathanchan/ngc26-constraint-smart-logic-mix-blending",
+    "afr1ste/neurogolf-5689-51-current-rules-open-solution",
+    "konbu17/neurogolf-2026-may-8-updated",
+    "hanifnoerrofiq/8-may-update"
+  ],
+  "competition_sources": [
+    "neurogolf-2026"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-private-byod/python@sha256:00377cd1b3d470a605bc5b0ceca79969e369644e9b36802242a1c70e627372f9",
+  "machine_shape": "NvidiaTeslaT4"
+}

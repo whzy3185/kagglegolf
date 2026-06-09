@@ -1,0 +1,18 @@
+{
+  "task_id": "task076",
+  "source": "jonathanchan__ngc26-constraint-smart-logic-mix-blending",
+  "public_onnx_path": "data/kaggle_code_single_task/extracted_onnx/jonathanchan__ngc26-constraint-smart-logic-mix-blending/task076.onnx",
+  "public_score": "14.503627688842322",
+  "current_score": "12.292867258634116",
+  "estimated_gain": "2.210760",
+  "current_total_cost": "330094.0",
+  "public_total_cost": "36184",
+  "correctness": "pass",
+  "bottom_tail": "false",
+  "high_memory_tail": "true",
+  "rule_status": "",
+  "onnx_template_candidate": "not_obvious",
+  "priority_score": "231.076043",
+  "negative_feedback_note": "",
+  "recommended_action": "direct_single_task_replacement"
+}

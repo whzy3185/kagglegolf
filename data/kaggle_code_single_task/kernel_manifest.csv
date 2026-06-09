@@ -1,0 +1,42 @@
+ref,title,author,lastRunTime,totalVotes,search_source,single_task_candidate,source_pull_status,output_pull_status,output_files
+cdeotte/eda-task-026,EDA - Task 026,Chris Deotte,2026-05-11 00:07:05.253000,25,search_cdeotte_user.csv,true,ok,ok,outputs/cdeotte__eda-task-026/eda-task-026.log
+cdeotte/install-onnx,Install ONNX,Chris Deotte,2026-05-10 21:56:44.357000,11,search_cdeotte_user.csv,false,,,
+cdeotte/eda-task-116,EDA - Task 116,Chris Deotte,2026-05-11 00:21:14.297000,10,search_cdeotte_user.csv,true,ok,ok,outputs/cdeotte__eda-task-116/eda-task-116.log
+cdeotte/eda-task-032,EDA - Task 032,Chris Deotte,2026-05-11 00:17:47.510000,10,search_cdeotte_user.csv,true,ok,ok,outputs/cdeotte__eda-task-032/eda-task-032.log
+cdeotte/eda-task-083,EDA - Task 083,Chris Deotte,2026-05-11 00:18:52.160000,9,search_cdeotte_user.csv,true,ok,ok,outputs/cdeotte__eda-task-083/eda-task-083.log
+cdeotte/eda-task-129,EDA - Task 129,Chris Deotte,2026-05-11 00:19:20.213000,13,search_cdeotte_user.csv,true,ok,ok,outputs/cdeotte__eda-task-129/eda-task-129.log
+cdeotte/eda-task-038,EDA - Task 038,Chris Deotte,2026-05-11 00:18:23.670000,7,search_cdeotte_user.csv,true,ok,ok,outputs/cdeotte__eda-task-038/eda-task-038.log
+massimilianoghiotto/convolution-series-part-2,Convolution Series - Part 2,MassimilianoGhiotto,2026-06-02 09:14:05.757000,47,search_eda_task.csv,false,,,
+massimilianoghiotto/convolution-series-part-1,Convolution Series - Part 1,MassimilianoGhiotto,2026-06-02 09:12:20.337000,44,search_eda_task.csv,false,,,
+deep262003/baseline-model-2026-neurogolf,Baseline Model 2026 NeuroGolf,So_Good_Person,2026-05-22 09:11:54.547000,13,search_eda_task.csv,false,,,
+iamsdt/eda-visualization-and-problem-understanding,"EDA, Visualization and Problem Understanding",Shudipto Trafder,2026-04-16 12:29:12.233000,16,search_eda_task.csv,true,ok,ok,outputs/iamsdt__eda-visualization-and-problem-understanding/eda-visualization-and-problem-understanding.log
+massimilianoghiotto/eda-111-best-public-score,EDA 111 + Best Public Score,MassimilianoGhiotto,2026-05-31 09:47:10.467000,72,search_eda_task.csv,true,ok,"fail:1:'gbk' codec can't encode character '\u2578' in position 2451: illegal multibyte sequence
+",outputs/massimilianoghiotto__eda-111-best-public-score/eda-111-best-public-score.log;outputs/massimilianoghiotto__eda-111-best-public-score/submission.zip
+hanifnoerrofiq/the-epic-sax-ensembler,🎷 The Epic Sax Ensembler 🎷,Hanif Noer Rofiq,2026-04-22 14:20:38.280000,28,search_eda_task.csv,false,,,
+chaitanyajamble/neurogolf-championship2026-2,NeuroGolf championship2026 -2,Chaitanya Jamble,2026-04-22 06:29:32.380000,5,search_eda_task.csv,false,,,
+chaitanyajamble/neurogolf-championship-2026-3,NeuroGolf Championship 2026 -3 ,Chaitanya Jamble,2026-04-22 07:26:48.293000,6,search_eda_task.csv,false,,,
+karnakbaevarthur/neurogolf-2026-deep-task-transformation-analysis,Neurogolf 2026: Deep Task Transformation Analysis,Karnakbayev Artur,2026-04-20 19:16:54.490000,5,search_eda_task.csv,true,ok,"fail:1:'gbk' codec can't encode character '\u2705' in position 1115: illegal multibyte sequence
+",outputs/karnakbaevarthur__neurogolf-2026-deep-task-transformation-analysis/neurogolf-2026-deep-task-transformation-analysis.log
+usman707/neurogolf-detailed-eda-insights,⛳ NeuroGolf Detailed EDA + Insights ,Usman Khan,2026-04-16 23:06:56.633000,3,search_eda_task.csv,true,ok,ok,outputs/usman707__neurogolf-detailed-eda-insights/neurogolf-detailed-eda-insights.log
+chaitanyajamble/neurogolf-championship-2026,NeuroGolf championship -2026,Chaitanya Jamble,2026-04-22 05:46:36.300000,1,search_eda_task.csv,false,,,
+agentzz/neurogolf-2026-starter-kit-and-strategy-guide,NeuroGolf 2026 Starter Kit and Strategy Guide,⸻AgentZZ ⸻,2026-05-18 06:05:05.920000,0,search_eda_task.csv,false,,,
+vyankteshdwivedi/neurogolf-multi-source-onnx-solver,NeuroGolf Multi-Source ONNX Solver,zorojuro,2026-06-06 15:15:11.013000,82,search_onnx_solver.csv,false,ok,ok,outputs/vyankteshdwivedi__neurogolf-multi-source-onnx-solver/neurogolf-multi-source-onnx-solver.log;outputs/vyankteshdwivedi__neurogolf-multi-source-onnx-solver/submission.zip
+octaviograu/6154-71-onnx-rewrites-hand-built-solvers,[6154.71] ONNX Rewrites + Hand-Built Solvers,Octavi Grau,2026-06-01 10:54:05.900000,112,search_onnx_solver.csv,false,ok,ok,outputs/octaviograu__6154-71-onnx-rewrites-hand-built-solvers/6154-71-onnx-rewrites-hand-built-solvers.log;outputs/octaviograu__6154-71-onnx-rewrites-hand-built-solvers/submission.zip;outputs/octaviograu__6154-71-onnx-rewrites-hand-built-solvers/task277.onnx;outputs/octaviograu__6154-71-onnx-rewrites-hand-built-solvers/task330.onnx;outputs/octaviograu__6154-71-onnx-rewrites-hand-built-solvers/task364.onnx
+aliafzal9323/neurogolf-2026-tiny-onnx-solver,NeuroGolf 2026: Tiny-ONNX Solver,Ali Afzal,2026-04-21 08:35:59.897000,64,search_onnx_solver.csv,false,ok,ok,outputs/aliafzal9323__neurogolf-2026-tiny-onnx-solver/neurogolf-2026-tiny-onnx-solver.log;outputs/aliafzal9323__neurogolf-2026-tiny-onnx-solver/submission.zip
+jonathanchan/ngc26-constraint-smart-logic-mix-blending,[NGC26] Constraint Smart Logic Mix Blending,Jonathan Chan,2026-05-08 02:56:54.807000,140,search_onnx_solver.csv,false,ok,"error:TimeoutExpired:Command '['kaggle', 'kernels', 'output', 'jonathanchan/ngc26-constraint-smart-logic-mix-blending', '-p', 'data\\kaggle_code_single_task\\outputs\\jonathanchan__ngc26-constraint-smart-logic-mix-blending', '-o', '--file-pattern', '.*(submission|result|output|task|manifest|score).*\\.(zip|onnx|csv|json)$']' timed out after 300 seconds",
+konbu17/neurogolf-2026-blended-till-4-27,NeuroGolf-2026 Blended till 4/27 ,konbu17,2026-05-06 06:21:54.130000,96,search_onnx_solver.csv,false,,,
+karnakbaevarthur/all-task-description-analysis,All Task Description Analysis,Karnakbayev Artur,2026-04-29 10:44:54.137000,145,search_onnx_solver.csv,true,ok,"fail:1:'gbk' codec can't encode character '\U0001f680' in position 1128: illegal multibyte sequence
+",outputs/karnakbaevarthur__all-task-description-analysis/all-task-description-analysis.log;outputs/karnakbaevarthur__all-task-description-analysis/merged_submission.zip
+magmacot/4200-v5-neurogolf-fix-for-new-system-soon,[4200+] - v5 NeuroGolf fix for new system soon!,Magmucot,2026-04-23 10:09:14.147000,72,search_onnx_solver.csv,false,,,
+konbu17/neurogolf-2026-may-8-updated,NeuroGolf-2026 [May 8 updated],konbu17,2026-05-09 19:53:37.467000,66,search_onnx_solver.csv,false,,,
+jiweiliu/kaggle-agent-ensemble-with-yash9439,Kaggle Agent Ensemble with yash9439,Jiwei Liu,2026-04-18 00:53:24.917000,64,search_onnx_solver.csv,false,,,
+nihilisticneuralnet/neurogolf-championship-2026-starter-notebook,NeuroGolf Championship 2026: Starter Notebook,parthenos,2026-04-17 06:13:15.063000,87,search_onnx_solver.csv,false,,,
+thisray/neurogolf-4808-21-post-apr-28-update,NeuroGolf 4808.21 Post Apr 28 Update,thisray,2026-04-29 02:50:52.467000,37,search_onnx_solver.csv,false,,,
+jsrdcht/6029-09-lb-neurogolf-all-task-onnx-solution,[6029.09 LB] NeuroGolf All-Task ONNX Solution,Chet,2026-05-18 11:02:53.937000,41,search_onnx_solver.csv,true,ok,ok,outputs/jsrdcht__6029-09-lb-neurogolf-all-task-onnx-solution/6029-09-lb-neurogolf-all-task-onnx-solution.log;outputs/jsrdcht__6029-09-lb-neurogolf-all-task-onnx-solution/submission.zip
+foysalemonshanto/the-2026-neurogolf-championship,The 2026 NeuroGolf Championship,FOYSAL,2026-04-21 08:46:29.860000,35,search_onnx_solver.csv,false,,,
+yash9439/neurogolf-2026-improved-starter-notebook,NeuroGolf 2026 : Improved Starter Notebook ,yash bhaskar,2026-04-16 17:28:52.003000,117,search_onnx_solver.csv,false,,,
+anazemcev/neurogolf-2026-cost-optimal-blend,NeuroGolf 2026: Cost-Optimal Blend,Artem1410,2026-05-24 08:17:28.533000,18,search_onnx_solver.csv,false,,,
+snnguynvnk19hl/neurogolf-2026-baseline-for-gemma4, NeuroGolf 2026 – Baseline for Gemma4,Kaiser,2026-05-16 07:45:12.553000,17,search_onnx_solver.csv,false,,,
+hanifnoerrofiq/neurogolf-sparse-builder,NeuroGolf Sparse Builder,Hanif Noer Rofiq,2026-04-16 12:40:19.930000,35,search_onnx_solver.csv,false,,,
+jocelyndumlao/neurogolf-2026-simple-logic-solver,NeuroGolf 2026: Simple Logic Solver,Jocelyn Dumlao,2026-05-10 07:04:15.383000,24,search_onnx_solver.csv,false,,,
+rauffauzanrambe/neurogolf-constraint-smart-logic-ensemble-4k,NeuroGolf: Constraint Smart Logic Ensemble [4K+],Ra'uf Fauzan Rambe,2026-04-27 03:40:54.687000,12,search_onnx_solver.csv,false,,,

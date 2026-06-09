@@ -14,6 +14,7 @@ target_exp_ids:
   - GOLF_20260608_032_biohack_best_blend_max_full
   - GOLF_20260608_034_rogermt_6273_full_replace
   - GOLF_20260608_047_vyanktesh_multi_source_full
+  - GOLF_20260609_062_public_single_task_task076_jonathan
   - GOLF_20260608_047b_vyanktesh_except_task133
   - GOLF_20260608_048_afr1ste_6335_full_replace
   - GOLF_20260608_048b_afr1ste_6335_structural_pass_mix
