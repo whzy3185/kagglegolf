@@ -12,6 +12,7 @@ target_exp_ids:
   - GOLF_20260608_006_biohack_super_blend_full_replace
   - GOLF_20260608_006_biohack_super_blend_structural_pass_mix
   - GOLF_20260608_032_biohack_best_blend_max_full
+  - GOLF_20260608_034_rogermt_6273_full_replace
   - GOLF_20260608_008_jonathan_constraint_logic_mix
   - GOLF_20260608_008b_jonathan_structural_pass_mix
   - GOLF_20260608_016_jonathan_task233_probe
@@ -123,6 +124,7 @@ created_at: 2026-06-08
 target_exp_ids:
   - GOLF_20260608_011_memory_surgery_top_cost_mix
   - GOLF_20260608_029_seddik_surgery_6272
+  - GOLF_20260608_033_massimiliano_task258_groupconv_probe
 
 hypothesis:
   NeuroGolf scoring is strongly affected by memory footprint and graph cost. Structural ONNX rewrites can improve high-tail tasks when public bundles do not provide direct wins.

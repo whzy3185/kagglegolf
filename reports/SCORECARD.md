@@ -10,6 +10,7 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
+| 53491613 | GOLF_20260608_034_rogermt_6273_full_replace | SubmissionStatus.COMPLETE | 6272.50 |
 | 53485394 | GOLF_20260608_032_biohack_best_blend_max_full | SubmissionStatus.COMPLETE | 6255.14 |
 | 53484663 | GOLF_20260608_031_beicicc_inline_396_mix | SubmissionStatus.COMPLETE | 5043.59 |
 | 53484027 | GOLF_20260608_029_seddik_surgery_6272 | SubmissionStatus.COMPLETE | 6272.60 |

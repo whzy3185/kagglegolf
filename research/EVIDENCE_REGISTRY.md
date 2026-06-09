@@ -434,3 +434,39 @@ rule_status: public_notebook_output
 repro_status: reproducing
 priority: P0
 assigned_exp_id: GOLF_20260608_032_biohack_best_blend_max_full
+
+## SRC_KAGGLE_NOTEBOOK_MASSIMILIANO_CONV_PART4
+
+source_id: SRC_KAGGLE_NOTEBOOK_MASSIMILIANO_CONV_PART4
+source_type: notebook
+title: Convolution Series - Part 4
+author_or_team: MassimilianoGhiotto
+url_or_identifier: https://www.kaggle.com/code/massimilianoghiotto/convolution-series-part-4
+date_accessed: 2026-06-09
+claimed_score:
+tasks_mentioned: task258; submission bundle
+idea_summary: Public ONNX convolution tutorial for NeuroGolf task258. It demonstrates replacing a dense 10x10 color interaction convolution with grouped convolution to reduce parameters while preserving the ARC transformation.
+implementation_hint: Use task258_optimized.onnx as a targeted operator-family replacement probe against the current best bundle; avoid duplicate full submission because the notebook submission.zip matches an already tested 6255 source family.
+risk: low
+rule_status: public_notebook_output
+repro_status: reproducing
+priority: P1
+assigned_exp_id: GOLF_20260608_033_massimiliano_task258_groupconv_probe
+
+## SRC_HF_ROGERMT_6273_SUBMISSION
+
+source_id: SRC_HF_ROGERMT_6273_SUBMISSION
+source_type: dataset
+title: rogermt/neurogolf-solver submission-6273.zip
+author_or_team: Roger Martinez / rogermt
+url_or_identifier: https://huggingface.co/rogermt/neurogolf-solver
+date_accessed: 2026-06-09
+claimed_score: 6273 public-family artifact
+tasks_mentioned: all
+idea_summary: Public Hugging Face repository containing multiple NeuroGolf submission bundles, optimized medal-solvers, and task-level solver notes. The `submission-6273.zip` artifact is the strongest currently available public open repository bundle found in the 6276-source search pass.
+implementation_hint: Validate the 400-task bundle as a full replacement first. If public score does not improve current best, harvest the optimized `medal-solvers/optimized/task*.onnx` files as targeted task probes.
+risk: medium
+rule_status: public_open_repository_artifact
+repro_status: reproducing
+priority: P0
+assigned_exp_id: GOLF_20260608_034_rogermt_6273_full_replace

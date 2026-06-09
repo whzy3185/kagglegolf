@@ -1,6 +1,6 @@
 # Submit Eligibility
 
-checked_at: 2026-06-09T02:24:48
+checked_at: 2026-06-09T10:03:25
 policy: hard gates decide eligibility; soft penalties only order submissions.
 
 | exp_id | eligible | hard_gate_status | soft_penalties | submit_order | reason |
@@ -33,3 +33,5 @@ policy: hard gates decide eligibility; soft penalties only order submissions.
 | GOLF_20260608_030_beicicc_inline_full | false | local_validation_not_passed, aggressive_change_gate_not_passed, blocked_status:failed_local_validation | not_applicable |  | hard_gate_blocked |
 | GOLF_20260608_031_beicicc_inline_396_mix | false | already_submitted | not_applicable |  | hard_gate_blocked |
 | GOLF_20260608_032_biohack_best_blend_max_full | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_033_massimiliano_task258_groupconv_probe | false | aggressive_change_gate_not_passed | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_034_rogermt_6273_full_replace | false | already_submitted | not_applicable |  | hard_gate_blocked |

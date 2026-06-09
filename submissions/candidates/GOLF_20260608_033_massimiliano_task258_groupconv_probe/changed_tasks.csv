@@ -1,0 +1,2 @@
+task_id,model_path,source_id,method_family,risk,cost_proxy
+task258,E:\kagglegolf\data\external\public_kernel_outputs\massimilianoghiotto_convolution_series_part_4\task258_optimized.onnx,SRC_KAGGLE_NOTEBOOK_MASSIMILIANO_CONV_PART4,single_task_override,low,

@@ -1,0 +1,8 @@
+﻿ref                                              title                                    author               lastRunTime                 totalVotes  
+-----------------------------------------------  ---------------------------------------  -------------------  --------------------------  ----------  
+massimilianoghiotto/convolution-series-part-3    Convolution Series - Part 3              MassimilianoGhiotto  2026-06-03 14:02:49.643000          87  
+massimilianoghiotto/convolution-series-part-2    Convolution Series - Part 2              MassimilianoGhiotto  2026-06-02 09:14:05.757000          47  
+massimilianoghiotto/convolution-series-part-1    Convolution Series - Part 1              MassimilianoGhiotto  2026-06-02 09:12:20.337000          43  
+massimilianoghiotto/convolution-series-part-4    Convolution Series - Part 4              MassimilianoGhiotto  2026-06-05 10:36:14.447000          14  
+biohack44/neurogolf-superior-blend-notebook      Neurogolf:Superior Blend Notebook        Emre Cirak           2026-06-02 12:46:00.500000           4  
+biohack44/neurogolf-best-blend-max-public-score  Neurogolf: Best Blend Max Public Score   Emre Cirak           2026-06-06 19:32:29.560000           2  

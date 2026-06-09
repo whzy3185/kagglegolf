@@ -405,6 +405,8 @@ def classify(
     final_score: float,
     *,
     structural_score: float,
+    changed_task_count: int,
+    content_changed_task_count: int,
     validation_ok: bool,
     evidence_status: str,
     config: dict,
@@ -414,6 +416,12 @@ def classify(
     if not validation_ok:
         return "validation_fail"
     if structural_score < 0.02:
+        if changed_task_count >= 20 and content_changed_task_count >= 10:
+            return "full_bundle_replacement"
+        if content_changed_task_count >= 1 and final_score >= float(
+            config["classification_thresholds"]["exploratory_submit"]
+        ):
+            return "exploratory_submit"
         return "metadata_only"
     thresholds = config["classification_thresholds"]
     if final_score >= float(thresholds["aggressive"]):
@@ -448,11 +456,16 @@ def score_candidate(root: Path, exp_id: str) -> dict:
     base_memory = 0
     candidate_memory = 0
     scored_tasks = 0
+    content_changed_tasks: list[str] = []
     for task_id in tasks:
         base_model = base_dir / f"{task_id}.onnx"
         candidate_model = candidate_onnx / f"{task_id}.onnx"
         if not base_model.exists() or not candidate_model.exists():
             continue
+        if hashlib.sha256(base_model.read_bytes()).hexdigest() != hashlib.sha256(
+            candidate_model.read_bytes()
+        ).hexdigest():
+            content_changed_tasks.append(task_id)
         base = graph_signature(
             base_model, int(config["wl_iterations"]), int(config["dataflow_path_depth"])
         )
@@ -579,6 +592,8 @@ def score_candidate(root: Path, exp_id: str) -> dict:
     classification = classify(
         final_score,
         structural_score=structural_score,
+        changed_task_count=len(tasks),
+        content_changed_task_count=len(content_changed_tasks),
         validation_ok=validation_ok,
         evidence_status=evidence_status,
         config=config,
@@ -594,6 +609,8 @@ def score_candidate(root: Path, exp_id: str) -> dict:
         "checked_at": datetime.now().isoformat(timespec="seconds"),
         "base": str(base_path),
         "changed_task_count": len(tasks),
+        "content_changed_task_count": len(content_changed_tasks),
+        "content_changed_tasks": content_changed_tasks,
         "scored_task_count": scored_tasks,
         "evidence_gate_status": evidence_status,
         "risk": manifest.get("risk", ""),
@@ -634,6 +651,7 @@ def write_score_outputs(root: Path, payload: dict) -> None:
         f"classification: {payload['classification']}",
         f"submission_gate_pass: {str(payload['submission_gate_pass']).lower()}",
         f"risk: {payload['risk']}",
+        f"content_changed_task_count: {payload['content_changed_task_count']}",
         "",
         "## Layers",
         "",
@@ -664,6 +682,7 @@ def write_score_outputs(root: Path, payload: dict) -> None:
         "submission_gate_pass",
         "risk",
         "changed_task_count",
+        "content_changed_task_count",
         "structural_delta",
         "semantic_risk_adjusted_validity",
         "competition_value",
@@ -681,6 +700,7 @@ def write_score_outputs(root: Path, payload: dict) -> None:
         "submission_gate_pass": str(payload["submission_gate_pass"]).lower(),
         "risk": payload["risk"],
         "changed_task_count": payload["changed_task_count"],
+        "content_changed_task_count": payload["content_changed_task_count"],
         **{key: f"{value:.6f}" for key, value in payload["layers"].items()},
     }
     replaced = False
@@ -725,6 +745,9 @@ def write_score_outputs(root: Path, payload: dict) -> None:
                 "aggressive_change_classification": payload["classification"],
                 "aggressive_change_checked_at": payload["checked_at"],
                 "aggressive_change_gate_pass": payload["submission_gate_pass"],
+                "aggressive_content_changed_task_count": payload[
+                    "content_changed_task_count"
+                ],
             }
         )
         candidate_manifest.write_text(json.dumps(manifest, indent=2), encoding="utf-8")

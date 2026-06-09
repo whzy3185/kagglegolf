@@ -1,0 +1,13 @@
+﻿ref                                                           title                                             author              lastRunTime                 totalVotes  
+------------------------------------------------------------  ------------------------------------------------  ------------------  --------------------------  ----------  
+jonathanchan/ngc26-constraint-smart-logic-mix-blending        [NGC26] Constraint Smart Logic Mix Blending       Jonathan Chan       2026-05-08 02:56:54.807000         140  
+magmacot/4200-v5-neurogolf-fix-for-new-system-soon            [4200+] - v5 NeuroGolf fix for new system soon!   Magmucot            2026-04-23 10:09:14.147000          72  
+anazemcev/neurogolf-2026-cost-optimal-blend                   NeuroGolf 2026: Cost-Optimal Blend                Artem1410           2026-05-24 08:17:28.533000          18  
+rauffauzanrambe/neurogolf-constraint-smart-logic-ensemble-4k  NeuroGolf: Constraint Smart Logic Ensemble [4K+]  Ra'uf Fauzan Rambe  2026-04-27 03:40:54.687000          12  
+svanikkolli/arc-nano-engine                                   ARC Nano-Engine                                   Svanik Kolli        2026-05-21 23:35:15.730000          70  
+svanikkolli/arc-nano-engine-v2                                ARC Nano-Engine v2                                Svanik Kolli        2026-04-30 03:54:39.783000           8  
+mirzamilanfarabi/arc-submission                               ARC (Submission)                                  Mirza Milan Farabi  2026-04-20 22:18:20.310000          15  
+amanatar/arc-neuro-symbolic-orchestrator                      ARC Neuro-Symbolic Orchestrator                   Aman Atar           2026-05-15 16:02:33.563000           3  
+khori7/neurogolf-arc-nano-v2-fixed-output-20260428            NeuroGolf ARC Nano v2 fixed output 20260428       k hori              2026-04-28 09:13:20.557000           0  
+sobanrengarajan/neurogolf-4180-solver                         neurogolf-4180-solver                             Soban Rengarajan    2026-04-22 06:11:04.933000           1  
+sobanrengarajan/neurogolf-4200-solver                         neurogolf-4200-solver                             Soban Rengarajan    2026-04-22 07:25:37.107000           1  

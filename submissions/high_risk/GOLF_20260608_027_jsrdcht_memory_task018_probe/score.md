@@ -2,6 +2,6 @@
 
 submission_id: 53483350
 public_score: 6271.90
-delta_vs_best: -0.600000
+delta_vs_best: -0.700000
 decision: rejected_for_current_base
 normal_bank_allowed: false

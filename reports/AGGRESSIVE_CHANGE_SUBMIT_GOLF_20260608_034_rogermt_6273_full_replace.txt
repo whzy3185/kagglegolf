@@ -1,0 +1,4 @@
+exp_id=GOLF_20260608_034_rogermt_6273_full_replace
+AGS=0.534040
+classification=full_bundle_replacement
+submission_gate_pass=true

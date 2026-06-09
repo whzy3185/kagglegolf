@@ -1,6 +1,6 @@
 # Task Attribution
 
-updated_at: 2026-06-09T02:24:48
+updated_at: 2026-06-09T10:03:25
 
 | exp_id | task/bundle | count | score | delta parent | strength | decision | normal bank | high-risk bank |
 |---|---|---:|---:|---:|---|---|---|---|
@@ -35,5 +35,6 @@ updated_at: 2026-06-09T02:24:48
 | GOLF_20260608_029_seddik_surgery_6272 | bundle_20_tasks | 20 | 6272.60 | 0.100000 | weak | multi_task_unresolved | false | false |
 | GOLF_20260608_031_beicicc_inline_396_mix | bundle_396_tasks | 396 | 5043.59 | -1229.010000 | bundle_only | bundle_negative | false | false |
 | GOLF_20260608_032_biohack_best_blend_max_full | bundle_400_tasks | 400 | 6255.14 | -17.460000 | bundle_only | bundle_negative | false | false |
+| GOLF_20260608_034_rogermt_6273_full_replace | bundle_400_tasks | 400 | 6272.50 | -0.100000 | bundle_only | bundle_negative | false | false |
 
 Broad mixes are bundle-level evidence only. High-risk wins remain outside the normal task bank.
