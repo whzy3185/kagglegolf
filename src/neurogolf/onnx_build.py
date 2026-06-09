@@ -1676,3 +1676,188 @@ def build_single_object_crop_hconcat_network(path: Path) -> None:
     onnx.shape_inference.infer_shapes(model, strict_mode=True)
     path.parent.mkdir(parents=True, exist_ok=True)
     onnx.save(model, str(path))
+
+
+def build_component_count_diagonal_network(
+    path: Path,
+    *,
+    object_color: int = 8,
+) -> None:
+    """Render an N x N diagonal where N is the number of 4-connected objects."""
+
+    import onnx
+    from onnx import TensorProto, helper, numpy_helper
+
+    shape = list(spec.TENSOR_SHAPE)
+    x = helper.make_tensor_value_info(spec.INPUT_NAME, TensorProto.FLOAT, shape)
+    y = helper.make_tensor_value_info(spec.OUTPUT_NAME, TensorProto.BOOL, shape)
+
+    # Encode every padded 2x2 binary neighborhood as a number in [0, 15].
+    # A 16-entry lookup table then evaluates the 4-connected Euler numerator:
+    # one-pixel patterns contribute +1, three-pixel patterns -1, and diagonal
+    # two-pixel patterns +2. Exact 3x3 rings are added back as holes.
+    code_kernel = np.array(
+        [[1.0, 2.0], [4.0, 8.0]],
+        dtype=np.float16,
+    ).reshape(1, 1, 2, 2)
+    euler_lut = np.zeros(16, dtype=np.float16)
+    euler_lut[[1, 2, 4, 8]] = 1.0
+    euler_lut[[7, 11, 13, 14]] = -1.0
+    euler_lut[[6, 9]] = 2.0
+    ring_kernel = np.ones((1, 1, 3, 3), dtype=np.float16)
+    ring_kernel[0, 0, 1, 1] = -8.0
+
+    initializers = [
+        numpy_helper.from_array(np.array([object_color], dtype=np.int64), "channel_start"),
+        numpy_helper.from_array(np.array([object_color + 1], dtype=np.int64), "channel_end"),
+        numpy_helper.from_array(np.array([1], dtype=np.int64), "channel_axis"),
+        numpy_helper.from_array(code_kernel, "code_kernel"),
+        numpy_helper.from_array(euler_lut, "euler_lut"),
+        numpy_helper.from_array(ring_kernel, "ring_kernel"),
+        numpy_helper.from_array(np.array(4.0, dtype=np.float16), "four"),
+        numpy_helper.from_array(np.array(8.0, dtype=np.float16), "eight"),
+        numpy_helper.from_array(
+            np.arange(30, dtype=np.float16).reshape(1, 1, 30, 1),
+            "row_grid",
+        ),
+        numpy_helper.from_array(
+            np.arange(30, dtype=np.float16).reshape(1, 1, 1, 30),
+            "column_grid",
+        ),
+        numpy_helper.from_array(
+            np.zeros((1, 1, 30, 30), dtype=np.bool_),
+            "false_plane",
+        ),
+    ]
+    nodes = [
+        helper.make_node(
+            "Slice",
+            ["input", "channel_start", "channel_end", "channel_axis", "channel_axis"],
+            ["object_plane_float"],
+        ),
+        helper.make_node(
+            "Cast",
+            ["object_plane_float"],
+            ["object_plane"],
+            to=TensorProto.FLOAT16,
+        ),
+        helper.make_node(
+            "Conv",
+            ["object_plane", "code_kernel"],
+            ["neighborhood_code"],
+            pads=[1, 1, 1, 1],
+        ),
+        helper.make_node(
+            "Cast",
+            ["neighborhood_code"],
+            ["neighborhood_index"],
+            to=TensorProto.INT32,
+        ),
+        helper.make_node(
+            "Gather",
+            ["euler_lut", "neighborhood_index"],
+            ["euler_contribution"],
+            axis=0,
+        ),
+        helper.make_node(
+            "ReduceSum",
+            ["euler_contribution"],
+            ["euler_numerator"],
+            keepdims=0,
+        ),
+        helper.make_node(
+            "Div",
+            ["euler_numerator", "four"],
+            ["euler_characteristic"],
+        ),
+        helper.make_node(
+            "Conv",
+            ["object_plane", "ring_kernel"],
+            ["ring_code"],
+        ),
+        helper.make_node(
+            "Equal",
+            ["ring_code", "eight"],
+            ["ring_mask"],
+        ),
+        helper.make_node(
+            "Cast",
+            ["ring_mask"],
+            ["ring_values"],
+            to=TensorProto.FLOAT16,
+        ),
+        helper.make_node(
+            "ReduceSum",
+            ["ring_values"],
+            ["hole_count"],
+            keepdims=0,
+        ),
+        helper.make_node(
+            "Add",
+            ["euler_characteristic", "hole_count"],
+            ["component_count"],
+        ),
+        helper.make_node(
+            "Less",
+            ["row_grid", "component_count"],
+            ["row_inside"],
+        ),
+        helper.make_node(
+            "Less",
+            ["column_grid", "component_count"],
+            ["column_inside"],
+        ),
+        helper.make_node(
+            "And",
+            ["row_inside", "column_inside"],
+            ["inside_square"],
+        ),
+        helper.make_node(
+            "Equal",
+            ["row_grid", "column_grid"],
+            ["diagonal_line"],
+        ),
+        helper.make_node(
+            "And",
+            ["inside_square", "diagonal_line"],
+            ["diagonal_mask"],
+        ),
+        helper.make_node(
+            "Xor",
+            ["inside_square", "diagonal_mask"],
+            ["background_mask"],
+        ),
+        helper.make_node(
+            "Concat",
+            [
+                "background_mask",
+                "false_plane",
+                "false_plane",
+                "false_plane",
+                "false_plane",
+                "false_plane",
+                "false_plane",
+                "false_plane",
+                "diagonal_mask",
+                "false_plane",
+            ],
+            [spec.OUTPUT_NAME],
+            axis=1,
+        ),
+    ]
+    graph = helper.make_graph(
+        nodes,
+        "arc_dsl_component_count_diagonal",
+        [x],
+        [y],
+        initializer=initializers,
+    )
+    model = helper.make_model(
+        graph,
+        ir_version=spec.IR_VERSION,
+        opset_imports=[helper.make_opsetid("", 16)],
+    )
+    onnx.checker.check_model(model, full_check=True)
+    onnx.shape_inference.infer_shapes(model, strict_mode=True)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    onnx.save(model, str(path))

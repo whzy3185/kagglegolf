@@ -153,6 +153,7 @@ target_exp_ids:
   - GOLF_20260609_058_arc_dsl_task097_remove_isolated
   - GOLF_20260609_059_arc_dsl_task278_size_two_outbox
   - GOLF_20260609_060_arc_dsl_task057_single_object_hconcat
+  - GOLF_20260609_061_arc_dsl_task325_component_count_diagonal
 
 hypothesis:
   NeuroGolf scoring is strongly affected by memory footprint and graph cost. Structural ONNX rewrites can improve high-tail tasks when public bundles do not provide direct wins.

@@ -1,6 +1,6 @@
 # Task Attribution
 
-updated_at: 2026-06-09T15:34:17
+updated_at: 2026-06-09T18:48:44
 
 | exp_id | task/bundle | count | score | delta parent | strength | decision | normal bank | high-risk bank |
 |---|---|---:|---:|---:|---|---|---|---|
@@ -65,5 +65,7 @@ updated_at: 2026-06-09T15:34:17
 | GOLF_20260609_057_arc_dsl_task310_least_color_crop | task310 | 1 | 6288.04 | 0.270000 | strong | confirmed_win | true | false |
 | GOLF_20260609_058_arc_dsl_task097_remove_isolated | task097 | 1 | 6289.17 | 1.130000 | strong | confirmed_win | true | false |
 | GOLF_20260609_059_arc_dsl_task278_size_two_outbox | task278 | 1 | 6289.36 | 0.190000 | strong | confirmed_win | true | false |
+| GOLF_20260609_060_arc_dsl_task057_single_object_hconcat | task057 | 1 | 6290.00 | 0.640000 | strong | confirmed_win | true | false |
+| GOLF_20260609_061_arc_dsl_task325_component_count_diagonal | task325 | 1 | 6290.69 | 0.690000 | strong | confirmed_win | true | false |
 
 Broad mixes are bundle-level evidence only. High-risk wins remain outside the normal task bank.

@@ -1,15 +1,17 @@
 # Scorecard
 
-Current best public score: 6289.36
+Current best public score: 6290.69
 Target public score: 7800.0
-Gap to target: 1510.6400000000003
-Current best exp_id: GOLF_20260609_059_arc_dsl_task278_size_two_outbox
-Current best submission id: 53498437
+Gap to target: 1509.3100000000004
+Current best exp_id: GOLF_20260609_061_arc_dsl_task325_component_count_diagonal
+Current best submission id: 53502021
 
 Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
+| 53502021 | GOLF_20260609_061_arc_dsl_task325_component_count_diagonal | SubmissionStatus.COMPLETE | 6290.69 |
+| 53498594 | GOLF_20260609_060_arc_dsl_task057_single_object_hconcat | SubmissionStatus.COMPLETE | 6290.00 |
 | 53498437 | GOLF_20260609_059_arc_dsl_task278_size_two_outbox | SubmissionStatus.COMPLETE | 6289.36 |
 | 53497706 | GOLF_20260609_058_arc_dsl_task097_remove_isolated | SubmissionStatus.COMPLETE | 6289.17 |
 | 53497538 | GOLF_20260609_057_arc_dsl_task310_least_color_crop | SubmissionStatus.COMPLETE | 6288.04 |
@@ -58,5 +60,3 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 | 53472838 | GOLF_20260608_006_biohack_super_blend_structural_pass_mix | SubmissionStatus.COMPLETE | 6154.71 |
 | 53472836 | GOLF_20260608_005_mirza_structural_pass_mix | SubmissionStatus.COMPLETE | 6154.71 |
 | 53472715 | GOLF_20260608_008b_jonathan_structural_pass_mix | SubmissionStatus.COMPLETE | 5595.78 |
-| 53472483 | GOLF_20260608_004b_beicicc_structural_pass_mix | SubmissionStatus.COMPLETE | 5948.07 |
-| 53472175 | GOLF_20260607_003_bottom15_single_task_probe | SubmissionStatus.COMPLETE | 6154.67 |

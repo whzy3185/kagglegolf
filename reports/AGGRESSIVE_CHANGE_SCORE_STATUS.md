@@ -1,6 +1,6 @@
 # Aggressive Change Score Status
 
-last_updated: 2026-06-09T15:37:15
+last_updated: 2026-06-09T18:12:34
 
 | exp_id | AGS | classification | gate | risk |
 | --- | ---: | --- | --- | --- |
@@ -54,3 +54,4 @@ last_updated: 2026-06-09T15:37:15
 | GOLF_20260609_058_arc_dsl_task097_remove_isolated | 0.707276 | aggressive | true | medium |
 | GOLF_20260609_059_arc_dsl_task278_size_two_outbox | 0.781807 | aggressive | true | medium |
 | GOLF_20260609_060_arc_dsl_task057_single_object_hconcat | 0.735881 | aggressive | true | medium |
+| GOLF_20260609_061_arc_dsl_task325_component_count_diagonal | 0.721237 | aggressive | true | medium |

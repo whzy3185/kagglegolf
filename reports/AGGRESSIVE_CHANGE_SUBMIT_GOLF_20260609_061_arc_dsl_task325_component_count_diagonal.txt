@@ -1,0 +1,4 @@
+exp_id=GOLF_20260609_061_arc_dsl_task325_component_count_diagonal
+AGS=0.721237
+classification=aggressive
+submission_gate_pass=true

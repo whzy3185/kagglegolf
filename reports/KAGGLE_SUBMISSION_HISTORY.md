@@ -1,15 +1,17 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-09T15:35:32
+captured_at: 2026-06-09T18:48:15
 selected submissions: unavailable via CLI
-current best public: 6289.36
+current best public: 6290.69
 target public: 7800.0
-gap to target: 1510.6400000000003
-current best exp_id: GOLF_20260609_059_arc_dsl_task278_size_two_outbox
-current best submission id: 53498437
+gap to target: 1509.3100000000004
+current best exp_id: GOLF_20260609_061_arc_dsl_task325_component_count_diagonal
+current best submission id: 53502021
 
 | ref | exp_id | date | status | public_score |
 | --- | --- | --- | --- | --- |
+| 53502021 | GOLF_20260609_061_arc_dsl_task325_component_count_diagonal | 2026-06-09 10:13:26.747000 | SubmissionStatus.COMPLETE | 6290.69 |
+| 53498594 | GOLF_20260609_060_arc_dsl_task057_single_object_hconcat | 2026-06-09 07:37:48.397000 | SubmissionStatus.COMPLETE | 6290.00 |
 | 53498437 | GOLF_20260609_059_arc_dsl_task278_size_two_outbox | 2026-06-09 07:30:21.593000 | SubmissionStatus.COMPLETE | 6289.36 |
 | 53497706 | GOLF_20260609_058_arc_dsl_task097_remove_isolated | 2026-06-09 06:54:53.193000 | SubmissionStatus.COMPLETE | 6289.17 |
 | 53497538 | GOLF_20260609_057_arc_dsl_task310_least_color_crop | 2026-06-09 06:46:34.887000 | SubmissionStatus.COMPLETE | 6288.04 |
@@ -58,5 +60,3 @@ current best submission id: 53498437
 | 53472838 | GOLF_20260608_006_biohack_super_blend_structural_pass_mix | 2026-06-08 09:35:38.743000 | SubmissionStatus.COMPLETE | 6154.71 |
 | 53472836 | GOLF_20260608_005_mirza_structural_pass_mix | 2026-06-08 09:35:31.680000 | SubmissionStatus.COMPLETE | 6154.71 |
 | 53472715 | GOLF_20260608_008b_jonathan_structural_pass_mix | 2026-06-08 09:29:53.913000 | SubmissionStatus.COMPLETE | 5595.78 |
-| 53472483 | GOLF_20260608_004b_beicicc_structural_pass_mix | 2026-06-08 09:19:27.230000 | SubmissionStatus.COMPLETE | 5948.07 |
-| 53472175 | GOLF_20260607_003_bottom15_single_task_probe | 2026-06-08 09:06:36.363000 | SubmissionStatus.COMPLETE | 6154.67 |
