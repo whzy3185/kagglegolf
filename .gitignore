@@ -25,6 +25,9 @@ data/external/**
 external/arc_gen/**
 external/re_arc/**
 external/arc_dsl/**
+external/arc_agi_official
+external/arc_dsl
+external/arc_solution_top_quarks
 external/public_repos/**
 external/papers/**
 submissions/**/*.zip
@@ -58,6 +61,9 @@ reports/submissions_raw_*.txt
 !submissions/candidates/**/local_validation.json
 !submissions/candidates/**/source_trace.md
 !submissions/candidates/**/notebook.ipynb
+
+# Never track raw archives or submission payload archives, even in unignored dirs.
+*.zip
 
 # OS/editor
 .DS_Store
