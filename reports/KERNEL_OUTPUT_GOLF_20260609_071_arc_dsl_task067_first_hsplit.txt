@@ -1,0 +1,2 @@
+Output file downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260609_071_arc_dsl_task067_first_hsplit\kaggle_output\submission.zip
+Kernel log downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260609_071_arc_dsl_task067_first_hsplit\kaggle_output\neurogolf-submit-current.log 

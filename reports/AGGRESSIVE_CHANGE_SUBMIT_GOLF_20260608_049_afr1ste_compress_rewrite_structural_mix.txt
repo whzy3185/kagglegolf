@@ -1,0 +1,4 @@
+exp_id=GOLF_20260608_049_afr1ste_compress_rewrite_structural_mix
+AGS=0.858190
+classification=aggressive
+submission_gate_pass=true

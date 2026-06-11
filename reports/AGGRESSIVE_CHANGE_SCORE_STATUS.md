@@ -1,6 +1,6 @@
 # Aggressive Change Score Status
 
-last_updated: 2026-06-09T22:36:06
+last_updated: 2026-06-11T22:49:47
 
 | exp_id | AGS | classification | gate | risk |
 | --- | ---: | --- | --- | --- |
@@ -73,3 +73,8 @@ last_updated: 2026-06-09T22:36:06
 | GOLF_20260609_077_stack_galaxy332 | 0.565176 | strong | true | medium |
 | GOLF_20260609_078_stack_galaxy021 | 0.576463 | strong | true | medium |
 | GOLF_20260609_079_stack_galaxy301 | 0.575063 | strong | true | medium |
+| GOLF_20260609_080_stack_galaxy342 | 0.496304 | strong | true | medium |
+| GOLF_20260609_081_stack_galaxy203 | 0.570989 | strong | true | medium |
+| GOLF_20260610_080_simple_exact_batch_conservative_5 | 0.780688 | aggressive | true | low |
+| GOLF_20260610_081_simple_exact_batch_medium_10 | 0.748628 | aggressive | true | medium |
+| GOLF_20260610_082_simple_exact_batch_aggressive_20 | 0.769323 | aggressive | true | medium |

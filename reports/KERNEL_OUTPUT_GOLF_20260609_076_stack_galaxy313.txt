@@ -1,0 +1,2 @@
+Output file downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260609_076_stack_galaxy313\kaggle_output\submission.zip
+Kernel log downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260609_076_stack_galaxy313\kaggle_output\neurogolf-submit-golf-20260609-076-stack-galaxy313.log 

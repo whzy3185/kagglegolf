@@ -1,0 +1,23 @@
+{
+  "id": "galaxy2025/neurogolf-public-artifact-v1",
+  "id_no": 122071600,
+  "title": "NeuroGolf public artifact v1",
+  "code_file": "neurogolf-public-artifact-v1.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "keywords": [],
+  "dataset_sources": [
+    "kojimar/neurogolf-6272-50-minimal-onnx-assets-v1"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "neurogolf-2026"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:e5452ce6268c2e8345cfe5141f31ca7ff47032aca46a7ea532bbb87481281d0c",
+  "machine_shape": "None"
+}

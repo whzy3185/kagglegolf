@@ -1,0 +1,1 @@
+Kernel log downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260608_047b_vyanktesh_except_task133\kaggle_output\neurogolf-submit-current.log 

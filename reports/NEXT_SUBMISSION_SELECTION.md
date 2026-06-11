@@ -1,13 +1,13 @@
 # Next Submission Selection
 
-checked_at: 2026-06-09T12:07:36
-current_best: 6278.32 (GOLF_20260608_046_rogermt_positive_stack_255_128_208)
-candidate_count: 44
-eligible_count: 1
-blocked_count: 43
-selected_candidate: GOLF_20260608_047b_vyanktesh_except_task133
-selection_score: 0.654683
-selection_reason: class=full_bundle_replacement; AGS=0.614; structural_scale=1.00; source=0.65; upside=0.45; novelty=1.00; attribution=0.20; tail_bonus=1.00; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=0.00; same_family_negative_penalty=0.00; source_diversity_bonus=1.00; risk_penalty=0.35
+checked_at: 2026-06-11T22:46:29
+current_best: 6292.54 (GOLF_20260609_080_stack_galaxy342)
+candidate_count: 82
+eligible_count: 3
+blocked_count: 79
+selected_candidate: GOLF_20260610_081_simple_exact_batch_medium_10
+selection_score: 0.492198
+selection_reason: class=operator_family_replacement; AGS=0.749; structural_scale=0.95; source=0.75; upside=0.85; novelty=0.60; attribution=0.70; tail_bonus=0.80; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.35; source_negative=recent negative source feedback from GOLF_20260609_066_arc_dsl_task223_upscale_s3, GOLF_20260609_067_arc_dsl_task307_upscale_s2, GOLF_20260609_068_arc_dsl_task087_rot180
 
 policy: selection is ordering only, not a blocking gate
 soft_penalties: affect submit order only; hard blocks are local validation, evidence gate, AGS gate, missing artifact, empty changed_tasks, already submitted, or explicit validation/evidence/metadata failure.
@@ -16,13 +16,17 @@ soft_penalties: affect submit order only; hard blocks are local validation, evid
 
 | order | exp_id | score | soft_penalties |
 |---:|---|---:|---|
-| 1 | GOLF_20260608_047b_vyanktesh_except_task133 | 0.654683 | none |
+| 1 | GOLF_20260610_081_simple_exact_batch_medium_10 | 0.492198 | recent_negative_source_penalty |
+| 2 | GOLF_20260610_080_simple_exact_batch_conservative_5 | 0.384251 | known_bad_family_penalty, recent_negative_source_penalty |
+| 3 | GOLF_20260610_082_simple_exact_batch_aggressive_20 | 0.331751 | known_bad_family_penalty, low_selection_score, recent_negative_source_penalty |
 
 ## Top 10
 
 | rank | exp_id | score | class | risk | tasks | source |
 |---:|---|---:|---|---|---:|---|
-| 1 | GOLF_20260608_047b_vyanktesh_except_task133 | 0.654683 | full_bundle_replacement | medium | 399 | SRC_KAGGLE_NOTEBOOK_VYANKTESH_MULTI_SOURCE |
+| 1 | GOLF_20260610_081_simple_exact_batch_medium_10 | 0.492198 | operator_family_replacement | medium | 4 | SRC_ARC_DSL_GITHUB |
+| 2 | GOLF_20260610_080_simple_exact_batch_conservative_5 | 0.384251 | operator_family_replacement | low | 5 | SRC_ARC_DSL_GITHUB |
+| 3 | GOLF_20260610_082_simple_exact_batch_aggressive_20 | 0.331751 | operator_family_replacement | medium | 11 | SRC_ARC_DSL_GITHUB |
 
 ## Blocked Candidates
 
@@ -69,6 +73,42 @@ soft_penalties: affect submit order only; hard blocks are local validation, evid
 - GOLF_20260608_045_rogermt_positive_stack_128_208: already_submitted
 - GOLF_20260608_046_rogermt_positive_stack_255_128_208: already_submitted
 - GOLF_20260608_047_vyanktesh_multi_source_full: local_validation_not_passed, aggressive_change_gate_not_passed, blocked_status:failed_local_validation
+- GOLF_20260608_047b_vyanktesh_except_task133: already_submitted
+- GOLF_20260608_048_afr1ste_6335_full_replace: local_validation_not_passed, aggressive_change_gate_not_passed, blocked_status:failed_local_validation
+- GOLF_20260608_048b_afr1ste_6335_structural_pass_mix: already_submitted
+- GOLF_20260608_049_afr1ste_compress_rewrite_structural_mix: already_submitted
+- GOLF_20260609_050_arc_dsl_task070_bbox_fill: already_submitted
+- GOLF_20260609_051_arc_dsl_task303_frontier_fill: already_submitted
+- GOLF_20260609_052_arc_dsl_task249_hconcat_self: already_submitted
+- GOLF_20260609_053_arc_dsl_axis_reverse_pair: already_submitted
+- GOLF_20260609_054_arc_dsl_task300_largest_color_crop: already_submitted
+- GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop: already_submitted
+- GOLF_20260609_056_arc_dsl_task384_scaled_object_crop: already_submitted
+- GOLF_20260609_057_arc_dsl_task310_least_color_crop: already_submitted
+- GOLF_20260609_058_arc_dsl_task097_remove_isolated: already_submitted
+- GOLF_20260609_059_arc_dsl_task278_size_two_outbox: already_submitted
+- GOLF_20260609_060_arc_dsl_task057_single_object_hconcat: already_submitted
+- GOLF_20260609_061_arc_dsl_task325_component_count_diagonal: already_submitted
+- GOLF_20260609_062_public_single_task_task076_jonathan: already_submitted
+- GOLF_20260609_063_public_single_task_task096_jonathan: already_submitted
+- GOLF_20260609_064_public_single_task_task101_jonathan: already_submitted
+- GOLF_20260609_065_public_single_task_task255_jonathan: already_submitted
+- GOLF_20260609_066_arc_dsl_task223_upscale_s3: already_submitted
+- GOLF_20260609_067_arc_dsl_task307_upscale_s2: already_submitted
+- GOLF_20260609_068_arc_dsl_task087_rot180: already_submitted
+- GOLF_20260609_069_arc_dsl_task140_rot180: already_submitted
+- GOLF_20260609_070_arc_dsl_task380_rot270: already_submitted
+- GOLF_20260609_071_arc_dsl_task067_first_hsplit: already_submitted
+- GOLF_20260609_072_arc_dsl_task129_most_color_canvas: already_submitted
+- GOLF_20260609_073_stack_task067_task129: already_submitted
+- GOLF_20260609_074_galaxy_task284_surgical: already_submitted
+- GOLF_20260609_075_stack_task067_task129_galaxy284: already_submitted
+- GOLF_20260609_076_stack_galaxy313: already_submitted
+- GOLF_20260609_077_stack_galaxy332: already_submitted
+- GOLF_20260609_078_stack_galaxy021: already_submitted
+- GOLF_20260609_079_stack_galaxy301: already_submitted
+- GOLF_20260609_080_stack_galaxy342: already_submitted
+- GOLF_20260609_081_stack_galaxy203: already_submitted
 
 ## Negative Feedback Policy
 

@@ -1,0 +1,4 @@
+exp_id=GOLF_20260609_051_arc_dsl_task303_frontier_fill
+AGS=0.828875
+classification=aggressive
+submission_gate_pass=true

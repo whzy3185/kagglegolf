@@ -1,0 +1,2 @@
+Output file downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260609_074_galaxy_task284_surgical\kaggle_output\submission.zip
+Kernel log downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260609_074_galaxy_task284_surgical\kaggle_output\neurogolf-submit-current.log 

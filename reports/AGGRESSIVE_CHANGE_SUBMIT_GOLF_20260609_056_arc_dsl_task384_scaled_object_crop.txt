@@ -1,0 +1,4 @@
+exp_id=GOLF_20260609_056_arc_dsl_task384_scaled_object_crop
+AGS=0.710998
+classification=aggressive
+submission_gate_pass=true

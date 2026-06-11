@@ -1,16 +1,21 @@
 # Scorecard
 
-Current best public score: 6292.44
+Current best public score: 6292.94
 Target public score: 7800.0
-Gap to target: 1507.5600000000004
-Current best exp_id: GOLF_20260609_078_stack_galaxy021
-Current best submission id: 53508290
+Gap to target: 1507.0600000000004
+Current best exp_id: GOLF_20260610_081_simple_exact_batch_medium_10
+Current best submission id: 53572348
 
 Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
-| 53508370 | GOLF_20260609_079_stack_galaxy301 | SubmissionStatus.PENDING |  |
+| 53572449 | GOLF_20260610_082_simple_exact_batch_aggressive_20 | SubmissionStatus.PENDING |  |
+| 53572424 | GOLF_20260610_080_simple_exact_batch_conservative_5 | SubmissionStatus.PENDING |  |
+| 53572348 | GOLF_20260610_081_simple_exact_batch_medium_10 | SubmissionStatus.COMPLETE | 6292.94 |
+| 53509444 | GOLF_20260609_081_stack_galaxy203 | SubmissionStatus.COMPLETE | 6292.58 |
+| 53509284 | GOLF_20260609_080_stack_galaxy342 | SubmissionStatus.COMPLETE | 6292.54 |
+| 53508370 | GOLF_20260609_079_stack_galaxy301 | SubmissionStatus.COMPLETE | 6292.50 |
 | 53508290 | GOLF_20260609_078_stack_galaxy021 | SubmissionStatus.COMPLETE | 6292.44 |
 | 53508229 | GOLF_20260609_077_stack_galaxy332 | SubmissionStatus.COMPLETE | 6292.37 |
 | 53508093 | GOLF_20260609_076_stack_galaxy313 | SubmissionStatus.COMPLETE | 6292.27 |
@@ -55,8 +60,3 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 | 53492627 | GOLF_20260608_037_rogermt_task062_optimized_probe | SubmissionStatus.COMPLETE | 6272.54 |
 | 53492430 | GOLF_20260608_038_rogermt_task243_optimized_probe | SubmissionStatus.COMPLETE | 6272.19 |
 | 53492101 | GOLF_20260608_036_rogermt_task020_optimized_probe | SubmissionStatus.COMPLETE | 6275.07 |
-| 53491613 | GOLF_20260608_034_rogermt_6273_full_replace | SubmissionStatus.COMPLETE | 6272.50 |
-| 53485394 | GOLF_20260608_032_biohack_best_blend_max_full | SubmissionStatus.COMPLETE | 6255.14 |
-| 53484663 | GOLF_20260608_031_beicicc_inline_396_mix | SubmissionStatus.COMPLETE | 5043.59 |
-| 53484027 | GOLF_20260608_029_seddik_surgery_6272 | SubmissionStatus.COMPLETE | 6272.60 |
-| 53483583 | GOLF_20260608_028_jonathan_task025_probe | SubmissionStatus.COMPLETE | 6259.35 |

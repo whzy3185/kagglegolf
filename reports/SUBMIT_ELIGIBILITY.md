@@ -1,6 +1,6 @@
 # Submit Eligibility
 
-checked_at: 2026-06-09T12:07:36
+checked_at: 2026-06-11T22:46:29
 policy: hard gates decide eligibility; soft penalties only order submissions.
 
 | exp_id | eligible | hard_gate_status | soft_penalties | submit_order | reason |
@@ -48,4 +48,42 @@ policy: hard gates decide eligibility; soft penalties only order submissions.
 | GOLF_20260608_045_rogermt_positive_stack_128_208 | false | already_submitted | not_applicable |  | hard_gate_blocked |
 | GOLF_20260608_046_rogermt_positive_stack_255_128_208 | false | already_submitted | not_applicable |  | hard_gate_blocked |
 | GOLF_20260608_047_vyanktesh_multi_source_full | false | local_validation_not_passed, aggressive_change_gate_not_passed, blocked_status:failed_local_validation | not_applicable |  | hard_gate_blocked |
-| GOLF_20260608_047b_vyanktesh_except_task133 | true | pass | none | 1 | eligible; soft penalties do not block |
+| GOLF_20260608_047b_vyanktesh_except_task133 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_048_afr1ste_6335_full_replace | false | local_validation_not_passed, aggressive_change_gate_not_passed, blocked_status:failed_local_validation | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_048b_afr1ste_6335_structural_pass_mix | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260608_049_afr1ste_compress_rewrite_structural_mix | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_050_arc_dsl_task070_bbox_fill | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_051_arc_dsl_task303_frontier_fill | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_052_arc_dsl_task249_hconcat_self | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_053_arc_dsl_axis_reverse_pair | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_054_arc_dsl_task300_largest_color_crop | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_056_arc_dsl_task384_scaled_object_crop | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_057_arc_dsl_task310_least_color_crop | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_058_arc_dsl_task097_remove_isolated | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_059_arc_dsl_task278_size_two_outbox | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_060_arc_dsl_task057_single_object_hconcat | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_061_arc_dsl_task325_component_count_diagonal | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_062_public_single_task_task076_jonathan | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_063_public_single_task_task096_jonathan | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_064_public_single_task_task101_jonathan | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_065_public_single_task_task255_jonathan | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_066_arc_dsl_task223_upscale_s3 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_067_arc_dsl_task307_upscale_s2 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_068_arc_dsl_task087_rot180 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_069_arc_dsl_task140_rot180 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_070_arc_dsl_task380_rot270 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_071_arc_dsl_task067_first_hsplit | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_072_arc_dsl_task129_most_color_canvas | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_073_stack_task067_task129 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_074_galaxy_task284_surgical | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_075_stack_task067_task129_galaxy284 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_076_stack_galaxy313 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_077_stack_galaxy332 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_078_stack_galaxy021 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_079_stack_galaxy301 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_080_stack_galaxy342 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260609_081_stack_galaxy203 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260610_080_simple_exact_batch_conservative_5 | true | pass | known_bad_family_penalty, recent_negative_source_penalty | 2 | eligible; soft penalties do not block |
+| GOLF_20260610_081_simple_exact_batch_medium_10 | true | pass | recent_negative_source_penalty | 1 | eligible; soft penalties do not block |
+| GOLF_20260610_082_simple_exact_batch_aggressive_20 | true | pass | known_bad_family_penalty, low_selection_score, recent_negative_source_penalty | 3 | eligible; soft penalties do not block |

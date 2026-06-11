@@ -1,0 +1,2 @@
+Output file downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260609_066_arc_dsl_task223_upscale_s3\kaggle_output\submission.zip
+Kernel log downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260609_066_arc_dsl_task223_upscale_s3\kaggle_output\neurogolf-submit-current.log 

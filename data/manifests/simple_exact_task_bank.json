@@ -1,0 +1,8 @@
+{
+  "checked_at": "2026-06-11T22:43:52",
+  "tasks_scanned": 400,
+  "bank_rows": 23,
+  "tasks_with_eligible_candidate": 21,
+  "attempts_csv": "task_bank/simple_exact_scan_attempts.csv",
+  "bank_csv": "task_bank/simple_exact_task_bank.csv"
+}

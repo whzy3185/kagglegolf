@@ -1,0 +1,30 @@
+[{"stream_name":"stderr","time":14.882122634,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":14.882228174,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":14.882232004,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":14.882234394,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":15.740328683,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":15.740393143,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":15.740399843,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":15.740404163000001,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":26.603488157,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":26.603573357,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":26.847914647,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":26.847989027,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":28.250013292,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":28.555240517,"data":"[NbConvertApp] Writing 386377 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":31.456720871999998,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":32.525777679,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":32.525830749,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.526088929,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.527263289,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.527283929,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.527290629,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.527295589,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.527300099,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.527304869,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.527309509,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.527314709,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.527320289,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.527325579,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":32.527372088999996,"data":"[NbConvertApp] Writing 438357 bytes to __results__.html\n"}
+]

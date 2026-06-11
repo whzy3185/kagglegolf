@@ -1,0 +1,4 @@
+exp_id=GOLF_20260609_053_arc_dsl_axis_reverse_pair
+AGS=0.720210
+classification=aggressive
+submission_gate_pass=true

@@ -1,0 +1,4 @@
+exp_id=GOLF_20260609_079_stack_galaxy301
+AGS=0.575063
+classification=strong
+submission_gate_pass=true

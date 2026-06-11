@@ -1,0 +1,4 @@
+exp_id=GOLF_20260609_075_stack_task067_task129_galaxy284
+AGS=0.550700
+classification=strong
+submission_gate_pass=true

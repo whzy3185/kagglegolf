@@ -1,0 +1,75 @@
+[{"stream_name":"stderr","time":6.150750231,"data":"/usr/local/lib/python3.12/dist-packages/nbformat/__init__.py:96: MissingIDFieldWarning: Cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.\n"}
+,{"stream_name":"stderr","time":6.15083918,"data":"  validate(nb)\n"}
+,{"stream_name":"stderr","time":7.102075802,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.102145532,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.102153402,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.102157462,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":7.71508817,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":7.71513207,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":7.7151371,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":7.71514077,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.343965392,"data":"   ©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥ 56.2/56.2 kB 2.7 MB/s eta 0:00:00\r\n"}
+,{"stream_name":"stdout","time":15.92549616,"data":"neurogolf_utils: OK\n"}
+,{"stream_name":"stdout","time":19.924660573,"data":"Competition dir: /kaggle/input/competitions/neurogolf-2026\n"}
+,{"stream_name":"stdout","time":19.924709913,"data":"ZIP sources (12): ['neurogolf-2026-mega-agi-ensemble', 'baseline-for-ensemble-1k', 'the-2026-neurogolf-championship', 'neurogolf-2026-starter', 'the-epic-sax-ensembler', 'infinitesimals', 'neurogolf-locally-solved', 'neurogolf-2026-public-data', 'arc-nano-engine', 'cross-source-ensemble', 'neurogolf-emsembling', 'logic-decoder']\n"}
+,{"stream_name":"stdout","time":19.924718493,"data":"ONNX dirs (5): ['neurogolf-solver-agent', 'the-epic-sax-ensembler', 'infinitesimals', 'golf-solve-agent', 'neurogolf-2026-solved-onnx']\n"}
+,{"stream_name":"stdout","time":19.939774673,"data":"Verification ready.\n"}
+,{"stream_name":"stdout","time":19.982815351,"data":"Detectors ready.\n"}
+,{"stream_name":"stdout","time":20.010617061,"data":"Gather builders ready.\n"}
+,{"stream_name":"stdout","time":20.03733429,"data":"Learned-conv fallbacks ready.\n"}
+,{"stream_name":"stdout","time":20.0631271,"data":"Solver ready.\n"}
+,{"stream_name":"stdout","time":25.521204804,"data":"Task JSONs: 400\n"}
+,{"stream_name":"stdout","time":25.521268484,"data":"=== Phase 1: ZIP Blend ===\n"}
+,{"stream_name":"stdout","time":45.297667979,"data":"  [neurogolf-2026-mega-agi-ensemble] 203 valid models\n"}
+,{"stream_name":"stdout","time":56.378363663,"data":"  [baseline-for-ensemble-1k] 8 valid models\n"}
+,{"stream_name":"stdout","time":90.130405481,"data":"  [the-2026-neurogolf-championship] 105 valid models\n"}
+,{"stream_name":"stdout","time":165.129604126,"data":"  [neurogolf-2026-starter] 77 valid models\n"}
+,{"stream_name":"stdout","time":201.616172146,"data":"  [the-epic-sax-ensembler] 0 valid models\n"}
+,{"stream_name":"stdout","time":274.346292345,"data":"  [infinitesimals] 4 valid models\n"}
+,{"stream_name":"stdout","time":284.283471559,"data":"  [neurogolf-locally-solved] 0 valid models\n"}
+,{"stream_name":"stdout","time":301.623589328,"data":"  [neurogolf-2026-public-data] 0 valid models\n"}
+,{"stream_name":"stdout","time":337.281865282,"data":"  [arc-nano-engine] 2 valid models\n"}
+,{"stream_name":"stdout","time":357.523971019,"data":"  [cross-source-ensemble] 0 valid models\n"}
+,{"stream_name":"stdout","time":369.430616034,"data":"  [neurogolf-emsembling] 0 valid models\n"}
+,{"stream_name":"stdout","time":386.095788046,"data":"  [logic-decoder] 0 valid models\n"}
+,{"stream_name":"stdout","time":386.095837795,"data":"After ZIP blend: 338 tasks\n"}
+,{"stream_name":"stdout","time":386.095844546,"data":"\n"}
+,{"stream_name":"stdout","time":386.095849175,"data":"=== Phase 2: Dataset ONNX ===\n"}
+,{"stream_name":"stdout","time":387.735320879,"data":"  neurogolf-solver-agent: +0\n"}
+,{"stream_name":"stdout","time":429.175378173,"data":"  the-epic-sax-ensembler: +0\n"}
+,{"stream_name":"stdout","time":429.175415052,"data":"  infinitesimals: +0\n"}
+,{"stream_name":"stdout","time":448.571121591,"data":"  golf-solve-agent: +0\n"}
+,{"stream_name":"stderr","time":451.002291652,"data":"/usr/local/lib/python3.12/dist-packages/onnx_tool/node.py:2827: UserWarning: node ArgMin is not registed for profiling, return 0 Macs and 0 params as default. Use NODEPROFILER_REGISTRY to register your profiler for this node.\n"}
+,{"stream_name":"stderr","time":451.002344972,"data":"  warnings.warn(f'node {n.op_type} is not registed for profiling, return 0 Macs and 0 params as default. '\n"}
+,{"stream_name":"stderr","time":451.002351382,"data":"\n"}
+,{"stream_name":"stderr","time":451.002356352,"data":"/usr/local/lib/python3.12/dist-packages/onnx_tool/node.py:2827: UserWarning: node ArgMin is not registed for profiling, return 0 Macs and 0 params as default. Use NODEPROFILER_REGISTRY to register your profiler for this node.\n"}
+,{"stream_name":"stderr","time":451.002361272,"data":"  warnings.warn(f'node {n.op_type} is not registed for profiling, return 0 Macs and 0 params as default. '\n"}
+,{"stream_name":"stdout","time":466.992716914,"data":"  neurogolf-2026-solved-onnx: +0\n"}
+,{"stream_name":"stdout","time":466.992752494,"data":"After datasets: 338 tasks\n"}
+,{"stream_name":"stdout","time":466.992758354,"data":"\n"}
+,{"stream_name":"stdout","time":466.992763374,"data":"=== Phase 3: Automated solver ===\n"}
+,{"stream_name":"stdout","time":466.992768234,"data":"Remaining: 62\n"}
+,{"stream_name":"stdout","time":467.688719814,"data":"Solver: +0\n"}
+,{"stream_name":"stdout","time":467.688760414,"data":"TOTAL: 338/400\n"}
+,{"stream_name":"stdout","time":467.688765914,"data":"\n"}
+,{"stream_name":"stdout","time":467.688770594,"data":"ZIP size: 512.4 KB / 1475 KB limit\n"}
+,{"stream_name":"stdout","time":467.688775614,"data":"\n"}
+,{"stream_name":"stdout","time":467.688780383,"data":"=== FINAL ===\n"}
+,{"stream_name":"stdout","time":467.688785003,"data":"Tasks: 338/400\n"}
+,{"stream_name":"stdout","time":467.688789783,"data":"Est score: 4197.5\n"}
+,{"stream_name":"stdout","time":467.688794534,"data":"ZIP: 512.4 KB\n"}
+,{"stream_name":"stdout","time":467.688799134,"data":"  zip_neurogolf-2026-mega-agi-ensemble: 203\n"}
+,{"stream_name":"stdout","time":467.688803554,"data":"  zip_the-2026-neurogolf-championship: 105\n"}
+,{"stream_name":"stdout","time":467.688808263,"data":"  zip_neurogolf-2026-starter: 77\n"}
+,{"stream_name":"stdout","time":467.688812783,"data":"  zip_baseline-for-ensemble-1k: 8\n"}
+,{"stream_name":"stdout","time":467.688817613,"data":"  zip_infinitesimals: 4\n"}
+,{"stream_name":"stdout","time":467.688822453,"data":"  zip_arc-nano-engine: 2\n"}
+,{"stream_name":"stderr","time":471.376226094,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":471.376271294,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":471.552721881,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":471.552759192,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":472.449975297,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":472.726181433,"data":"[NbConvertApp] Writing 46232 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":475.522688257,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":476.469312202,"data":"[NbConvertApp] Writing 474589 bytes to __results__.html\n"}
+]

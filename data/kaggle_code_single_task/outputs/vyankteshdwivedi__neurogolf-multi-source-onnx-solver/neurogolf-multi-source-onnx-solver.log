@@ -1,0 +1,278 @@
+[{"stream_name":"stderr","time":9.215075411,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.215192321,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.215200483,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.215206346,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.019460479,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.019517902,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.01953163,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.019535878,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":15.404939833,"data":"   ©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥ 17.6/17.6 MB 77.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":15.607790634,"data":"   ©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥ 17.6/17.6 MB 77.1 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":15.657434161,"data":"   ©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥ 17.2/17.2 MB 49.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":15.690224527,"data":"   ©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥ 56.2/56.2 kB 2.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":15.859967667,"data":"   ©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥ 17.2/17.2 MB 49.6 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":15.86001766,"data":"   ©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥©¥ 56.2/56.2 kB 2.7 MB/s eta 0:00:00\n"}
+,{"stream_name":"stdout","time":36.622670728,"data":"neurogolf_utils loaded OK\n"}
+,{"stream_name":"stdout","time":36.622725031,"data":"  [aliafzal_tiny] 338 files from submission.zip\n"}
+,{"stream_name":"stdout","time":36.622733711,"data":"[aliafzal_tiny] 338 models\n"}
+,{"stream_name":"stdout","time":36.622762627,"data":"  [artem_logic2] not found: /kaggle/input/notebooks/artemnazemtsev/neurogolf-logic-driven-ensembling-part-2\n"}
+,{"stream_name":"stdout","time":36.622768793,"data":"[artem_logic2] 0 models\n"}
+,{"stream_name":"stdout","time":36.622774172,"data":"  [artem_logic4] not found: /kaggle/input/notebooks/artemnazemtsev/neurogolf-logic-driven-ensembling-part-4\n"}
+,{"stream_name":"stdout","time":36.622779788,"data":"[artem_logic4] 0 models\n"}
+,{"stream_name":"stdout","time":36.622785708,"data":"  [jonathanchan] 401 files from submission.zip\n"}
+,{"stream_name":"stdout","time":45.859506216,"data":"[jonathanchan] 401 models\n"}
+,{"stream_name":"stdout","time":45.859555269,"data":"  [needless090] 366 files from submission.zip\n"}
+,{"stream_name":"stdout","time":45.859569176,"data":"[needless090] 366 models\n"}
+,{"stream_name":"stdout","time":45.859573562,"data":"  [konbu17_5344] not found: /kaggle/input/notebooks/konbu17/neurogolf-2026-blended-401-tasks-lb-5344\n"}
+,{"stream_name":"stdout","time":45.859604702,"data":"[konbu17_5344] 0 models\n"}
+,{"stream_name":"stdout","time":45.859612125,"data":"  [beicicc_6233] 401 files from submission.zip\n"}
+,{"stream_name":"stdout","time":45.85963143,"data":"[beicicc_6233] 401 models\n"}
+,{"stream_name":"stdout","time":49.024863602,"data":"[afr1ste_5501] 401 models\n"}
+,{"stream_name":"stdout","time":51.969193527,"data":"[konbu17_v117] 401 models\n"}
+,{"stream_name":"stdout","time":54.610692997,"data":"[jonathanchan_v3] 352 models\n"}
+,{"stream_name":"stdout","time":54.610787765,"data":"  [op37_artifact] 400 files from submission.zip\n"}
+,{"stream_name":"stdout","time":54.610805807,"data":"[op37_artifact] 400 models\n"}
+,{"stream_name":"stdout","time":54.610811358,"data":"  [artemn] not found: /kaggle/input/notebooks/artemnazemtsev/neurogolf-acking-multiple-tasks-part-3\n"}
+,{"stream_name":"stdout","time":54.610816099,"data":"[artemn] 0 models\n"}
+,{"stream_name":"stdout","time":54.610820339,"data":"  [artem_update] not found: /kaggle/input/notebooks/artemnazemtsev/neurogolf-update-6500-hacking-part-2\n"}
+,{"stream_name":"stdout","time":54.610824702,"data":"[artem_update] 0 models\n"}
+,{"stream_name":"stdout","time":54.610828764,"data":"\n"}
+,{"stream_name":"stdout","time":54.610846734,"data":"Unique tasks across all sources: 401\n"}
+,{"stream_name":"stdout","time":62.173843943,"data":"Loaded 400 task JSONs\n"}
+,{"stream_name":"stdout","time":62.173933161,"data":"Selecting cheapest valid floor model per task...\n"}
+,{"stream_name":"stdout","time":317.20611481,"data":"Floor solutions selected: 401\n"}
+,{"stream_name":"stdout","time":317.206163568,"data":"Rejections: {'beicicc_6233-static': 240, 'konbu17_v117-static': 239, 'needless090-static': 82, 'afr1ste_5501-static': 131, 'jonathanchan_v3-static': 17, 'aliafzal_tiny-static': 6}\n"}
+,{"stream_name":"stdout","time":317.206173279,"data":"Floor cost ¡ª min: 139, max: 776792, mean: 28893\n"}
+,{"stream_name":"stdout","time":317.206181025,"data":"ONNX builders loaded.\n"}
+,{"stream_name":"stdout","time":317.206187104,"data":"V11 primitives loaded.\n"}
+,{"stream_name":"stdout","time":317.206193023,"data":"New ONNX builders (CHANGE 4) loaded.\n"}
+,{"stream_name":"stdout","time":317.206198444,"data":"All detectors loaded.\n"}
+,{"stream_name":"stdout","time":317.206203694,"data":"detect_dilate_3x3 loaded.\n"}
+,{"stream_name":"stdout","time":317.206209054,"data":"detect_dilate_3x3 + make_dilate_3x3_onnx loaded.\n"}
+,{"stream_name":"stdout","time":317.20621881,"data":"Gather builders + spatial solvers loaded.\n"}
+,{"stream_name":"stdout","time":317.206222832,"data":"Learned conv (CHANGE 6 applied) loaded.\n"}
+,{"stream_name":"stdout","time":317.206226543,"data":"Analysis loaded.\n"}
+,{"stream_name":"stdout","time":317.206230369,"data":"solve_task (CHANGE 5+6 applied) loaded.\n"}
+,{"stream_name":"stdout","time":317.206234581,"data":"Found 400 tasks\n"}
+,{"stream_name":"stdout","time":321.307062241,"data":"\n"}
+,{"stream_name":"stdout","time":321.307126007,"data":"0/400 solved by our solver, score=0.0 (4s)\n"}
+,{"stream_name":"stdout","time":321.307135453,"data":"Floor tasks: 401\n"}
+,{"stream_name":"stdout","time":321.30714207,"data":"\n"}
+,{"stream_name":"stdout","time":321.307146917,"data":"Floor tasks:     401\n"}
+,{"stream_name":"stdout","time":321.307151966,"data":"New tasks added: 0\n"}
+,{"stream_name":"stdout","time":321.307157227,"data":"Tasks improved:  0\n"}
+,{"stream_name":"stdout","time":321.307163147,"data":"Total in final:  395\n"}
+,{"stream_name":"stdout","time":321.307168982,"data":"\n"}
+,{"stream_name":"stdout","time":321.307174064,"data":"nu not available ¡ª skipping re-validation (submission may contain invalid models)\n"}
+,{"stream_name":"stdout","time":321.307194545,"data":"Dim-scrub applied to 46 tasks.\n"}
+,{"stream_name":"stdout","time":321.307199852,"data":"massimilianoghiotto dir: /kaggle/input/datasets/massimilianoghiotto/neurogolf2026-6254/submission\n"}
+,{"stream_name":"stdout","time":323.648221776,"data":"Artifact lock: 400/400 tasks loaded\n"}
+,{"stream_name":"stdout","time":328.02187849,"data":"Graph rewrites: 4 tasks improved\n"}
+,{"stream_name":"stdout","time":328.021927549,"data":"  task001 Cast accepted  2861-\u003e2843 delta +0.006\n"}
+,{"stream_name":"stdout","time":328.021936073,"data":"  task137 Cast no_gain   72472-\u003e72472\n"}
+,{"stream_name":"stdout","time":328.021942556,"data":"  task153 Cast accepted  21763-\u003e21619 delta +0.007\n"}
+,{"stream_name":"stdout","time":328.02194831,"data":"  task157 Cast accepted  83668-\u003e83542 delta +0.002\n"}
+,{"stream_name":"stdout","time":328.021953786,"data":"  task295 RS  accepted  12226-\u003e12190 delta +0.003\n"}
+,{"stream_name":"stdout","time":328.021959261,"data":"Per-task overrides applied: 0\n"}
+,{"stream_name":"stdout","time":330.498374768,"data":"Shape filter: all models OK\n"}
+,{"stream_name":"stdout","time":330.498426762,"data":"Removed zero-cost tasks: []\n"}
+,{"stream_name":"stdout","time":330.498433387,"data":"\n"}
+,{"stream_name":"stdout","time":330.498501823,"data":"Rescuing top-cost tasks with alternative sources...\n"}
+,{"stream_name":"stdout","time":330.498508945,"data":"  RESCUED task200.onnx: cost 776,792 -\u003e 262 (+7.99 pts)\n"}
+,{"stream_name":"stdout","time":330.498515646,"data":"  RESCUED task373.onnx: cost 753,072 -\u003e 18 (+10.64 pts)\n"}
+,{"stream_name":"stderr","time":330.499657921,"data":"/usr/local/lib/python3.12/dist-packages/onnxruntime/capi/onnxruntime_inference_collection.py:123: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'\n"}
+,{"stream_name":"stderr","time":330.499693946,"data":"  warnings.warn(\n"}
+,{"stream_name":"stderr","time":330.499701105,"data":"\n"}
+,{"stream_name":"stderr","time":330.499706943,"data":"/usr/local/lib/python3.12/dist-packages/onnxruntime/capi/onnxruntime_inference_collection.py:123: UserWarning: Specified provider 'CUDAExecutionProvider' is not in available provider names.Available providers: 'AzureExecutionProvider, CPUExecutionProvider'\n"}
+,{"stream_name":"stderr","time":330.499714095,"data":"  warnings.warn(\n"}
+,{"stream_name":"stdout","time":331.036057669,"data":"  RESCUED task133.onnx: cost 693,480 -\u003e 132,588 (+1.65 pts)\n"}
+,{"stream_name":"stdout","time":331.036094754,"data":"  RESCUED task375.onnx: cost 567,847 -\u003e 359 (+7.37 pts)\n"}
+,{"stream_name":"stdout","time":331.036122068,"data":"  RESCUED task171.onnx: cost 543,437 -\u003e 252 (+7.68 pts)\n"}
+,{"stream_name":"stdout","time":331.590838614,"data":"  RESCUED task158.onnx: cost 485,757 -\u003e 200,792 (+0.88 pts)\n"}
+,{"stream_name":"stdout","time":332.054119936,"data":"  RESCUED task233.onnx: cost 378,176 -\u003e 39,257 (+2.27 pts)\n"}
+,{"stream_name":"stdout","time":332.054165957,"data":"  RESCUED task153.onnx: cost 377,199 -\u003e 806 (+6.15 pts)\n"}
+,{"stream_name":"stdout","time":332.054187077,"data":"  RESCUED task376.onnx: cost 349,728 -\u003e 338 (+6.94 pts)\n"}
+,{"stream_name":"stdout","time":332.313791218,"data":"  RESCUED task209.onnx: cost 320,508 -\u003e 985 (+5.79 pts)\n"}
+,{"stream_name":"stdout","time":332.958583383,"data":"  RESCUED task076.onnx: cost 287,531 -\u003e 1,461 (+5.28 pts)\n"}
+,{"stream_name":"stdout","time":332.958625217,"data":"  RESCUED task292.onnx: cost 230,598 -\u003e 18,339 (+2.53 pts)\n"}
+,{"stream_name":"stdout","time":332.958631962,"data":"  RESCUED task176.onnx: cost 220,049 -\u003e 9,504 (+3.14 pts)\n"}
+,{"stream_name":"stdout","time":332.958665406,"data":"  RESCUED task305.onnx: cost 183,186 -\u003e 1,452 (+4.84 pts)\n"}
+,{"stream_name":"stdout","time":332.958670205,"data":"  RESCUED task058.onnx: cost 167,354 -\u003e 19,453 (+2.15 pts)\n"}
+,{"stream_name":"stdout","time":332.958674315,"data":"  RESCUED task277.onnx: cost 146,695 -\u003e 913 (+5.08 pts)\n"}
+,{"stream_name":"stdout","time":332.958678591,"data":"  RESCUED task266.onnx: cost 145,902 -\u003e 252 (+6.36 pts)\n"}
+,{"stream_name":"stdout","time":333.165647675,"data":"  RESCUED task008.onnx: cost 117,210 -\u003e 382 (+5.73 pts)\n"}
+,{"stream_name":"stdout","time":333.165683689,"data":"  RESCUED task089.onnx: cost 110,495 -\u003e 876 (+4.84 pts)\n"}
+,{"stream_name":"stdout","time":333.532315615,"data":"  RESCUED task285.onnx: cost 98,389 -\u003e 6,363 (+2.74 pts)\n"}
+,{"stream_name":"stdout","time":333.532354405,"data":"  RESCUED task396.onnx: cost 95,200 -\u003e 25,442 (+1.32 pts)\n"}
+,{"stream_name":"stdout","time":333.532359157,"data":"  RESCUED task248.onnx: cost 93,581 -\u003e 270 (+5.85 pts)\n"}
+,{"stream_name":"stdout","time":333.532364074,"data":"  RESCUED task357.onnx: cost 93,581 -\u003e 270 (+5.85 pts)\n"}
+,{"stream_name":"stdout","time":333.532369008,"data":"  RESCUED task324.onnx: cost 92,671 -\u003e 5,310 (+2.86 pts)\n"}
+,{"stream_name":"stdout","time":333.532373874,"data":"  RESCUED task059.onnx: cost 75,451 -\u003e 24,954 (+1.11 pts)\n"}
+,{"stream_name":"stdout","time":333.778030876,"data":"  RESCUED task382.onnx: cost 67,623 -\u003e 3,690 (+2.91 pts)\n"}
+,{"stream_name":"stdout","time":333.778069596,"data":"  RESCUED task052.onnx: cost 67,103 -\u003e 231 (+5.67 pts)\n"}
+,{"stream_name":"stdout","time":333.778074409,"data":"  RESCUED task061.onnx: cost 61,167 -\u003e 17,726 (+1.24 pts)\n"}
+,{"stream_name":"stdout","time":333.778078431,"data":"  RESCUED task219.onnx: cost 59,685 -\u003e 3,182 (+2.93 pts)\n"}
+,{"stream_name":"stdout","time":333.778082074,"data":"  RESCUED task221.onnx: cost 58,894 -\u003e 15,246 (+1.35 pts)\n"}
+,{"stream_name":"stdout","time":333.77808565,"data":"  RESCUED task107.onnx: cost 58,097 -\u003e 42,039 (+0.32 pts)\n"}
+,{"stream_name":"stdout","time":334.151642119,"data":"  RESCUED task174.onnx: cost 55,104 -\u003e 600 (+4.52 pts)\n"}
+,{"stream_name":"stdout","time":334.151681155,"data":"  RESCUED task022.onnx: cost 51,421 -\u003e 1,450 (+3.57 pts)\n"}
+,{"stream_name":"stdout","time":334.491368858,"data":"  RESCUED task119.onnx: cost 49,282 -\u003e 6,918 (+1.96 pts)\n"}
+,{"stream_name":"stdout","time":334.49141152,"data":"  RESCUED task170.onnx: cost 47,329 -\u003e 46,425 (+0.02 pts)\n"}
+,{"stream_name":"stdout","time":334.491419803,"data":"  RESCUED task038.onnx: cost 46,853 -\u003e 304 (+5.04 pts)\n"}
+,{"stream_name":"stdout","time":334.491424195,"data":"  RESCUED task399.onnx: cost 46,527 -\u003e 2,144 (+3.08 pts)\n"}
+,{"stream_name":"stdout","time":334.4914303,"data":"  RESCUED task316.onnx: cost 44,326 -\u003e 255 (+5.16 pts)\n"}
+,{"stream_name":"stdout","time":334.491434527,"data":"Top-cost rescue: 38/40 tasks improved\n"}
+,{"stream_name":"stdout","time":334.491439087,"data":"\n"}
+,{"stream_name":"stdout","time":334.491443956,"data":"Estimated score: 6566.5  (baseline: 2127)\n"}
+,{"stream_name":"stdout","time":334.491449239,"data":"\n"}
+,{"stream_name":"stdout","time":334.491453457,"data":"=== TOP 40 MOST EXPENSIVE TASKS ===\n"}
+,{"stream_name":"stdout","time":334.491457606,"data":"  task158.onnx: cost=   200,792  pts=12.790\n"}
+,{"stream_name":"stdout","time":334.491463042,"data":"  task133.onnx: cost=   132,588  pts=13.205\n"}
+,{"stream_name":"stdout","time":334.491480578,"data":"  task182.onnx: cost=    71,393  pts=13.824\n"}
+,{"stream_name":"stdout","time":334.491485247,"data":"  task205.onnx: cost=    53,591  pts=14.111\n"}
+,{"stream_name":"stdout","time":334.491489724,"data":"  task170.onnx: cost=    46,425  pts=14.254\n"}
+,{"stream_name":"stdout","time":334.491494229,"data":"  task048.onnx: cost=    43,094  pts=14.329\n"}
+,{"stream_name":"stdout","time":334.491498036,"data":"  task107.onnx: cost=    42,039  pts=14.354\n"}
+,{"stream_name":"stdout","time":334.491501637,"data":"  task056.onnx: cost=    40,633  pts=14.388\n"}
+,{"stream_name":"stdout","time":334.491505447,"data":"  task313.onnx: cost=    39,724  pts=14.410\n"}
+,{"stream_name":"stdout","time":334.491509012,"data":"  task233.onnx: cost=    39,257  pts=14.422\n"}
+,{"stream_name":"stdout","time":334.491512685,"data":"  task104.onnx: cost=    39,135  pts=14.425\n"}
+,{"stream_name":"stdout","time":334.491516519,"data":"  task330.onnx: cost=    37,731  pts=14.462\n"}
+,{"stream_name":"stdout","time":334.491520381,"data":"  task186.onnx: cost=    37,389  pts=14.471\n"}
+,{"stream_name":"stdout","time":334.491524535,"data":"  task069.onnx: cost=    37,133  pts=14.478\n"}
+,{"stream_name":"stdout","time":334.491528323,"data":"  task105.onnx: cost=    35,058  pts=14.535\n"}
+,{"stream_name":"stdout","time":334.491532243,"data":"  task328.onnx: cost=    34,825  pts=14.542\n"}
+,{"stream_name":"stdout","time":334.4915365,"data":"  task255.onnx: cost=    34,023  pts=14.565\n"}
+,{"stream_name":"stdout","time":334.491541559,"data":"  task215.onnx: cost=    33,149  pts=14.591\n"}
+,{"stream_name":"stdout","time":334.491557386,"data":"  task367.onnx: cost=    33,033  pts=14.595\n"}
+,{"stream_name":"stdout","time":334.491561833,"data":"  task101.onnx: cost=    32,996  pts=14.596\n"}
+,{"stream_name":"stdout","time":334.491565933,"data":"  task145.onnx: cost=    32,048  pts=14.625\n"}
+,{"stream_name":"stdout","time":334.491570084,"data":"  task027.onnx: cost=    31,452  pts=14.644\n"}
+,{"stream_name":"stdout","time":334.491574359,"data":"  task370.onnx: cost=    30,914  pts=14.661\n"}
+,{"stream_name":"stdout","time":334.491578836,"data":"  task274.onnx: cost=    30,613  pts=14.671\n"}
+,{"stream_name":"stdout","time":334.491583228,"data":"  task117.onnx: cost=    30,261  pts=14.682\n"}
+,{"stream_name":"stdout","time":334.491587321,"data":"  task167.onnx: cost=    30,230  pts=14.683\n"}
+,{"stream_name":"stdout","time":334.491591345,"data":"  task275.onnx: cost=    29,488  pts=14.708\n"}
+,{"stream_name":"stdout","time":334.491595504,"data":"  task034.onnx: cost=    29,127  pts=14.721\n"}
+,{"stream_name":"stdout","time":334.491599581,"data":"  task018.onnx: cost=    28,217  pts=14.752\n"}
+,{"stream_name":"stdout","time":334.491603766,"data":"  task363.onnx: cost=    27,803  pts=14.767\n"}
+,{"stream_name":"stdout","time":334.491608529,"data":"  task060.onnx: cost=    26,099  pts=14.830\n"}
+,{"stream_name":"stdout","time":334.491613133,"data":"  task208.onnx: cost=    25,832  pts=14.841\n"}
+,{"stream_name":"stdout","time":334.491617293,"data":"  task023.onnx: cost=    25,764  pts=14.843\n"}
+,{"stream_name":"stdout","time":334.491621338,"data":"  task396.onnx: cost=    25,442  pts=14.856\n"}
+,{"stream_name":"stdout","time":334.491625424,"data":"  task103.onnx: cost=    25,412  pts=14.857\n"}
+,{"stream_name":"stdout","time":334.491629688,"data":"  task106.onnx: cost=    25,272  pts=14.863\n"}
+,{"stream_name":"stdout","time":334.491633963,"data":"  task059.onnx: cost=    24,954  pts=14.875\n"}
+,{"stream_name":"stdout","time":334.491640169,"data":"  task017.onnx: cost=    22,854  pts=14.963\n"}
+,{"stream_name":"stdout","time":334.491650662,"data":"  task066.onnx: cost=    22,609  pts=14.974\n"}
+,{"stream_name":"stdout","time":334.491655685,"data":"  task047.onnx: cost=    22,118  pts=14.996\n"}
+,{"stream_name":"stdout","time":334.491659925,"data":"  (top-40 contributes 581.2 pts)\n"}
+,{"stream_name":"stdout","time":334.491664173,"data":"\n"}
+,{"stream_name":"stdout","time":334.491668045,"data":"=== COST BAND DISTRIBUTION ===\n"}
+,{"stream_name":"stdout","time":334.491672089,"data":"  cost        0-       100  (\u003e 21.9 pts): 1 tasks\n"}
+,{"stream_name":"stdout","time":334.49167655,"data":"  cost      100-     1,000  (19.8-21.9 pts): 40 tasks\n"}
+,{"stream_name":"stdout","time":334.491680756,"data":"  cost    1,000-    10,000  (14.3-18.1 pts): 243 tasks\n"}
+,{"stream_name":"stdout","time":334.491685178,"data":"  cost   10,000-   100,000  (8.5-14.3 pts): 109 tasks\n"}
+,{"stream_name":"stdout","time":334.491689481,"data":"  cost  100,000-1,000,000,000  (\u003c 8.5 pts): 2 tasks\n"}
+,{"stream_name":"stdout","time":334.491693659,"data":"\n"}
+,{"stream_name":"stdout","time":334.49169774,"data":"=== TOP-10 EXPENSIVE TASKS ¡ª ALL SOURCE FILE SIZES ===\n"}
+,{"stream_name":"stdout","time":334.491702513,"data":"\n"}
+,{"stream_name":"stdout","time":334.491706608,"data":"task158.onnx  local_onnx_cost=200,792  cur_bytes=26,673\n"}
+,{"stream_name":"stdout","time":334.491710945,"data":"  op37_artifact            :   62,208 bytes\n"}
+,{"stream_name":"stdout","time":334.491715287,"data":"  beicicc_6233             :   76,927 bytes\n"}
+,{"stream_name":"stdout","time":334.491719423,"data":"  konbu17_v117             :   76,927 bytes\n"}
+,{"stream_name":"stdout","time":334.491723571,"data":"  jonathanchan             :  159,472 bytes\n"}
+,{"stream_name":"stdout","time":334.491727792,"data":"  needless090              :  485,757 bytes\n"}
+,{"stream_name":"stdout","time":334.491731905,"data":"  afr1ste_5501             :  485,757 bytes\n"}
+,{"stream_name":"stdout","time":334.491750928,"data":"\n"}
+,{"stream_name":"stdout","time":334.491755096,"data":"task133.onnx  local_onnx_cost=132,588  cur_bytes=287,675\n"}
+,{"stream_name":"stdout","time":334.49176332,"data":"  op37_artifact            :  193,328 bytes\n"}
+,{"stream_name":"stdout","time":334.491767589,"data":"  jonathanchan             :  287,675 bytes ¡û CURRENT\n"}
+,{"stream_name":"stdout","time":334.491772074,"data":"  jonathanchan_v3          :  287,675 bytes ¡û CURRENT\n"}
+,{"stream_name":"stdout","time":334.491776367,"data":"  needless090              :  693,480 bytes\n"}
+,{"stream_name":"stdout","time":334.491780619,"data":"  beicicc_6233             :  775,725 bytes\n"}
+,{"stream_name":"stdout","time":334.49178491,"data":"  afr1ste_5501             :  775,725 bytes\n"}
+,{"stream_name":"stdout","time":334.491789065,"data":"  konbu17_v117             :  775,725 bytes\n"}
+,{"stream_name":"stdout","time":334.491793302,"data":"\n"}
+,{"stream_name":"stdout","time":334.491797253,"data":"task182.onnx  local_onnx_cost=71,393  cur_bytes=12,955\n"}
+,{"stream_name":"stdout","time":334.491801388,"data":"  beicicc_6233             :   57,608 bytes\n"}
+,{"stream_name":"stdout","time":334.491805694,"data":"  konbu17_v117             :   57,608 bytes\n"}
+,{"stream_name":"stdout","time":334.491810312,"data":"  op37_artifact            :   71,393 bytes\n"}
+,{"stream_name":"stdout","time":334.491814507,"data":"  afr1ste_5501             :   77,908 bytes\n"}
+,{"stream_name":"stdout","time":334.491818663,"data":"  jonathanchan             :  462,279 bytes\n"}
+,{"stream_name":"stdout","time":334.491822659,"data":"\n"}
+,{"stream_name":"stdout","time":334.491826681,"data":"task205.onnx  local_onnx_cost=53,591  cur_bytes=33,601\n"}
+,{"stream_name":"stdout","time":334.491836533,"data":"  op37_artifact            :   27,302 bytes\n"}
+,{"stream_name":"stdout","time":334.491840962,"data":"  beicicc_6233             :   28,211 bytes\n"}
+,{"stream_name":"stdout","time":334.491845389,"data":"  konbu17_v117             :   28,211 bytes\n"}
+,{"stream_name":"stdout","time":334.491849857,"data":"  afr1ste_5501             :   29,681 bytes\n"}
+,{"stream_name":"stdout","time":334.491854433,"data":"  needless090              :   53,591 bytes\n"}
+,{"stream_name":"stdout","time":334.491858588,"data":"  jonathanchan             :   83,537 bytes\n"}
+,{"stream_name":"stdout","time":334.491862679,"data":"\n"}
+,{"stream_name":"stdout","time":334.491866679,"data":"task170.onnx  local_onnx_cost=46,425  cur_bytes=50,577\n"}
+,{"stream_name":"stdout","time":334.491870847,"data":"  jonathanchan             :   47,329 bytes\n"}
+,{"stream_name":"stdout","time":334.49187506,"data":"  op37_artifact            :   64,849 bytes\n"}
+,{"stream_name":"stdout","time":334.491879325,"data":"  beicicc_6233             :   74,433 bytes\n"}
+,{"stream_name":"stdout","time":334.491883743,"data":"  konbu17_v117             :   74,433 bytes\n"}
+,{"stream_name":"stdout","time":334.491888556,"data":"  afr1ste_5501             :   84,989 bytes\n"}
+,{"stream_name":"stdout","time":334.491892703,"data":"\n"}
+,{"stream_name":"stdout","time":334.491896722,"data":"task048.onnx  local_onnx_cost=43,094  cur_bytes=4,058\n"}
+,{"stream_name":"stdout","time":334.49190099,"data":"  op37_artifact            :    4,058 bytes ¡û CURRENT\n"}
+,{"stream_name":"stdout","time":334.49190534,"data":"  jonathanchan             :    5,977 bytes\n"}
+,{"stream_name":"stdout","time":334.491909613,"data":"  aliafzal_tiny            :   43,094 bytes\n"}
+,{"stream_name":"stdout","time":334.491914206,"data":"  needless090              :   43,094 bytes\n"}
+,{"stream_name":"stdout","time":334.49191833,"data":"  jonathanchan_v3          :   43,094 bytes\n"}
+,{"stream_name":"stdout","time":334.491922573,"data":"  beicicc_6233             :  109,401 bytes\n"}
+,{"stream_name":"stdout","time":334.491926709,"data":"  afr1ste_5501             :  109,401 bytes\n"}
+,{"stream_name":"stdout","time":334.491930699,"data":"  konbu17_v117             :  109,401 bytes\n"}
+,{"stream_name":"stdout","time":334.491935212,"data":"\n"}
+,{"stream_name":"stdout","time":334.49193908,"data":"task107.onnx  local_onnx_cost=42,039  cur_bytes=31,191\n"}
+,{"stream_name":"stdout","time":334.49194375,"data":"  op37_artifact            :   31,191 bytes ¡û CURRENT\n"}
+,{"stream_name":"stdout","time":334.491948252,"data":"  beicicc_6233             :   58,097 bytes\n"}
+,{"stream_name":"stdout","time":334.491952607,"data":"  konbu17_v117             :   58,097 bytes\n"}
+,{"stream_name":"stdout","time":334.491957136,"data":"  jonathanchan             :   58,113 bytes\n"}
+,{"stream_name":"stdout","time":334.49196128,"data":"  needless090              :   58,321 bytes\n"}
+,{"stream_name":"stdout","time":334.491966322,"data":"  afr1ste_5501             :   58,321 bytes\n"}
+,{"stream_name":"stdout","time":334.491971743,"data":"  aliafzal_tiny            :   67,332 bytes\n"}
+,{"stream_name":"stdout","time":334.491977776,"data":"  jonathanchan_v3          :   67,332 bytes\n"}
+,{"stream_name":"stdout","time":334.491983885,"data":"\n"}
+,{"stream_name":"stdout","time":334.491988058,"data":"task056.onnx  local_onnx_cost=40,633  cur_bytes=815\n"}
+,{"stream_name":"stdout","time":334.491992228,"data":"  jonathanchan             :    1,471 bytes\n"}
+,{"stream_name":"stdout","time":334.491999641,"data":"  op37_artifact            :    1,515 bytes\n"}
+,{"stream_name":"stdout","time":334.492004062,"data":"  aliafzal_tiny            :    8,512 bytes\n"}
+,{"stream_name":"stdout","time":334.492008437,"data":"  needless090              :    8,512 bytes\n"}
+,{"stream_name":"stdout","time":334.492012551,"data":"  jonathanchan_v3          :    8,512 bytes\n"}
+,{"stream_name":"stdout","time":334.492016796,"data":"  beicicc_6233             :   40,633 bytes\n"}
+,{"stream_name":"stdout","time":334.492020897,"data":"  afr1ste_5501             :   40,633 bytes\n"}
+,{"stream_name":"stdout","time":334.492025173,"data":"  konbu17_v117             :   40,633 bytes\n"}
+,{"stream_name":"stdout","time":334.492029512,"data":"\n"}
+,{"stream_name":"stdout","time":334.492033583,"data":"task313.onnx  local_onnx_cost=39,724  cur_bytes=39,887\n"}
+,{"stream_name":"stdout","time":334.492037796,"data":"  needless090              :   39,724 bytes\n"}
+,{"stream_name":"stdout","time":334.49204227,"data":"  beicicc_6233             :   39,724 bytes\n"}
+,{"stream_name":"stdout","time":334.49204639,"data":"  afr1ste_5501             :   39,724 bytes\n"}
+,{"stream_name":"stdout","time":334.492050516,"data":"  konbu17_v117             :   39,724 bytes\n"}
+,{"stream_name":"stdout","time":334.492054411,"data":"  jonathanchan             :   39,848 bytes\n"}
+,{"stream_name":"stdout","time":334.492058507,"data":"  op37_artifact            :   39,887 bytes ¡û CURRENT\n"}
+,{"stream_name":"stdout","time":334.492063297,"data":"  aliafzal_tiny            :   52,885 bytes\n"}
+,{"stream_name":"stdout","time":334.49206742,"data":"  jonathanchan_v3          :   52,885 bytes\n"}
+,{"stream_name":"stdout","time":334.492071457,"data":"\n"}
+,{"stream_name":"stdout","time":334.492075199,"data":"task233.onnx  local_onnx_cost=39,257  cur_bytes=321,271\n"}
+,{"stream_name":"stdout","time":334.492079499,"data":"  jonathanchan             :   39,834 bytes\n"}
+,{"stream_name":"stdout","time":334.492083735,"data":"  needless090              :  378,176 bytes\n"}
+,{"stream_name":"stdout","time":334.492088169,"data":"  beicicc_6233             :  378,176 bytes\n"}
+,{"stream_name":"stdout","time":334.492092561,"data":"  konbu17_v117             :  378,176 bytes\n"}
+,{"stream_name":"stdout","time":334.492097413,"data":"  afr1ste_5501             :  384,546 bytes\n"}
+,{"stream_name":"stdout","time":334.492101459,"data":"  op37_artifact            :  967,315 bytes\n"}
+,{"stream_name":"stdout","time":334.492106415,"data":"Expected gain:   +4439.5 pts\n"}
+,{"stream_name":"stdout","time":334.648366488,"data":"\n"}
+,{"stream_name":"stdout","time":334.648407978,"data":"Wrote /kaggle/working/submission.zip (0.8 MB, 401 tasks)\n"}
+,{"stream_name":"stdout","time":334.648414293,"data":"All 401 ONNX files parse cleanly. Ready to submit!\n"}
+,{"stream_name":"stderr","time":338.701884421,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":338.701946559,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":338.909314776,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":338.909350518,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":340.031801092,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":340.416269035,"data":"[NbConvertApp] Writing 179642 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":343.72188293,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":345.693069376,"data":"[NbConvertApp] Writing 1161853 bytes to __results__.html\n"}
+]

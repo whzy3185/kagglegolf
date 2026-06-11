@@ -47,6 +47,8 @@ target_exp_ids:
   - GOLF_20260609_077_stack_galaxy332
   - GOLF_20260609_078_stack_galaxy021
   - GOLF_20260609_079_stack_galaxy301
+  - GOLF_20260609_080_stack_galaxy342
+  - GOLF_20260609_081_stack_galaxy203
 
 hypothesis:
   Current best 6154.71 is too far from the 7000 target. High-score public notebooks may contain stronger full bundles or task-level ONNX variants that can close the gap faster than local micro-optimization.
@@ -258,3 +260,49 @@ rollback_rule:
 
 success_criteria:
   Generate a validator-pass Beicicc-derived mix or a clear rejection report.
+
+## DIR_20260610_001_simple_exact_batch_replacement
+
+direction_id: DIR_20260610_001_simple_exact_batch_replacement
+status: active
+created_at: 2026-06-10
+target_exp_ids:
+  - GOLF_20260610_080_simple_exact_batch_conservative_5
+  - GOLF_20260610_081_simple_exact_batch_medium_10
+  - GOLF_20260610_082_simple_exact_batch_aggressive_20
+
+hypothesis:
+  Simple ARC-style rules that exactly match official train examples and pass local validation can be batched so multiple independently plausible replacements receive leaderboard feedback within the daily submission cap.
+
+leaderboard_basis:
+  source_id: SRC_DISCUSSION_AGENT_HARNESS_6580
+  reason: Competition discussion and agent-harness evidence support submitting validator-pass compact ONNX candidates for leaderboard feedback rather than relying only on cost proxy.
+
+paper_basis:
+  source_id: SRC_ARC_PRIZE_2024_REPORT
+  reason: ARC Prize task-level reasoning supports exact rule synthesis from examples.
+
+open_repo_basis:
+  source_id: SRC_ARC_DSL_GITHUB
+  reason: ARC-DSL primitives map directly to compact deterministic ONNX graph templates.
+
+historical_competition_basis:
+  source_id: SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP
+  reason: Prior ARC code-golf work supports task-wise exact solvers and batch ablation.
+
+implementation_plan:
+  - scan task001-task400 for simple exact train rules
+  - generate locally validated ONNX replacements
+  - submit conservative, medium, and aggressive multi-task batches
+  - use binary ablation if a batch regresses
+
+risk:
+  - train-exact rules can still fail hidden cases
+  - several individually plausible replacements may interact negatively in one batch
+
+rollback_rule:
+  Batch failures are split by binary ablation and only positive groups are retained.
+
+success_criteria:
+  At least one multi-task batch produces positive or neutral leaderboard feedback and records task-level ablation state.
+

@@ -1,0 +1,4 @@
+exp_id=GOLF_20260609_058_arc_dsl_task097_remove_isolated
+AGS=0.707276
+classification=aggressive
+submission_gate_pass=true

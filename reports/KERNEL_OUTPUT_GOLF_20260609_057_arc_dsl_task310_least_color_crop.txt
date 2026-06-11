@@ -1,0 +1,2 @@
+Output file downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260609_057_arc_dsl_task310_least_color_crop\kaggle_output\submission.zip
+Kernel log downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260609_057_arc_dsl_task310_least_color_crop\kaggle_output\neurogolf-submit-current.log 

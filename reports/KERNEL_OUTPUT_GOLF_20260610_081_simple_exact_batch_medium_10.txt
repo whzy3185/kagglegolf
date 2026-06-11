@@ -1,0 +1,2 @@
+Output file downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260610_081_simple_exact_batch_medium_10\kaggle_output\submission.zip
+Kernel log downloaded to E:\kagglegolf\submissions\candidates\GOLF_20260610_081_simple_exact_batch_medium_10\kaggle_output\neurogolf-submit-current.log 

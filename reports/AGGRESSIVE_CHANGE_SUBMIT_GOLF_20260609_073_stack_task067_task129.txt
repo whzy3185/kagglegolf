@@ -1,0 +1,4 @@
+exp_id=GOLF_20260609_073_stack_task067_task129
+AGS=0.717978
+classification=aggressive
+submission_gate_pass=true

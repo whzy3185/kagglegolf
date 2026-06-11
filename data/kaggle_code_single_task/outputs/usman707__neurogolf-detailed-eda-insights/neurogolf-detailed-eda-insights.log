@@ -1,0 +1,184 @@
+[{"stream_name":"stderr","time":13.376867494,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":13.37697045,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":13.376977166,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":13.376982623,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":14.229160388,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":14.229202728,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":14.229209106,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":14.229212859,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":20.213916064,"data":"Core imports loaded\n"}
+,{"stream_name":"stdout","time":20.586364637,"data":"neurogolf_utils not available (No module named 'onnx_tool'). Using built-in helpers.\n"}
+,{"stream_name":"stdout","time":28.447827115,"data":"Tasks loaded: 400 / 400\n"}
+,{"stream_name":"stdout","time":28.447870443,"data":"Total pairs across all splits: 101,718\n"}
+,{"stream_name":"stdout","time":28.502198879,"data":"Split        Min   Max     Mean   Median    Total\n"}
+,{"stream_name":"stdout","time":28.502258499,"data":"--------------------------------------------------\n"}
+,{"stream_name":"stdout","time":28.502265285,"data":"train          2    10      3.3      3.0     1302\n"}
+,{"stream_name":"stdout","time":28.502275847,"data":"test           1     3      1.0      1.0      416\n"}
+,{"stream_name":"stdout","time":28.502279614,"data":"arc-gen        4   262    250.0    262.0   100000\n"}
+,{"stream_name":"stdout","time":30.034615631,"data":"Tasks with 0 arc-gen examples: 0\n"}
+,{"stream_name":"stdout","time":30.034656648,"data":"\n"}
+,{"stream_name":"stdout","time":30.034664226,"data":"Outlier tasks (IQR method):\n"}
+,{"stream_name":"stdout","time":30.034671061,"data":"  Unusually FEW examples (23): {53: 60, 56: 46, 58: 22, 73: 15, 84: 175, 103: 223, 104: 7, 171: 54, 176: 25, 200: 84}\n"}
+,{"stream_name":"stdout","time":30.034677478,"data":"  Unusually MANY examples (24): {1: 268, 2: 268, 26: 268, 48: 270, 49: 268, 50: 271, 72: 268, 167: 268, 178: 268, 180: 268}\n"}
+,{"stream_name":"stdout","time":30.280659533,"data":"Total grids analyzed: 101,718\n"}
+,{"stream_name":"stdout","time":30.280707125,"data":"\n"}
+,{"stream_name":"stdout","time":30.280715333,"data":"Metric         Min   Max    Mean  Median\n"}
+,{"stream_name":"stdout","time":30.2807208,"data":"----------------------------------------\n"}
+,{"stream_name":"stdout","time":30.280725829,"data":"in_h             1    70    11.4    10.0\n"}
+,{"stream_name":"stdout","time":30.280731094,"data":"in_w             1    75    11.6    10.0\n"}
+,{"stream_name":"stdout","time":30.280736527,"data":"out_h            1    42     9.7     9.0\n"}
+,{"stream_name":"stdout","time":30.280741758,"data":"out_w            1    38     9.9    10.0\n"}
+,{"stream_name":"stdout","time":30.280747023,"data":"in_area          4  4340   166.0   100.0\n"}
+,{"stream_name":"stdout","time":30.280752653,"data":"out_area         1   961   129.9    84.0\n"}
+,{"stream_name":"stdout","time":33.815676746,"data":"Tasks where output is ALWAYS same size as input: 262\n"}
+,{"stream_name":"stdout","time":33.818243985,"data":"Tasks where output is ALWAYS larger:             36\n"}
+,{"stream_name":"stdout","time":33.818284995,"data":"Tasks where output is ALWAYS smaller:             100\n"}
+,{"stream_name":"stdout","time":33.818290259,"data":"Tasks with mixed size changes:                    2\n"}
+,{"stream_name":"stdout","time":33.981630259,"data":"Tasks with at least one grid \u003e 15x15: 145 / 400\n"}
+,{"stream_name":"stdout","time":33.981677551,"data":"These tasks need careful receptive-field planning and potentially\n"}
+,{"stream_name":"stdout","time":33.981684299,"data":"larger kernels or multi-layer architectures.\n"}
+,{"stream_name":"stdout","time":38.248784153,"data":"Binary tasks (2 or fewer colors): 9\n"}
+,{"stream_name":"stdout","time":38.2488323,"data":"  Examples: [58, 171, 195, 210, 248, 311, 325, 356, 384]\n"}
+,{"stream_name":"stdout","time":38.450956341,"data":"Tasks where output introduces colors absent from ALL inputs: 130\n"}
+,{"stream_name":"stdout","time":38.45101196,"data":"  Task 002: new colors = {4}\n"}
+,{"stream_name":"stdout","time":38.451018258,"data":"  Task 003: new colors = {2}\n"}
+,{"stream_name":"stdout","time":38.451023006,"data":"  Task 006: new colors = {2}\n"}
+,{"stream_name":"stdout","time":38.451027559,"data":"  Task 010: new colors = {1, 2, 3, 4}\n"}
+,{"stream_name":"stdout","time":38.451031618,"data":"  Task 015: new colors = {4, 7}\n"}
+,{"stream_name":"stdout","time":38.451035412,"data":"  Task 019: new colors = {8}\n"}
+,{"stream_name":"stdout","time":38.451039207,"data":"  Task 023: new colors = {8, 2}\n"}
+,{"stream_name":"stdout","time":38.451044172,"data":"  Task 026: new colors = {8}\n"}
+,{"stream_name":"stdout","time":38.451047882,"data":"  Task 027: new colors = {2}\n"}
+,{"stream_name":"stdout","time":38.451051241,"data":"  Task 042: new colors = {8}\n"}
+,{"stream_name":"stdout","time":42.432597114000004,"data":"Transformation categories (same-size tasks only):\n"}
+,{"stream_name":"stdout","time":42.432663802,"data":"  size_change: 137 tasks\n"}
+,{"stream_name":"stdout","time":42.432673198,"data":"  additive: 133 tasks\n"}
+,{"stream_name":"stdout","time":42.432678899,"data":"  mixed: 122 tasks\n"}
+,{"stream_name":"stdout","time":42.432683499,"data":"  subtractive: 8 tasks\n"}
+,{"stream_name":"stdout","time":42.802812747,"data":"Identity / near-identity tasks (\u003c 0.1% pixels change): 0\n"}
+,{"stream_name":"stdout","time":42.932451248,"data":"Symmetry/pattern test functions defined\n"}
+,{"stream_name":"stdout","time":43.152819386,"data":"Tiling tasks detected:     3\n"}
+,{"stream_name":"stdout","time":43.152884212,"data":"Scaling tasks detected:    4\n"}
+,{"stream_name":"stdout","time":43.152892303,"data":"Reflection/rotation tasks: 5\n"}
+,{"stream_name":"stdout","time":43.152898887,"data":"Inputs with H-symmetry:    17\n"}
+,{"stream_name":"stdout","time":43.152904495,"data":"Inputs with V-symmetry:    18\n"}
+,{"stream_name":"stdout","time":43.152910043,"data":"\n"}
+,{"stream_name":"stdout","time":43.152915289,"data":"Tiling examples:\n"}
+,{"stream_name":"stdout","time":43.152920509,"data":"  Task 124: tile factor = (2, 1)\n"}
+,{"stream_name":"stdout","time":43.152926668,"data":"  Task 231: tile factor = (1, 2)\n"}
+,{"stream_name":"stdout","time":43.152933063,"data":"  Task 249: tile factor = (1, 2)\n"}
+,{"stream_name":"stdout","time":43.152939048,"data":"\n"}
+,{"stream_name":"stdout","time":43.15294426,"data":"Scaling examples:\n"}
+,{"stream_name":"stdout","time":43.152953303,"data":"  Task 223: scale factor = 3\n"}
+,{"stream_name":"stdout","time":43.15295987,"data":"  Task 269: scale factor = 5\n"}
+,{"stream_name":"stdout","time":43.152980955,"data":"  Task 289: scale factor = 4\n"}
+,{"stream_name":"stdout","time":43.152987178,"data":"  Task 307: scale factor = 2\n"}
+,{"stream_name":"stdout","time":46.617797119,"data":"Size-consistent tasks (all examples same grid dims): 190 / 400\n"}
+,{"stream_name":"stdout","time":46.617839476,"data":"Color-consistent tasks (same color palette):         119 / 400\n"}
+,{"stream_name":"stdout","time":46.893401997,"data":"High-variance tasks (top 10%, \u003e 0.1987): 13\n"}
+,{"stream_name":"stdout","time":46.893451797,"data":"  Examples: [47, 53, 68, 95, 125, 129, 222, 229, 282, 283, 317, 362, 380]\n"}
+,{"stream_name":"stdout","time":46.893459025,"data":"Low-variance tasks (bottom 10%): 13\n"}
+,{"stream_name":"stdout","time":46.893464188,"data":"  Examples: [16, 20, 27, 28, 35, 52, 102, 167, 182, 214, 262, 314, 373]\n"}
+,{"stream_name":"stdout","time":46.893468868,"data":"\n"}
+,{"stream_name":"stdout","time":46.893473072,"data":"Low-variance = prime candidates for simple single-layer Conv2D.\n"}
+,{"stream_name":"stdout","time":46.893477758,"data":"High-variance = likely need more complex architectures.\n"}
+,{"stream_name":"stdout","time":48.243580451,"data":"Feature matrix: 400 tasks x 13 features\n"}
+,{"stream_name":"stdout","time":48.445529655,"data":"PCA explained variance: 16.89% + 15.13% = 32.02%\n"}
+,{"stream_name":"stdout","time":48.680109656,"data":"Cluster 0: 187 tasks -- examples: [1, 4, 6, 7, 12, 14, 15, 16]\n"}
+,{"stream_name":"stdout","time":48.680171292,"data":"Cluster 1: 6 tasks -- examples: [221, 223, 269, 289, 307, 398]\n"}
+,{"stream_name":"stdout","time":48.680178244,"data":"Cluster 2: 3 tasks -- examples: [124, 231, 249]\n"}
+,{"stream_name":"stdout","time":48.680184036,"data":"Cluster 3: 107 tasks -- examples: [2, 3, 8, 10, 11, 23, 24, 27]\n"}
+,{"stream_name":"stdout","time":48.680189071,"data":"Cluster 4: 72 tasks -- examples: [5, 9, 13, 17, 18, 21, 25, 33]\n"}
+,{"stream_name":"stdout","time":48.680193988,"data":"Cluster 5: 5 tasks -- examples: [87, 140, 150, 155, 380]\n"}
+,{"stream_name":"stdout","time":48.680199127,"data":"Cluster 6: 20 tasks -- examples: [53, 56, 58, 73, 104, 171, 176, 200]\n"}
+,{"stream_name":"stdout","time":49.222814638,"data":"Top 10 EASIEST tasks:\n"}
+,{"stream_name":"stdout","time":49.222858727,"data":"  Task 027: difficulty=0.007 (colors=3, change=0.048)\n"}
+,{"stream_name":"stdout","time":49.222865633,"data":"  Task 081: difficulty=0.008 (colors=3, change=0.049)\n"}
+,{"stream_name":"stdout","time":49.222870685,"data":"  Task 102: difficulty=0.011 (colors=3, change=0.025)\n"}
+,{"stream_name":"stdout","time":49.222875488,"data":"  Task 042: difficulty=0.014 (colors=3, change=0.040)\n"}
+,{"stream_name":"stdout","time":49.222881329,"data":"  Task 150: difficulty=0.018 (colors=4, change=0.669)\n"}
+,{"stream_name":"stdout","time":49.222886776,"data":"  Task 356: difficulty=0.022 (colors=2, change=0.065)\n"}
+,{"stream_name":"stdout","time":49.222892122,"data":"  Task 136: difficulty=0.030 (colors=3, change=0.058)\n"}
+,{"stream_name":"stdout","time":49.22289721,"data":"  Task 181: difficulty=0.033 (colors=3, change=0.087)\n"}
+,{"stream_name":"stdout","time":49.222901953,"data":"  Task 273: difficulty=0.040 (colors=3, change=0.071)\n"}
+,{"stream_name":"stdout","time":49.222906887,"data":"  Task 363: difficulty=0.045 (colors=3, change=0.074)\n"}
+,{"stream_name":"stdout","time":49.222911687,"data":"\n"}
+,{"stream_name":"stdout","time":49.222916555,"data":"Top 10 HARDEST tasks:\n"}
+,{"stream_name":"stdout","time":49.222921991,"data":"  Task 233: difficulty=0.606 (colors=10, change=N/A)\n"}
+,{"stream_name":"stdout","time":49.22292708,"data":"  Task 377: difficulty=0.612 (colors=9, change=N/A)\n"}
+,{"stream_name":"stdout","time":49.222952076,"data":"  Task 184: difficulty=0.613 (colors=10, change=N/A)\n"}
+,{"stream_name":"stdout","time":49.222955152,"data":"  Task 400: difficulty=0.615 (colors=10, change=N/A)\n"}
+,{"stream_name":"stdout","time":49.222957587,"data":"  Task 170: difficulty=0.621 (colors=10, change=N/A)\n"}
+,{"stream_name":"stdout","time":49.222959951,"data":"  Task 134: difficulty=0.627 (colors=10, change=N/A)\n"}
+,{"stream_name":"stdout","time":49.222962305,"data":"  Task 310: difficulty=0.627 (colors=10, change=N/A)\n"}
+,{"stream_name":"stdout","time":49.222964731,"data":"  Task 021: difficulty=0.674 (colors=9, change=N/A)\n"}
+,{"stream_name":"stdout","time":49.222967304,"data":"  Task 185: difficulty=0.679 (colors=10, change=N/A)\n"}
+,{"stream_name":"stdout","time":49.222969693,"data":"  Task 036: difficulty=0.705 (colors=10, change=N/A)\n"}
+,{"stream_name":"stdout","time":49.504472602999996,"data":"Difficulty stats: min=0.007, max=0.705, mean=0.283, median=0.247\n"}
+,{"stream_name":"stdout","time":49.737232306,"data":"Tasks plausibly solvable with single Conv2D: 218 / 400\n"}
+,{"stream_name":"stdout","time":49.737284022,"data":"Tasks likely needing more complex architecture: 182\n"}
+,{"stream_name":"stdout","time":49.987505793,"data":"Kernel size breakdown (same-size tasks):\n"}
+,{"stream_name":"stdout","time":49.987542475,"data":"  kernel=3: 23 tasks\n"}
+,{"stream_name":"stdout","time":49.98754774,"data":"  kernel=5: 22 tasks\n"}
+,{"stream_name":"stdout","time":49.987551538,"data":"  kernel=7: 30 tasks\n"}
+,{"stream_name":"stdout","time":49.987555288,"data":"  kernel=9: 58 tasks\n"}
+,{"stream_name":"stdout","time":49.987559403,"data":"  kernel=11: 40 tasks\n"}
+,{"stream_name":"stdout","time":49.987563647,"data":"  kernel=13: 22 tasks\n"}
+,{"stream_name":"stdout","time":49.987567761,"data":"  kernel=15: 23 tasks\n"}
+,{"stream_name":"stdout","time":49.987571583,"data":"  kernel=17: 14 tasks\n"}
+,{"stream_name":"stdout","time":49.987575176,"data":"  kernel=19: 14 tasks\n"}
+,{"stream_name":"stdout","time":49.987578847,"data":"  kernel=21: 5 tasks\n"}
+,{"stream_name":"stdout","time":49.987582457,"data":"  kernel=23: 2 tasks\n"}
+,{"stream_name":"stdout","time":49.987586122,"data":"  kernel=25: 2 tasks\n"}
+,{"stream_name":"stdout","time":49.987589597,"data":"  kernel=27: 4 tasks\n"}
+,{"stream_name":"stdout","time":49.987593062,"data":"  kernel=29: 1 tasks\n"}
+,{"stream_name":"stdout","time":49.987596786,"data":"  kernel=31: 2 tasks\n"}
+,{"stream_name":"stdout","time":50.047675313,"data":"Why tasks fail the Conv2D feasibility test:\n"}
+,{"stream_name":"stdout","time":50.047715214,"data":"  Size change (in != out): 138 tasks\n"}
+,{"stream_name":"stdout","time":50.047725128,"data":"  Kernel \u003e 15 (global context needed): 44 tasks\n"}
+,{"stream_name":"stdout","time":50.212409677,"data":"Visualization helper defined\n"}
+,{"stream_name":"stderr","time":64.914739394,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":64.914790665,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":65.13491204,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":65.134951372,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":66.445236539,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":66.865532716,"data":"[NbConvertApp] Writing 2316870 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":69.6635636,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":70.88846405,"data":"[NbConvertApp] Support files will be in __results___files/\n"}
+,{"stream_name":"stderr","time":70.888528289,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.888856728,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.889072415,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.889335308,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.889601964,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.889785516,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.890000096,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.890176058,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.890431912,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.890716892,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.890915389,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.891098331,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.891358886,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.891567776,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.891754365,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.891926206,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.89210227,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.892296254,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.892592558,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.892791367,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.892967556,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.893165772,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.893351327,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.893578857,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.893766511,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.894041437,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.894235932,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.894406149,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.894623919,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.894804833,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.895022486,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.895249514,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.895433551,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.895639342,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.895852679,"data":"[NbConvertApp] Making directory __results___files\n"}
+,{"stream_name":"stderr","time":70.896104001,"data":"[NbConvertApp] Writing 772965 bytes to __results__.html\n"}
+]

@@ -1,16 +1,21 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-09T22:38:15
+captured_at: 2026-06-11T22:50:28
 selected submissions: unavailable via CLI
-current best public: 6292.44
+current best public: 6292.94
 target public: 7800.0
-gap to target: 1507.5600000000004
-current best exp_id: GOLF_20260609_078_stack_galaxy021
-current best submission id: 53508290
+gap to target: 1507.0600000000004
+current best exp_id: GOLF_20260610_081_simple_exact_batch_medium_10
+current best submission id: 53572348
 
 | ref | exp_id | date | status | public_score |
 | --- | --- | --- | --- | --- |
-| 53508370 | GOLF_20260609_079_stack_galaxy301 | 2026-06-09 14:36:54.690000 | SubmissionStatus.PENDING |  |
+| 53572449 | GOLF_20260610_082_simple_exact_batch_aggressive_20 | 2026-06-11 14:50:21.220000 | SubmissionStatus.PENDING |  |
+| 53572424 | GOLF_20260610_080_simple_exact_batch_conservative_5 | 2026-06-11 14:49:28.320000 | SubmissionStatus.PENDING |  |
+| 53572348 | GOLF_20260610_081_simple_exact_batch_medium_10 | 2026-06-11 14:47:53.283000 | SubmissionStatus.COMPLETE | 6292.94 |
+| 53509444 | GOLF_20260609_081_stack_galaxy203 | 2026-06-09 15:23:15.847000 | SubmissionStatus.COMPLETE | 6292.58 |
+| 53509284 | GOLF_20260609_080_stack_galaxy342 | 2026-06-09 15:15:30.917000 | SubmissionStatus.COMPLETE | 6292.54 |
+| 53508370 | GOLF_20260609_079_stack_galaxy301 | 2026-06-09 14:36:54.690000 | SubmissionStatus.COMPLETE | 6292.50 |
 | 53508290 | GOLF_20260609_078_stack_galaxy021 | 2026-06-09 14:33:54.700000 | SubmissionStatus.COMPLETE | 6292.44 |
 | 53508229 | GOLF_20260609_077_stack_galaxy332 | 2026-06-09 14:31:40.957000 | SubmissionStatus.COMPLETE | 6292.37 |
 | 53508093 | GOLF_20260609_076_stack_galaxy313 | 2026-06-09 14:26:32.070000 | SubmissionStatus.COMPLETE | 6292.27 |
@@ -55,8 +60,3 @@ current best submission id: 53508290
 | 53492627 | GOLF_20260608_037_rogermt_task062_optimized_probe | 2026-06-09 02:36:58.140000 | SubmissionStatus.COMPLETE | 6272.54 |
 | 53492430 | GOLF_20260608_038_rogermt_task243_optimized_probe | 2026-06-09 02:25:49.163000 | SubmissionStatus.COMPLETE | 6272.19 |
 | 53492101 | GOLF_20260608_036_rogermt_task020_optimized_probe | 2026-06-09 02:09:41.117000 | SubmissionStatus.COMPLETE | 6275.07 |
-| 53491613 | GOLF_20260608_034_rogermt_6273_full_replace | 2026-06-09 01:41:29.470000 | SubmissionStatus.COMPLETE | 6272.50 |
-| 53485394 | GOLF_20260608_032_biohack_best_blend_max_full | 2026-06-08 18:04:07.707000 | SubmissionStatus.COMPLETE | 6255.14 |
-| 53484663 | GOLF_20260608_031_beicicc_inline_396_mix | 2026-06-08 17:24:22.643000 | SubmissionStatus.COMPLETE | 5043.59 |
-| 53484027 | GOLF_20260608_029_seddik_surgery_6272 | 2026-06-08 16:53:13.543000 | SubmissionStatus.COMPLETE | 6272.60 |
-| 53483583 | GOLF_20260608_028_jonathan_task025_probe | 2026-06-08 16:28:43.427000 | SubmissionStatus.COMPLETE | 6259.35 |

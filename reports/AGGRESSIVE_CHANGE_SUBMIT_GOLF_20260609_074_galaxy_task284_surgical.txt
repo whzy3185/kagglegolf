@@ -1,0 +1,4 @@
+exp_id=GOLF_20260609_074_galaxy_task284_surgical
+AGS=0.550700
+classification=strong
+submission_gate_pass=true

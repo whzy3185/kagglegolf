@@ -1,0 +1,4 @@
+exp_id=GOLF_20260609_057_arc_dsl_task310_least_color_crop
+AGS=0.674339
+classification=aggressive
+submission_gate_pass=true

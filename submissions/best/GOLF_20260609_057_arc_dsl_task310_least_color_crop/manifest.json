@@ -1,0 +1,15 @@
+{
+  "exp_id": "GOLF_20260609_057_arc_dsl_task310_least_color_crop",
+  "score": 6288.04,
+  "submission_id": "53497538",
+  "status": "complete",
+  "source_ids": [
+    "SRC_KAGGLE_NOTEBOOK_SEDDIK_SURGICAL_ONNX",
+    "SRC_KAGGLE_NOTEBOOK_KOJIMAR_6272_AUDITED_OVERRIDES"
+  ],
+  "package_sha256": "b500baa72993bebd1d6a8778542532dbe75c62ae2799ac4f765207f13a42681c",
+  "notebook_output_match": "400/400",
+  "local_validation": "pass",
+  "examples_checked": 1200,
+  "examples_failed": 0
+}

@@ -1,0 +1,36 @@
+batch_policy:
+  batch_sizes: [5, 10, 20]
+  max_tasks_per_candidate: 20
+  require_train_pass_rate: 1.0
+  require_local_validation: true
+  require_evidence_gate: true
+  require_ags_gate: true
+  submit_all_hard_gate_eligible: true
+
+batch_groups:
+  conservative:
+    max_tasks: 5
+    risk: low
+    include_only:
+      - identity
+      - rotate180
+      - mirror
+      - crop_bbox
+      - upscale
+
+  medium:
+    max_tasks: 10
+    risk: medium
+    include_only:
+      - remove_isolated_pixels
+      - object_crop
+      - color_canvas
+      - hconcat
+      - vconcat
+      - simple_fill
+
+  aggressive:
+    max_tasks: 20
+    risk: medium
+    include:
+      - all_simple_exact_tasks

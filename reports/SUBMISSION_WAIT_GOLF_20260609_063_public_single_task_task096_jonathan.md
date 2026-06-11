@@ -1,10 +1,10 @@
 # Submission Wait: GOLF_20260609_063_public_single_task_task096_jonathan
 
-updated_at: 2026-06-09T20:53:05
-outcome: SubmissionStatus.PENDING
+updated_at: 2026-06-09T20:55:59
+outcome: complete
 submission_id: 53505684
-status: SubmissionStatus.PENDING
-public_score: 
+status: SubmissionStatus.COMPLETE
+public_score: 6277.86
 
 ## Poll Events
 
@@ -13,3 +13,4 @@ public_score:
 | 2026-06-09T20:52:27 | SubmissionStatus.PENDING |  | 53505684 |
 | 2026-06-09T20:52:44 | SubmissionStatus.PENDING |  | 53505684 |
 | 2026-06-09T20:53:05 | SubmissionStatus.PENDING |  | 53505684 |
+| 2026-06-09T20:55:59 | SubmissionStatus.COMPLETE | 6277.86 | 53505684 |

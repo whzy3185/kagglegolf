@@ -1,14 +1,14 @@
 # Evidence Gate Status
 
-checked_at: 2026-06-09T22:36:05
+checked_at: 2026-06-11T22:49:37
 strict_mode: true
 
 ## Summary
 
 | metric | value |
 |---|---:|
-| total_experiments | 78 |
-| pass | 78 |
+| total_experiments | 83 |
+| pass | 83 |
 | fail | 0 |
 | exempt | 0 |
 
@@ -105,6 +105,11 @@ None.
 - GOLF_20260609_077_stack_galaxy332
 - GOLF_20260609_078_stack_galaxy021
 - GOLF_20260609_079_stack_galaxy301
+- GOLF_20260609_080_stack_galaxy342
+- GOLF_20260609_081_stack_galaxy203
+- GOLF_20260610_080_simple_exact_batch_conservative_5
+- GOLF_20260610_081_simple_exact_batch_medium_10
+- GOLF_20260610_082_simple_exact_batch_aggressive_20
 
 ## Exempt Experiments
 

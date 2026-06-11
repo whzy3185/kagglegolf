@@ -1,0 +1,29 @@
+{
+  "exp_id": "GOLF_20260609_075_stack_task067_task129_galaxy284",
+  "score": 6292.1,
+  "submission_id": "53507998",
+  "status": "complete",
+  "source_ids": [
+    "SRC_KAGGLE_NOTEBOOK_GALAXY_PUBLIC_ARTIFACT_V1",
+    "SRC_ARC_PRIZE_2024_REPORT",
+    "SRC_ARC_DSL_GITHUB",
+    "SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP"
+  ],
+  "package_sha256": "72ff0369f29fbc9dfe7fe45d1d3983f1a8a142a408b59d49663351aa107308b3",
+  "direction_id": "DIR_20260608_001_public_highscore_harvest",
+  "primary_source_id": "SRC_KAGGLE_NOTEBOOK_GALAXY_PUBLIC_ARTIFACT_V1",
+  "leaderboard_source_id": "SRC_KAGGLE_NOTEBOOK_GALAXY_PUBLIC_ARTIFACT_V1",
+  "paper_source_id": "SRC_ARC_PRIZE_2024_REPORT",
+  "open_repo_source_id": "SRC_ARC_DSL_GITHUB",
+  "historical_competition_source_id": "SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP",
+  "risk": "medium",
+  "changed_tasks": [
+    "task284"
+  ],
+  "local_validation": "pass",
+  "examples_checked": 1200,
+  "examples_failed": 0,
+  "notebook_output_match": "400/400",
+  "aggressive_change_score": 0.5506997533160022,
+  "aggressive_change_classification": "strong"
+}

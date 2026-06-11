@@ -1,0 +1,4 @@
+exp_id=GOLF_20260609_059_arc_dsl_task278_size_two_outbox
+AGS=0.781807
+classification=aggressive
+submission_gate_pass=true

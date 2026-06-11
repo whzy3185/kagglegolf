@@ -1,0 +1,4 @@
+exp_id=GOLF_20260608_047b_vyanktesh_except_task133
+AGS=0.614467
+classification=strong
+submission_gate_pass=true

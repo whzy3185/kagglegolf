@@ -1,0 +1,4 @@
+exp_id=GOLF_20260609_071_arc_dsl_task067_first_hsplit
+AGS=0.671612
+classification=aggressive
+submission_gate_pass=true

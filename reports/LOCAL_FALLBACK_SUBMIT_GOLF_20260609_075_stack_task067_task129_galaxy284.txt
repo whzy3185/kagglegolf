@@ -1,0 +1,5 @@
+
+  0%|          | 0.00/729k [00:00<?, ?B/s]
+  2%|▏         | 16.0k/729k [00:00<00:23, 31.1kB/s]
+100%|██████████| 729k/729k [00:13<00:00, 56.1kB/s] 
+Successfully submitted to The 2026 NeuroGolf Championship
