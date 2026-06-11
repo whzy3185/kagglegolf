@@ -1,6 +1,6 @@
 # Submit Eligibility
 
-checked_at: 2026-06-11T22:46:29
+checked_at: 2026-06-11T22:57:18
 policy: hard gates decide eligibility; soft penalties only order submissions.
 
 | exp_id | eligible | hard_gate_status | soft_penalties | submit_order | reason |
@@ -84,6 +84,10 @@ policy: hard gates decide eligibility; soft penalties only order submissions.
 | GOLF_20260609_079_stack_galaxy301 | false | already_submitted | not_applicable |  | hard_gate_blocked |
 | GOLF_20260609_080_stack_galaxy342 | false | already_submitted | not_applicable |  | hard_gate_blocked |
 | GOLF_20260609_081_stack_galaxy203 | false | already_submitted | not_applicable |  | hard_gate_blocked |
-| GOLF_20260610_080_simple_exact_batch_conservative_5 | true | pass | known_bad_family_penalty, recent_negative_source_penalty | 2 | eligible; soft penalties do not block |
-| GOLF_20260610_081_simple_exact_batch_medium_10 | true | pass | recent_negative_source_penalty | 1 | eligible; soft penalties do not block |
-| GOLF_20260610_082_simple_exact_batch_aggressive_20 | true | pass | known_bad_family_penalty, low_selection_score, recent_negative_source_penalty | 3 | eligible; soft penalties do not block |
+| GOLF_20260610_080_simple_exact_batch_conservative_5 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260610_081_simple_exact_batch_medium_10 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260610_082_simple_exact_batch_aggressive_20 | false | already_submitted | not_applicable |  | hard_gate_blocked |
+| GOLF_20260610_081_simple_exact_batch_080_A2 | true | pass | known_bad_family_penalty, recent_negative_source_penalty | 3 | eligible; soft penalties do not block |
+| GOLF_20260610_082_simple_exact_batch_080_B3 | true | pass | known_bad_family_penalty, recent_negative_source_penalty | 1 | eligible; soft penalties do not block |
+| GOLF_20260610_083_simple_exact_batch_082_A5 | true | pass | known_bad_family_penalty, recent_negative_source_penalty | 2 | eligible; soft penalties do not block |
+| GOLF_20260610_084_simple_exact_batch_082_B6 | true | pass | known_bad_family_penalty, low_selection_score, recent_negative_source_penalty | 4 | eligible; soft penalties do not block |

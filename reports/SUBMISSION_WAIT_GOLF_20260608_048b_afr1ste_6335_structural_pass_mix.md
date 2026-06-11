@@ -1,10 +1,10 @@
 # Submission Wait: GOLF_20260608_048b_afr1ste_6335_structural_pass_mix
 
-updated_at: 2026-06-09T12:26:37
-outcome: pending_timeout
+updated_at: 2026-06-11T22:55:14
+outcome: complete
 submission_id: 53494549
-status: pending_timeout
-public_score: 
+status: SubmissionStatus.COMPLETE
+public_score: 4894.51
 
 ## Poll Events
 
@@ -21,3 +21,4 @@ public_score:
 | 2026-06-09T12:25:37 | SubmissionStatus.PENDING |  | 53494549 |
 | 2026-06-09T12:26:07 | SubmissionStatus.PENDING |  | 53494549 |
 | 2026-06-09T12:26:37 | SubmissionStatus.PENDING |  | 53494549 |
+| 2026-06-11T22:55:14 | SubmissionStatus.COMPLETE | 4894.51 | 53494549 |

@@ -10,8 +10,11 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
-| 53572449 | GOLF_20260610_082_simple_exact_batch_aggressive_20 | SubmissionStatus.PENDING |  |
-| 53572424 | GOLF_20260610_080_simple_exact_batch_conservative_5 | SubmissionStatus.PENDING |  |
+| 53572779 | GOLF_20260610_081_simple_exact_batch_080_A2 | SubmissionStatus.PENDING |  |
+| 53572747 | GOLF_20260610_083_simple_exact_batch_082_A5 | SubmissionStatus.PENDING |  |
+| 53572697 | GOLF_20260610_082_simple_exact_batch_080_B3 | SubmissionStatus.COMPLETE | 6283.90 |
+| 53572449 | GOLF_20260610_082_simple_exact_batch_aggressive_20 | SubmissionStatus.COMPLETE | 6268.28 |
+| 53572424 | GOLF_20260610_080_simple_exact_batch_conservative_5 | SubmissionStatus.COMPLETE | 6281.07 |
 | 53572348 | GOLF_20260610_081_simple_exact_batch_medium_10 | SubmissionStatus.COMPLETE | 6292.94 |
 | 53509444 | GOLF_20260609_081_stack_galaxy203 | SubmissionStatus.COMPLETE | 6292.58 |
 | 53509284 | GOLF_20260609_080_stack_galaxy342 | SubmissionStatus.COMPLETE | 6292.54 |
@@ -57,6 +60,3 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 | 53493032 | GOLF_20260608_043_rogermt_task208_after020_probe | SubmissionStatus.COMPLETE | 6275.74 |
 | 53492927 | GOLF_20260608_042_rogermt_task159_after020_probe | SubmissionStatus.COMPLETE | 6276.54 |
 | 53492734 | GOLF_20260608_035_rogermt_task255_optimized_probe | SubmissionStatus.COMPLETE | 6273.55 |
-| 53492627 | GOLF_20260608_037_rogermt_task062_optimized_probe | SubmissionStatus.COMPLETE | 6272.54 |
-| 53492430 | GOLF_20260608_038_rogermt_task243_optimized_probe | SubmissionStatus.COMPLETE | 6272.19 |
-| 53492101 | GOLF_20260608_036_rogermt_task020_optimized_probe | SubmissionStatus.COMPLETE | 6275.07 |

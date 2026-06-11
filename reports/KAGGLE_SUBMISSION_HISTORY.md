@@ -1,6 +1,6 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-11T22:50:28
+captured_at: 2026-06-11T23:01:51
 selected submissions: unavailable via CLI
 current best public: 6292.94
 target public: 7800.0
@@ -10,8 +10,11 @@ current best submission id: 53572348
 
 | ref | exp_id | date | status | public_score |
 | --- | --- | --- | --- | --- |
-| 53572449 | GOLF_20260610_082_simple_exact_batch_aggressive_20 | 2026-06-11 14:50:21.220000 | SubmissionStatus.PENDING |  |
-| 53572424 | GOLF_20260610_080_simple_exact_batch_conservative_5 | 2026-06-11 14:49:28.320000 | SubmissionStatus.PENDING |  |
+| 53572779 | GOLF_20260610_081_simple_exact_batch_080_A2 | 2026-06-11 15:01:41.880000 | SubmissionStatus.PENDING |  |
+| 53572747 | GOLF_20260610_083_simple_exact_batch_082_A5 | 2026-06-11 15:00:25.027000 | SubmissionStatus.PENDING |  |
+| 53572697 | GOLF_20260610_082_simple_exact_batch_080_B3 | 2026-06-11 14:58:34.287000 | SubmissionStatus.COMPLETE | 6283.90 |
+| 53572449 | GOLF_20260610_082_simple_exact_batch_aggressive_20 | 2026-06-11 14:50:21.220000 | SubmissionStatus.COMPLETE | 6268.28 |
+| 53572424 | GOLF_20260610_080_simple_exact_batch_conservative_5 | 2026-06-11 14:49:28.320000 | SubmissionStatus.COMPLETE | 6281.07 |
 | 53572348 | GOLF_20260610_081_simple_exact_batch_medium_10 | 2026-06-11 14:47:53.283000 | SubmissionStatus.COMPLETE | 6292.94 |
 | 53509444 | GOLF_20260609_081_stack_galaxy203 | 2026-06-09 15:23:15.847000 | SubmissionStatus.COMPLETE | 6292.58 |
 | 53509284 | GOLF_20260609_080_stack_galaxy342 | 2026-06-09 15:15:30.917000 | SubmissionStatus.COMPLETE | 6292.54 |
@@ -57,6 +60,3 @@ current best submission id: 53572348
 | 53493032 | GOLF_20260608_043_rogermt_task208_after020_probe | 2026-06-09 03:00:58.310000 | SubmissionStatus.COMPLETE | 6275.74 |
 | 53492927 | GOLF_20260608_042_rogermt_task159_after020_probe | 2026-06-09 02:54:59.223000 | SubmissionStatus.COMPLETE | 6276.54 |
 | 53492734 | GOLF_20260608_035_rogermt_task255_optimized_probe | 2026-06-09 02:43:01.463000 | SubmissionStatus.COMPLETE | 6273.55 |
-| 53492627 | GOLF_20260608_037_rogermt_task062_optimized_probe | 2026-06-09 02:36:58.140000 | SubmissionStatus.COMPLETE | 6272.54 |
-| 53492430 | GOLF_20260608_038_rogermt_task243_optimized_probe | 2026-06-09 02:25:49.163000 | SubmissionStatus.COMPLETE | 6272.19 |
-| 53492101 | GOLF_20260608_036_rogermt_task020_optimized_probe | 2026-06-09 02:09:41.117000 | SubmissionStatus.COMPLETE | 6275.07 |

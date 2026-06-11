@@ -1,14 +1,14 @@
 # Evidence Gate Status
 
-checked_at: 2026-06-11T22:49:37
+checked_at: 2026-06-11T23:00:35
 strict_mode: true
 
 ## Summary
 
 | metric | value |
 |---|---:|
-| total_experiments | 83 |
-| pass | 83 |
+| total_experiments | 87 |
+| pass | 87 |
 | fail | 0 |
 | exempt | 0 |
 
@@ -110,6 +110,10 @@ None.
 - GOLF_20260610_080_simple_exact_batch_conservative_5
 - GOLF_20260610_081_simple_exact_batch_medium_10
 - GOLF_20260610_082_simple_exact_batch_aggressive_20
+- GOLF_20260610_081_simple_exact_batch_080_A2
+- GOLF_20260610_082_simple_exact_batch_080_B3
+- GOLF_20260610_083_simple_exact_batch_082_A5
+- GOLF_20260610_084_simple_exact_batch_082_B6
 
 ## Exempt Experiments
 

@@ -1,10 +1,10 @@
 # Submission Wait: GOLF_20260608_041_rogermt_task153_after020_probe
 
-updated_at: 2026-06-09T11:20:44
-outcome: pending_timeout
+updated_at: 2026-06-11T22:55:14
+outcome: complete
 submission_id: 53493248
-status: pending_timeout
-public_score: 
+status: SubmissionStatus.COMPLETE
+public_score: 6275.05
 
 ## Poll Events
 
@@ -21,3 +21,4 @@ public_score:
 | 2026-06-09T11:19:44 | SubmissionStatus.PENDING |  | 53493248 |
 | 2026-06-09T11:20:14 | SubmissionStatus.PENDING |  | 53493248 |
 | 2026-06-09T11:20:44 | SubmissionStatus.PENDING |  | 53493248 |
+| 2026-06-11T22:55:14 | SubmissionStatus.COMPLETE | 6275.05 | 53493248 |
