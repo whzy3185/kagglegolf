@@ -1,0 +1,1654 @@
+{
+  "exp_id": "GOLF_20260610_082_simple_exact_batch_081_A1",
+  "created_at": "2026-06-11T23:04:57",
+  "base": "submissions/candidates/GOLF_20260609_078_stack_galaxy021",
+  "base_exp_id": "GOLF_20260609_078_stack_galaxy021",
+  "parent_exp_id": "GOLF_20260609_078_stack_galaxy021",
+  "source_id": "SRC_ARC_DSL_GITHUB",
+  "primary_source_id": "SRC_ARC_DSL_GITHUB",
+  "direction_id": "DIR_20260610_001_simple_exact_batch_replacement",
+  "leaderboard_source_id": "SRC_DISCUSSION_AGENT_HARNESS_6580",
+  "paper_source_id": "SRC_ARC_PRIZE_2024_REPORT",
+  "open_repo_source_id": "SRC_ARC_DSL_GITHUB",
+  "historical_competition_source_id": "SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP",
+  "evidence_gate_status": "pass",
+  "risk": "low",
+  "changed_tasks": [
+    "task031"
+  ],
+  "changed_task_count": 1,
+  "rule_family_list": [
+    "crop"
+  ],
+  "rule_name_list": [
+    "crop_nonzero_bbox"
+  ],
+  "source_basis": "simple exact train-rule bank generated from official task JSON",
+  "exact_solve_evidence": [
+    {
+      "task_id": "task031",
+      "rule_name": "crop_nonzero_bbox",
+      "train_pass_rate": "1.0",
+      "local_validation_status": "pass: examples_checked=266; examples_failed=0",
+      "params": {
+        "max_output_height": 7,
+        "max_output_width": 8,
+        "scale": 1
+      }
+    }
+  ],
+  "validation_ok": true,
+  "zip_path": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260610_082_simple_exact_batch_081_A1\\submission.zip",
+  "file_count": 400,
+  "size_bytes": 744241,
+  "sha256": "20d24170d8346d3b6d99311e5fe17b2a48305a8f3781ff787681357b08d780c0",
+  "files": [
+    {
+      "name": "task001.onnx",
+      "size_bytes": 1082
+    },
+    {
+      "name": "task002.onnx",
+      "size_bytes": 14560
+    },
+    {
+      "name": "task003.onnx",
+      "size_bytes": 5000
+    },
+    {
+      "name": "task004.onnx",
+      "size_bytes": 2522
+    },
+    {
+      "name": "task005.onnx",
+      "size_bytes": 10910
+    },
+    {
+      "name": "task006.onnx",
+      "size_bytes": 1124
+    },
+    {
+      "name": "task007.onnx",
+      "size_bytes": 1258
+    },
+    {
+      "name": "task008.onnx",
+      "size_bytes": 7647
+    },
+    {
+      "name": "task009.onnx",
+      "size_bytes": 30956
+    },
+    {
+      "name": "task010.onnx",
+      "size_bytes": 6176
+    },
+    {
+      "name": "task011.onnx",
+      "size_bytes": 10170
+    },
+    {
+      "name": "task012.onnx",
+      "size_bytes": 1951
+    },
+    {
+      "name": "task013.onnx",
+      "size_bytes": 18384
+    },
+    {
+      "name": "task014.onnx",
+      "size_bytes": 5317
+    },
+    {
+      "name": "task015.onnx",
+      "size_bytes": 3774
+    },
+    {
+      "name": "task016.onnx",
+      "size_bytes": 158
+    },
+    {
+      "name": "task017.onnx",
+      "size_bytes": 8017
+    },
+    {
+      "name": "task018.onnx",
+      "size_bytes": 29205
+    },
+    {
+      "name": "task019.onnx",
+      "size_bytes": 2566
+    },
+    {
+      "name": "task020.onnx",
+      "size_bytes": 2552
+    },
+    {
+      "name": "task021.onnx",
+      "size_bytes": 15464
+    },
+    {
+      "name": "task022.onnx",
+      "size_bytes": 5021
+    },
+    {
+      "name": "task023.onnx",
+      "size_bytes": 33105
+    },
+    {
+      "name": "task024.onnx",
+      "size_bytes": 3233
+    },
+    {
+      "name": "task025.onnx",
+      "size_bytes": 13460
+    },
+    {
+      "name": "task026.onnx",
+      "size_bytes": 1309
+    },
+    {
+      "name": "task027.onnx",
+      "size_bytes": 2073
+    },
+    {
+      "name": "task028.onnx",
+      "size_bytes": 2079
+    },
+    {
+      "name": "task029.onnx",
+      "size_bytes": 13589
+    },
+    {
+      "name": "task030.onnx",
+      "size_bytes": 7164
+    },
+    {
+      "name": "task031.onnx",
+      "size_bytes": 2669
+    },
+    {
+      "name": "task032.onnx",
+      "size_bytes": 2347
+    },
+    {
+      "name": "task033.onnx",
+      "size_bytes": 1510
+    },
+    {
+      "name": "task034.onnx",
+      "size_bytes": 8450
+    },
+    {
+      "name": "task035.onnx",
+      "size_bytes": 3707
+    },
+    {
+      "name": "task036.onnx",
+      "size_bytes": 5484
+    },
+    {
+      "name": "task037.onnx",
+      "size_bytes": 20424
+    },
+    {
+      "name": "task038.onnx",
+      "size_bytes": 2559
+    },
+    {
+      "name": "task039.onnx",
+      "size_bytes": 1913
+    },
+    {
+      "name": "task040.onnx",
+      "size_bytes": 4167
+    },
+    {
+      "name": "task041.onnx",
+      "size_bytes": 2110
+    },
+    {
+      "name": "task042.onnx",
+      "size_bytes": 8525
+    },
+    {
+      "name": "task043.onnx",
+      "size_bytes": 1944
+    },
+    {
+      "name": "task044.onnx",
+      "size_bytes": 40820
+    },
+    {
+      "name": "task045.onnx",
+      "size_bytes": 1425
+    },
+    {
+      "name": "task046.onnx",
+      "size_bytes": 5299
+    },
+    {
+      "name": "task047.onnx",
+      "size_bytes": 3091
+    },
+    {
+      "name": "task048.onnx",
+      "size_bytes": 4058
+    },
+    {
+      "name": "task049.onnx",
+      "size_bytes": 3516
+    },
+    {
+      "name": "task050.onnx",
+      "size_bytes": 2006
+    },
+    {
+      "name": "task051.onnx",
+      "size_bytes": 3352
+    },
+    {
+      "name": "task052.onnx",
+      "size_bytes": 986
+    },
+    {
+      "name": "task053.onnx",
+      "size_bytes": 175
+    },
+    {
+      "name": "task054.onnx",
+      "size_bytes": 5551
+    },
+    {
+      "name": "task055.onnx",
+      "size_bytes": 13886
+    },
+    {
+      "name": "task056.onnx",
+      "size_bytes": 815
+    },
+    {
+      "name": "task057.onnx",
+      "size_bytes": 1040
+    },
+    {
+      "name": "task058.onnx",
+      "size_bytes": 14194
+    },
+    {
+      "name": "task059.onnx",
+      "size_bytes": 6897
+    },
+    {
+      "name": "task060.onnx",
+      "size_bytes": 2458
+    },
+    {
+      "name": "task061.onnx",
+      "size_bytes": 17030
+    },
+    {
+      "name": "task062.onnx",
+      "size_bytes": 23218
+    },
+    {
+      "name": "task063.onnx",
+      "size_bytes": 3709
+    },
+    {
+      "name": "task064.onnx",
+      "size_bytes": 7151
+    },
+    {
+      "name": "task065.onnx",
+      "size_bytes": 1853
+    },
+    {
+      "name": "task066.onnx",
+      "size_bytes": 27538
+    },
+    {
+      "name": "task067.onnx",
+      "size_bytes": 671
+    },
+    {
+      "name": "task068.onnx",
+      "size_bytes": 1602
+    },
+    {
+      "name": "task069.onnx",
+      "size_bytes": 30432
+    },
+    {
+      "name": "task070.onnx",
+      "size_bytes": 2215
+    },
+    {
+      "name": "task071.onnx",
+      "size_bytes": 5298
+    },
+    {
+      "name": "task072.onnx",
+      "size_bytes": 1289
+    },
+    {
+      "name": "task073.onnx",
+      "size_bytes": 3825
+    },
+    {
+      "name": "task074.onnx",
+      "size_bytes": 1824
+    },
+    {
+      "name": "task075.onnx",
+      "size_bytes": 6812
+    },
+    {
+      "name": "task076.onnx",
+      "size_bytes": 24619
+    },
+    {
+      "name": "task077.onnx",
+      "size_bytes": 6842
+    },
+    {
+      "name": "task078.onnx",
+      "size_bytes": 1974
+    },
+    {
+      "name": "task079.onnx",
+      "size_bytes": 2695
+    },
+    {
+      "name": "task080.onnx",
+      "size_bytes": 10180
+    },
+    {
+      "name": "task081.onnx",
+      "size_bytes": 3749
+    },
+    {
+      "name": "task082.onnx",
+      "size_bytes": 1638
+    },
+    {
+      "name": "task083.onnx",
+      "size_bytes": 7454
+    },
+    {
+      "name": "task084.onnx",
+      "size_bytes": 2820
+    },
+    {
+      "name": "task085.onnx",
+      "size_bytes": 2547
+    },
+    {
+      "name": "task086.onnx",
+      "size_bytes": 3099
+    },
+    {
+      "name": "task087.onnx",
+      "size_bytes": 394
+    },
+    {
+      "name": "task088.onnx",
+      "size_bytes": 4099
+    },
+    {
+      "name": "task089.onnx",
+      "size_bytes": 11171
+    },
+    {
+      "name": "task090.onnx",
+      "size_bytes": 19660
+    },
+    {
+      "name": "task091.onnx",
+      "size_bytes": 4393
+    },
+    {
+      "name": "task092.onnx",
+      "size_bytes": 3438
+    },
+    {
+      "name": "task093.onnx",
+      "size_bytes": 6234
+    },
+    {
+      "name": "task094.onnx",
+      "size_bytes": 2932
+    },
+    {
+      "name": "task095.onnx",
+      "size_bytes": 3950
+    },
+    {
+      "name": "task096.onnx",
+      "size_bytes": 58657
+    },
+    {
+      "name": "task097.onnx",
+      "size_bytes": 808
+    },
+    {
+      "name": "task098.onnx",
+      "size_bytes": 3836
+    },
+    {
+      "name": "task099.onnx",
+      "size_bytes": 19839
+    },
+    {
+      "name": "task100.onnx",
+      "size_bytes": 4954
+    },
+    {
+      "name": "task101.onnx",
+      "size_bytes": 19538
+    },
+    {
+      "name": "task102.onnx",
+      "size_bytes": 6482
+    },
+    {
+      "name": "task103.onnx",
+      "size_bytes": 979
+    },
+    {
+      "name": "task104.onnx",
+      "size_bytes": 3505
+    },
+    {
+      "name": "task105.onnx",
+      "size_bytes": 8053
+    },
+    {
+      "name": "task106.onnx",
+      "size_bytes": 2939
+    },
+    {
+      "name": "task107.onnx",
+      "size_bytes": 31191
+    },
+    {
+      "name": "task108.onnx",
+      "size_bytes": 7454
+    },
+    {
+      "name": "task109.onnx",
+      "size_bytes": 5257
+    },
+    {
+      "name": "task110.onnx",
+      "size_bytes": 20525
+    },
+    {
+      "name": "task111.onnx",
+      "size_bytes": 1499
+    },
+    {
+      "name": "task112.onnx",
+      "size_bytes": 3987
+    },
+    {
+      "name": "task113.onnx",
+      "size_bytes": 499
+    },
+    {
+      "name": "task114.onnx",
+      "size_bytes": 4671
+    },
+    {
+      "name": "task115.onnx",
+      "size_bytes": 5064
+    },
+    {
+      "name": "task116.onnx",
+      "size_bytes": 479
+    },
+    {
+      "name": "task117.onnx",
+      "size_bytes": 10290
+    },
+    {
+      "name": "task118.onnx",
+      "size_bytes": 4432
+    },
+    {
+      "name": "task119.onnx",
+      "size_bytes": 13392
+    },
+    {
+      "name": "task120.onnx",
+      "size_bytes": 3836
+    },
+    {
+      "name": "task121.onnx",
+      "size_bytes": 3339
+    },
+    {
+      "name": "task122.onnx",
+      "size_bytes": 10236
+    },
+    {
+      "name": "task123.onnx",
+      "size_bytes": 9379
+    },
+    {
+      "name": "task124.onnx",
+      "size_bytes": 2840
+    },
+    {
+      "name": "task125.onnx",
+      "size_bytes": 3012
+    },
+    {
+      "name": "task126.onnx",
+      "size_bytes": 2765
+    },
+    {
+      "name": "task127.onnx",
+      "size_bytes": 3772
+    },
+    {
+      "name": "task128.onnx",
+      "size_bytes": 1997
+    },
+    {
+      "name": "task129.onnx",
+      "size_bytes": 636
+    },
+    {
+      "name": "task130.onnx",
+      "size_bytes": 1310
+    },
+    {
+      "name": "task131.onnx",
+      "size_bytes": 7860
+    },
+    {
+      "name": "task132.onnx",
+      "size_bytes": 2585
+    },
+    {
+      "name": "task133.onnx",
+      "size_bytes": 14130
+    },
+    {
+      "name": "task134.onnx",
+      "size_bytes": 7045
+    },
+    {
+      "name": "task135.onnx",
+      "size_bytes": 251
+    },
+    {
+      "name": "task136.onnx",
+      "size_bytes": 2827
+    },
+    {
+      "name": "task137.onnx",
+      "size_bytes": 2835
+    },
+    {
+      "name": "task138.onnx",
+      "size_bytes": 8806
+    },
+    {
+      "name": "task139.onnx",
+      "size_bytes": 3865
+    },
+    {
+      "name": "task140.onnx",
+      "size_bytes": 394
+    },
+    {
+      "name": "task141.onnx",
+      "size_bytes": 2345
+    },
+    {
+      "name": "task142.onnx",
+      "size_bytes": 7454
+    },
+    {
+      "name": "task143.onnx",
+      "size_bytes": 2144
+    },
+    {
+      "name": "task144.onnx",
+      "size_bytes": 1321
+    },
+    {
+      "name": "task145.onnx",
+      "size_bytes": 19982
+    },
+    {
+      "name": "task146.onnx",
+      "size_bytes": 1894
+    },
+    {
+      "name": "task147.onnx",
+      "size_bytes": 3825
+    },
+    {
+      "name": "task148.onnx",
+      "size_bytes": 6750
+    },
+    {
+      "name": "task149.onnx",
+      "size_bytes": 859
+    },
+    {
+      "name": "task150.onnx",
+      "size_bytes": 863
+    },
+    {
+      "name": "task151.onnx",
+      "size_bytes": 3880
+    },
+    {
+      "name": "task152.onnx",
+      "size_bytes": 7454
+    },
+    {
+      "name": "task153.onnx",
+      "size_bytes": 11725
+    },
+    {
+      "name": "task154.onnx",
+      "size_bytes": 6366
+    },
+    {
+      "name": "task155.onnx",
+      "size_bytes": 851
+    },
+    {
+      "name": "task156.onnx",
+      "size_bytes": 49197
+    },
+    {
+      "name": "task157.onnx",
+      "size_bytes": 267944
+    },
+    {
+      "name": "task158.onnx",
+      "size_bytes": 33661
+    },
+    {
+      "name": "task159.onnx",
+      "size_bytes": 5011
+    },
+    {
+      "name": "task160.onnx",
+      "size_bytes": 2171
+    },
+    {
+      "name": "task161.onnx",
+      "size_bytes": 4323
+    },
+    {
+      "name": "task162.onnx",
+      "size_bytes": 2268
+    },
+    {
+      "name": "task163.onnx",
+      "size_bytes": 11364
+    },
+    {
+      "name": "task164.onnx",
+      "size_bytes": 479
+    },
+    {
+      "name": "task165.onnx",
+      "size_bytes": 4910
+    },
+    {
+      "name": "task166.onnx",
+      "size_bytes": 1318
+    },
+    {
+      "name": "task167.onnx",
+      "size_bytes": 1673
+    },
+    {
+      "name": "task168.onnx",
+      "size_bytes": 4620
+    },
+    {
+      "name": "task169.onnx",
+      "size_bytes": 20785
+    },
+    {
+      "name": "task170.onnx",
+      "size_bytes": 50577
+    },
+    {
+      "name": "task171.onnx",
+      "size_bytes": 3825
+    },
+    {
+      "name": "task172.onnx",
+      "size_bytes": 479
+    },
+    {
+      "name": "task173.onnx",
+      "size_bytes": 10061
+    },
+    {
+      "name": "task174.onnx",
+      "size_bytes": 61839
+    },
+    {
+      "name": "task175.onnx",
+      "size_bytes": 6889
+    },
+    {
+      "name": "task176.onnx",
+      "size_bytes": 1126
+    },
+    {
+      "name": "task177.onnx",
+      "size_bytes": 3189
+    },
+    {
+      "name": "task178.onnx",
+      "size_bytes": 6317
+    },
+    {
+      "name": "task179.onnx",
+      "size_bytes": 170
+    },
+    {
+      "name": "task180.onnx",
+      "size_bytes": 2525
+    },
+    {
+      "name": "task181.onnx",
+      "size_bytes": 3083
+    },
+    {
+      "name": "task182.onnx",
+      "size_bytes": 19158
+    },
+    {
+      "name": "task183.onnx",
+      "size_bytes": 4662
+    },
+    {
+      "name": "task184.onnx",
+      "size_bytes": 43202
+    },
+    {
+      "name": "task185.onnx",
+      "size_bytes": 18881
+    },
+    {
+      "name": "task186.onnx",
+      "size_bytes": 924
+    },
+    {
+      "name": "task187.onnx",
+      "size_bytes": 9705
+    },
+    {
+      "name": "task188.onnx",
+      "size_bytes": 4356
+    },
+    {
+      "name": "task189.onnx",
+      "size_bytes": 10578
+    },
+    {
+      "name": "task190.onnx",
+      "size_bytes": 8781
+    },
+    {
+      "name": "task191.onnx",
+      "size_bytes": 10881
+    },
+    {
+      "name": "task192.onnx",
+      "size_bytes": 2089
+    },
+    {
+      "name": "task193.onnx",
+      "size_bytes": 1925
+    },
+    {
+      "name": "task194.onnx",
+      "size_bytes": 7454
+    },
+    {
+      "name": "task195.onnx",
+      "size_bytes": 5381
+    },
+    {
+      "name": "task196.onnx",
+      "size_bytes": 3491
+    },
+    {
+      "name": "task197.onnx",
+      "size_bytes": 1223
+    },
+    {
+      "name": "task198.onnx",
+      "size_bytes": 6979
+    },
+    {
+      "name": "task199.onnx",
+      "size_bytes": 2948
+    },
+    {
+      "name": "task200.onnx",
+      "size_bytes": 3848
+    },
+    {
+      "name": "task201.onnx",
+      "size_bytes": 9668
+    },
+    {
+      "name": "task202.onnx",
+      "size_bytes": 3582
+    },
+    {
+      "name": "task203.onnx",
+      "size_bytes": 6437
+    },
+    {
+      "name": "task204.onnx",
+      "size_bytes": 7250
+    },
+    {
+      "name": "task205.onnx",
+      "size_bytes": 33601
+    },
+    {
+      "name": "task206.onnx",
+      "size_bytes": 4022
+    },
+    {
+      "name": "task207.onnx",
+      "size_bytes": 1979
+    },
+    {
+      "name": "task208.onnx",
+      "size_bytes": 4971
+    },
+    {
+      "name": "task209.onnx",
+      "size_bytes": 12442
+    },
+    {
+      "name": "task210.onnx",
+      "size_bytes": 479
+    },
+    {
+      "name": "task211.onnx",
+      "size_bytes": 7454
+    },
+    {
+      "name": "task212.onnx",
+      "size_bytes": 6505
+    },
+    {
+      "name": "task213.onnx",
+      "size_bytes": 26793
+    },
+    {
+      "name": "task214.onnx",
+      "size_bytes": 7454
+    },
+    {
+      "name": "task215.onnx",
+      "size_bytes": 1729
+    },
+    {
+      "name": "task216.onnx",
+      "size_bytes": 11027
+    },
+    {
+      "name": "task217.onnx",
+      "size_bytes": 1350
+    },
+    {
+      "name": "task218.onnx",
+      "size_bytes": 9594
+    },
+    {
+      "name": "task219.onnx",
+      "size_bytes": 18397
+    },
+    {
+      "name": "task220.onnx",
+      "size_bytes": 3798
+    },
+    {
+      "name": "task221.onnx",
+      "size_bytes": 13333
+    },
+    {
+      "name": "task222.onnx",
+      "size_bytes": 2578
+    },
+    {
+      "name": "task223.onnx",
+      "size_bytes": 7454
+    },
+    {
+      "name": "task224.onnx",
+      "size_bytes": 4703
+    },
+    {
+      "name": "task225.onnx",
+      "size_bytes": 5688
+    },
+    {
+      "name": "task226.onnx",
+      "size_bytes": 4625
+    },
+    {
+      "name": "task227.onnx",
+      "size_bytes": 1135
+    },
+    {
+      "name": "task228.onnx",
+      "size_bytes": 2649
+    },
+    {
+      "name": "task229.onnx",
+      "size_bytes": 1379
+    },
+    {
+      "name": "task230.onnx",
+      "size_bytes": 3798
+    },
+    {
+      "name": "task231.onnx",
+      "size_bytes": 2684
+    },
+    {
+      "name": "task232.onnx",
+      "size_bytes": 1616
+    },
+    {
+      "name": "task233.onnx",
+      "size_bytes": 312152
+    },
+    {
+      "name": "task234.onnx",
+      "size_bytes": 4106
+    },
+    {
+      "name": "task235.onnx",
+      "size_bytes": 3090
+    },
+    {
+      "name": "task236.onnx",
+      "size_bytes": 643
+    },
+    {
+      "name": "task237.onnx",
+      "size_bytes": 1637
+    },
+    {
+      "name": "task238.onnx",
+      "size_bytes": 12003
+    },
+    {
+      "name": "task239.onnx",
+      "size_bytes": 3146
+    },
+    {
+      "name": "task240.onnx",
+      "size_bytes": 66169
+    },
+    {
+      "name": "task241.onnx",
+      "size_bytes": 170
+    },
+    {
+      "name": "task242.onnx",
+      "size_bytes": 875
+    },
+    {
+      "name": "task243.onnx",
+      "size_bytes": 16567
+    },
+    {
+      "name": "task244.onnx",
+      "size_bytes": 6538
+    },
+    {
+      "name": "task245.onnx",
+      "size_bytes": 2751
+    },
+    {
+      "name": "task246.onnx",
+      "size_bytes": 3824
+    },
+    {
+      "name": "task247.onnx",
+      "size_bytes": 2060
+    },
+    {
+      "name": "task248.onnx",
+      "size_bytes": 8306
+    },
+    {
+      "name": "task249.onnx",
+      "size_bytes": 852
+    },
+    {
+      "name": "task250.onnx",
+      "size_bytes": 12918
+    },
+    {
+      "name": "task251.onnx",
+      "size_bytes": 5106
+    },
+    {
+      "name": "task252.onnx",
+      "size_bytes": 3201
+    },
+    {
+      "name": "task253.onnx",
+      "size_bytes": 3510
+    },
+    {
+      "name": "task254.onnx",
+      "size_bytes": 4960
+    },
+    {
+      "name": "task255.onnx",
+      "size_bytes": 44145
+    },
+    {
+      "name": "task256.onnx",
+      "size_bytes": 4194
+    },
+    {
+      "name": "task257.onnx",
+      "size_bytes": 1369
+    },
+    {
+      "name": "task258.onnx",
+      "size_bytes": 880
+    },
+    {
+      "name": "task259.onnx",
+      "size_bytes": 3882
+    },
+    {
+      "name": "task260.onnx",
+      "size_bytes": 3230
+    },
+    {
+      "name": "task261.onnx",
+      "size_bytes": 995
+    },
+    {
+      "name": "task262.onnx",
+      "size_bytes": 903
+    },
+    {
+      "name": "task263.onnx",
+      "size_bytes": 7373
+    },
+    {
+      "name": "task264.onnx",
+      "size_bytes": 9312
+    },
+    {
+      "name": "task265.onnx",
+      "size_bytes": 2076
+    },
+    {
+      "name": "task266.onnx",
+      "size_bytes": 3825
+    },
+    {
+      "name": "task267.onnx",
+      "size_bytes": 1202
+    },
+    {
+      "name": "task268.onnx",
+      "size_bytes": 20817
+    },
+    {
+      "name": "task269.onnx",
+      "size_bytes": 2336
+    },
+    {
+      "name": "task270.onnx",
+      "size_bytes": 13846
+    },
+    {
+      "name": "task271.onnx",
+      "size_bytes": 1993
+    },
+    {
+      "name": "task272.onnx",
+      "size_bytes": 2039
+    },
+    {
+      "name": "task273.onnx",
+      "size_bytes": 1670
+    },
+    {
+      "name": "task274.onnx",
+      "size_bytes": 3619
+    },
+    {
+      "name": "task275.onnx",
+      "size_bytes": 16304
+    },
+    {
+      "name": "task276.onnx",
+      "size_bytes": 217
+    },
+    {
+      "name": "task277.onnx",
+      "size_bytes": 6687
+    },
+    {
+      "name": "task278.onnx",
+      "size_bytes": 1120
+    },
+    {
+      "name": "task279.onnx",
+      "size_bytes": 10314
+    },
+    {
+      "name": "task280.onnx",
+      "size_bytes": 15536
+    },
+    {
+      "name": "task281.onnx",
+      "size_bytes": 5479
+    },
+    {
+      "name": "task282.onnx",
+      "size_bytes": 3798
+    },
+    {
+      "name": "task283.onnx",
+      "size_bytes": 3825
+    },
+    {
+      "name": "task284.onnx",
+      "size_bytes": 9092
+    },
+    {
+      "name": "task285.onnx",
+      "size_bytes": 37371
+    },
+    {
+      "name": "task286.onnx",
+      "size_bytes": 19719
+    },
+    {
+      "name": "task287.onnx",
+      "size_bytes": 1686
+    },
+    {
+      "name": "task288.onnx",
+      "size_bytes": 5948
+    },
+    {
+      "name": "task289.onnx",
+      "size_bytes": 2021
+    },
+    {
+      "name": "task290.onnx",
+      "size_bytes": 3323
+    },
+    {
+      "name": "task291.onnx",
+      "size_bytes": 6009
+    },
+    {
+      "name": "task292.onnx",
+      "size_bytes": 1065
+    },
+    {
+      "name": "task293.onnx",
+      "size_bytes": 9897
+    },
+    {
+      "name": "task294.onnx",
+      "size_bytes": 3825
+    },
+    {
+      "name": "task295.onnx",
+      "size_bytes": 1889
+    },
+    {
+      "name": "task296.onnx",
+      "size_bytes": 2803
+    },
+    {
+      "name": "task297.onnx",
+      "size_bytes": 3233
+    },
+    {
+      "name": "task298.onnx",
+      "size_bytes": 3322
+    },
+    {
+      "name": "task299.onnx",
+      "size_bytes": 2080
+    },
+    {
+      "name": "task300.onnx",
+      "size_bytes": 4454
+    },
+    {
+      "name": "task301.onnx",
+      "size_bytes": 19261
+    },
+    {
+      "name": "task302.onnx",
+      "size_bytes": 4372
+    },
+    {
+      "name": "task303.onnx",
+      "size_bytes": 1351
+    },
+    {
+      "name": "task304.onnx",
+      "size_bytes": 1879
+    },
+    {
+      "name": "task305.onnx",
+      "size_bytes": 1865
+    },
+    {
+      "name": "task306.onnx",
+      "size_bytes": 4101
+    },
+    {
+      "name": "task307.onnx",
+      "size_bytes": 7454
+    },
+    {
+      "name": "task308.onnx",
+      "size_bytes": 3875
+    },
+    {
+      "name": "task309.onnx",
+      "size_bytes": 217
+    },
+    {
+      "name": "task310.onnx",
+      "size_bytes": 2770
+    },
+    {
+      "name": "task311.onnx",
+      "size_bytes": 479
+    },
+    {
+      "name": "task312.onnx",
+      "size_bytes": 1202
+    },
+    {
+      "name": "task313.onnx",
+      "size_bytes": 3935
+    },
+    {
+      "name": "task314.onnx",
+      "size_bytes": 24532
+    },
+    {
+      "name": "task315.onnx",
+      "size_bytes": 1461
+    },
+    {
+      "name": "task316.onnx",
+      "size_bytes": 5631
+    },
+    {
+      "name": "task317.onnx",
+      "size_bytes": 3798
+    },
+    {
+      "name": "task318.onnx",
+      "size_bytes": 728
+    },
+    {
+      "name": "task319.onnx",
+      "size_bytes": 8028
+    },
+    {
+      "name": "task320.onnx",
+      "size_bytes": 2183
+    },
+    {
+      "name": "task321.onnx",
+      "size_bytes": 2349
+    },
+    {
+      "name": "task322.onnx",
+      "size_bytes": 539
+    },
+    {
+      "name": "task323.onnx",
+      "size_bytes": 2479
+    },
+    {
+      "name": "task324.onnx",
+      "size_bytes": 6861
+    },
+    {
+      "name": "task325.onnx",
+      "size_bytes": 2641
+    },
+    {
+      "name": "task326.onnx",
+      "size_bytes": 251
+    },
+    {
+      "name": "task327.onnx",
+      "size_bytes": 2321
+    },
+    {
+      "name": "task328.onnx",
+      "size_bytes": 10607
+    },
+    {
+      "name": "task329.onnx",
+      "size_bytes": 1652
+    },
+    {
+      "name": "task330.onnx",
+      "size_bytes": 7080
+    },
+    {
+      "name": "task331.onnx",
+      "size_bytes": 3836
+    },
+    {
+      "name": "task332.onnx",
+      "size_bytes": 2514
+    },
+    {
+      "name": "task333.onnx",
+      "size_bytes": 4379
+    },
+    {
+      "name": "task334.onnx",
+      "size_bytes": 889
+    },
+    {
+      "name": "task335.onnx",
+      "size_bytes": 3440
+    },
+    {
+      "name": "task336.onnx",
+      "size_bytes": 5276
+    },
+    {
+      "name": "task337.onnx",
+      "size_bytes": 159
+    },
+    {
+      "name": "task338.onnx",
+      "size_bytes": 8884
+    },
+    {
+      "name": "task339.onnx",
+      "size_bytes": 2038
+    },
+    {
+      "name": "task340.onnx",
+      "size_bytes": 4147
+    },
+    {
+      "name": "task341.onnx",
+      "size_bytes": 8743
+    },
+    {
+      "name": "task342.onnx",
+      "size_bytes": 3200
+    },
+    {
+      "name": "task343.onnx",
+      "size_bytes": 5220
+    },
+    {
+      "name": "task344.onnx",
+      "size_bytes": 10236
+    },
+    {
+      "name": "task345.onnx",
+      "size_bytes": 10079
+    },
+    {
+      "name": "task346.onnx",
+      "size_bytes": 1781
+    },
+    {
+      "name": "task347.onnx",
+      "size_bytes": 1234
+    },
+    {
+      "name": "task348.onnx",
+      "size_bytes": 1950
+    },
+    {
+      "name": "task349.onnx",
+      "size_bytes": 8427
+    },
+    {
+      "name": "task350.onnx",
+      "size_bytes": 1984
+    },
+    {
+      "name": "task351.onnx",
+      "size_bytes": 3049
+    },
+    {
+      "name": "task352.onnx",
+      "size_bytes": 1398
+    },
+    {
+      "name": "task353.onnx",
+      "size_bytes": 3244
+    },
+    {
+      "name": "task354.onnx",
+      "size_bytes": 2710
+    },
+    {
+      "name": "task355.onnx",
+      "size_bytes": 3971
+    },
+    {
+      "name": "task356.onnx",
+      "size_bytes": 2324
+    },
+    {
+      "name": "task357.onnx",
+      "size_bytes": 1767
+    },
+    {
+      "name": "task358.onnx",
+      "size_bytes": 6567
+    },
+    {
+      "name": "task359.onnx",
+      "size_bytes": 1184
+    },
+    {
+      "name": "task360.onnx",
+      "size_bytes": 1168
+    },
+    {
+      "name": "task361.onnx",
+      "size_bytes": 6846
+    },
+    {
+      "name": "task362.onnx",
+      "size_bytes": 1696
+    },
+    {
+      "name": "task363.onnx",
+      "size_bytes": 5425
+    },
+    {
+      "name": "task364.onnx",
+      "size_bytes": 8985
+    },
+    {
+      "name": "task365.onnx",
+      "size_bytes": 16991
+    },
+    {
+      "name": "task366.onnx",
+      "size_bytes": 84301
+    },
+    {
+      "name": "task367.onnx",
+      "size_bytes": 9982
+    },
+    {
+      "name": "task368.onnx",
+      "size_bytes": 8950
+    },
+    {
+      "name": "task369.onnx",
+      "size_bytes": 3315
+    },
+    {
+      "name": "task370.onnx",
+      "size_bytes": 15444
+    },
+    {
+      "name": "task371.onnx",
+      "size_bytes": 3031
+    },
+    {
+      "name": "task372.onnx",
+      "size_bytes": 664
+    },
+    {
+      "name": "task373.onnx",
+      "size_bytes": 581
+    },
+    {
+      "name": "task374.onnx",
+      "size_bytes": 5300
+    },
+    {
+      "name": "task375.onnx",
+      "size_bytes": 2214
+    },
+    {
+      "name": "task376.onnx",
+      "size_bytes": 4045
+    },
+    {
+      "name": "task377.onnx",
+      "size_bytes": 18685
+    },
+    {
+      "name": "task378.onnx",
+      "size_bytes": 5481
+    },
+    {
+      "name": "task379.onnx",
+      "size_bytes": 13402
+    },
+    {
+      "name": "task380.onnx",
+      "size_bytes": 396
+    },
+    {
+      "name": "task381.onnx",
+      "size_bytes": 2035
+    },
+    {
+      "name": "task382.onnx",
+      "size_bytes": 28488
+    },
+    {
+      "name": "task383.onnx",
+      "size_bytes": 3193
+    },
+    {
+      "name": "task384.onnx",
+      "size_bytes": 2717
+    },
+    {
+      "name": "task385.onnx",
+      "size_bytes": 175
+    },
+    {
+      "name": "task386.onnx",
+      "size_bytes": 1334
+    },
+    {
+      "name": "task387.onnx",
+      "size_bytes": 12388
+    },
+    {
+      "name": "task388.onnx",
+      "size_bytes": 6536
+    },
+    {
+      "name": "task389.onnx",
+      "size_bytes": 1421
+    },
+    {
+      "name": "task390.onnx",
+      "size_bytes": 5953
+    },
+    {
+      "name": "task391.onnx",
+      "size_bytes": 2841
+    },
+    {
+      "name": "task392.onnx",
+      "size_bytes": 9738
+    },
+    {
+      "name": "task393.onnx",
+      "size_bytes": 1538
+    },
+    {
+      "name": "task394.onnx",
+      "size_bytes": 3787
+    },
+    {
+      "name": "task395.onnx",
+      "size_bytes": 1179
+    },
+    {
+      "name": "task396.onnx",
+      "size_bytes": 26549
+    },
+    {
+      "name": "task397.onnx",
+      "size_bytes": 7195
+    },
+    {
+      "name": "task398.onnx",
+      "size_bytes": 8682
+    },
+    {
+      "name": "task399.onnx",
+      "size_bytes": 1907
+    },
+    {
+      "name": "task400.onnx",
+      "size_bytes": 3021
+    }
+  ],
+  "evidence_gate_checked_at": "2026-06-11T23:10:30",
+  "evidence_gate_notes": "",
+  "aggressive_change_score": 0.7233716935288346,
+  "aggressive_change_classification": "aggressive",
+  "aggressive_change_checked_at": "2026-06-11T23:10:30",
+  "aggressive_change_gate_pass": true,
+  "aggressive_content_changed_task_count": 1
+}

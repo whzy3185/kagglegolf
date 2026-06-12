@@ -12,4 +12,4 @@ Current submitted candidate: GOLF_20260610_081_simple_exact_batch_medium_10 / su
 Current running Kaggle Notebook: https://www.kaggle.com/code/muelsyse111/neurogolf-submit-current (version 3 submitted via output file)
 Next candidate: GOLF_20260607_002_public_6029_diff
 Known blockers:
-Last updated: 2026-06-11T23:01:51
+Last updated: 2026-06-12T20:36:21

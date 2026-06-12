@@ -1704,11 +1704,11 @@
       "size_bytes": 3021
     }
   ],
-  "evidence_gate_checked_at": "2026-06-11T22:56:18",
+  "evidence_gate_checked_at": "2026-06-11T23:02:01",
   "evidence_gate_notes": "",
   "aggressive_change_score": 0.7577928461444179,
   "aggressive_change_classification": "aggressive",
-  "aggressive_change_checked_at": "2026-06-11T22:56:23",
+  "aggressive_change_checked_at": "2026-06-11T23:02:07",
   "aggressive_change_gate_pass": true,
   "aggressive_content_changed_task_count": 6
 }

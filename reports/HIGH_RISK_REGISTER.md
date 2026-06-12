@@ -1,6 +1,6 @@
 # High Risk Register
 
-updated_at: 2026-06-11T22:56:31
+updated_at: 2026-06-11T23:05:53
 
 High-risk candidates may be submitted, but cannot update the normal task bank or become a normal base without explicit promotion.
 

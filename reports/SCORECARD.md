@@ -10,8 +10,13 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
-| 53572779 | GOLF_20260610_081_simple_exact_batch_080_A2 | SubmissionStatus.PENDING |  |
-| 53572747 | GOLF_20260610_083_simple_exact_batch_082_A5 | SubmissionStatus.PENDING |  |
+| 53602641 | GOLF_20260610_083_simple_exact_batch_082_A1 | SubmissionStatus.PENDING |  |
+| 53602589 | GOLF_20260610_083_simple_exact_batch_081_B1 | SubmissionStatus.COMPLETE | 6289.90 |
+| 53602553 | GOLF_20260610_084_simple_exact_batch_082_B2 | SubmissionStatus.COMPLETE | 6286.45 |
+| 53573097 | GOLF_20260610_082_simple_exact_batch_081_A1 | SubmissionStatus.COMPLETE | 6292.16 |
+| 53572843 | GOLF_20260610_084_simple_exact_batch_082_B6 | SubmissionStatus.COMPLETE | 6279.65 |
+| 53572779 | GOLF_20260610_081_simple_exact_batch_080_A2 | SubmissionStatus.COMPLETE | 6289.61 |
+| 53572747 | GOLF_20260610_083_simple_exact_batch_082_A5 | SubmissionStatus.COMPLETE | 6281.07 |
 | 53572697 | GOLF_20260610_082_simple_exact_batch_080_B3 | SubmissionStatus.COMPLETE | 6283.90 |
 | 53572449 | GOLF_20260610_082_simple_exact_batch_aggressive_20 | SubmissionStatus.COMPLETE | 6268.28 |
 | 53572424 | GOLF_20260610_080_simple_exact_batch_conservative_5 | SubmissionStatus.COMPLETE | 6281.07 |
@@ -55,8 +60,3 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 | 53493697 | GOLF_20260608_045_rogermt_positive_stack_128_208 | SubmissionStatus.COMPLETE | 6277.36 |
 | 53493476 | GOLF_20260608_039_rogermt_task255_after020_probe | SubmissionStatus.COMPLETE | 6276.02 |
 | 53493355 | GOLF_20260608_044_rogermt_task092_after020_probe | SubmissionStatus.COMPLETE | 6274.06 |
-| 53493248 | GOLF_20260608_041_rogermt_task153_after020_probe | SubmissionStatus.COMPLETE | 6275.05 |
-| 53493106 | GOLF_20260608_040_rogermt_task128_after020_probe | SubmissionStatus.COMPLETE | 6275.22 |
-| 53493032 | GOLF_20260608_043_rogermt_task208_after020_probe | SubmissionStatus.COMPLETE | 6275.74 |
-| 53492927 | GOLF_20260608_042_rogermt_task159_after020_probe | SubmissionStatus.COMPLETE | 6276.54 |
-| 53492734 | GOLF_20260608_035_rogermt_task255_optimized_probe | SubmissionStatus.COMPLETE | 6273.55 |

@@ -1,0 +1,1 @@
+HTTPSConnectionPool(host='api.kaggle.com', port=443): Max retries exceeded with url: /v1/kernels.KernelsApiService/SaveKernel (Caused by ProxyError('Unable to connect to proxy', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)))

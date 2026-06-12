@@ -1,0 +1,2 @@
+task_id,model_path,source_id,method_family,rule_family,rule_name,risk,cost_proxy,source_basis,exact_solve_evidence
+task140,E:\kagglegolf\task_bank\tasks\task140\simple_exact\rotate180\task140.onnx,SRC_ARC_DSL_GITHUB,simple_exact_batch_replacement,rotation,rotate180,low,,official task train exact match plus local train/test/arc-gen validation,pass: examples_checked=265; examples_failed=0

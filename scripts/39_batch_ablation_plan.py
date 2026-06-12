@@ -63,6 +63,26 @@ def queue_rows() -> list[dict]:
     return read_csv(root("experiments/submission_queue.csv"))[1]
 
 
+def task_signature(base_exp_id: str, tasks: list[str]) -> tuple[str, tuple[str, ...]]:
+    return base_exp_id, tuple(tasks)
+
+
+def signature_index(rows: list[dict]) -> dict[tuple[str, tuple[str, ...]], str]:
+    index: dict[tuple[str, tuple[str, ...]], str] = {}
+    for row in rows:
+        exp_id = row.get("exp_id", "")
+        if "simple_exact_batch" not in exp_id:
+            continue
+        payload = manifest(exp_id)
+        tasks = payload.get("changed_tasks") or [
+            item.strip() for item in row.get("changed_tasks", "").split(",") if item.strip()
+        ]
+        base_exp_id = payload.get("base_exp_id") or payload.get("parent_exp_id") or ""
+        if base_exp_id and tasks:
+            index.setdefault(task_signature(base_exp_id, tasks), exp_id)
+    return index
+
+
 def exp_number(exp_id: str) -> int:
     match = re.search(r"GOLF_\d{8}_(\d+)_", exp_id)
     return int(match.group(1)) if match else 0
@@ -139,6 +159,7 @@ def main() -> None:
     args = parser.parse_args()
 
     queue = queue_rows()
+    signatures = signature_index(queue)
     existing_results = read_csv(root("task_bank/simple_exact_batch_results.csv"))[1]
     existing_by_exp = {row.get("exp_id", ""): row for row in existing_results}
     result_rows: list[dict] = []
@@ -176,11 +197,19 @@ def main() -> None:
             base_exp_id = payload.get("base_exp_id") or payload.get("parent_exp_id") or ""
             if base_exp_id and not args.no_build:
                 for child_exp_id, child_tasks in [(child_pair[0], left_tasks), (child_pair[1], right_tasks)]:
+                    duplicate_of = signatures.get(task_signature(base_exp_id, child_tasks))
+                    if duplicate_of and duplicate_of != child_exp_id:
+                        build_logs.append(
+                            f"{child_exp_id}: duplicate task set of {duplicate_of}; skipped"
+                        )
+                        continue
                     if child_exists(child_exp_id):
                         build_logs.append(f"{child_exp_id}: already exists")
                         continue
                     code, text = build_child(base_exp_id, child_exp_id, child_tasks)
                     build_logs.append(f"{child_exp_id}: returncode={code}; {text}")
+                    if code == 0:
+                        signatures[task_signature(base_exp_id, child_tasks)] = child_exp_id
         elif needs_ablation:
             ablation_needed.append(exp_id)
             notes = "negative single-task batch cannot be split further"
