@@ -1,20 +1,13 @@
 # Task Attribution
 
-updated_at: 2026-06-12T20:38:01
+updated_at: 2026-06-12T20:52:53
 
 | exp_id | task/bundle | count | score | delta parent | strength | decision | normal bank | high-risk bank |
 |---|---|---:|---:|---:|---|---|---|---|
-| GOLF_20260608_039_rogermt_task255_after020_probe | task255 | 1 | 6276.02 |  | strong | neutral_probe | false | false |
-| GOLF_20260608_044_rogermt_task092_after020_probe | task092 | 1 | 6274.06 |  | strong | neutral_probe | false | false |
-| GOLF_20260608_045_rogermt_positive_stack_128_208 | task208 | 2 | 6277.36 |  | suspected | neutral_small_mix | false | false |
-| GOLF_20260608_045_rogermt_positive_stack_128_208 | task128 | 2 | 6277.36 |  | suspected | neutral_small_mix | false | false |
-| GOLF_20260608_046_rogermt_positive_stack_255_128_208 | task255 | 3 | 6278.32 |  | suspected | neutral_small_mix | false | false |
-| GOLF_20260608_046_rogermt_positive_stack_255_128_208 | task208 | 3 | 6278.32 |  | suspected | neutral_small_mix | false | false |
-| GOLF_20260608_046_rogermt_positive_stack_255_128_208 | task128 | 3 | 6278.32 |  | suspected | neutral_small_mix | false | false |
-| GOLF_20260608_047b_vyanktesh_except_task133 | bundle_399_tasks | 399 | 6235.30 | -43.020000 | bundle_only | bundle_negative | false | false |
-| GOLF_20260608_048b_afr1ste_6335_structural_pass_mix | bundle_123_tasks | 123 | 4894.51 | -1383.810000 | bundle_only | bundle_negative | false | false |
-| GOLF_20260608_049_afr1ste_compress_rewrite_structural_mix | bundle_369_tasks | 369 | 3450.39 | -2827.930000 | bundle_only | bundle_negative | false | true |
-| GOLF_20260609_050_arc_dsl_task070_bbox_fill | task070 | 1 | 6280.33 | 2.010000 | strong | confirmed_win | true | false |
+| GOLF_20260608_047b_vyanktesh_except_task133 | bundle_399_tasks | 399 | 6235.30 |  | bundle_only | bundle_tie | false | false |
+| GOLF_20260608_048b_afr1ste_6335_structural_pass_mix | bundle_123_tasks | 123 | 4894.51 |  | bundle_only | bundle_tie | false | false |
+| GOLF_20260608_049_afr1ste_compress_rewrite_structural_mix | bundle_369_tasks | 369 | 3450.39 |  | bundle_only | bundle_tie | false | true |
+| GOLF_20260609_050_arc_dsl_task070_bbox_fill | task070 | 1 | 6280.33 |  | strong | neutral_probe | false | false |
 | GOLF_20260609_051_arc_dsl_task303_frontier_fill | task303 | 1 | 6282.47 | 2.140000 | strong | confirmed_win | true | false |
 | GOLF_20260609_052_arc_dsl_task249_hconcat_self | task249 | 1 | 6285.06 | 2.590000 | strong | confirmed_win | true | false |
 | GOLF_20260609_053_arc_dsl_axis_reverse_pair | task150 | 2 | 6285.85 | 0.790000 | suspected | suspected_mix_win | false | false |
@@ -70,7 +63,16 @@ updated_at: 2026-06-12T20:38:01
 | GOLF_20260610_084_simple_exact_batch_082_B6 | bundle_6_tasks | 6 | 6279.65 | -12.790000 | weak | multi_task_unresolved | false | false |
 | GOLF_20260610_082_simple_exact_batch_081_A1 | task031 | 1 | 6292.16 | -0.280000 | strong | rejected_for_current_base | false | false |
 | GOLF_20260610_083_simple_exact_batch_081_B1 | task087 | 1 | 6289.90 | -2.540000 | strong | rejected_for_current_base | false | false |
+| GOLF_20260610_083_simple_exact_batch_082_A1 | task140 | 1 | 6289.90 | -2.540000 | strong | rejected_for_current_base | false | false |
 | GOLF_20260610_084_simple_exact_batch_082_B2 | task223 | 2 | 6286.45 | -5.990000 | suspected | negative_or_mixed | false | false |
 | GOLF_20260610_084_simple_exact_batch_082_B2 | task307 | 2 | 6286.45 | -5.990000 | suspected | negative_or_mixed | false | false |
+| GOLF_20260610_085_simple_exact_batch_084_A3 | task036 | 3 | 6286.99 | -5.450000 | suspected | negative_or_mixed | false | false |
+| GOLF_20260610_085_simple_exact_batch_084_A3 | task166 | 3 | 6286.99 | -5.450000 | suspected | negative_or_mixed | false | false |
+| GOLF_20260610_085_simple_exact_batch_084_A3 | task276 | 3 | 6286.99 | -5.450000 | suspected | negative_or_mixed | false | false |
+| GOLF_20260610_086_simple_exact_batch_084_B3 | task300 | 3 | 6285.10 | -7.340000 | suspected | negative_or_mixed | false | false |
+| GOLF_20260610_086_simple_exact_batch_084_B3 | task309 | 3 | 6285.10 | -7.340000 | suspected | negative_or_mixed | false | false |
+| GOLF_20260610_086_simple_exact_batch_084_B3 | task380 | 3 | 6285.10 | -7.340000 | suspected | negative_or_mixed | false | false |
+| GOLF_20260610_085_simple_exact_batch_084_A1 | task223 | 1 | 6289.45 | -2.990000 | strong | rejected_for_current_base | false | false |
+| GOLF_20260610_086_simple_exact_batch_084_B1 | task307 | 1 | 6289.45 | -2.990000 | strong | rejected_for_current_base | false | false |
 
 Broad mixes are bundle-level evidence only. High-risk wins remain outside the normal task bank.

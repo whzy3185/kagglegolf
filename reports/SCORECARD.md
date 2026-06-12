@@ -10,8 +10,12 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
-| 53602844 | GOLF_20260610_086_simple_exact_batch_084_B1 | SubmissionStatus.PENDING |  |
-| 53602805 | GOLF_20260610_085_simple_exact_batch_084_A1 | SubmissionStatus.PENDING |  |
+| 53603234 | GOLF_20260612_089_simple_exact_medium_no031 | SubmissionStatus.PENDING |  |
+| 53603196 | GOLF_20260610_087_simple_exact_batch_086_A1 | SubmissionStatus.PENDING |  |
+| 53603154 | GOLF_20260610_086_simple_exact_batch_085_A1 | SubmissionStatus.COMPLETE | 6292.08 |
+| 53602968 | GOLF_20260610_086_simple_exact_batch_084_B3 | SubmissionStatus.COMPLETE | 6285.10 |
+| 53602844 | GOLF_20260610_086_simple_exact_batch_084_B1 | SubmissionStatus.COMPLETE | 6289.45 |
+| 53602805 | GOLF_20260610_085_simple_exact_batch_084_A1 | SubmissionStatus.COMPLETE | 6289.45 |
 | 53602776 | GOLF_20260610_085_simple_exact_batch_084_A3 | SubmissionStatus.COMPLETE | 6286.99 |
 | 53602641 | GOLF_20260610_083_simple_exact_batch_082_A1 | SubmissionStatus.COMPLETE | 6289.90 |
 | 53602589 | GOLF_20260610_083_simple_exact_batch_081_B1 | SubmissionStatus.COMPLETE | 6289.90 |
@@ -56,7 +60,3 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 | 53495970 | GOLF_20260609_052_arc_dsl_task249_hconcat_self | SubmissionStatus.COMPLETE | 6285.06 |
 | 53495622 | GOLF_20260609_051_arc_dsl_task303_frontier_fill | SubmissionStatus.COMPLETE | 6282.47 |
 | 53495329 | GOLF_20260609_050_arc_dsl_task070_bbox_fill | SubmissionStatus.COMPLETE | 6280.33 |
-| 53494834 | GOLF_20260608_049_afr1ste_compress_rewrite_structural_mix | SubmissionStatus.COMPLETE | 3450.39 |
-| 53494549 | GOLF_20260608_048b_afr1ste_6335_structural_pass_mix | SubmissionStatus.COMPLETE | 4894.51 |
-| 53494347 | GOLF_20260608_047b_vyanktesh_except_task133 | SubmissionStatus.COMPLETE | 6235.30 |
-| 53493813 | GOLF_20260608_046_rogermt_positive_stack_255_128_208 | SubmissionStatus.COMPLETE | 6278.32 |

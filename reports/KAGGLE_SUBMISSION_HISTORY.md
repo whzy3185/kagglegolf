@@ -1,6 +1,6 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-12T20:44:36
+captured_at: 2026-06-12T20:59:49
 selected submissions: unavailable via CLI
 current best public: 6292.94
 target public: 7800.0
@@ -10,8 +10,12 @@ current best submission id: 53572348
 
 | ref | exp_id | date | status | public_score |
 | --- | --- | --- | --- | --- |
-| 53602844 | GOLF_20260610_086_simple_exact_batch_084_B1 | 2026-06-12 12:44:23.147000 | SubmissionStatus.PENDING |  |
-| 53602805 | GOLF_20260610_085_simple_exact_batch_084_A1 | 2026-06-12 12:42:46.607000 | SubmissionStatus.PENDING |  |
+| 53603234 | GOLF_20260612_089_simple_exact_medium_no031 | 2026-06-12 12:59:39.697000 | SubmissionStatus.PENDING |  |
+| 53603196 | GOLF_20260610_087_simple_exact_batch_086_A1 | 2026-06-12 12:58:08.010000 | SubmissionStatus.PENDING |  |
+| 53603154 | GOLF_20260610_086_simple_exact_batch_085_A1 | 2026-06-12 12:56:54.650000 | SubmissionStatus.COMPLETE | 6292.08 |
+| 53602968 | GOLF_20260610_086_simple_exact_batch_084_B3 | 2026-06-12 12:49:31.133000 | SubmissionStatus.COMPLETE | 6285.10 |
+| 53602844 | GOLF_20260610_086_simple_exact_batch_084_B1 | 2026-06-12 12:44:23.147000 | SubmissionStatus.COMPLETE | 6289.45 |
+| 53602805 | GOLF_20260610_085_simple_exact_batch_084_A1 | 2026-06-12 12:42:46.607000 | SubmissionStatus.COMPLETE | 6289.45 |
 | 53602776 | GOLF_20260610_085_simple_exact_batch_084_A3 | 2026-06-12 12:41:17.647000 | SubmissionStatus.COMPLETE | 6286.99 |
 | 53602641 | GOLF_20260610_083_simple_exact_batch_082_A1 | 2026-06-12 12:36:10.993000 | SubmissionStatus.COMPLETE | 6289.90 |
 | 53602589 | GOLF_20260610_083_simple_exact_batch_081_B1 | 2026-06-12 12:34:26.573000 | SubmissionStatus.COMPLETE | 6289.90 |
@@ -56,7 +60,3 @@ current best submission id: 53572348
 | 53495970 | GOLF_20260609_052_arc_dsl_task249_hconcat_self | 2026-06-09 05:33:57.050000 | SubmissionStatus.COMPLETE | 6285.06 |
 | 53495622 | GOLF_20260609_051_arc_dsl_task303_frontier_fill | 2026-06-09 05:16:49.750000 | SubmissionStatus.COMPLETE | 6282.47 |
 | 53495329 | GOLF_20260609_050_arc_dsl_task070_bbox_fill | 2026-06-09 05:02:09.213000 | SubmissionStatus.COMPLETE | 6280.33 |
-| 53494834 | GOLF_20260608_049_afr1ste_compress_rewrite_structural_mix | 2026-06-09 04:36:09.180000 | SubmissionStatus.COMPLETE | 3450.39 |
-| 53494549 | GOLF_20260608_048b_afr1ste_6335_structural_pass_mix | 2026-06-09 04:21:30.540000 | SubmissionStatus.COMPLETE | 4894.51 |
-| 53494347 | GOLF_20260608_047b_vyanktesh_except_task133 | 2026-06-09 04:12:08.307000 | SubmissionStatus.COMPLETE | 6235.30 |
-| 53493813 | GOLF_20260608_046_rogermt_positive_stack_255_128_208 | 2026-06-09 03:44:04.060000 | SubmissionStatus.COMPLETE | 6278.32 |

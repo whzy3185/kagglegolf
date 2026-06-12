@@ -1,6 +1,6 @@
 # Aggressive Change Score Status
 
-last_updated: 2026-06-12T20:42:58
+last_updated: 2026-06-12T20:58:36
 
 | exp_id | AGS | classification | gate | risk |
 | --- | ---: | --- | --- | --- |
@@ -92,3 +92,8 @@ last_updated: 2026-06-12T20:42:58
 | GOLF_20260610_086_simple_exact_batch_084_B3 | 0.742331 | aggressive | true | medium |
 | GOLF_20260610_085_simple_exact_batch_084_A1 | 0.856017 | aggressive | true | low |
 | GOLF_20260610_086_simple_exact_batch_084_B1 | 0.856017 | aggressive | true | low |
+| GOLF_20260610_086_simple_exact_batch_085_A1 | 0.742099 | aggressive | true | medium |
+| GOLF_20260610_087_simple_exact_batch_085_B2 | 0.746467 | aggressive | true | medium |
+| GOLF_20260610_087_simple_exact_batch_086_A1 | 0.724731 | aggressive | true | medium |
+| GOLF_20260610_088_simple_exact_batch_086_B2 | 0.703403 | aggressive | true | medium |
+| GOLF_20260612_089_simple_exact_medium_no031 | 0.754328 | aggressive | true | medium |
