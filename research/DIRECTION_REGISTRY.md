@@ -292,6 +292,9 @@ target_exp_ids:
   - GOLF_20260610_088_simple_exact_batch_087_A1
   - GOLF_20260610_089_simple_exact_batch_087_B1
   - GOLF_20260612_090_simple_exact_no031_stack_galaxy342
+  - GOLF_20260612_091_simple_exact_no031_stack_galaxy203
+  - GOLF_20260610_089_simple_exact_batch_088_A1
+  - GOLF_20260610_090_simple_exact_batch_088_B1
 
 hypothesis:
   Simple ARC-style rules that exactly match official train examples and pass local validation can be batched so multiple independently plausible replacements receive leaderboard feedback within the daily submission cap.

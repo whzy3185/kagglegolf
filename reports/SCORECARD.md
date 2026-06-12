@@ -1,17 +1,20 @@
 # Scorecard
 
-Current best public score: 6293.83
+Current best public score: 6293.87
 Target public score: 7800.0
-Gap to target: 1506.17
-Current best exp_id: GOLF_20260612_090_simple_exact_no031_stack_galaxy342
-Current best submission id: 53603482
+Gap to target: 1506.13
+Current best exp_id: GOLF_20260612_091_simple_exact_no031_stack_galaxy203
+Current best submission id: 53603678
 
 Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 
 | ref | exp_id | status | public_score |
 | --- | --- | --- | --- |
-| 53603541 | GOLF_20260610_089_simple_exact_batch_087_B1 | SubmissionStatus.PENDING |  |
-| 53603510 | GOLF_20260610_088_simple_exact_batch_087_A1 | SubmissionStatus.PENDING |  |
+| 53603731 | GOLF_20260610_090_simple_exact_batch_088_B1 | SubmissionStatus.PENDING |  |
+| 53603697 | GOLF_20260610_089_simple_exact_batch_088_A1 | SubmissionStatus.PENDING |  |
+| 53603678 | GOLF_20260612_091_simple_exact_no031_stack_galaxy203 | SubmissionStatus.COMPLETE | 6293.87 |
+| 53603541 | GOLF_20260610_089_simple_exact_batch_087_B1 | SubmissionStatus.COMPLETE | 6286.33 |
+| 53603510 | GOLF_20260610_088_simple_exact_batch_087_A1 | SubmissionStatus.COMPLETE | 6293.47 |
 | 53603482 | GOLF_20260612_090_simple_exact_no031_stack_galaxy342 | SubmissionStatus.COMPLETE | 6293.83 |
 | 53603330 | GOLF_20260610_088_simple_exact_batch_086_B2 | SubmissionStatus.COMPLETE | 6284.47 |
 | 53603287 | GOLF_20260610_087_simple_exact_batch_085_B2 | SubmissionStatus.COMPLETE | 6287.36 |
@@ -57,6 +60,3 @@ Selected submissions: unavailable via CLI; fallback is top 2 by public score.
 | 53498594 | GOLF_20260609_060_arc_dsl_task057_single_object_hconcat | SubmissionStatus.COMPLETE | 6290.00 |
 | 53498437 | GOLF_20260609_059_arc_dsl_task278_size_two_outbox | SubmissionStatus.COMPLETE | 6289.36 |
 | 53497706 | GOLF_20260609_058_arc_dsl_task097_remove_isolated | SubmissionStatus.COMPLETE | 6289.17 |
-| 53497538 | GOLF_20260609_057_arc_dsl_task310_least_color_crop | SubmissionStatus.COMPLETE | 6288.04 |
-| 53497261 | GOLF_20260609_056_arc_dsl_task384_scaled_object_crop | SubmissionStatus.COMPLETE | 6287.77 |
-| 53496989 | GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop | SubmissionStatus.COMPLETE | 6286.79 |

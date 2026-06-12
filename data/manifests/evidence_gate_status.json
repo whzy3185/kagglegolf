@@ -1,17 +1,15 @@
 {
-  "checked_at": "2026-06-12T21:09:38",
+  "checked_at": "2026-06-12T21:17:31",
   "strict_mode": true,
   "filters": {
     "exp_id": "",
     "direction_id": ""
   },
-  "total_experiments": 104,
-  "pass_count": 103,
-  "fail_count": 1,
+  "total_experiments": 106,
+  "pass_count": 106,
+  "fail_count": 0,
   "exempt_count": 0,
-  "failed_exp_ids": [
-    "GOLF_20260612_091_simple_exact_no031_stack_galaxy203"
-  ],
+  "failed_exp_ids": [],
   "results": [
     {
       "exp_id": "GOLF_20260607_001_public_6154_repro",
@@ -628,13 +626,23 @@
     {
       "exp_id": "GOLF_20260612_091_simple_exact_no031_stack_galaxy203",
       "direction_id": "DIR_20260610_001_simple_exact_batch_replacement",
-      "status": "fail",
-      "reasons": [
-        "exp_not_registered_in_direction:DIR_20260610_001_simple_exact_batch_replacement"
-      ]
+      "status": "pass",
+      "reasons": []
     },
     {
       "exp_id": "GOLF_20260612_090_simple_exact_no031_stack_galaxy342",
+      "direction_id": "DIR_20260610_001_simple_exact_batch_replacement",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260610_089_simple_exact_batch_088_A1",
+      "direction_id": "DIR_20260610_001_simple_exact_batch_replacement",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260610_090_simple_exact_batch_088_B1",
       "direction_id": "DIR_20260610_001_simple_exact_batch_replacement",
       "status": "pass",
       "reasons": []

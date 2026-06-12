@@ -1,0 +1,4 @@
+exp_id=GOLF_20260610_090_simple_exact_batch_088_B1
+AGS=0.662988
+classification=aggressive
+submission_gate_pass=true

@@ -1,17 +1,20 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-12T21:10:52
+captured_at: 2026-06-12T21:18:36
 selected submissions: unavailable via CLI
-current best public: 6293.83
+current best public: 6293.87
 target public: 7800.0
-gap to target: 1506.17
-current best exp_id: GOLF_20260612_090_simple_exact_no031_stack_galaxy342
-current best submission id: 53603482
+gap to target: 1506.13
+current best exp_id: GOLF_20260612_091_simple_exact_no031_stack_galaxy203
+current best submission id: 53603678
 
 | ref | exp_id | date | status | public_score |
 | --- | --- | --- | --- | --- |
-| 53603541 | GOLF_20260610_089_simple_exact_batch_087_B1 | 2026-06-12 13:10:42.863000 | SubmissionStatus.PENDING |  |
-| 53603510 | GOLF_20260610_088_simple_exact_batch_087_A1 | 2026-06-12 13:09:27.830000 | SubmissionStatus.PENDING |  |
+| 53603731 | GOLF_20260610_090_simple_exact_batch_088_B1 | 2026-06-12 13:18:25.800000 | SubmissionStatus.PENDING |  |
+| 53603697 | GOLF_20260610_089_simple_exact_batch_088_A1 | 2026-06-12 13:17:21.620000 | SubmissionStatus.PENDING |  |
+| 53603678 | GOLF_20260612_091_simple_exact_no031_stack_galaxy203 | 2026-06-12 13:16:15.150000 | SubmissionStatus.COMPLETE | 6293.87 |
+| 53603541 | GOLF_20260610_089_simple_exact_batch_087_B1 | 2026-06-12 13:10:42.863000 | SubmissionStatus.COMPLETE | 6286.33 |
+| 53603510 | GOLF_20260610_088_simple_exact_batch_087_A1 | 2026-06-12 13:09:27.830000 | SubmissionStatus.COMPLETE | 6293.47 |
 | 53603482 | GOLF_20260612_090_simple_exact_no031_stack_galaxy342 | 2026-06-12 13:08:11.930000 | SubmissionStatus.COMPLETE | 6293.83 |
 | 53603330 | GOLF_20260610_088_simple_exact_batch_086_B2 | 2026-06-12 13:02:49.857000 | SubmissionStatus.COMPLETE | 6284.47 |
 | 53603287 | GOLF_20260610_087_simple_exact_batch_085_B2 | 2026-06-12 13:01:13.753000 | SubmissionStatus.COMPLETE | 6287.36 |
@@ -57,6 +60,3 @@ current best submission id: 53603482
 | 53498594 | GOLF_20260609_060_arc_dsl_task057_single_object_hconcat | 2026-06-09 07:37:48.397000 | SubmissionStatus.COMPLETE | 6290.00 |
 | 53498437 | GOLF_20260609_059_arc_dsl_task278_size_two_outbox | 2026-06-09 07:30:21.593000 | SubmissionStatus.COMPLETE | 6289.36 |
 | 53497706 | GOLF_20260609_058_arc_dsl_task097_remove_isolated | 2026-06-09 06:54:53.193000 | SubmissionStatus.COMPLETE | 6289.17 |
-| 53497538 | GOLF_20260609_057_arc_dsl_task310_least_color_crop | 2026-06-09 06:46:34.887000 | SubmissionStatus.COMPLETE | 6288.04 |
-| 53497261 | GOLF_20260609_056_arc_dsl_task384_scaled_object_crop | 2026-06-09 06:34:25.390000 | SubmissionStatus.COMPLETE | 6287.77 |
-| 53496989 | GOLF_20260609_055_arc_dsl_task242_zero_bbox_mirror_crop | 2026-06-09 06:24:02.317000 | SubmissionStatus.COMPLETE | 6286.79 |

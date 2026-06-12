@@ -1,6 +1,6 @@
 # Known Bad Families
 
-updated_at: 2026-06-12T21:05:04
+updated_at: 2026-06-12T21:12:43
 
 This file is consumed by the automatic selector. It records negative leaderboard feedback that should penalize similar candidates without deleting the source from the alternate task pool.
 
@@ -55,3 +55,5 @@ This file is consumed by the automatic selector. It records negative leaderboard
 | GOLF_20260610_086_simple_exact_batch_085_A1 | SRC_ARC_DSL_GITHUB | task036 | 1 | 6292.08 | -0.360000 | rejected_for_current_base |
 | GOLF_20260610_087_simple_exact_batch_085_B2 | SRC_ARC_DSL_GITHUB | task166 | 2 | 6287.36 | -5.080000 | negative_or_mixed |
 | GOLF_20260610_087_simple_exact_batch_085_B2 | SRC_ARC_DSL_GITHUB | task276 | 2 | 6287.36 | -5.080000 | negative_or_mixed |
+| GOLF_20260610_088_simple_exact_batch_086_B2 | SRC_ARC_DSL_GITHUB | task309 | 2 | 6284.47 | -7.970000 | negative_or_mixed |
+| GOLF_20260610_088_simple_exact_batch_086_B2 | SRC_ARC_DSL_GITHUB | task380 | 2 | 6284.47 | -7.970000 | negative_or_mixed |

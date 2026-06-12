@@ -1,15 +1,15 @@
 # Evidence Gate Status
 
-checked_at: 2026-06-12T21:09:38
+checked_at: 2026-06-12T21:17:31
 strict_mode: true
 
 ## Summary
 
 | metric | value |
 |---|---:|
-| total_experiments | 104 |
-| pass | 103 |
-| fail | 1 |
+| total_experiments | 106 |
+| pass | 106 |
+| fail | 0 |
 | exempt | 0 |
 
 ## Required Evidence
@@ -23,7 +23,7 @@ Every non-exempt experiment must include:
 
 ## Failed Experiments
 
-- GOLF_20260612_091_simple_exact_no031_stack_galaxy203: exp_not_registered_in_direction:DIR_20260610_001_simple_exact_batch_replacement
+None.
 
 ## Passed Experiments
 
@@ -129,7 +129,10 @@ Every non-exempt experiment must include:
 - GOLF_20260612_089_simple_exact_medium_no031
 - GOLF_20260610_088_simple_exact_batch_087_A1
 - GOLF_20260610_089_simple_exact_batch_087_B1
+- GOLF_20260612_091_simple_exact_no031_stack_galaxy203
 - GOLF_20260612_090_simple_exact_no031_stack_galaxy342
+- GOLF_20260610_089_simple_exact_batch_088_A1
+- GOLF_20260610_090_simple_exact_batch_088_B1
 
 ## Exempt Experiments
 

@@ -11,7 +11,7 @@
   "paper_source_id": "SRC_ARC_PRIZE_2024_REPORT",
   "open_repo_source_id": "SRC_ARC_DSL_GITHUB",
   "historical_competition_source_id": "SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP",
-  "evidence_gate_status": "fail",
+  "evidence_gate_status": "pass",
   "risk": "medium",
   "changed_tasks": [
     "task036",
@@ -1666,6 +1666,11 @@
       "size_bytes": 3021
     }
   ],
-  "evidence_gate_checked_at": "2026-06-12T21:06:44",
-  "evidence_gate_notes": "exp_not_registered_in_direction:DIR_20260610_001_simple_exact_batch_replacement"
+  "evidence_gate_checked_at": "2026-06-12T21:14:57",
+  "evidence_gate_notes": "",
+  "aggressive_change_score": 0.7543279771657921,
+  "aggressive_change_classification": "aggressive",
+  "aggressive_change_checked_at": "2026-06-12T21:15:00",
+  "aggressive_change_gate_pass": true,
+  "aggressive_content_changed_task_count": 3
 }
