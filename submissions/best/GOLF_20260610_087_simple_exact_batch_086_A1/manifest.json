@@ -1,0 +1,29 @@
+{
+  "exp_id": "GOLF_20260610_087_simple_exact_batch_086_A1",
+  "score": 6293.07,
+  "submission_id": "53603196",
+  "status": "complete",
+  "source_ids": [
+    "SRC_ARC_DSL_GITHUB",
+    "SRC_DISCUSSION_AGENT_HARNESS_6580",
+    "SRC_ARC_PRIZE_2024_REPORT",
+    "SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP"
+  ],
+  "package_sha256": "f3c8169943b5130619680abd5a781b1408137fcf4364e0cf1d484b223e26ceac",
+  "direction_id": "DIR_20260610_001_simple_exact_batch_replacement",
+  "primary_source_id": "SRC_ARC_DSL_GITHUB",
+  "leaderboard_source_id": "SRC_DISCUSSION_AGENT_HARNESS_6580",
+  "paper_source_id": "SRC_ARC_PRIZE_2024_REPORT",
+  "open_repo_source_id": "SRC_ARC_DSL_GITHUB",
+  "historical_competition_source_id": "SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP",
+  "risk": "medium",
+  "changed_tasks": [
+    "task300"
+  ],
+  "local_validation": "pass",
+  "examples_checked": 1200,
+  "examples_failed": 0,
+  "notebook_output_match": "400/400",
+  "aggressive_change_score": 0.724731398014342,
+  "aggressive_change_classification": "aggressive"
+}

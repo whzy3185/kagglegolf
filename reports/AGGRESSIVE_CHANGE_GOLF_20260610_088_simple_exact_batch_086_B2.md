@@ -1,6 +1,6 @@
 # Aggressive Change: GOLF_20260610_088_simple_exact_batch_086_B2
 
-checked_at: 2026-06-12T20:53:34
+checked_at: 2026-06-12T21:01:28
 AGS: 0.7034
 classification: aggressive
 submission_gate_pass: true

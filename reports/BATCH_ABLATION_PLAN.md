@@ -1,10 +1,10 @@
 # Batch Ablation Plan
 
-updated_at: 2026-06-12T20:53:34
-positive_batch_count: 1
-negative_batch_count: 14
-pending_or_unscored_count: 0
-ablation_needed_count: 14
+updated_at: 2026-06-12T21:05:22
+positive_batch_count: 2
+negative_batch_count: 16
+pending_or_unscored_count: 1
+ablation_needed_count: 16
 
 ## Batch Outcomes
 
@@ -25,10 +25,15 @@ ablation_needed_count: 14
 | GOLF_20260610_085_simple_exact_batch_084_A3 | 3 | 6286.99 | -5.450000 | negative_batch | GOLF_20260610_086_simple_exact_batch_085_A1,GOLF_20260610_087_simple_exact_batch_085_B2 |
 | GOLF_20260610_086_simple_exact_batch_084_B1 | 1 | 6289.45 | -2.990000 | negative_batch |  |
 | GOLF_20260610_086_simple_exact_batch_084_B3 | 3 | 6285.10 | -7.340000 | negative_batch | GOLF_20260610_087_simple_exact_batch_086_A1,GOLF_20260610_088_simple_exact_batch_086_B2 |
+| GOLF_20260610_086_simple_exact_batch_085_A1 | 1 | 6292.08 | -0.360000 | negative_batch |  |
+| GOLF_20260610_087_simple_exact_batch_085_B2 | 2 | 6287.36 | -5.080000 | negative_batch | GOLF_20260610_088_simple_exact_batch_087_A1,GOLF_20260610_089_simple_exact_batch_087_B1 |
+| GOLF_20260610_087_simple_exact_batch_086_A1 | 1 | 6293.07 | 0.630000 | positive_batch |  |
+| GOLF_20260610_088_simple_exact_batch_086_B2 | 2 |  |  | pending_or_unscored |  |
 
 ## Positive Batch
 
 - GOLF_20260610_081_simple_exact_batch_medium_10
+- GOLF_20260610_087_simple_exact_batch_086_A1
 
 ## Negative Batch
 
@@ -46,6 +51,8 @@ ablation_needed_count: 14
 - GOLF_20260610_086_simple_exact_batch_084_B3
 - GOLF_20260610_085_simple_exact_batch_084_A1
 - GOLF_20260610_086_simple_exact_batch_084_B1
+- GOLF_20260610_086_simple_exact_batch_085_A1
+- GOLF_20260610_087_simple_exact_batch_085_B2
 
 ## Need Binary Ablation
 
@@ -63,6 +70,8 @@ ablation_needed_count: 14
 - GOLF_20260610_086_simple_exact_batch_084_B3
 - GOLF_20260610_085_simple_exact_batch_084_A1
 - GOLF_20260610_086_simple_exact_batch_084_B1
+- GOLF_20260610_086_simple_exact_batch_085_A1
+- GOLF_20260610_087_simple_exact_batch_085_B2
 
 ## Build Log
 
@@ -80,19 +89,15 @@ ablation_needed_count: 14
 - GOLF_20260610_086_simple_exact_batch_084_B3: already exists
 - GOLF_20260610_085_simple_exact_batch_084_A1: already exists
 - GOLF_20260610_086_simple_exact_batch_084_B1: already exists
-- GOLF_20260610_086_simple_exact_batch_085_A1: returncode=0; E:\kagglegolf\submissions\candidates\GOLF_20260610_086_simple_exact_batch_085_A1
-changed_tasks task036
+- GOLF_20260610_086_simple_exact_batch_085_A1: already exists
+- GOLF_20260610_087_simple_exact_batch_085_B2: already exists
+- GOLF_20260610_087_simple_exact_batch_086_A1: already exists
+- GOLF_20260610_088_simple_exact_batch_086_B2: already exists
+- GOLF_20260610_088_simple_exact_batch_087_A1: returncode=0; E:\kagglegolf\submissions\candidates\GOLF_20260610_088_simple_exact_batch_087_A1
+changed_tasks task166
 changed_task_count 1
 validation_ok True
-- GOLF_20260610_087_simple_exact_batch_085_B2: returncode=0; E:\kagglegolf\submissions\candidates\GOLF_20260610_087_simple_exact_batch_085_B2
-changed_tasks task166,task276
-changed_task_count 2
-validation_ok True
-- GOLF_20260610_087_simple_exact_batch_086_A1: returncode=0; E:\kagglegolf\submissions\candidates\GOLF_20260610_087_simple_exact_batch_086_A1
-changed_tasks task300
+- GOLF_20260610_089_simple_exact_batch_087_B1: returncode=0; E:\kagglegolf\submissions\candidates\GOLF_20260610_089_simple_exact_batch_087_B1
+changed_tasks task276
 changed_task_count 1
-validation_ok True
-- GOLF_20260610_088_simple_exact_batch_086_B2: returncode=0; E:\kagglegolf\submissions\candidates\GOLF_20260610_088_simple_exact_batch_086_B2
-changed_tasks task309,task380
-changed_task_count 2
 validation_ok True

@@ -3,5 +3,5 @@
 submission_id: 53494834
 public_score: 3450.39
 delta_vs_best: -2842.550000
-decision: bundle_tie
+decision: pending_attribution
 normal_bank_allowed: false

@@ -1656,11 +1656,11 @@
       "size_bytes": 3021
     }
   ],
-  "evidence_gate_checked_at": "2026-06-12T20:53:11",
+  "evidence_gate_checked_at": "2026-06-12T20:59:56",
   "evidence_gate_notes": "",
   "aggressive_change_score": 0.7464670101166926,
   "aggressive_change_classification": "aggressive",
-  "aggressive_change_checked_at": "2026-06-12T20:53:14",
+  "aggressive_change_checked_at": "2026-06-12T20:59:58",
   "aggressive_change_gate_pass": true,
   "aggressive_content_changed_task_count": 2
 }

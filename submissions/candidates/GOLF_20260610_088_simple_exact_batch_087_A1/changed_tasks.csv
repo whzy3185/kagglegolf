@@ -1,0 +1,2 @@
+task_id,model_path,source_id,method_family,rule_family,rule_name,risk,cost_proxy,source_basis,exact_solve_evidence
+task166,E:\kagglegolf\task_bank\tasks\task166\simple_exact\fill_bounding_box\task166.onnx,SRC_ARC_DSL_GITHUB,simple_exact_batch_replacement,fill,fill_bounding_box,medium,,official task train exact match plus local train/test/arc-gen validation,pass: examples_checked=266; examples_failed=0
