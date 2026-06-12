@@ -1,10 +1,10 @@
 # Submission Wait: GOLF_20260610_084_simple_exact_batch_082_B6
 
-updated_at: 2026-06-11T23:04:23
-outcome: SubmissionStatus.PENDING
+updated_at: 2026-06-12T20:37:44
+outcome: complete
 submission_id: 53572843
-status: SubmissionStatus.PENDING
-public_score: 
+status: SubmissionStatus.COMPLETE
+public_score: 6279.65
 
 ## Poll Events
 
@@ -12,3 +12,4 @@ public_score:
 |---|---|---:|---|
 | 2026-06-11T23:03:48 | SubmissionStatus.PENDING |  | 53572843 |
 | 2026-06-11T23:04:23 | SubmissionStatus.PENDING |  | 53572843 |
+| 2026-06-12T20:37:44 | SubmissionStatus.COMPLETE | 6279.65 | 53572843 |

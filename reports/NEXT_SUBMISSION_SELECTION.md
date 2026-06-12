@@ -1,13 +1,13 @@
 # Next Submission Selection
 
-checked_at: 2026-06-12T20:32:07
+checked_at: 2026-06-12T20:40:03
 current_best: 6292.94 (GOLF_20260610_081_simple_exact_batch_medium_10)
-candidate_count: 90
-eligible_count: 3
-blocked_count: 87
-selected_candidate: GOLF_20260610_084_simple_exact_batch_082_B2
-selection_score: 0.400864
-selection_reason: class=operator_family_replacement; AGS=0.856; structural_scale=0.95; source=0.75; upside=0.85; novelty=0.25; attribution=0.70; tail_bonus=0.80; known_bad_penalty=1.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.00; known_bad=task223 already rejected for current base; source_negative=recent negative source feedback from GOLF_20260609_066_arc_dsl_task223_upscale_s3, GOLF_20260609_067_arc_dsl_task307_upscale_s2, GOLF_20260609_068_arc_dsl_task087_rot180
+candidate_count: 94
+eligible_count: 4
+blocked_count: 90
+selected_candidate: GOLF_20260610_085_simple_exact_batch_084_A3
+selection_score: 0.498246
+selection_reason: class=operator_family_replacement; AGS=0.776; structural_scale=0.95; source=0.75; upside=0.85; novelty=0.25; attribution=0.70; tail_bonus=0.80; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.35; source_negative=recent negative source feedback from GOLF_20260609_066_arc_dsl_task223_upscale_s3, GOLF_20260609_067_arc_dsl_task307_upscale_s2, GOLF_20260609_068_arc_dsl_task087_rot180
 
 policy: selection is ordering only, not a blocking gate
 soft_penalties: affect submit order only; hard blocks are local validation, evidence gate, AGS gate, missing artifact, empty changed_tasks, already submitted, or explicit validation/evidence/metadata failure.
@@ -16,17 +16,19 @@ soft_penalties: affect submit order only; hard blocks are local validation, evid
 
 | order | exp_id | score | soft_penalties |
 |---:|---|---:|---|
-| 1 | GOLF_20260610_084_simple_exact_batch_082_B2 | 0.400864 | known_bad_family_penalty, recent_negative_source_penalty |
-| 2 | GOLF_20260610_083_simple_exact_batch_081_B1 | 0.353891 | known_bad_family_penalty, recent_negative_source_penalty |
-| 3 | GOLF_20260610_083_simple_exact_batch_082_A1 | 0.353891 | known_bad_family_penalty, recent_negative_source_penalty |
+| 1 | GOLF_20260610_085_simple_exact_batch_084_A3 | 0.498246 | recent_negative_source_penalty |
+| 2 | GOLF_20260610_085_simple_exact_batch_084_A1 | 0.430824 | known_bad_family_penalty, recent_negative_source_penalty |
+| 3 | GOLF_20260610_086_simple_exact_batch_084_B1 | 0.430824 | known_bad_family_penalty, recent_negative_source_penalty |
+| 4 | GOLF_20260610_086_simple_exact_batch_084_B3 | 0.340813 | known_bad_family_penalty, low_selection_score, recent_negative_source_penalty |
 
 ## Top 10
 
 | rank | exp_id | score | class | risk | tasks | source |
 |---:|---|---:|---|---|---:|---|
-| 1 | GOLF_20260610_084_simple_exact_batch_082_B2 | 0.400864 | operator_family_replacement | low | 2 | SRC_ARC_DSL_GITHUB |
-| 2 | GOLF_20260610_083_simple_exact_batch_081_B1 | 0.353891 | operator_family_replacement | low | 1 | SRC_ARC_DSL_GITHUB |
-| 3 | GOLF_20260610_083_simple_exact_batch_082_A1 | 0.353891 | operator_family_replacement | low | 1 | SRC_ARC_DSL_GITHUB |
+| 1 | GOLF_20260610_085_simple_exact_batch_084_A3 | 0.498246 | operator_family_replacement | medium | 3 | SRC_ARC_DSL_GITHUB |
+| 2 | GOLF_20260610_085_simple_exact_batch_084_A1 | 0.430824 | operator_family_replacement | low | 1 | SRC_ARC_DSL_GITHUB |
+| 3 | GOLF_20260610_086_simple_exact_batch_084_B1 | 0.430824 | operator_family_replacement | low | 1 | SRC_ARC_DSL_GITHUB |
+| 4 | GOLF_20260610_086_simple_exact_batch_084_B3 | 0.340813 | operator_family_replacement | medium | 3 | SRC_ARC_DSL_GITHUB |
 
 ## Blocked Candidates
 
@@ -117,6 +119,9 @@ soft_penalties: affect submit order only; hard blocks are local validation, evid
 - GOLF_20260610_083_simple_exact_batch_082_A5: already_submitted
 - GOLF_20260610_084_simple_exact_batch_082_B6: already_submitted
 - GOLF_20260610_082_simple_exact_batch_081_A1: already_submitted
+- GOLF_20260610_083_simple_exact_batch_081_B1: already_submitted
+- GOLF_20260610_083_simple_exact_batch_082_A1: already_submitted
+- GOLF_20260610_084_simple_exact_batch_082_B2: already_submitted
 
 ## Negative Feedback Policy
 

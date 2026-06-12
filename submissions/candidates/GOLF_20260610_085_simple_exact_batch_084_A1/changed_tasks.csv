@@ -1,0 +1,2 @@
+task_id,model_path,source_id,method_family,rule_family,rule_name,risk,cost_proxy,source_basis,exact_solve_evidence
+task223,E:\kagglegolf\task_bank\tasks\task223\simple_exact\upscale_x3\task223.onnx,SRC_ARC_DSL_GITHUB,simple_exact_batch_replacement,upscale,upscale_x3,low,,official task train exact match plus local train/test/arc-gen validation,pass: examples_checked=265; examples_failed=0

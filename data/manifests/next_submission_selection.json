@@ -1,54 +1,141 @@
 {
-  "checked_at": "2026-06-12T20:32:07",
+  "checked_at": "2026-06-12T20:40:03",
   "current_best_score": 6292.94,
   "current_best_exp_id": "GOLF_20260610_081_simple_exact_batch_medium_10",
-  "candidate_count": 90,
-  "eligible_count": 3,
-  "blocked_count": 87,
-  "selected_exp_id": "GOLF_20260610_084_simple_exact_batch_082_B2",
+  "candidate_count": 94,
+  "eligible_count": 4,
+  "blocked_count": 90,
+  "selected_exp_id": "GOLF_20260610_085_simple_exact_batch_084_A3",
   "selected": {
-    "exp_id": "GOLF_20260610_084_simple_exact_batch_082_B2",
-    "selection_score": 0.400864,
-    "selection_reason": "class=operator_family_replacement; AGS=0.856; structural_scale=0.95; source=0.75; upside=0.85; novelty=0.25; attribution=0.70; tail_bonus=0.80; known_bad_penalty=1.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.00; known_bad=task223 already rejected for current base; source_negative=recent negative source feedback from GOLF_20260609_066_arc_dsl_task223_upscale_s3, GOLF_20260609_067_arc_dsl_task307_upscale_s2, GOLF_20260609_068_arc_dsl_task087_rot180",
-    "risk": "low",
+    "exp_id": "GOLF_20260610_085_simple_exact_batch_084_A3",
+    "selection_score": 0.498246,
+    "selection_reason": "class=operator_family_replacement; AGS=0.776; structural_scale=0.95; source=0.75; upside=0.85; novelty=0.25; attribution=0.70; tail_bonus=0.80; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.35; source_negative=recent negative source feedback from GOLF_20260609_066_arc_dsl_task223_upscale_s3, GOLF_20260609_067_arc_dsl_task307_upscale_s2, GOLF_20260609_068_arc_dsl_task087_rot180",
+    "risk": "medium",
     "source_id": "SRC_ARC_DSL_GITHUB",
-    "changed_task_count": 2,
+    "changed_task_count": 3,
     "lane": "normal",
     "structural_class": "operator_family_replacement",
     "large_structure_bonus": 0.15,
     "positive_probe_required_for_broad_mix": false,
     "components": {
-      "ags": 0.856201,
+      "ags": 0.776119,
       "structural_scale_score": 0.9500000000000001,
       "source_priority_score": 0.75,
       "expected_lb_upside": 0.85,
       "novelty_vs_submitted": 0.25,
       "attribution_value": 0.7,
       "bottom_tail_or_memory_tail_bonus": 0.8,
-      "known_bad_family_penalty": 1.0,
+      "known_bad_family_penalty": 0.0,
       "small_tuning_penalty": 0.0,
       "recent_negative_source_penalty": 1.0,
       "same_family_negative_penalty": 0.0,
       "source_diversity_bonus": 0.0,
-      "risk_penalty": 0.0
+      "risk_penalty": 0.35
     },
-    "package_sha256": "2104d3f942914ca734051b45cc1bfbf61929bbb73da0f72236bc8cc7bc037f3a",
+    "package_sha256": "e04eef39e2895675261010a0a6d51e8c419d1bf5bdc480fe1e6524b7fd3d63b6",
     "soft_penalties": []
   },
   "ranked_candidates": [
     {
-      "exp_id": "GOLF_20260610_084_simple_exact_batch_082_B2",
-      "selection_score": 0.400864,
-      "selection_reason": "class=operator_family_replacement; AGS=0.856; structural_scale=0.95; source=0.75; upside=0.85; novelty=0.25; attribution=0.70; tail_bonus=0.80; known_bad_penalty=1.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.00; known_bad=task223 already rejected for current base; source_negative=recent negative source feedback from GOLF_20260609_066_arc_dsl_task223_upscale_s3, GOLF_20260609_067_arc_dsl_task307_upscale_s2, GOLF_20260609_068_arc_dsl_task087_rot180",
-      "risk": "low",
+      "exp_id": "GOLF_20260610_085_simple_exact_batch_084_A3",
+      "selection_score": 0.498246,
+      "selection_reason": "class=operator_family_replacement; AGS=0.776; structural_scale=0.95; source=0.75; upside=0.85; novelty=0.25; attribution=0.70; tail_bonus=0.80; known_bad_penalty=0.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.35; source_negative=recent negative source feedback from GOLF_20260609_066_arc_dsl_task223_upscale_s3, GOLF_20260609_067_arc_dsl_task307_upscale_s2, GOLF_20260609_068_arc_dsl_task087_rot180",
+      "risk": "medium",
       "source_id": "SRC_ARC_DSL_GITHUB",
-      "changed_task_count": 2,
+      "changed_task_count": 3,
       "lane": "normal",
       "structural_class": "operator_family_replacement",
       "large_structure_bonus": 0.15,
       "positive_probe_required_for_broad_mix": false,
       "components": {
-        "ags": 0.856201,
+        "ags": 0.776119,
+        "structural_scale_score": 0.9500000000000001,
+        "source_priority_score": 0.75,
+        "expected_lb_upside": 0.85,
+        "novelty_vs_submitted": 0.25,
+        "attribution_value": 0.7,
+        "bottom_tail_or_memory_tail_bonus": 0.8,
+        "known_bad_family_penalty": 0.0,
+        "small_tuning_penalty": 0.0,
+        "recent_negative_source_penalty": 1.0,
+        "same_family_negative_penalty": 0.0,
+        "source_diversity_bonus": 0.0,
+        "risk_penalty": 0.35
+      },
+      "package_sha256": "e04eef39e2895675261010a0a6d51e8c419d1bf5bdc480fe1e6524b7fd3d63b6",
+      "soft_penalties": []
+    },
+    {
+      "exp_id": "GOLF_20260610_085_simple_exact_batch_084_A1",
+      "selection_score": 0.430824,
+      "selection_reason": "class=operator_family_replacement; AGS=0.856; structural_scale=0.95; source=0.75; upside=0.85; novelty=0.00; attribution=1.00; tail_bonus=0.80; known_bad_penalty=1.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.00; known_bad=task223 already rejected for current base; source_negative=recent negative source feedback from GOLF_20260609_066_arc_dsl_task223_upscale_s3, GOLF_20260609_067_arc_dsl_task307_upscale_s2, GOLF_20260609_068_arc_dsl_task087_rot180",
+      "risk": "low",
+      "source_id": "SRC_ARC_DSL_GITHUB",
+      "changed_task_count": 1,
+      "lane": "normal",
+      "structural_class": "operator_family_replacement",
+      "large_structure_bonus": 0.15,
+      "positive_probe_required_for_broad_mix": false,
+      "components": {
+        "ags": 0.856017,
+        "structural_scale_score": 0.9500000000000001,
+        "source_priority_score": 0.75,
+        "expected_lb_upside": 0.85,
+        "novelty_vs_submitted": 0.0,
+        "attribution_value": 1.0,
+        "bottom_tail_or_memory_tail_bonus": 0.8,
+        "known_bad_family_penalty": 1.0,
+        "small_tuning_penalty": 0.0,
+        "recent_negative_source_penalty": 1.0,
+        "same_family_negative_penalty": 0.0,
+        "source_diversity_bonus": 0.0,
+        "risk_penalty": 0.0
+      },
+      "package_sha256": "f1dbf7fce9c99bbb013b9a72992702c2e0af59f706266e9e83d69aa5ed7d2897",
+      "soft_penalties": []
+    },
+    {
+      "exp_id": "GOLF_20260610_086_simple_exact_batch_084_B1",
+      "selection_score": 0.430824,
+      "selection_reason": "class=operator_family_replacement; AGS=0.856; structural_scale=0.95; source=0.75; upside=0.85; novelty=0.00; attribution=1.00; tail_bonus=0.80; known_bad_penalty=1.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.00; known_bad=task307 already rejected for current base; source_negative=recent negative source feedback from GOLF_20260609_066_arc_dsl_task223_upscale_s3, GOLF_20260609_067_arc_dsl_task307_upscale_s2, GOLF_20260609_068_arc_dsl_task087_rot180",
+      "risk": "low",
+      "source_id": "SRC_ARC_DSL_GITHUB",
+      "changed_task_count": 1,
+      "lane": "normal",
+      "structural_class": "operator_family_replacement",
+      "large_structure_bonus": 0.15,
+      "positive_probe_required_for_broad_mix": false,
+      "components": {
+        "ags": 0.856017,
+        "structural_scale_score": 0.9500000000000001,
+        "source_priority_score": 0.75,
+        "expected_lb_upside": 0.85,
+        "novelty_vs_submitted": 0.0,
+        "attribution_value": 1.0,
+        "bottom_tail_or_memory_tail_bonus": 0.8,
+        "known_bad_family_penalty": 1.0,
+        "small_tuning_penalty": 0.0,
+        "recent_negative_source_penalty": 1.0,
+        "same_family_negative_penalty": 0.0,
+        "source_diversity_bonus": 0.0,
+        "risk_penalty": 0.0
+      },
+      "package_sha256": "9118d07561ab3cf70f48285c46c03542059be6ed5a75a49ed0680b0ebed17c3f",
+      "soft_penalties": []
+    },
+    {
+      "exp_id": "GOLF_20260610_086_simple_exact_batch_084_B3",
+      "selection_score": 0.340813,
+      "selection_reason": "class=operator_family_replacement; AGS=0.742; structural_scale=0.95; source=0.75; upside=0.85; novelty=0.25; attribution=0.70; tail_bonus=0.80; known_bad_penalty=1.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.35; known_bad=task380 already rejected for current base; source_negative=recent negative source feedback from GOLF_20260609_066_arc_dsl_task223_upscale_s3, GOLF_20260609_067_arc_dsl_task307_upscale_s2, GOLF_20260609_068_arc_dsl_task087_rot180",
+      "risk": "medium",
+      "source_id": "SRC_ARC_DSL_GITHUB",
+      "changed_task_count": 3,
+      "lane": "normal",
+      "structural_class": "operator_family_replacement",
+      "large_structure_bonus": 0.15,
+      "positive_probe_required_for_broad_mix": false,
+      "components": {
+        "ags": 0.742331,
         "structural_scale_score": 0.9500000000000001,
         "source_priority_score": 0.75,
         "expected_lb_upside": 0.85,
@@ -60,67 +147,9 @@
         "recent_negative_source_penalty": 1.0,
         "same_family_negative_penalty": 0.0,
         "source_diversity_bonus": 0.0,
-        "risk_penalty": 0.0
+        "risk_penalty": 0.35
       },
-      "package_sha256": "2104d3f942914ca734051b45cc1bfbf61929bbb73da0f72236bc8cc7bc037f3a",
-      "soft_penalties": []
-    },
-    {
-      "exp_id": "GOLF_20260610_083_simple_exact_batch_081_B1",
-      "selection_score": 0.353891,
-      "selection_reason": "class=operator_family_replacement; AGS=0.688; structural_scale=0.95; source=0.75; upside=0.85; novelty=0.00; attribution=1.00; tail_bonus=0.00; known_bad_penalty=1.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.00; known_bad=task087 already rejected for current base; source_negative=recent negative source feedback from GOLF_20260609_066_arc_dsl_task223_upscale_s3, GOLF_20260609_067_arc_dsl_task307_upscale_s2, GOLF_20260609_068_arc_dsl_task087_rot180",
-      "risk": "low",
-      "source_id": "SRC_ARC_DSL_GITHUB",
-      "changed_task_count": 1,
-      "lane": "normal",
-      "structural_class": "operator_family_replacement",
-      "large_structure_bonus": 0.15,
-      "positive_probe_required_for_broad_mix": false,
-      "components": {
-        "ags": 0.688143,
-        "structural_scale_score": 0.9500000000000001,
-        "source_priority_score": 0.75,
-        "expected_lb_upside": 0.85,
-        "novelty_vs_submitted": 0.0,
-        "attribution_value": 1.0,
-        "bottom_tail_or_memory_tail_bonus": 0.0,
-        "known_bad_family_penalty": 1.0,
-        "small_tuning_penalty": 0.0,
-        "recent_negative_source_penalty": 1.0,
-        "same_family_negative_penalty": 0.0,
-        "source_diversity_bonus": 0.0,
-        "risk_penalty": 0.0
-      },
-      "package_sha256": "9d4d69d7e89a7cce21ba89c7e0664b2f0d42e7d73ffbce8159719f69231f1a7d",
-      "soft_penalties": []
-    },
-    {
-      "exp_id": "GOLF_20260610_083_simple_exact_batch_082_A1",
-      "selection_score": 0.353891,
-      "selection_reason": "class=operator_family_replacement; AGS=0.688; structural_scale=0.95; source=0.75; upside=0.85; novelty=0.00; attribution=1.00; tail_bonus=0.00; known_bad_penalty=1.00; small_tuning_penalty=0.00; recent_negative_source_penalty=1.00; same_family_negative_penalty=0.00; source_diversity_bonus=0.00; risk_penalty=0.00; known_bad=task140 already rejected for current base; source_negative=recent negative source feedback from GOLF_20260609_066_arc_dsl_task223_upscale_s3, GOLF_20260609_067_arc_dsl_task307_upscale_s2, GOLF_20260609_068_arc_dsl_task087_rot180",
-      "risk": "low",
-      "source_id": "SRC_ARC_DSL_GITHUB",
-      "changed_task_count": 1,
-      "lane": "normal",
-      "structural_class": "operator_family_replacement",
-      "large_structure_bonus": 0.15,
-      "positive_probe_required_for_broad_mix": false,
-      "components": {
-        "ags": 0.688143,
-        "structural_scale_score": 0.9500000000000001,
-        "source_priority_score": 0.75,
-        "expected_lb_upside": 0.85,
-        "novelty_vs_submitted": 0.0,
-        "attribution_value": 1.0,
-        "bottom_tail_or_memory_tail_bonus": 0.0,
-        "known_bad_family_penalty": 1.0,
-        "small_tuning_penalty": 0.0,
-        "recent_negative_source_penalty": 1.0,
-        "same_family_negative_penalty": 0.0,
-        "source_diversity_bonus": 0.0,
-        "risk_penalty": 0.0
-      },
-      "package_sha256": "b37d54803c8789bca511b321c87c36435a141744d6a12b08c141c59a5f6be6f3",
+      "package_sha256": "264c02e4b31430b095cf4060bdc32057081e456f358a15572ae25f4905750944",
       "soft_penalties": []
     }
   ],
@@ -657,6 +686,24 @@
     },
     {
       "exp_id": "GOLF_20260610_082_simple_exact_batch_081_A1",
+      "reasons": [
+        "already_submitted"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260610_083_simple_exact_batch_081_B1",
+      "reasons": [
+        "already_submitted"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260610_083_simple_exact_batch_082_A1",
+      "reasons": [
+        "already_submitted"
+      ]
+    },
+    {
+      "exp_id": "GOLF_20260610_084_simple_exact_batch_082_B2",
       "reasons": [
         "already_submitted"
       ]
