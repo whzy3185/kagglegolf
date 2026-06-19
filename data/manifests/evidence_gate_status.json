@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-06-12T21:17:31",
+  "checked_at": "2026-06-19T13:25:57",
   "strict_mode": true,
   "filters": {
     "exp_id": "",
     "direction_id": ""
   },
-  "total_experiments": 106,
-  "pass_count": 106,
+  "total_experiments": 115,
+  "pass_count": 115,
   "fail_count": 0,
   "exempt_count": 0,
   "failed_exp_ids": [],
@@ -644,6 +644,60 @@
     {
       "exp_id": "GOLF_20260610_090_simple_exact_batch_088_B1",
       "direction_id": "DIR_20260610_001_simple_exact_batch_replacement",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260612_092_simple_exact_166_300_stack_galaxy203",
+      "direction_id": "DIR_20260610_001_simple_exact_batch_replacement",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260612_093_simple_exact_166_300_stack_galaxy342",
+      "direction_id": "DIR_20260610_001_simple_exact_batch_replacement",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260612_094_submission1_valid153_full",
+      "direction_id": "DIR_20260612_002_submission1_zip_diff_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260612_095_submission1_diff_A20",
+      "direction_id": "DIR_20260612_002_submission1_zip_diff_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260612_096_submission1_diff_B20",
+      "direction_id": "DIR_20260612_002_submission1_zip_diff_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260612_097_submission1_diff_C20",
+      "direction_id": "DIR_20260612_002_submission1_zip_diff_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260612_098_submission1_diff_D20",
+      "direction_id": "DIR_20260612_002_submission1_zip_diff_harvest",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260619_099_sajayr_7015_public_fork",
+      "direction_id": "DIR_20260619_001_public_7015_fork",
+      "status": "pass",
+      "reasons": []
+    },
+    {
+      "exp_id": "GOLF_20260619_100_franksunp_7113_public_fork",
+      "direction_id": "DIR_20260619_002_public_7113_fork",
       "status": "pass",
       "reasons": []
     }

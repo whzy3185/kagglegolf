@@ -1,0 +1,24 @@
+{
+  "id": "sajayr/neurogolf-7015",
+  "id_no": 123778960,
+  "title": "NeuroGolf-7015 \u30c4",
+  "code_file": "neurogolf-7015.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": false,
+  "enable_gpu": false,
+  "enable_tpu": false,
+  "enable_internet": false,
+  "keywords": [],
+  "dataset_sources": [
+    "sajayr/arcgen-10ksamples",
+    "sajayr/neurogolf-7k"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [
+    "neurogolf-2026"
+  ],
+  "model_sources": [],
+  "docker_image": "gcr.io/kaggle-images/python@sha256:e5452ce6268c2e8345cfe5141f31ca7ff47032aca46a7ea532bbb87481281d0c",
+  "machine_shape": "None"
+}

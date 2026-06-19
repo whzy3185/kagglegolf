@@ -295,6 +295,8 @@ target_exp_ids:
   - GOLF_20260612_091_simple_exact_no031_stack_galaxy203
   - GOLF_20260610_089_simple_exact_batch_088_A1
   - GOLF_20260610_090_simple_exact_batch_088_B1
+  - GOLF_20260612_092_simple_exact_166_300_stack_galaxy203
+  - GOLF_20260612_093_simple_exact_166_300_stack_galaxy342
 
 hypothesis:
   Simple ARC-style rules that exactly match official train examples and pass local validation can be batched so multiple independently plausible replacements receive leaderboard feedback within the daily submission cap.
@@ -331,3 +333,140 @@ rollback_rule:
 success_criteria:
   At least one multi-task batch produces positive or neutral leaderboard feedback and records task-level ablation state.
 
+## DIR_20260612_002_submission1_zip_diff_harvest
+
+direction_id: DIR_20260612_002_submission1_zip_diff_harvest
+status: active
+created_at: 2026-06-12
+target_exp_ids:
+  - GOLF_20260612_094_submission1_valid153_full
+  - GOLF_20260612_095_submission1_diff_A20
+  - GOLF_20260612_096_submission1_diff_B20
+  - GOLF_20260612_097_submission1_diff_C20
+  - GOLF_20260612_098_submission1_diff_D20
+
+hypothesis:
+  A local submission.zip artifact that is reported to outperform the current best may contain many positive task-level ONNX replacements. The raw bundle should not be submitted when structural validation fails, but locally valid task-level diffs can be harvested against the current best and tested as multi-task batches.
+
+leaderboard_basis:
+  source_id: SRC_LOCAL_SUBMISSION1_ZIP
+  reason: User-provided local artifact is reported to score higher than the current best; use it as a task-level replacement source after local validation.
+
+paper_basis:
+  source_id: SRC_ARC_PRIZE_2024_REPORT
+  reason: ARC Prize task-level reasoning supports validating candidate solvers on all available examples before hidden-set feedback.
+
+open_repo_basis:
+  source_id: SRC_ARC_DSL_GITHUB
+  reason: ARC-DSL provides reusable semantics for interpreting task-level solver differences and ablation grouping.
+
+historical_competition_basis:
+  source_id: SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP
+  reason: Prior ARC code-golf winners used repeated task-level harvesting, validation, and leaderboard feedback to compose stronger multi-task submissions.
+
+implementation_plan:
+  - extract submission (1).zip into ignored local data/interim storage
+  - diff every task against the current best package
+  - reject task-level replacements that fail local structural validation
+  - submit one broad valid-diff harvest and several 20-task attribution batches
+  - poll scores and split negative batches by task groups
+
+risk:
+  - local artifact score may be stale or refer to a different base
+  - broad replacement can hide positive and negative task interactions
+  - local examples do not guarantee hidden-set correctness
+
+rollback_rule:
+  Raw full bundle is never submitted if local validation fails. Negative batches are marked for ablation and do not update the current best.
+
+success_criteria:
+  Produce at least one locally valid multi-task replacement from submission (1).zip and submit it for public leaderboard feedback.
+
+
+## DIR_20260619_001_public_7015_fork
+
+direction_id: DIR_20260619_001_public_7015_fork
+status: active
+created_at: 2026-06-19
+target_exp_ids:
+  - GOLF_20260619_099_sajayr_7015_public_fork
+
+hypothesis:
+  A current high-scoring public Kaggle Code notebook can be forked and submitted directly as a new baseline while preserving provenance and local records.
+
+leaderboard_basis:
+  source_id: SRC_KAGGLE_NOTEBOOK_SAJAYR_7015
+  reason: Public notebook is listed in the competition Code area as NeuroGolf-7015 and direct submission scored 7015.36.
+
+paper_basis:
+  source_id: SRC_ARC_PRIZE_2024_REPORT
+  reason: ARC Prize task-level validation context explains why generated task corpora and task-local exact solvers are useful.
+
+open_repo_basis:
+  source_id: SRC_ARC_DSL_GITHUB
+  reason: ARC-DSL gives task-level semantics for future ablation of the public 7k artifact.
+
+historical_competition_basis:
+  source_id: SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP
+  reason: Prior ARC code-golf practice supports importing public artifacts, then mining task-level improvements.
+
+implementation_plan:
+  - pull sajayr/neurogolf-7015
+  - fork as muelsyse111/neurogolf-7015-fork-submit
+  - download notebook output submission.zip
+  - submit output to neurogolf-2026
+  - record the 7015.36 public score as current best
+
+risk:
+  - public output has 395 files rather than 400
+  - future improvements require task-level diffing against the 7k dataset
+
+rollback_rule:
+  Keep prior 6315.19 candidate as fallback; use 7015.36 public fork as current best unless a later submission exceeds it.
+
+success_criteria:
+  Direct submission of the public fork output completes and becomes new current best.
+
+## DIR_20260619_002_public_7113_fork
+
+direction_id: DIR_20260619_002_public_7113_fork
+status: active
+created_at: 2026-06-19
+target_exp_ids:
+  - GOLF_20260619_100_franksunp_7113_public_fork
+
+hypothesis:
+  The latest public 7113.63 Kaggle Code artifact can replace the 7015.36 baseline as current best and serve as the next task-level mining base.
+
+leaderboard_basis:
+  source_id: SRC_KAGGLE_NOTEBOOK_FRANKSUNP_7113
+  reason: Public notebook output and direct local account submission both score 7113.63.
+
+paper_basis:
+  source_id: SRC_ARC_PRIZE_2024_REPORT
+  reason: ARC Prize task-local validation and generated cases support the public artifact's A/B audit approach.
+
+open_repo_basis:
+  source_id: SRC_ARC_DSL_GITHUB
+  reason: ARC-DSL remains the task-level semantic reference for future diffs and ablation against the 7113 artifact.
+
+historical_competition_basis:
+  source_id: SRC_GOOGLE_CODE_GOLF_2025_CGI_WRITEUP
+  reason: Prior ARC code-golf work supports public artifact harvesting followed by task-level mining.
+
+implementation_plan:
+  - pull franksunp/starter-baseline-compact-onnx-artifact-vi
+  - inspect notebook and output structure
+  - submit the 400-file public output zip
+  - record current best and task bank rows
+  - use this artifact as the new base for further task-level mining
+
+risk:
+  - source notebook depends on a non-listable private output asset
+  - task-level A/B pick list is summarized but not fully exposed in the output zip
+
+rollback_rule:
+  Keep 7015.36 SajayR fork as fallback; use 7113.63 as current best unless a later submission exceeds it.
+
+success_criteria:
+  Direct submission completes and scores 7113.63 public LB.

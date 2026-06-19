@@ -1,0 +1,2 @@
+exp_id,created_at,source_id,source_notebook,payload_fork_kernel,submission_id,status,public_score,file_count,zip_sha256,a_picks,b_picks,notes
+GOLF_20260619_100_franksunp_7113_public_fork,2026-06-19T13:25:01,SRC_KAGGLE_NOTEBOOK_FRANKSUNP_7113,franksunp/starter-baseline-compact-onnx-artifact-vi,muelsyse111/neurogolf-7113-franksunp-payload-submit,53833153,SubmissionStatus.COMPLETE,7113.63,400,5e301b1146f70be7a28aab0bbd2c6546661606d67a358be9fe5ac55d7c8f22d6,376,24,Direct public output submission accepted and became current best.

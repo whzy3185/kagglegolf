@@ -1,0 +1,30 @@
+[{"stream_name":"stderr","time":9.482352563,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":9.48240463,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":9.482411986,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":9.482416584,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":10.272378844,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.272416888,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.272423143,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.272428266,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":13.419808379,"data":"asset: /kaggle/input/ngf-sajayr701536-kojimar650791-ab-audit-private\n"}
+,{"stream_name":"stdout","time":13.419862344,"data":"private source: franksunp/ngf-sajayr701536-kojimar650791-ab-audit-private\n"}
+,{"stream_name":"stdout","time":13.419869138,"data":"competition: neurogolf-2026\n"}
+,{"stream_name":"stdout","time":13.419873922,"data":"public LB: 7113.63\n"}
+,{"stream_name":"stdout","time":13.419878911,"data":"submission description: ngf top1 A sajayr neurogolf 7015.36 top2 B kojimar audited overrides 6507.91 AB audit v2\n"}
+,{"stream_name":"stdout","time":13.419884284,"data":"manifest run_id: ngf_sajayr701536_kojimar650791_ab_audit_private\n"}
+,{"stream_name":"stdout","time":13.419889193,"data":"source picks: {'A_sajayr_neurogolf_7015_36': 376, 'B_kojimar_audited_overrides_6507_91': 24}\n"}
+,{"stream_name":"stdout","time":13.458551862,"data":"copied scored notebook output submission.zip\n"}
+,{"stream_name":"stdout","time":13.458584543,"data":"wrote: /kaggle/working/submission.zip\n"}
+,{"stream_name":"stdout","time":13.458590522,"data":"zip size bytes: 567520\n"}
+,{"stream_name":"stdout","time":13.458595513,"data":"submission.zip sha256: 5e301b1146f70be7a28aab0bbd2c6546661606d67a358be9fe5ac55d7c8f22d6\n"}
+,{"stream_name":"stdout","time":13.458600351,"data":"manifest sha256: 5e301b1146f70be7a28aab0bbd2c6546661606d67a358be9fe5ac55d7c8f22d6\n"}
+,{"stream_name":"stdout","time":13.458605043,"data":"scored public LB: 7113.63\n"}
+,{"stream_name":"stderr","time":16.751393266,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":16.751443866,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":16.964148272,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":16.964177043,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":17.89326449,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":18.294612954,"data":"[NbConvertApp] Writing 10586 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":21.79608104,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":22.871429016,"data":"[NbConvertApp] Writing 294614 bytes to __results__.html\n"}
+]

@@ -614,3 +614,57 @@ rule_status: public_notebook_output
 repro_status: reproduced
 priority: P0
 assigned_exp_id: GOLF_20260609_074_galaxy_task284_surgical
+
+## SRC_LOCAL_SUBMISSION1_ZIP
+
+source_id: SRC_LOCAL_SUBMISSION1_ZIP
+source_type: dataset
+title: Local submission (1).zip task-level artifact
+author_or_team: local workspace artifact
+url_or_identifier: E:\kagglegolf\submission (1).zip
+date_accessed: 2026-06-12
+claimed_score: higher than current best per user-provided local context
+tasks_mentioned: all
+idea_summary: Local 400-file submission artifact. The raw bundle is not submitted directly because local structural validation fails on task019 and task233, while all checked official examples pass. Use only task-level ONNX diffs that pass local validation, replacing invalid tasks with the current best base.
+implementation_hint: Extract to ignored data/interim/submission1_compare, diff against current best, exclude invalid task019/task233, and submit multi-task replacement batches.
+risk: medium
+rule_status: local_user_artifact
+repro_status: imported
+priority: P0
+assigned_exp_id: GOLF_20260612_094_submission1_valid153_full
+
+## SRC_KAGGLE_NOTEBOOK_SAJAYR_7015
+
+source_id: SRC_KAGGLE_NOTEBOOK_SAJAYR_7015
+source_type: notebook
+title: NeuroGolf 7015 public notebook
+author_or_team: SajayR
+url_or_identifier: https://www.kaggle.com/code/sajayr/neurogolf-7015
+date_accessed: 2026-06-19
+claimed_score: 7015 public LB; verified by local account submission 53830365 scoring 7015.36
+tasks_mentioned: all, public output contains 395 task ONNX files
+idea_summary: Public Kaggle Code notebook packages the sajayr/neurogolf-7k dataset into submission.zip. The notebook claims 7059 local score and 7015 LB. Direct submission of the public output scored 7015.36.
+implementation_hint: Fork notebook, keep dataset sources sajayr/arcgen-10ksamples and sajayr/neurogolf-7k, and submit the generated 395-file submission.zip output directly.
+risk: low
+rule_status: public_notebook_output
+repro_status: reproduced
+priority: P0
+assigned_exp_id: GOLF_20260619_099_sajayr_7015_public_fork
+
+## SRC_KAGGLE_NOTEBOOK_FRANKSUNP_7113
+
+source_id: SRC_KAGGLE_NOTEBOOK_FRANKSUNP_7113
+source_type: notebook
+title: Starter Baseline: Compact ONNX Artifact Vi
+author_or_team: fsun / franksunp
+url_or_identifier: https://www.kaggle.com/code/franksunp/starter-baseline-compact-onnx-artifact-vi
+date_accessed: 2026-06-19
+claimed_score: 7113.63 public LB; verified by local account submission 53833153
+tasks_mentioned: all
+idea_summary: Public Kaggle Code notebook copies a scored A/B audit artifact into submission.zip. Notebook log states public LB 7113.63, with 376 picks from SajayR 7015.36 and 24 picks from Kojimar 6507.91.
+implementation_hint: Submit the public notebook output submission.zip directly; for reproducibility under this account, use a private payload wrapper because the source asset is not listable via this account.
+risk: low
+rule_status: public_notebook_output
+repro_status: reproduced
+priority: P0
+assigned_exp_id: GOLF_20260619_100_franksunp_7113_public_fork

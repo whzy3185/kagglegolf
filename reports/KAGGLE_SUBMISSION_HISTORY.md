@@ -1,17 +1,22 @@
 # Kaggle Submission History
 
-captured_at: 2026-06-12T21:18:36
+captured_at: 2026-06-12T22:32:39
 selected submissions: unavailable via CLI
-current best public: 6293.87
+current best public: 6315.19
 target public: 7800.0
-gap to target: 1506.13
-current best exp_id: GOLF_20260612_091_simple_exact_no031_stack_galaxy203
-current best submission id: 53603678
+gap to target: 1484.8100000000004
+current best exp_id: GOLF_20260612_094_submission1_valid153_full
+current best submission id: 53605449
 
 | ref | exp_id | date | status | public_score |
 | --- | --- | --- | --- | --- |
-| 53603731 | GOLF_20260610_090_simple_exact_batch_088_B1 | 2026-06-12 13:18:25.800000 | SubmissionStatus.PENDING |  |
-| 53603697 | GOLF_20260610_089_simple_exact_batch_088_A1 | 2026-06-12 13:17:21.620000 | SubmissionStatus.PENDING |  |
+| 53605953 | GOLF_20260612_095_submission1_diff_A20 | 2026-06-12 14:32:27.443000 | SubmissionStatus.PENDING |  |
+| 53605449 | GOLF_20260612_094_submission1_valid153_full | 2026-06-12 14:15:19.743000 | SubmissionStatus.COMPLETE | 6315.19 |
+| 53604939 | GOLF_20260612_097_submission1_diff_C20 | 2026-06-12 13:57:41.587000 | SubmissionStatus.COMPLETE | 6297.71 |
+| 53603930 | GOLF_20260612_093_simple_exact_166_300_stack_galaxy342 | 2026-06-12 13:24:56.903000 | SubmissionStatus.COMPLETE | 6294.20 |
+| 53603882 | GOLF_20260612_092_simple_exact_166_300_stack_galaxy203 | 2026-06-12 13:23:38.533000 | SubmissionStatus.COMPLETE | 6294.24 |
+| 53603731 | GOLF_20260610_090_simple_exact_batch_088_B1 | 2026-06-12 13:18:25.800000 | SubmissionStatus.COMPLETE | 6290.58 |
+| 53603697 | GOLF_20260610_089_simple_exact_batch_088_A1 | 2026-06-12 13:17:21.620000 | SubmissionStatus.COMPLETE | 6286.33 |
 | 53603678 | GOLF_20260612_091_simple_exact_no031_stack_galaxy203 | 2026-06-12 13:16:15.150000 | SubmissionStatus.COMPLETE | 6293.87 |
 | 53603541 | GOLF_20260610_089_simple_exact_batch_087_B1 | 2026-06-12 13:10:42.863000 | SubmissionStatus.COMPLETE | 6286.33 |
 | 53603510 | GOLF_20260610_088_simple_exact_batch_087_A1 | 2026-06-12 13:09:27.830000 | SubmissionStatus.COMPLETE | 6293.47 |
@@ -55,8 +60,3 @@ current best submission id: 53603678
 | 53505803 | GOLF_20260609_065_public_single_task_task255_jonathan | 2026-06-09 12:57:42.550000 | SubmissionStatus.COMPLETE | 6279.06 |
 | 53505728 | GOLF_20260609_064_public_single_task_task101_jonathan | 2026-06-09 12:54:36.267000 | SubmissionStatus.COMPLETE | 6278.52 |
 | 53505684 | GOLF_20260609_063_public_single_task_task096_jonathan | 2026-06-09 12:52:19.637000 | SubmissionStatus.COMPLETE | 6277.86 |
-| 53505537 | GOLF_20260609_062_public_single_task_task076_jonathan | 2026-06-09 12:45:41.263000 | SubmissionStatus.COMPLETE | 6278.39 |
-| 53502021 | GOLF_20260609_061_arc_dsl_task325_component_count_diagonal | 2026-06-09 10:13:26.747000 | SubmissionStatus.COMPLETE | 6290.69 |
-| 53498594 | GOLF_20260609_060_arc_dsl_task057_single_object_hconcat | 2026-06-09 07:37:48.397000 | SubmissionStatus.COMPLETE | 6290.00 |
-| 53498437 | GOLF_20260609_059_arc_dsl_task278_size_two_outbox | 2026-06-09 07:30:21.593000 | SubmissionStatus.COMPLETE | 6289.36 |
-| 53497706 | GOLF_20260609_058_arc_dsl_task097_remove_isolated | 2026-06-09 06:54:53.193000 | SubmissionStatus.COMPLETE | 6289.17 |

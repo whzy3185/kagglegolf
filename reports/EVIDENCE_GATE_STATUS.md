@@ -1,14 +1,14 @@
 # Evidence Gate Status
 
-checked_at: 2026-06-12T21:17:31
+checked_at: 2026-06-19T13:25:57
 strict_mode: true
 
 ## Summary
 
 | metric | value |
 |---|---:|
-| total_experiments | 106 |
-| pass | 106 |
+| total_experiments | 115 |
+| pass | 115 |
 | fail | 0 |
 | exempt | 0 |
 
@@ -133,6 +133,15 @@ None.
 - GOLF_20260612_090_simple_exact_no031_stack_galaxy342
 - GOLF_20260610_089_simple_exact_batch_088_A1
 - GOLF_20260610_090_simple_exact_batch_088_B1
+- GOLF_20260612_092_simple_exact_166_300_stack_galaxy203
+- GOLF_20260612_093_simple_exact_166_300_stack_galaxy342
+- GOLF_20260612_094_submission1_valid153_full
+- GOLF_20260612_095_submission1_diff_A20
+- GOLF_20260612_096_submission1_diff_B20
+- GOLF_20260612_097_submission1_diff_C20
+- GOLF_20260612_098_submission1_diff_D20
+- GOLF_20260619_099_sajayr_7015_public_fork
+- GOLF_20260619_100_franksunp_7113_public_fork
 
 ## Exempt Experiments
 

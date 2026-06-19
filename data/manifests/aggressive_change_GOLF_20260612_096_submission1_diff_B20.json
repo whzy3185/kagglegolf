@@ -1,0 +1,102 @@
+{
+  "exp_id": "GOLF_20260612_096_submission1_diff_B20",
+  "checked_at": "2026-06-12T21:50:44",
+  "base": "E:\\kagglegolf\\submissions\\candidates\\GOLF_20260612_092_simple_exact_166_300_stack_galaxy203",
+  "changed_task_count": 20,
+  "content_changed_task_count": 20,
+  "content_changed_tasks": [
+    "task057",
+    "task062",
+    "task063",
+    "task064",
+    "task066",
+    "task067",
+    "task070",
+    "task071",
+    "task077",
+    "task079",
+    "task080",
+    "task088",
+    "task092",
+    "task094",
+    "task097",
+    "task105",
+    "task109",
+    "task110",
+    "task114",
+    "task115"
+  ],
+  "scored_task_count": 20,
+  "evidence_gate_status": "pass",
+  "risk": "medium",
+  "layers": {
+    "structural_delta": 0.19475074001226217,
+    "semantic_risk_adjusted_validity": 0.9697,
+    "competition_value": 0.4072835723543374,
+    "novelty_and_source_strength": 0.6779002960049049
+  },
+  "structural_delta_components": {
+    "op_family_delta": 0.08636076737939545,
+    "topology_delta": 0.08162233773426386,
+    "wl_subgraph_delta": 0.2797932454355181,
+    "dataflow_path_delta": 0.21482035202728703,
+    "initializer_structure_delta": 0.3381701294119797,
+    "memory_profile_delta": 0.27438783672662215,
+    "rewrite_class_score": 0.1
+  },
+  "semantic_risk_adjusted_validity_components": {
+    "local_example_pass": 1.0,
+    "structural_legality": 1.0,
+    "differential_output_consistency": 1.0,
+    "operator_conformance": 1.0,
+    "hidden_generalization_proxy": 0.6970000000000001
+  },
+  "differential_testing": {
+    "score": 1.0,
+    "checked": 60,
+    "base_candidate_matches": 60,
+    "optimizer_level_matches": 60,
+    "expected_passes": 60,
+    "errors": 0
+  },
+  "competition_value_components": {
+    "source_lb_strength": 0.55,
+    "affected_task_importance": 0.43,
+    "expected_memory_gain": 0.17401623797426063,
+    "bottom_tail_relevance": 0.0,
+    "submission_feedback_need": 1.0
+  },
+  "novelty_and_source_strength_components": {
+    "graph_novelty": 0.19475074001226217,
+    "leaderboard_basis": 1.0,
+    "paper_basis": 1.0,
+    "open_repo_basis": 1.0,
+    "historical_competition_basis": 1.0
+  },
+  "memory_profile": {
+    "base_proxy": 3196581,
+    "candidate_proxy": 2640324,
+    "expected_gain_ratio": 0.17401623797426063
+  },
+  "rewrite_classes": {
+    "model_substitution": 16,
+    "topology_rewrite": 3,
+    "initializer_elimination": 3,
+    "operator_family_rewrite": 2
+  },
+  "ags": 0.5485905028461572,
+  "classification": "strong",
+  "hard_reject": false,
+  "calibration_submit_allowed": false,
+  "submission_gate_pass": true,
+  "reference_basis": {
+    "onnx_runtime_graph_optimization": "https://onnxruntime.ai/docs/performance/model-optimizations/graph-optimizations.html",
+    "onnx_optimizer": "https://github.com/onnx/optimizer",
+    "onnx_simplifier": "https://github.com/daquexian/onnx-simplifier",
+    "graphsurgeon": "https://docs.nvidia.com/deeplearning/tensorrt/latest/api/onnx-graphsurgeon-api.html",
+    "graph_edit_distance": "https://doi.org/10.1007/s10044-008-0141-y",
+    "wl_graph_kernel": "https://www.jmlr.org/papers/v12/shervashidze11a.html",
+    "oodte": "OODTE-style differential execution across runtime optimization levels",
+    "onnxpruner": "ONNXPruner-style node association and dependency-aware pruning"
+  }
+}

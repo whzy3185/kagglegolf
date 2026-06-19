@@ -1,10 +1,10 @@
 # Batch Ablation Plan
 
-updated_at: 2026-06-12T21:13:01
+updated_at: 2026-06-12T21:29:16
 positive_batch_count: 3
-negative_batch_count: 17
-pending_or_unscored_count: 1
-ablation_needed_count: 17
+negative_batch_count: 20
+pending_or_unscored_count: 0
+ablation_needed_count: 20
 
 ## Batch Outcomes
 
@@ -30,7 +30,9 @@ ablation_needed_count: 17
 | GOLF_20260610_087_simple_exact_batch_086_A1 | 1 | 6293.07 | 0.630000 | positive_batch |  |
 | GOLF_20260610_088_simple_exact_batch_086_B2 | 2 | 6284.47 | -7.970000 | negative_batch | GOLF_20260610_089_simple_exact_batch_088_A1,GOLF_20260610_090_simple_exact_batch_088_B1 |
 | GOLF_20260610_088_simple_exact_batch_087_A1 | 1 | 6293.47 | 1.030000 | positive_batch |  |
-| GOLF_20260610_089_simple_exact_batch_087_B1 | 1 |  |  | pending_or_unscored |  |
+| GOLF_20260610_089_simple_exact_batch_087_B1 | 1 | 6286.33 | -6.110000 | negative_batch |  |
+| GOLF_20260610_089_simple_exact_batch_088_A1 | 1 | 6286.33 | -6.110000 | negative_batch |  |
+| GOLF_20260610_090_simple_exact_batch_088_B1 | 1 | 6290.58 | -1.860000 | negative_batch |  |
 
 ## Positive Batch
 
@@ -57,6 +59,9 @@ ablation_needed_count: 17
 - GOLF_20260610_086_simple_exact_batch_085_A1
 - GOLF_20260610_087_simple_exact_batch_085_B2
 - GOLF_20260610_088_simple_exact_batch_086_B2
+- GOLF_20260610_089_simple_exact_batch_087_B1
+- GOLF_20260610_089_simple_exact_batch_088_A1
+- GOLF_20260610_090_simple_exact_batch_088_B1
 
 ## Need Binary Ablation
 
@@ -77,6 +82,9 @@ ablation_needed_count: 17
 - GOLF_20260610_086_simple_exact_batch_085_A1
 - GOLF_20260610_087_simple_exact_batch_085_B2
 - GOLF_20260610_088_simple_exact_batch_086_B2
+- GOLF_20260610_089_simple_exact_batch_087_B1
+- GOLF_20260610_089_simple_exact_batch_088_A1
+- GOLF_20260610_090_simple_exact_batch_088_B1
 
 ## Build Log
 
@@ -100,11 +108,5 @@ ablation_needed_count: 17
 - GOLF_20260610_088_simple_exact_batch_086_B2: already exists
 - GOLF_20260610_088_simple_exact_batch_087_A1: already exists
 - GOLF_20260610_089_simple_exact_batch_087_B1: already exists
-- GOLF_20260610_089_simple_exact_batch_088_A1: returncode=0; E:\kagglegolf\submissions\candidates\GOLF_20260610_089_simple_exact_batch_088_A1
-changed_tasks task309
-changed_task_count 1
-validation_ok True
-- GOLF_20260610_090_simple_exact_batch_088_B1: returncode=0; E:\kagglegolf\submissions\candidates\GOLF_20260610_090_simple_exact_batch_088_B1
-changed_tasks task380
-changed_task_count 1
-validation_ok True
+- GOLF_20260610_089_simple_exact_batch_088_A1: already exists
+- GOLF_20260610_090_simple_exact_batch_088_B1: already exists

@@ -1,0 +1,4 @@
+exp_id=GOLF_20260612_097_submission1_diff_C20
+AGS=0.599283
+classification=strong
+submission_gate_pass=true

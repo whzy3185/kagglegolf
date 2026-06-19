@@ -1,0 +1,4 @@
+exp_id=GOLF_20260612_094_submission1_valid153_full
+AGS=0.608066
+classification=strong
+submission_gate_pass=true
