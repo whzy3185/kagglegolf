@@ -28,3 +28,11 @@ task table initialized
 ## 2026-06-09T20:36:00 current
 
 scored submissions/candidates/GOLF_20260609_062_public_single_task_task076_jonathan/onnx total=6292.9017
+
+## 2026-07-09T14:01:54 GOLF_20260709_101_prvsiyan_7266_72_repro
+
+scored C:/Users/zyc/AppData/Local/Temp/neurogolf_score__hewx83n total=7266.5860
+
+## 2026-07-09T14:02:50 GOLF_20260709_101_prvsiyan_7266_72_repro
+
+watch refresh changed=1 total=7266.5860

@@ -1,401 +1,401 @@
 task_id,official_verify_status,onnx_pass,onnx_total,train_pass,train_total,test_pass,test_total,arcgen_pass,arcgen_total,python_solver_pass,python_solver_total,python_full_but_onnx_fail,train_test_full_but_arcgen_fail,first_fail_case,fail_reason,failure_type,current_score,total_cost,suggested_fix
-task001,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.047384888349,2843.0,inspect rule and source solver
-task002,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.514517676859928,97293.0,memory-first ONNX surgery
-task003,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.918291413894426,1190.0,inspect rule and source solver
-task004,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.084547965521434,55020.0,memory-first ONNX surgery
-task005,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.328149556042213,117225.0,memory-first ONNX surgery
-task006,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.603051397378987,1631.0,inspect rule and source solver
-task007,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.108350887349943,7271.0,inspect rule and source solver
-task008,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.94430651457454,23288.0,inspect rule and source solver
-task009,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,13.69482467517415,81241.0,memory-first ONNX surgery
-task010,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.479811299603966,5015.0,inspect rule and source solver
-task011,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.898854540195707,66247.0,memory-first ONNX surgery
-task012,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.555457449352874,12639.0,inspect rule and source solver
-task013,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.3310798421544,116882.0,memory-first ONNX surgery
-task014,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.427427453254685,39049.0,inspect rule and source solver
+task001,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.344008189180148,286.0,inspect rule and source solver
+task002,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.433034685335127,14285.0,inspect rule and source solver
+task003,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,19.439318368984473,260.0,inspect rule and source solver
+task004,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.509972476656532,4866.0,inspect rule and source solver
+task005,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.19807909595842,6647.0,inspect rule and source solver
+task006,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.969562078607566,153.0,inspect rule and source solver
+task007,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.15581291354141,127.0,inspect rule and source solver
+task008,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.083192509062396,2743.0,inspect rule and source solver
+task009,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.191033118228727,6694.0,inspect rule and source solver
+task010,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.09024671835519,1002.0,inspect rule and source solver
+task011,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.23794861721982,318.0,inspect rule and source solver
+task012,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.28087015909327,2251.0,inspect rule and source solver
+task013,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.738774908028077,1424.0,inspect rule and source solver
+task014,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.681745671201156,4098.0,inspect rule and source solver
 task015,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,18.197605236675688,900.0,inspect rule and source solver
 task016,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,22.697414907005953,10.0,inspect rule and source solver
-task017,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.57051253772697,33843.0,inspect rule and source solver
-task018,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,11.926440386857584,476184.0,memory-first ONNX surgery
-task019,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.69353305881371,81346.0,memory-first ONNX surgery
-task020,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.061599593526992,7619.0,inspect rule and source solver
-task021,pass,77.0,77.0,3.0,3.0,1.0,1.0,73.0,73.0,,,false,false,,,none,14.156056071090937,51223.0,memory-first ONNX surgery
-task022,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.542024067963268,34821.0,inspect rule and source solver
-task023,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.863194455943471,68652.0,memory-first ONNX surgery
-task024,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.88617052840466,9080.0,inspect rule and source solver
-task025,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.149938233234366,140093.0,memory-first ONNX surgery
-task026,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.415208607614282,724.0,inspect rule and source solver
-task027,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.331975918881177,5814.0,inspect rule and source solver
-task028,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.51553663320668,4839.0,inspect rule and source solver
-task029,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.516328283804857,97117.0,memory-first ONNX surgery
-task030,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.69453128293224,10998.0,inspect rule and source solver
-task031,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.168223295017873,18616.0,inspect rule and source solver
-task032,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.86699978141639,3405.0,inspect rule and source solver
-task033,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,14.081988539178049,55161.0,memory-first ONNX surgery
-task034,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.425828929592994,106316.0,memory-first ONNX surgery
-task035,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.36028269986934,15363.0,inspect rule and source solver
-task036,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.710918331458375,79944.0,memory-first ONNX surgery
-task037,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.937652078450405,63726.0,memory-first ONNX surgery
-task038,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.315675932318847,2174.0,inspect rule and source solver
-task039,pass,264.0,264.0,2.0,2.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.04171718950267,7772.0,inspect rule and source solver
-task040,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.02944082049105,7868.0,inspect rule and source solver
-task041,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.626775765122337,11769.0,inspect rule and source solver
-task042,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.95018055485892,8517.0,inspect rule and source solver
-task043,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.129617933929865,7118.0,inspect rule and source solver
-task044,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.354527484820627,42002.0,inspect rule and source solver
-task045,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.0873920363291,7425.0,inspect rule and source solver
-task046,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.58291068075113,33426.0,inspect rule and source solver
-task047,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.985664262700574,3024.0,inspect rule and source solver
-task048,pass,270.0,270.0,6.0,6.0,2.0,2.0,262.0,262.0,,,false,false,,,none,16.367872270491663,5609.0,inspect rule and source solver
-task049,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.674878758194124,30489.0,inspect rule and source solver
-task050,pass,271.0,271.0,8.0,8.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.843587970049374,9475.0,inspect rule and source solver
-task051,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,13.866448009633856,68429.0,memory-first ONNX surgery
-task052,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.886857891292912,1228.0,inspect rule and source solver
+task017,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.22769958206416,6453.0,inspect rule and source solver
+task018,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.899302278176167,24360.0,inspect rule and source solver
+task019,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.174754708568226,2503.0,inspect rule and source solver
+task020,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.864312652971854,1256.0,inspect rule and source solver
+task021,pass,77.0,77.0,3.0,3.0,1.0,1.0,73.0,73.0,,,false,false,,,none,19.21925648420767,324.0,inspect rule and source solver
+task022,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.197605236675688,900.0,inspect rule and source solver
+task023,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.985431232542176,8222.0,inspect rule and source solver
+task024,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.299519634207584,110.0,inspect rule and source solver
+task025,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.76633380272032,10236.0,inspect rule and source solver
+task026,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.701682633451963,200.0,inspect rule and source solver
+task027,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.823745467982857,1308.0,inspect rule and source solver
+task028,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.876036020596743,168.0,inspect rule and source solver
+task029,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.426804618468477,5288.0,inspect rule and source solver
+task030,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.50279277679668,1803.0,inspect rule and source solver
+task031,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.543230344427837,637.0,inspect rule and source solver
+task032,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
+task033,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.59815842125617,1639.0,inspect rule and source solver
+task034,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.27643752772203,2261.0,inspect rule and source solver
+task035,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.4477627124392,1905.0,inspect rule and source solver
+task036,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.629139833463285,1589.0,inspect rule and source solver
+task037,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.19005291352321,2465.0,inspect rule and source solver
+task038,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.638707834290575,213.0,inspect rule and source solver
+task039,pass,264.0,264.0,2.0,2.0,1.0,1.0,261.0,261.0,,,false,false,,,none,18.884107874516964,453.0,inspect rule and source solver
+task040,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.752975927839515,190.0,inspect rule and source solver
+task041,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.511706484840573,1787.0,inspect rule and source solver
+task042,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.95762199482672,3110.0,inspect rule and source solver
+task043,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.324176778365153,793.0,inspect rule and source solver
+task044,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.925350924933348,3212.0,inspect rule and source solver
+task045,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.577626299013176,1673.0,inspect rule and source solver
+task046,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.3574758657671,2085.0,inspect rule and source solver
+task047,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.240744729336306,862.0,inspect rule and source solver
+task048,pass,270.0,270.0,6.0,6.0,2.0,2.0,262.0,262.0,,,false,false,,,none,18.31164528605324,803.0,inspect rule and source solver
+task049,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.15645558296864,345.0,inspect rule and source solver
+task050,pass,271.0,271.0,8.0,8.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.744431346716254,3849.0,inspect rule and source solver
+task051,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.536063395531073,1744.0,inspect rule and source solver
+task052,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.73214184093667,194.0,inspect rule and source solver
 task053,pass,60.0,60.0,4.0,4.0,2.0,2.0,54.0,54.0,,,false,false,,,none,21.598802618337846,30.0,inspect rule and source solver
-task054,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.07796275080141,150548.0,memory-first ONNX surgery
-task055,pass,263.0,263.0,2.0,2.0,1.0,1.0,260.0,260.0,,,false,false,,,none,14.820017720652668,26370.0,inspect rule and source solver
-task056,pass,46.0,46.0,7.0,7.0,3.0,3.0,36.0,36.0,,,false,false,,,none,19.638707834290575,213.0,inspect rule and source solver
-task057,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.354118052333183,15458.0,inspect rule and source solver
-task058,pass,22.0,22.0,5.0,5.0,1.0,1.0,16.0,16.0,,,false,false,,,none,15.314295392535985,16086.0,inspect rule and source solver
-task059,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.077347278202861,20387.0,inspect rule and source solver
-task060,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.372876749211567,5581.0,inspect rule and source solver
-task061,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.152342332424542,18914.0,inspect rule and source solver
-task062,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.810807327896311,26614.0,inspect rule and source solver
-task063,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.666940264012474,30732.0,inspect rule and source solver
-task064,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.354705067178468,114153.0,memory-first ONNX surgery
-task065,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.534186050835478,35095.0,inspect rule and source solver
-task066,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.455382088297283,103220.0,memory-first ONNX surgery
-task067,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.247427361174367,315.0,inspect rule and source solver
-task068,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.55942130423374,12589.0,inspect rule and source solver
-task069,pass,264.0,264.0,2.0,2.0,1.0,1.0,261.0,261.0,,,false,false,,,none,13.658456151785392,84250.0,memory-first ONNX surgery
-task070,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.910020984695,8866.0,inspect rule and source solver
-task071,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.238317819353261,128243.0,memory-first ONNX surgery
-task072,pass,268.0,268.0,4.0,4.0,2.0,2.0,262.0,262.0,,,false,false,,,none,17.8229812340901,1309.0,inspect rule and source solver
-task073,pass,15.0,15.0,3.0,3.0,1.0,1.0,11.0,11.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
-task074,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.009188619292196,21825.0,inspect rule and source solver
-task075,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,14.742796878157792,28487.0,inspect rule and source solver
-task076,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.503627688842322,36184.0,inspect rule and source solver
-task077,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.032857358715912,157494.0,memory-first ONNX surgery
-task078,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.65024557224114,11496.0,inspect rule and source solver
-task079,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.029648507210364,21383.0,inspect rule and source solver
-task080,pass,231.0,231.0,3.0,3.0,1.0,1.0,227.0,227.0,,,false,false,,,none,14.353266435603462,42055.0,inspect rule and source solver
-task081,pass,264.0,264.0,2.0,2.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.256296741826247,2307.0,inspect rule and source solver
-task082,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.818470709877937,9716.0,inspect rule and source solver
-task083,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.504458056115745,1800.0,inspect rule and source solver
-task084,pass,175.0,175.0,3.0,3.0,1.0,1.0,171.0,171.0,,,false,false,,,none,15.121163810905001,19513.0,inspect rule and source solver
-task085,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.36328292042622,113178.0,memory-first ONNX surgery
-task086,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.83966336368449,25857.0,inspect rule and source solver
-task087,pass,266.0,266.0,4.0,4.0,1.0,1.0,261.0,261.0,,,false,false,,,none,19.09191706183107,368.0,inspect rule and source solver
-task088,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.80499590787612,72766.0,memory-first ONNX surgery
-task089,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.186179427563964,49703.0,inspect rule and source solver
-task090,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.94350667496543,63354.0,memory-first ONNX surgery
-task091,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.151323325547068,51466.0,memory-first ONNX surgery
-task092,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.25734036914603,46289.0,inspect rule and source solver
-task093,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.354118052333183,15458.0,inspect rule and source solver
-task094,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.745451373359497,10452.0,inspect rule and source solver
-task095,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
-task096,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,12.827184286371278,193458.0,memory-first ONNX surgery
-task097,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.20070697648173,18021.0,inspect rule and source solver
-task098,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
-task099,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.500970779211436,4910.0,inspect rule and source solver
-task100,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.21491936346016,6536.0,inspect rule and source solver
-task101,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,12.166837180696787,374431.0,memory-first ONNX surgery
-task102,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.558071829926945,12606.0,inspect rule and source solver
-task103,pass,223.0,223.0,6.0,6.0,2.0,2.0,215.0,215.0,,,false,false,,,none,19.737309811095116,193.0,inspect rule and source solver
-task104,pass,7.0,7.0,2.0,2.0,1.0,1.0,4.0,4.0,,,false,false,,,none,16.788788638206977,3682.0,inspect rule and source solver
-task105,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.138508135713085,7055.0,inspect rule and source solver
-task106,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.940382371708615,1164.0,inspect rule and source solver
-task107,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.799992367549814,73131.0,memory-first ONNX surgery
-task108,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.504458056115745,1800.0,inspect rule and source solver
-task109,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.539652865248629,94878.0,memory-first ONNX surgery
-task110,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.411104725742392,107893.0,memory-first ONNX surgery
-task111,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,18.319145321209785,797.0,inspect rule and source solver
-task112,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.010141445218116,59270.0,memory-first ONNX surgery
+task054,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.857731795370263,25394.0,inspect rule and source solver
+task055,pass,263.0,263.0,2.0,2.0,1.0,1.0,260.0,260.0,,,false,false,,,none,17.473821086653853,1856.0,inspect rule and source solver
+task056,pass,46.0,46.0,7.0,7.0,3.0,3.0,36.0,36.0,,,false,false,,,none,21.473639475383838,34.0,inspect rule and source solver
+task057,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,18.495711826463356,668.0,inspect rule and source solver
+task058,pass,22.0,22.0,5.0,5.0,1.0,1.0,16.0,16.0,,,false,false,,,none,18.05977753088036,1033.0,inspect rule and source solver
+task059,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.69555119757802,547.0,inspect rule and source solver
+task060,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.082294390164694,1010.0,inspect rule and source solver
+task061,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.58061941708131,1668.0,inspect rule and source solver
+task062,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.166399776338896,2524.0,inspect rule and source solver
+task063,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.558093271948376,1706.0,inspect rule and source solver
+task064,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.746121326009334,10445.0,inspect rule and source solver
+task065,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.54166171665521,638.0,inspect rule and source solver
+task066,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.727342321958956,10643.0,inspect rule and source solver
+task067,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,25.0,0.0,inspect rule and source solver
+task068,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.565453481212547,623.0,inspect rule and source solver
+task069,pass,264.0,264.0,2.0,2.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.010778591184724,2949.0,inspect rule and source solver
+task070,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.572261159467107,1682.0,inspect rule and source solver
+task071,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.11279141418607,2663.0,inspect rule and source solver
+task072,pass,268.0,268.0,4.0,4.0,2.0,2.0,262.0,262.0,,,false,false,,,none,18.957367166317617,421.0,inspect rule and source solver
+task073,pass,15.0,15.0,3.0,3.0,1.0,1.0,11.0,11.0,,,false,false,,,none,21.311120545886062,40.0,inspect rule and source solver
+task074,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.964251138755861,8398.0,inspect rule and source solver
+task075,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.695484053539843,1487.0,inspect rule and source solver
+task076,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.54084832996103,12825.0,inspect rule and source solver
+task077,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.056624458886876,7657.0,inspect rule and source solver
+task078,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.835279621228143,1293.0,inspect rule and source solver
+task079,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.956336647606058,3114.0,inspect rule and source solver
+task080,pass,231.0,231.0,3.0,3.0,1.0,1.0,227.0,227.0,,,false,false,,,none,15.866324712959303,9262.0,inspect rule and source solver
+task081,pass,264.0,264.0,2.0,2.0,1.0,1.0,261.0,261.0,,,false,false,,,none,18.860115447773744,464.0,inspect rule and source solver
+task082,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.752975927839515,190.0,inspect rule and source solver
+task083,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.65289246928253,210.0,inspect rule and source solver
+task084,pass,175.0,175.0,3.0,3.0,1.0,1.0,171.0,171.0,,,false,false,,,none,17.38027578621733,2038.0,inspect rule and source solver
+task085,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.036192046768548,2875.0,inspect rule and source solver
+task086,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.98434238544266,3028.0,inspect rule and source solver
+task087,pass,266.0,266.0,4.0,4.0,1.0,1.0,261.0,261.0,,,false,false,,,none,23.3905620875659,5.0,inspect rule and source solver
+task088,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.465237342962464,1872.0,inspect rule and source solver
+task089,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.184333175053784,6739.0,inspect rule and source solver
+task090,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.975465128394305,3055.0,inspect rule and source solver
+task091,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.07556581511244,2764.0,inspect rule and source solver
+task092,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.212321760960503,6553.0,inspect rule and source solver
+task093,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.888671996713267,3332.0,inspect rule and source solver
+task094,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.10754795647965,2677.0,inspect rule and source solver
+task095,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.15645558296864,345.0,inspect rule and source solver
+task096,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.053885624439257,7678.0,inspect rule and source solver
+task097,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
+task098,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.197605236675688,900.0,inspect rule and source solver
+task099,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.450917289187714,1899.0,inspect rule and source solver
+task100,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.116677611511722,359.0,inspect rule and source solver
+task101,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.473025733622269,13725.0,inspect rule and source solver
+task102,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.165211892611808,2527.0,inspect rule and source solver
+task103,pass,223.0,223.0,6.0,6.0,2.0,2.0,215.0,215.0,,,false,false,,,none,20.9056554377779,60.0,inspect rule and source solver
+task104,pass,7.0,7.0,2.0,2.0,1.0,1.0,4.0,4.0,,,false,false,,,none,19.527729326328526,238.0,inspect rule and source solver
+task105,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.039327391611884,2866.0,inspect rule and source solver
+task106,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.560649628899903,626.0,inspect rule and source solver
+task107,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.817999863706596,3576.0,inspect rule and source solver
+task108,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.2962175253438,300.0,inspect rule and source solver
+task109,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.594504336800526,1645.0,inspect rule and source solver
+task110,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.757482896328597,10327.0,inspect rule and source solver
+task111,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,19.266658723102253,309.0,inspect rule and source solver
+task112,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.52239575680241,1768.0,inspect rule and source solver
 task113,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,21.598802618337846,30.0,inspect rule and source solver
-task114,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.869901489874422,1249.0,inspect rule and source solver
-task115,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.67663430556392,4119.0,inspect rule and source solver
+task114,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.197605236675688,900.0,inspect rule and source solver
+task115,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.078341815848873,1014.0,inspect rule and source solver
 task116,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,21.598802618337846,30.0,inspect rule and source solver
-task117,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.202317506360849,17992.0,inspect rule and source solver
-task118,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.336192047071197,116286.0,memory-first ONNX surgery
-task119,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.297955663465414,16351.0,inspect rule and source solver
+task117,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.758560310170267,3795.0,inspect rule and source solver
+task118,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.584109945110656,12282.0,inspect rule and source solver
+task119,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.782556568303466,1363.0,inspect rule and source solver
 task120,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
-task121,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.215837777729526,6530.0,inspect rule and source solver
-task122,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.17196196787417,2510.0,inspect rule and source solver
-task123,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.680526307557813,4103.0,inspect rule and source solver
-task124,pass,267.0,267.0,3.0,3.0,2.0,2.0,262.0,262.0,,,false,false,,,none,15.634966238347337,11673.0,inspect rule and source solver
-task125,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.495796696496955,13416.0,inspect rule and source solver
-task126,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.636839844664504,86091.0,memory-first ONNX surgery
-task127,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.197605236675688,900.0,inspect rule and source solver
-task128,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.693373260405208,81359.0,memory-first ONNX surgery
-task129,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,18.306676331730053,807.0,inspect rule and source solver
-task130,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.323538526042306,15938.0,inspect rule and source solver
-task131,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.295632567101045,44550.0,inspect rule and source solver
-task132,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.709279200950512,29458.0,inspect rule and source solver
-task133,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,12.810671762888107,196679.0,memory-first ONNX surgery
-task134,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.576162453761413,12380.0,inspect rule and source solver
-task135,pass,266.0,266.0,4.0,4.0,1.0,1.0,261.0,261.0,,,false,false,,,none,19.113895968549844,360.0,inspect rule and source solver
-task136,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.516156788265317,4836.0,inspect rule and source solver
-task137,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.821401075304742,71582.0,memory-first ONNX surgery
-task138,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.211361567031112,48467.0,inspect rule and source solver
-task139,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.803012072741105,3630.0,inspect rule and source solver
-task140,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.09191706183107,368.0,inspect rule and source solver
-task141,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.33103297180142,15819.0,inspect rule and source solver
-task142,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.504458056115745,1800.0,inspect rule and source solver
-task143,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.12486048297936,19441.0,inspect rule and source solver
-task144,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.93621479131239,430.0,inspect rule and source solver
-task145,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.847226946929018,69757.0,memory-first ONNX surgery
-task146,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.27865138738205,2256.0,inspect rule and source solver
-task147,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
-task148,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.99988495388028,22029.0,inspect rule and source solver
-task149,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.54041448585584,235.0,inspect rule and source solver
-task150,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.47643769385049,681.0,inspect rule and source solver
-task151,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
-task152,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.504458056115745,1800.0,inspect rule and source solver
-task153,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.029134212133924,21394.0,inspect rule and source solver
-task154,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.596525348878876,32974.0,inspect rule and source solver
-task155,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.47643769385049,681.0,inspect rule and source solver
-task156,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.813177309255789,26551.0,inspect rule and source solver
-task157,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.72024316999107,79202.0,memory-first ONNX surgery
-task158,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,12.837576257600388,191458.0,memory-first ONNX surgery
-task159,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.067099286895523,20597.0,inspect rule and source solver
-task160,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.569454615309432,4585.0,inspect rule and source solver
-task161,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.923426777221719,64639.0,memory-first ONNX surgery
-task162,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.944501582071068,63291.0,memory-first ONNX surgery
-task163,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.911070763333674,24075.0,inspect rule and source solver
+task121,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.213102618633293,326.0,inspect rule and source solver
+task122,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.302965752333517,810.0,inspect rule and source solver
+task123,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.798083682468373,1342.0,inspect rule and source solver
+task124,pass,267.0,267.0,3.0,3.0,2.0,2.0,262.0,262.0,,,false,false,,,none,17.42287806912332,1953.0,inspect rule and source solver
+task125,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.850109455597575,3463.0,inspect rule and source solver
+task126,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.59477154196916,605.0,inspect rule and source solver
+task127,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.01858578874552,396.0,inspect rule and source solver
+task128,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.087345114263947,136.0,inspect rule and source solver
+task129,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,20.61797336532612,80.0,inspect rule and source solver
+task130,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,21.598802618337846,30.0,inspect rule and source solver
+task131,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.737441026989345,3876.0,inspect rule and source solver
+task132,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.79696975828514,3652.0,inspect rule and source solver
+task133,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.03475905118839,21274.0,inspect rule and source solver
+task134,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.667630794070938,1529.0,inspect rule and source solver
+task135,pass,266.0,266.0,4.0,4.0,1.0,1.0,261.0,261.0,,,false,false,,,none,19.701682633451963,200.0,inspect rule and source solver
+task136,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.91493570604745,1194.0,inspect rule and source solver
+task137,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.871709828392948,3389.0,inspect rule and source solver
+task138,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.603844181975607,12042.0,inspect rule and source solver
+task139,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.193170639607825,904.0,inspect rule and source solver
+task140,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,23.3905620875659,5.0,inspect rule and source solver
+task141,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.76798966833524,1383.0,inspect rule and source solver
+task142,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.500190329669735,90.0,inspect rule and source solver
+task143,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.270175929510525,837.0,inspect rule and source solver
+task144,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.35560910085863,104.0,inspect rule and source solver
+task145,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.53851188030001,12855.0,inspect rule and source solver
+task146,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.42027017401378,265.0,inspect rule and source solver
+task147,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.723356510658355,532.0,inspect rule and source solver
+task148,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.505666102729847,4887.0,inspect rule and source solver
+task149,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.087345114263947,136.0,inspect rule and source solver
+task150,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.072746314842796,138.0,inspect rule and source solver
+task151,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.197605236675688,900.0,inspect rule and source solver
+task152,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.500190329669735,90.0,inspect rule and source solver
+task153,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,18.324176778365153,793.0,inspect rule and source solver
+task154,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.10680113045539,2679.0,inspect rule and source solver
+task155,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.072746314842796,138.0,inspect rule and source solver
+task156,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.64627766960037,1562.0,inspect rule and source solver
+task157,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.171945463184578,6823.0,inspect rule and source solver
+task158,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.742937302942996,28483.0,inspect rule and source solver
+task159,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.642443799089648,1568.0,inspect rule and source solver
+task160,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.804062773524432,1334.0,inspect rule and source solver
+task161,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.500023459047878,1808.0,inspect rule and source solver
+task162,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.839481752522495,3500.0,inspect rule and source solver
+task163,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.509470597939288,1791.0,inspect rule and source solver
 task164,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,21.598802618337846,30.0,inspect rule and source solver
-task165,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,13.87976163077872,67524.0,memory-first ONNX surgery
-task166,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.881844714630706,24789.0,inspect rule and source solver
-task167,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.470581161737776,685.0,inspect rule and source solver
-task168,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.076562772156251,20403.0,inspect rule and source solver
-task169,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.929812271572874,23628.0,inspect rule and source solver
-task170,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.728331141770909,78564.0,memory-first ONNX surgery
-task171,pass,54.0,54.0,4.0,4.0,1.0,1.0,49.0,49.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
+task165,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.578437039599013,4544.0,inspect rule and source solver
+task166,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,21.821946169652055,24.0,inspect rule and source solver
+task167,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.016393378291664,146.0,inspect rule and source solver
+task168,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.28710903850987,2237.0,inspect rule and source solver
+task169,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.5794210945892,1670.0,inspect rule and source solver
+task170,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.338472918641482,2125.0,inspect rule and source solver
+task171,pass,54.0,54.0,4.0,4.0,1.0,1.0,49.0,49.0,,,false,false,,,none,18.36799822260437,759.0,inspect rule and source solver
 task172,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,21.598802618337846,30.0,inspect rule and source solver
-task173,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,12.926071138839562,175243.0,memory-first ONNX surgery
-task174,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.140635684557754,52019.0,memory-first ONNX surgery
-task175,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.54026436354389,94820.0,memory-first ONNX surgery
-task176,pass,25.0,25.0,3.0,3.0,1.0,1.0,21.0,21.0,,,false,false,,,none,16.022853515191528,7920.0,inspect rule and source solver
-task177,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,13.978195575521427,61194.0,memory-first ONNX surgery
-task178,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.478065735525723,13656.0,inspect rule and source solver
+task173,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.498259476203625,13383.0,inspect rule and source solver
+task174,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.699223039148546,4027.0,inspect rule and source solver
+task175,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.865109148434115,1255.0,inspect rule and source solver
+task176,pass,25.0,25.0,3.0,3.0,1.0,1.0,21.0,21.0,,,false,false,,,none,19.65289246928253,210.0,inspect rule and source solver
+task177,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.9138974643309,3249.0,inspect rule and source solver
+task178,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.364053444313353,762.0,inspect rule and source solver
 task179,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,25.0,0.0,inspect rule and source solver
-task180,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.084030688626395,7450.0,inspect rule and source solver
-task181,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.91493570604745,1194.0,inspect rule and source solver
-task182,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.22901287975965,47619.0,inspect rule and source solver
-task183,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,14.878662884610772,24868.0,inspect rule and source solver
-task184,pass,169.0,169.0,3.0,3.0,1.0,1.0,165.0,165.0,,,false,false,,,none,14.432407952356657,38855.0,inspect rule and source solver
-task185,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.00485763936326,59584.0,memory-first ONNX surgery
-task186,pass,267.0,267.0,10.0,10.0,2.0,2.0,255.0,255.0,,,false,false,,,none,19.10284613236326,364.0,inspect rule and source solver
-task187,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.654168620492959,84612.0,memory-first ONNX surgery
-task188,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.692532917293095,11020.0,inspect rule and source solver
-task189,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.887914167591697,24639.0,inspect rule and source solver
-task190,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.675973863620001,11204.0,inspect rule and source solver
-task191,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.638839729058745,85919.0,memory-first ONNX surgery
-task192,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.14161657647865,51968.0,memory-first ONNX surgery
-task193,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.109558240338645,53661.0,memory-first ONNX surgery
-task194,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.504458056115745,1800.0,inspect rule and source solver
-task195,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.436962585454308,14229.0,inspect rule and source solver
-task196,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.619005786490737,32241.0,inspect rule and source solver
-task197,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.166555524825903,50688.0,memory-first ONNX surgery
-task198,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.449576458609688,103821.0,memory-first ONNX surgery
-task199,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.30989132872317,16157.0,inspect rule and source solver
-task200,pass,84.0,84.0,3.0,3.0,1.0,1.0,80.0,80.0,,,false,false,,,none,16.90867872646959,3266.0,inspect rule and source solver
-task201,pass,266.0,266.0,4.0,4.0,1.0,1.0,261.0,261.0,,,false,false,,,none,13.562876248446054,92700.0,memory-first ONNX surgery
-task202,pass,230.0,230.0,4.0,4.0,1.0,1.0,225.0,225.0,,,false,false,,,none,13.258187509088495,125720.0,memory-first ONNX surgery
-task203,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.610350127195805,88402.0,memory-first ONNX surgery
-task204,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.307707338062253,119646.0,memory-first ONNX surgery
-task205,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.370955104619776,112313.0,memory-first ONNX surgery
-task206,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.975062924893004,61386.0,memory-first ONNX surgery
-task207,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.463636061595487,1875.0,inspect rule and source solver
-task208,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.236326566974489,47272.0,inspect rule and source solver
-task209,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.28530989269121,122356.0,memory-first ONNX surgery
+task180,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.65289246928253,210.0,inspect rule and source solver
+task181,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.09191706183107,368.0,inspect rule and source solver
+task182,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.28477595808463,6095.0,inspect rule and source solver
+task183,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,18.068528194400546,1024.0,inspect rule and source solver
+task184,pass,169.0,169.0,3.0,3.0,1.0,1.0,165.0,165.0,,,false,false,,,none,17.379785229425543,2039.0,inspect rule and source solver
+task185,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.421854527580535,1955.0,inspect rule and source solver
+task186,pass,267.0,267.0,10.0,10.0,2.0,2.0,255.0,255.0,,,false,false,,,none,20.365271011770364,103.0,inspect rule and source solver
+task187,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.332867892750313,15790.0,inspect rule and source solver
+task188,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.361432210833478,764.0,inspect rule and source solver
+task189,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.206533867419992,892.0,inspect rule and source solver
+task190,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.2055887942734,2427.0,inspect rule and source solver
+task191,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.686922550572705,11082.0,inspect rule and source solver
+task192,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.415896103301137,5346.0,inspect rule and source solver
+task193,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
+task194,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.14459120139007,949.0,inspect rule and source solver
+task195,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,18.174539963744692,921.0,inspect rule and source solver
+task196,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.580199154592414,4536.0,inspect rule and source solver
+task197,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.960339650137925,1141.0,inspect rule and source solver
+task198,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.657754557143878,11410.0,inspect rule and source solver
+task199,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.491761225321337,1823.0,inspect rule and source solver
+task200,pass,84.0,84.0,3.0,3.0,1.0,1.0,80.0,80.0,,,false,false,,,none,18.565453481212547,623.0,inspect rule and source solver
+task201,pass,266.0,266.0,4.0,4.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.978415466544895,3046.0,inspect rule and source solver
+task202,pass,230.0,230.0,4.0,4.0,1.0,1.0,225.0,225.0,,,false,false,,,none,16.592398485213856,4481.0,inspect rule and source solver
+task203,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.127882210524582,355.0,inspect rule and source solver
+task204,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.76672465674132,10232.0,inspect rule and source solver
+task205,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.504847939460642,4891.0,inspect rule and source solver
+task206,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.51394738213686,1783.0,inspect rule and source solver
+task207,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,19.53616819497439,236.0,inspect rule and source solver
+task208,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.660738017076426,4185.0,inspect rule and source solver
+task209,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.041331262952568,7775.0,inspect rule and source solver
 task210,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,21.598802618337846,30.0,inspect rule and source solver
-task211,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.504458056115745,1800.0,inspect rule and source solver
-task212,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.876307434749489,9170.0,inspect rule and source solver
-task213,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,14.177325912477691,50145.0,memory-first ONNX surgery
-task214,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.504458056115745,1800.0,inspect rule and source solver
-task215,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.452187931601495,38094.0,inspect rule and source solver
-task216,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.451977697992342,103572.0,memory-first ONNX surgery
-task217,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.206104124093967,17924.0,inspect rule and source solver
-task218,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.948006239164648,23202.0,inspect rule and source solver
-task219,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,13.651395086474174,84847.0,memory-first ONNX surgery
+task211,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.401578041001624,270.0,inspect rule and source solver
+task212,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.281759048040684,2249.0,inspect rule and source solver
+task213,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.477059081927628,1850.0,inspect rule and source solver
+task214,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.736601737408378,525.0,inspect rule and source solver
+task215,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.55586874329956,629.0,inspect rule and source solver
+task216,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.918971364504158,8787.0,inspect rule and source solver
+task217,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.70698232022722,1470.0,inspect rule and source solver
+task218,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.52456728329591,649.0,inspect rule and source solver
+task219,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.92719904204588,8715.0,inspect rule and source solver
 task220,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.197605236675688,900.0,inspect rule and source solver
-task221,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.069235056400384,55869.0,memory-first ONNX surgery
-task222,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.031198444197276,58035.0,memory-first ONNX surgery
-task223,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.504458056115745,1800.0,inspect rule and source solver
-task224,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.275455898281896,45458.0,inspect rule and source solver
-task225,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.68728356140695,11078.0,inspect rule and source solver
-task226,pass,133.0,133.0,3.0,3.0,1.0,1.0,129.0,129.0,,,false,false,,,none,16.53220715887889,4759.0,inspect rule and source solver
-task227,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.018266713308115,2927.0,inspect rule and source solver
-task228,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.86993479941538,25086.0,inspect rule and source solver
-task229,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.74936448810132,1409.0,inspect rule and source solver
+task221,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.309157722581435,805.0,inspect rule and source solver
+task222,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.08684481407193,2733.0,inspect rule and source solver
+task223,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,23.3905620875659,5.0,inspect rule and source solver
+task224,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.457786536806598,1886.0,inspect rule and source solver
+task225,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,18.06171551598304,1031.0,inspect rule and source solver
+task226,pass,133.0,133.0,3.0,3.0,1.0,1.0,129.0,129.0,,,false,false,,,none,17.664366018072798,1534.0,inspect rule and source solver
+task227,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.394829814011906,100.0,inspect rule and source solver
+task228,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.130985549334294,962.0,inspect rule and source solver
+task229,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.701682633451963,200.0,inspect rule and source solver
 task230,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.197605236675688,900.0,inspect rule and source solver
-task231,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.445698819920006,38342.0,inspect rule and source solver
-task232,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.707956157758622,29497.0,inspect rule and source solver
-task233,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,10.679645472747369,1656727.0,memory-first ONNX surgery
-task234,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.689154000119816,81703.0,memory-first ONNX surgery
-task235,pass,69.0,69.0,4.0,4.0,1.0,1.0,64.0,64.0,,,false,false,,,none,17.801068759311825,1338.0,inspect rule and source solver
-task236,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.53385527576238,643.0,inspect rule and source solver
-task237,pass,266.0,266.0,4.0,4.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.430308268881676,14324.0,inspect rule and source solver
-task238,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.927876707427622,64352.0,memory-first ONNX surgery
-task239,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.54388830238479,94477.0,memory-first ONNX surgery
-task240,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.765519480374964,27847.0,inspect rule and source solver
+task231,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.6109282701835,219.0,inspect rule and source solver
+task232,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.748655016627787,1410.0,inspect rule and source solver
+task233,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.626165127286631,32011.0,inspect rule and source solver
+task234,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.840053344421452,3498.0,inspect rule and source solver
+task235,pass,69.0,69.0,4.0,4.0,1.0,1.0,64.0,64.0,,,false,false,,,none,20.140187595638327,129.0,inspect rule and source solver
+task236,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.163718093048523,126.0,inspect rule and source solver
+task237,pass,266.0,266.0,4.0,4.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.484655428819565,1836.0,inspect rule and source solver
+task238,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.432137394536117,1935.0,inspect rule and source solver
+task239,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.146700906813923,947.0,inspect rule and source solver
+task240,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.703586731226082,1475.0,inspect rule and source solver
 task241,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,25.0,0.0,inspect rule and source solver
-task242,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.02905960185755,7871.0,inspect rule and source solver
-task243,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,13.401208814053447,108966.0,memory-first ONNX surgery
-task244,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.633344629227418,31782.0,inspect rule and source solver
-task245,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.724535183516696,29012.0,inspect rule and source solver
-task246,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.497661881504435,13391.0,inspect rule and source solver
-task247,pass,269.0,269.0,6.0,6.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.272870084756832,6168.0,inspect rule and source solver
-task248,pass,13.0,13.0,3.0,3.0,1.0,1.0,9.0,9.0,,,false,false,,,none,16.218905264797385,6510.0,inspect rule and source solver
-task249,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,18.477907201829847,680.0,inspect rule and source solver
-task250,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.59573893538651,12140.0,inspect rule and source solver
-task251,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.481291290274044,100580.0,memory-first ONNX surgery
-task252,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.453028311923028,38062.0,inspect rule and source solver
-task253,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.215455188361384,48269.0,inspect rule and source solver
-task254,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.018318360026136,7956.0,inspect rule and source solver
-task255,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,11.62208628955128,645586.0,memory-first ONNX surgery
-task256,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.197383057848846,18081.0,inspect rule and source solver
-task257,pass,269.0,269.0,6.0,6.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.01806532284361,1077.0,inspect rule and source solver
+task242,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.933891909896253,431.0,inspect rule and source solver
+task243,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.497139278931787,13398.0,inspect rule and source solver
+task244,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.92757809946263,1179.0,inspect rule and source solver
+task245,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.127163824974275,2625.0,inspect rule and source solver
+task246,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.366146440318232,2067.0,inspect rule and source solver
+task247,pass,269.0,269.0,6.0,6.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.86660195700335,461.0,inspect rule and source solver
+task248,pass,13.0,13.0,3.0,3.0,1.0,1.0,9.0,9.0,,,false,false,,,none,19.982720163185075,151.0,inspect rule and source solver
+task249,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,19.435479592677307,261.0,inspect rule and source solver
+task250,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.339414538296744,2123.0,inspect rule and source solver
+task251,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.584618074730447,4516.0,inspect rule and source solver
+task252,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.807043149109788,180.0,inspect rule and source solver
+task253,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.78539190157781,500.0,inspect rule and source solver
+task254,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.467665707777652,687.0,inspect rule and source solver
+task255,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.90495825238728,8911.0,inspect rule and source solver
+task256,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.343662833569816,2114.0,inspect rule and source solver
+task257,pass,269.0,269.0,6.0,6.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.00853545289202,400.0,inspect rule and source solver
 task258,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.924826184766175,160.0,inspect rule and source solver
-task259,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.169018489047502,6843.0,inspect rule and source solver
-task260,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.568678412874291,12473.0,inspect rule and source solver
+task259,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.206533867419992,892.0,inspect rule and source solver
+task260,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.639260096941722,1573.0,inspect rule and source solver
 task261,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,19.701682633451963,200.0,inspect rule and source solver
-task262,pass,11.0,11.0,4.0,4.0,1.0,1.0,6.0,6.0,,,false,false,,,none,16.765169719557946,3770.0,inspect rule and source solver
-task263,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.006075858588602,8054.0,inspect rule and source solver
-task264,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.720116918523228,79212.0,memory-first ONNX surgery
-task265,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.424537832136728,39162.0,inspect rule and source solver
-task266,pass,20.0,20.0,4.0,4.0,1.0,1.0,15.0,15.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
-task267,pass,264.0,264.0,2.0,2.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.904106778902467,1207.0,inspect rule and source solver
-task268,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.983808957550787,22386.0,inspect rule and source solver
-task269,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.940249986656319,8602.0,inspect rule and source solver
-task270,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.853527053936123,25501.0,inspect rule and source solver
-task271,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.725259284025897,28991.0,inspect rule and source solver
-task272,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.86877351051686,460.0,inspect rule and source solver
-task273,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.311040765729324,5937.0,inspect rule and source solver
-task274,pass,269.0,269.0,6.0,6.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.942694264192879,8581.0,inspect rule and source solver
-task275,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.662869436848247,83879.0,memory-first ONNX surgery
+task262,pass,11.0,11.0,4.0,4.0,1.0,1.0,6.0,6.0,,,false,false,,,none,20.336560905887932,106.0,inspect rule and source solver
+task263,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.49272228761499,670.0,inspect rule and source solver
+task264,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.24680573011566,2329.0,inspect rule and source solver
+task265,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.620460973882558,4357.0,inspect rule and source solver
+task266,pass,20.0,20.0,4.0,4.0,1.0,1.0,15.0,15.0,,,false,false,,,none,19.260207087820767,311.0,inspect rule and source solver
+task267,pass,264.0,264.0,2.0,2.0,1.0,1.0,261.0,261.0,,,false,false,,,none,18.36931661435763,758.0,inspect rule and source solver
+task268,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.9959684921473,2993.0,inspect rule and source solver
+task269,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.436144473467873,709.0,inspect rule and source solver
+task270,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.042122641510186,2858.0,inspect rule and source solver
+task271,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.92081560539033,1187.0,inspect rule and source solver
+task272,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.003547911380977,402.0,inspect rule and source solver
+task273,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.385687853548,2027.0,inspect rule and source solver
+task274,pass,269.0,269.0,6.0,6.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.835214026076486,175.0,inspect rule and source solver
+task275,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.78770553149966,1356.0,inspect rule and source solver
 task276,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,22.697414907005953,10.0,inspect rule and source solver
-task277,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.410059486110708,14617.0,inspect rule and source solver
-task278,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.864210958364897,25230.0,inspect rule and source solver
-task279,pass,266.0,266.0,4.0,4.0,1.0,1.0,261.0,261.0,,,false,false,,,none,14.821535747509644,26330.0,inspect rule and source solver
-task280,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.64132188619622,85706.0,memory-first ONNX surgery
-task281,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.60794357751076,88615.0,memory-first ONNX surgery
-task282,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.197605236675688,900.0,inspect rule and source solver
-task283,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
-task284,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.475808238755878,101133.0,memory-first ONNX surgery
-task285,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,12.112179904635754,395466.0,memory-first ONNX surgery
-task286,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.00342074458367,162199.0,memory-first ONNX surgery
-task287,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.975800372301608,22566.0,inspect rule and source solver
-task288,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.632558329669694,31807.0,inspect rule and source solver
-task289,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.874489523818365,24972.0,inspect rule and source solver
-task290,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.631972352188223,11708.0,inspect rule and source solver
-task291,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.627370259775116,4327.0,inspect rule and source solver
-task292,pass,28.0,28.0,5.0,5.0,1.0,1.0,22.0,22.0,,,false,false,,,none,16.250901751600978,6305.0,inspect rule and source solver
-task293,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.882571106914462,24771.0,inspect rule and source solver
+task277,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.82811799387218,3540.0,inspect rule and source solver
+task278,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.58705682995756,4505.0,inspect rule and source solver
+task279,pass,266.0,266.0,4.0,4.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.37916777382428,5546.0,inspect rule and source solver
+task280,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.54446946897587,4701.0,inspect rule and source solver
+task281,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.807817941286753,1329.0,inspect rule and source solver
+task282,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.899681047979936,446.0,inspect rule and source solver
+task283,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.53541169631004,642.0,inspect rule and source solver
+task284,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.96439730708142,3089.0,inspect rule and source solver
+task285,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.11162608527392,19700.0,inspect rule and source solver
+task286,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.799783917876258,26909.0,inspect rule and source solver
+task287,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
+task288,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.13515222202914,958.0,inspect rule and source solver
+task289,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.39065075683262,742.0,inspect rule and source solver
+task290,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.127882210524582,355.0,inspect rule and source solver
+task291,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,20.810345257973573,66.0,inspect rule and source solver
+task292,pass,28.0,28.0,5.0,5.0,1.0,1.0,22.0,22.0,,,false,false,,,none,20.61797336532612,80.0,inspect rule and source solver
+task293,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.050143544999226,1043.0,inspect rule and source solver
 task294,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
-task295,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.591628777524683,12190.0,inspect rule and source solver
-task296,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.67955188604344,4107.0,inspect rule and source solver
-task297,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.876198389441056,9171.0,inspect rule and source solver
-task298,pass,267.0,267.0,3.0,3.0,2.0,2.0,262.0,262.0,,,false,false,,,none,15.387667209394625,14948.0,inspect rule and source solver
-task299,pass,21.0,21.0,2.0,2.0,1.0,1.0,18.0,18.0,,,false,false,,,none,17.5510838974558,1718.0,inspect rule and source solver
-task300,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.741373412351637,77546.0,memory-first ONNX surgery
-task301,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.91804208355036,64988.0,memory-first ONNX surgery
-task302,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.03863393937255,7796.0,inspect rule and source solver
-task303,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.848136557782793,9432.0,inspect rule and source solver
-task304,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.708263989819823,10848.0,inspect rule and source solver
-task305,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.71802294113224,3952.0,inspect rule and source solver
-task306,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.9264791265675,64442.0,memory-first ONNX surgery
-task307,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.504458056115745,1800.0,inspect rule and source solver
-task308,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.010380623834585,21799.0,inspect rule and source solver
+task295,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.61974421157354,1604.0,inspect rule and source solver
+task296,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.25060701409175,314.0,inspect rule and source solver
+task297,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.763660657245655,1389.0,inspect rule and source solver
+task298,pass,267.0,267.0,3.0,3.0,2.0,2.0,262.0,262.0,,,false,false,,,none,20.09472522156157,135.0,inspect rule and source solver
+task299,pass,21.0,21.0,2.0,2.0,1.0,1.0,18.0,18.0,,,false,false,,,none,21.087976994571854,50.0,inspect rule and source solver
+task300,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.73469878726229,526.0,inspect rule and source solver
+task301,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.960339650137925,1141.0,inspect rule and source solver
+task302,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.519007837130474,1774.0,inspect rule and source solver
+task303,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.72068116458538,1450.0,inspect rule and source solver
+task304,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.814612984419583,1320.0,inspect rule and source solver
+task305,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.544801436659878,636.0,inspect rule and source solver
+task306,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.2962175253438,300.0,inspect rule and source solver
+task307,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,23.3905620875659,5.0,inspect rule and source solver
+task308,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.708343790825538,1468.0,inspect rule and source solver
 task309,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,22.697414907005953,10.0,inspect rule and source solver
-task310,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.11442186800744,19645.0,inspect rule and source solver
+task310,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.934106453035724,3184.0,inspect rule and source solver
 task311,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,21.598802618337846,30.0,inspect rule and source solver
-task312,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.791761836115688,9979.0,inspect rule and source solver
-task313,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.666536185257858,83572.0,memory-first ONNX surgery
-task314,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.941180435665059,8594.0,inspect rule and source solver
-task315,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.87230014718223,3387.0,inspect rule and source solver
-task316,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.730755478816945,3902.0,inspect rule and source solver
-task317,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.197605236675688,900.0,inspect rule and source solver
-task318,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.394702079051797,739.0,inspect rule and source solver
-task319,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.580490348791063,33507.0,inspect rule and source solver
-task320,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.445511023840066,5190.0,inspect rule and source solver
-task321,pass,267.0,267.0,5.0,5.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.403810802357263,5411.0,inspect rule and source solver
-task322,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.23496102321946,867.0,inspect rule and source solver
-task323,pass,172.0,172.0,2.0,2.0,1.0,1.0,169.0,169.0,,,false,false,,,none,16.5810813778521,4532.0,inspect rule and source solver
-task324,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.203081009735799,48870.0,inspect rule and source solver
-task325,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.016315905469595,21670.0,inspect rule and source solver
-task326,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.924826184766175,160.0,inspect rule and source solver
-task327,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.072287826172918,7538.0,inspect rule and source solver
-task328,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.871957907660665,68053.0,memory-first ONNX surgery
-task329,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.76399188127524,10260.0,inspect rule and source solver
-task330,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.216591867794413,17737.0,inspect rule and source solver
+task312,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,22.00426772644601,20.0,inspect rule and source solver
+task313,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.76355803717005,188.0,inspect rule and source solver
+task314,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.394829814011906,100.0,inspect rule and source solver
+task315,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.561920691076804,230.0,inspect rule and source solver
+task316,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.94556065373063,426.0,inspect rule and source solver
+task317,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.016393378291664,146.0,inspect rule and source solver
+task318,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.394829814011906,100.0,inspect rule and source solver
+task319,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.328713273246365,5833.0,inspect rule and source solver
+task320,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.35360948515227,770.0,inspect rule and source solver
+task321,pass,267.0,267.0,5.0,5.0,1.0,1.0,261.0,261.0,,,false,false,,,none,19.2962175253438,300.0,inspect rule and source solver
+task322,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.701682633451963,200.0,inspect rule and source solver
+task323,pass,172.0,172.0,2.0,2.0,1.0,1.0,169.0,169.0,,,false,false,,,none,17.60366470619919,1630.0,inspect rule and source solver
+task324,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.935957885641116,8639.0,inspect rule and source solver
+task325,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.698177657862068,1483.0,inspect rule and source solver
+task326,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,21.598802618337846,30.0,inspect rule and source solver
+task327,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,18.54166171665521,638.0,inspect rule and source solver
+task328,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.251060368462284,6304.0,inspect rule and source solver
+task329,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.04345455684843,1050.0,inspect rule and source solver
+task330,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.05373635641946,2825.0,inspect rule and source solver
 task331,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
-task332,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.896131872534333,8990.0,inspect rule and source solver
-task333,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,14.877658081568091,24893.0,inspect rule and source solver
-task334,pass,271.0,271.0,7.0,7.0,2.0,2.0,262.0,262.0,,,false,false,,,none,18.588181732290103,609.0,inspect rule and source solver
-task335,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.258204878914801,46249.0,inspect rule and source solver
-task336,pass,31.0,31.0,2.0,2.0,1.0,1.0,28.0,28.0,,,false,false,,,none,16.294503180112258,6036.0,inspect rule and source solver
+task332,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.670279094477305,561.0,inspect rule and source solver
+task333,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.216359403778746,2401.0,inspect rule and source solver
+task334,pass,271.0,271.0,7.0,7.0,2.0,2.0,262.0,262.0,,,false,false,,,none,19.73214184093667,194.0,inspect rule and source solver
+task335,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.77016122184875,1380.0,inspect rule and source solver
+task336,pass,31.0,31.0,2.0,2.0,1.0,1.0,28.0,28.0,,,false,false,,,none,17.493408219929158,1820.0,inspect rule and source solver
 task337,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,22.697414907005953,10.0,inspect rule and source solver
-task338,pass,267.0,267.0,3.0,3.0,2.0,2.0,262.0,262.0,,,false,false,,,none,14.285226738886886,45016.0,inspect rule and source solver
-task339,pass,266.0,266.0,4.0,4.0,1.0,1.0,261.0,261.0,,,false,false,,,none,18.112447428335383,980.0,inspect rule and source solver
-task340,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.83887566105239,70342.0,memory-first ONNX surgery
-task341,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.15493636760159,18865.0,inspect rule and source solver
-task342,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.5946686681292,12153.0,inspect rule and source solver
-task343,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.736881875699506,28656.0,inspect rule and source solver
-task344,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.17196196787417,2510.0,inspect rule and source solver
-task345,pass,264.0,264.0,2.0,2.0,1.0,1.0,261.0,261.0,,,false,false,,,none,15.631289292052376,11716.0,inspect rule and source solver
-task346,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.884849815027566,9092.0,inspect rule and source solver
-task347,pass,269.0,269.0,5.0,5.0,2.0,2.0,262.0,262.0,,,false,false,,,none,17.63039927947359,1587.0,inspect rule and source solver
-task348,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.11719194507556,7207.0,inspect rule and source solver
-task349,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.306261242455944,44079.0,inspect rule and source solver
-task350,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.10504877848616,19830.0,inspect rule and source solver
-task351,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,14.532506311227156,35154.0,inspect rule and source solver
-task352,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.20124341714016,6626.0,inspect rule and source solver
-task353,pass,271.0,271.0,7.0,7.0,2.0,2.0,262.0,262.0,,,false,false,,,none,16.403810802357263,5411.0,inspect rule and source solver
-task354,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.258619697007587,17007.0,inspect rule and source solver
-task355,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.624569008158225,11795.0,inspect rule and source solver
-task356,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.482606828581098,5001.0,inspect rule and source solver
-task357,pass,13.0,13.0,3.0,3.0,1.0,1.0,9.0,9.0,,,false,false,,,none,16.20942652084284,6572.0,inspect rule and source solver
-task358,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.356739495302836,113921.0,memory-first ONNX surgery
-task359,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.347150353576192,42313.0,inspect rule and source solver
-task360,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.681164031870518,11146.0,inspect rule and source solver
-task361,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.324919828453181,15916.0,inspect rule and source solver
-task362,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.612434368654611,11939.0,inspect rule and source solver
-task363,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,13.60482257129864,88892.0,memory-first ONNX surgery
-task364,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.737345222483407,77859.0,memory-first ONNX surgery
-task365,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.01786479921536,58814.0,memory-first ONNX surgery
-task366,pass,255.0,255.0,3.0,3.0,1.0,1.0,251.0,251.0,,,false,false,,,none,11.362564029982357,836880.0,memory-first ONNX surgery
-task367,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.125192173257059,143603.0,memory-first ONNX surgery
-task368,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.615970788806473,32339.0,inspect rule and source solver
-task369,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.07334967920606,7530.0,inspect rule and source solver
-task370,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.407505785810647,108282.0,memory-first ONNX surgery
-task371,pass,266.0,266.0,2.0,2.0,2.0,2.0,262.0,262.0,,,false,false,,,none,15.50983333153762,13229.0,inspect rule and source solver
-task372,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.027916817148075,7880.0,inspect rule and source solver
-task373,pass,75.0,75.0,2.0,2.0,1.0,1.0,72.0,72.0,,,false,false,,,none,18.738508315678956,524.0,inspect rule and source solver
-task374,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.501327766730538,13342.0,inspect rule and source solver
-task375,pass,58.0,58.0,3.0,3.0,1.0,1.0,54.0,54.0,,,false,false,,,none,15.372793097191211,15172.0,inspect rule and source solver
-task376,pass,39.0,39.0,2.0,2.0,1.0,1.0,36.0,36.0,,,false,false,,,none,14.93899600958889,23412.0,inspect rule and source solver
-task377,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.966336894339644,61924.0,memory-first ONNX surgery
-task378,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.428477967719003,39008.0,inspect rule and source solver
-task379,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.819767920510943,71699.0,memory-first ONNX surgery
-task380,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.409698951803314,728.0,inspect rule and source solver
-task381,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.830946850072657,3530.0,inspect rule and source solver
-task382,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.532302052966461,95578.0,memory-first ONNX surgery
-task383,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.246161795004017,127241.0,memory-first ONNX surgery
-task384,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.759112070269836,28026.0,inspect rule and source solver
+task338,pass,267.0,267.0,3.0,3.0,2.0,2.0,262.0,262.0,,,false,false,,,none,15.912053276237884,8848.0,inspect rule and source solver
+task339,pass,266.0,266.0,4.0,4.0,1.0,1.0,261.0,261.0,,,false,false,,,none,20.058357577390694,140.0,inspect rule and source solver
+task340,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.867293510306737,3404.0,inspect rule and source solver
+task341,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.736670382523165,1427.0,inspect rule and source solver
+task342,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.022718658369254,1072.0,inspect rule and source solver
+task343,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.66111186616112,1539.0,inspect rule and source solver
+task344,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.186555400489105,910.0,inspect rule and source solver
+task345,pass,264.0,264.0,2.0,2.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.690118514175214,1495.0,inspect rule and source solver
+task346,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.865906278807135,1254.0,inspect rule and source solver
+task347,pass,269.0,269.0,5.0,5.0,2.0,2.0,262.0,262.0,,,false,false,,,none,20.03715536974009,143.0,inspect rule and source solver
+task348,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.558093271948376,1706.0,inspect rule and source solver
+task349,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.391420565007392,14892.0,inspect rule and source solver
+task350,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.891028122412106,9036.0,inspect rule and source solver
+task351,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.886043890433967,1229.0,inspect rule and source solver
+task352,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.86877351051686,460.0,inspect rule and source solver
+task353,pass,271.0,271.0,7.0,7.0,2.0,2.0,262.0,262.0,,,false,false,,,none,19.5028317747068,244.0,inspect rule and source solver
+task354,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.295638832089686,2218.0,inspect rule and source solver
+task355,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.710284429091004,539.0,inspect rule and source solver
+task356,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.815370847282686,1319.0,inspect rule and source solver
+task357,pass,13.0,13.0,3.0,3.0,1.0,1.0,9.0,9.0,,,false,false,,,none,19.326676732828506,291.0,inspect rule and source solver
+task358,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.757770108627767,3798.0,inspect rule and source solver
+task359,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.63735756843236,4284.0,inspect rule and source solver
+task360,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.17105438238979,340.0,inspect rule and source solver
+task361,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.56488491961937,4606.0,inspect rule and source solver
+task362,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.744249958246634,521.0,inspect rule and source solver
+task363,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.63735756843236,4284.0,inspect rule and source solver
+task364,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.408350609793413,14642.0,inspect rule and source solver
+task365,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.953770898924624,3122.0,inspect rule and source solver
+task366,pass,255.0,255.0,3.0,3.0,1.0,1.0,251.0,251.0,,,false,false,,,none,14.68576133492647,30159.0,inspect rule and source solver
+task367,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.277614747853097,16687.0,inspect rule and source solver
+task368,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.811588691920967,3599.0,inspect rule and source solver
+task369,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.760785026220194,1393.0,inspect rule and source solver
+task370,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.205478148211473,6598.0,inspect rule and source solver
+task371,pass,266.0,266.0,2.0,2.0,2.0,2.0,262.0,262.0,,,false,false,,,none,18.853670742331104,467.0,inspect rule and source solver
+task372,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.43473502996464,710.0,inspect rule and source solver
+task373,pass,75.0,75.0,2.0,2.0,1.0,1.0,72.0,72.0,,,false,false,,,none,20.9056554377779,60.0,inspect rule and source solver
+task374,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.29608979038369,2217.0,inspect rule and source solver
+task375,pass,58.0,58.0,3.0,3.0,1.0,1.0,54.0,54.0,,,false,false,,,none,19.210039829102747,327.0,inspect rule and source solver
+task376,pass,39.0,39.0,2.0,2.0,1.0,1.0,36.0,36.0,,,false,false,,,none,19.774253326286797,186.0,inspect rule and source solver
+task377,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.573388186815002,4567.0,inspect rule and source solver
+task378,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.963750057867884,3091.0,inspect rule and source solver
+task379,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.046747835390967,7733.0,inspect rule and source solver
+task380,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.40488014986541,99.0,inspect rule and source solver
+task381,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,17.530916115078767,1753.0,inspect rule and source solver
+task382,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.352656124118717,5695.0,inspect rule and source solver
+task383,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.32922772065546,5830.0,inspect rule and source solver
+task384,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.824132729894238,481.0,inspect rule and source solver
 task385,pass,265.0,265.0,2.0,2.0,1.0,1.0,262.0,262.0,,,false,false,,,none,21.598802618337846,30.0,inspect rule and source solver
-task386,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.32074857404694,2163.0,inspect rule and source solver
-task387,pass,266.0,266.0,4.0,4.0,1.0,1.0,261.0,261.0,,,false,false,,,none,13.940291846175448,63558.0,memory-first ONNX surgery
-task388,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.225377779303003,6468.0,inspect rule and source solver
-task389,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.451444020830127,1898.0,inspect rule and source solver
-task390,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.885805916253345,24691.0,inspect rule and source solver
-task391,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.787561829941671,10021.0,inspect rule and source solver
-task392,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.662816279014882,30859.0,inspect rule and source solver
-task393,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,18.870949789939456,459.0,inspect rule and source solver
-task394,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.53346872338599,4753.0,inspect rule and source solver
-task395,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.581219117249205,1667.0,inspect rule and source solver
-task396,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.126683504302262,143389.0,memory-first ONNX surgery
-task397,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,15.045771805760689,21041.0,inspect rule and source solver
-task398,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,13.657922169750098,84295.0,memory-first ONNX surgery
-task399,pass,273.0,273.0,8.0,8.0,3.0,3.0,262.0,262.0,,,false,false,,,none,17.48302277539568,1839.0,inspect rule and source solver
-task400,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,14.532534757896764,35153.0,inspect rule and source solver
+task386,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.648141866523932,211.0,inspect rule and source solver
+task387,pass,266.0,266.0,4.0,4.0,1.0,1.0,261.0,261.0,,,false,false,,,none,16.623218962300506,4345.0,inspect rule and source solver
+task388,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.488475351609132,1829.0,inspect rule and source solver
+task389,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,20.132465549544417,130.0,inspect rule and source solver
+task390,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.099363386981995,2699.0,inspect rule and source solver
+task391,pass,267.0,267.0,4.0,4.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.93109579777977,159.0,inspect rule and source solver
+task392,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.42904141683099,1941.0,inspect rule and source solver
+task393,pass,265.0,265.0,3.0,3.0,1.0,1.0,261.0,261.0,,,false,false,,,none,20.030186700424,144.0,inspect rule and source solver
+task394,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,18.483806923957037,676.0,inspect rule and source solver
+task395,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,19.89405452609942,165.0,inspect rule and source solver
+task396,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,16.820800201576915,3566.0,inspect rule and source solver
+task397,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.079916800946766,2752.0,inspect rule and source solver
+task398,pass,268.0,268.0,5.0,5.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.30515192761539,2197.0,inspect rule and source solver
+task399,pass,273.0,273.0,8.0,8.0,3.0,3.0,262.0,262.0,,,false,false,,,none,20.9056554377779,60.0,inspect rule and source solver
+task400,pass,266.0,266.0,3.0,3.0,1.0,1.0,262.0,262.0,,,false,false,,,none,17.92588318380264,1181.0,inspect rule and source solver

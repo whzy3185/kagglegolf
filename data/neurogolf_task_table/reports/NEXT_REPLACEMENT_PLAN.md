@@ -1,39 +1,39 @@
 # Next Replacement Plan
 
-updated_at: 2026-06-09T20:38:33
+updated_at: 2026-07-09T14:07:28
 
 
 The list is generated from current cost, score gap, correctness, solver-source availability and ONNX template simplicity.
 
 | task_id | current_score | target_score | gap_to_target | total_cost | correctness | failure_type | recoverability | onnx_template_candidate | estimated_gain | priority | solver_source_path | compiler_source_path | rule_status | safe_to_submit |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| task233 | 10.679645472747369 | 25.0 | 14.320354527252631 | 1656727.0 | pass | none | medium | not_obvious | 14.320355 | 33.640709 | external/arc_dsl/solvers.py |  | unknown | true |
-| task366 | 11.362564029982357 | 25.0 | 13.637435970017643 | 836880.0 | pass | none | medium | not_obvious | 13.637436 | 32.274872 | external/arc_dsl/solvers.py |  | unknown | true |
-| task255 | 11.62208628955128 | 25.0 | 13.37791371044872 | 645586.0 | pass | none | medium | not_obvious | 13.377914 | 31.755827 | external/arc_dsl/solvers.py |  | unknown | true |
-| task018 | 11.926440386857584 | 25.0 | 13.073559613142416 | 476184.0 | pass | none | medium | not_obvious | 13.07356 | 31.147119 | external/arc_dsl/solvers.py |  | unknown | true |
-| task285 | 12.112179904635754 | 25.0 | 12.887820095364246 | 395466.0 | pass | none | medium | not_obvious | 12.88782 | 30.77564 | external/arc_dsl/solvers.py |  | unknown | true |
-| task101 | 12.166837180696787 | 25.0 | 12.833162819303213 | 374431.0 | pass | none | medium | not_obvious | 12.833163 | 30.666326 | external/arc_dsl/solvers.py |  | unknown | true |
-| task133 | 12.810671762888107 | 25.0 | 12.189328237111893 | 196679.0 | pass | none | medium | not_obvious | 12.189328 | 29.378656 | external/arc_dsl/solvers.py |  | unknown | true |
-| task096 | 12.827184286371278 | 25.0 | 12.172815713628722 | 193458.0 | pass | none | medium | not_obvious | 12.172816 | 29.345631 | external/arc_dsl/solvers.py |  | unknown | true |
-| task158 | 12.837576257600388 | 25.0 | 12.162423742399612 | 191458.0 | pass | none | medium | not_obvious | 12.162424 | 29.324847 | external/arc_dsl/solvers.py |  | unknown | true |
-| task173 | 12.926071138839562 | 25.0 | 12.073928861160438 | 175243.0 | pass | none | medium | not_obvious | 12.073929 | 29.147858 | external/arc_dsl/solvers.py |  | unknown | true |
-| task286 | 13.00342074458367 | 25.0 | 11.99657925541633 | 162199.0 | pass | none | medium | not_obvious | 11.996579 | 28.993159 | external/arc_dsl/solvers.py |  | unknown | true |
-| task077 | 13.032857358715912 | 25.0 | 11.967142641284088 | 157494.0 | pass | none | medium | not_obvious | 11.967143 | 28.934285 | external/arc_dsl/solvers.py |  | unknown | true |
-| task054 | 13.07796275080141 | 25.0 | 11.92203724919859 | 150548.0 | pass | none | medium | not_obvious | 11.922037 | 28.844074 | external/arc_dsl/solvers.py |  | unknown | true |
-| task367 | 13.125192173257059 | 25.0 | 11.874807826742941 | 143603.0 | pass | none | medium | not_obvious | 11.874808 | 28.749616 | external/arc_dsl/solvers.py |  | unknown | true |
-| task396 | 13.126683504302262 | 25.0 | 11.873316495697738 | 143389.0 | pass | none | medium | not_obvious | 11.873316 | 28.746633 | external/arc_dsl/solvers.py |  | unknown | true |
-| task025 | 13.149938233234366 | 25.0 | 11.850061766765634 | 140093.0 | pass | none | medium | not_obvious | 11.850062 | 28.700124 | external/arc_dsl/solvers.py |  | unknown | true |
-| task071 | 13.238317819353261 | 25.0 | 11.761682180646739 | 128243.0 | pass | none | medium | not_obvious | 11.761682 | 28.523364 | external/arc_dsl/solvers.py |  | unknown | true |
-| task383 | 13.246161795004017 | 25.0 | 11.753838204995983 | 127241.0 | pass | none | medium | not_obvious | 11.753838 | 28.507676 | external/arc_dsl/solvers.py |  | unknown | true |
-| task202 | 13.258187509088495 | 25.0 | 11.741812490911505 | 125720.0 | pass | none | medium | not_obvious | 11.741812 | 28.483625 | external/arc_dsl/solvers.py |  | unknown | true |
-| task209 | 13.28530989269121 | 25.0 | 11.71469010730879 | 122356.0 | pass | none | medium | not_obvious | 11.71469 | 28.42938 | external/arc_dsl/solvers.py |  | unknown | true |
-| task204 | 13.307707338062253 | 25.0 | 11.692292661937747 | 119646.0 | pass | none | medium | not_obvious | 11.692293 | 28.384585 | external/arc_dsl/solvers.py |  | unknown | true |
-| task005 | 13.328149556042213 | 25.0 | 11.671850443957787 | 117225.0 | pass | none | medium | not_obvious | 11.67185 | 28.343701 | external/arc_dsl/solvers.py |  | unknown | true |
-| task013 | 13.3310798421544 | 25.0 | 11.6689201578456 | 116882.0 | pass | none | medium | not_obvious | 11.66892 | 28.33784 | external/arc_dsl/solvers.py |  | unknown | true |
-| task118 | 13.336192047071197 | 25.0 | 11.663807952928803 | 116286.0 | pass | none | medium | not_obvious | 11.663808 | 28.327616 | external/arc_dsl/solvers.py |  | unknown | true |
-| task064 | 13.354705067178468 | 25.0 | 11.645294932821532 | 114153.0 | pass | none | medium | not_obvious | 11.645295 | 28.29059 | external/arc_dsl/solvers.py |  | unknown | true |
-| task358 | 13.356739495302836 | 25.0 | 11.643260504697164 | 113921.0 | pass | none | medium | not_obvious | 11.643261 | 28.286521 | external/arc_dsl/solvers.py |  | unknown | true |
-| task085 | 13.36328292042622 | 25.0 | 11.63671707957378 | 113178.0 | pass | none | medium | not_obvious | 11.636717 | 28.273434 | external/arc_dsl/solvers.py |  | unknown | true |
-| task205 | 13.370955104619776 | 25.0 | 11.629044895380224 | 112313.0 | pass | none | medium | not_obvious | 11.629045 | 28.25809 | external/arc_dsl/solvers.py |  | unknown | true |
-| task243 | 13.401208814053447 | 25.0 | 11.598791185946553 | 108966.0 | pass | none | medium | not_obvious | 11.598791 | 28.197582 | external/arc_dsl/solvers.py |  | unknown | true |
-| task370 | 13.407505785810647 | 25.0 | 11.592494214189353 | 108282.0 | pass | none | medium | not_obvious | 11.592494 | 28.184988 | external/arc_dsl/solvers.py |  | unknown | true |
+| task233 | 14.626165127286631 | 25.0 | 10.373834872713369 | 32011.0 | pass | none | unknown | not_obvious | 10.373835 | 25.74767 | external/arc_dsl/solvers.py |  | unknown | true |
+| task366 | 14.68576133492647 | 25.0 | 10.31423866507353 | 30159.0 | pass | none | unknown | not_obvious | 10.314239 | 25.628477 | external/arc_dsl/solvers.py |  | unknown | true |
+| task158 | 14.742937302942996 | 25.0 | 10.257062697057004 | 28483.0 | pass | none | unknown | not_obvious | 10.257063 | 25.514125 | external/arc_dsl/solvers.py |  | unknown | true |
+| task286 | 14.799783917876258 | 25.0 | 10.200216082123742 | 26909.0 | pass | none | unknown | not_obvious | 10.200216 | 25.400432 | external/arc_dsl/solvers.py |  | unknown | true |
+| task054 | 14.857731795370263 | 25.0 | 10.142268204629737 | 25394.0 | pass | none | unknown | not_obvious | 10.142268 | 25.284536 | external/arc_dsl/solvers.py |  | unknown | true |
+| task018 | 14.899302278176167 | 25.0 | 10.100697721823833 | 24360.0 | pass | none | unknown | not_obvious | 10.100698 | 25.201395 | external/arc_dsl/solvers.py |  | unknown | true |
+| task133 | 15.03475905118839 | 25.0 | 9.96524094881161 | 21274.0 | pass | none | unknown | not_obvious | 9.965241 | 24.930482 | external/arc_dsl/solvers.py |  | unknown | true |
+| task285 | 15.11162608527392 | 25.0 | 9.88837391472608 | 19700.0 | pass | none | unknown | not_obvious | 9.888374 | 24.776748 | external/arc_dsl/solvers.py |  | unknown | true |
+| task367 | 15.277614747853097 | 25.0 | 9.722385252146903 | 16687.0 | pass | none | unknown | not_obvious | 9.722385 | 24.444771 | external/arc_dsl/solvers.py |  | unknown | true |
+| task187 | 15.332867892750313 | 25.0 | 9.667132107249687 | 15790.0 | pass | none | unknown | not_obvious | 9.667132 | 24.334264 | external/arc_dsl/solvers.py |  | unknown | true |
+| task349 | 15.391420565007392 | 25.0 | 9.608579434992608 | 14892.0 | pass | none | unknown | not_obvious | 9.608579 | 24.217159 | external/arc_dsl/solvers.py |  | unknown | true |
+| task364 | 15.408350609793413 | 25.0 | 9.591649390206587 | 14642.0 | pass | none | unknown | not_obvious | 9.591649 | 24.183299 | external/arc_dsl/solvers.py |  | unknown | true |
+| task002 | 15.433034685335127 | 25.0 | 9.566965314664873 | 14285.0 | pass | none | unknown | not_obvious | 9.566965 | 24.133931 | external/arc_dsl/solvers.py |  | unknown | true |
+| task101 | 15.473025733622269 | 25.0 | 9.526974266377731 | 13725.0 | pass | none | unknown | not_obvious | 9.526974 | 24.053949 | external/arc_dsl/solvers.py |  | unknown | true |
+| task243 | 15.497139278931787 | 25.0 | 9.502860721068213 | 13398.0 | pass | none | unknown | not_obvious | 9.502861 | 24.005721 | external/arc_dsl/solvers.py |  | unknown | true |
+| task173 | 15.498259476203625 | 25.0 | 9.501740523796375 | 13383.0 | pass | none | unknown | not_obvious | 9.501741 | 24.003481 | external/arc_dsl/solvers.py |  | unknown | true |
+| task145 | 15.53851188030001 | 25.0 | 9.46148811969999 | 12855.0 | pass | none | unknown | not_obvious | 9.461488 | 23.922976 | external/arc_dsl/solvers.py |  | unknown | true |
+| task076 | 15.54084832996103 | 25.0 | 9.45915167003897 | 12825.0 | pass | none | unknown | not_obvious | 9.459152 | 23.918303 | external/arc_dsl/solvers.py |  | unknown | true |
+| task118 | 15.584109945110656 | 25.0 | 9.415890054889344 | 12282.0 | pass | none | unknown | not_obvious | 9.41589 | 23.83178 | external/arc_dsl/solvers.py |  | unknown | true |
+| task138 | 15.603844181975607 | 25.0 | 9.396155818024393 | 12042.0 | pass | none | unknown | not_obvious | 9.396156 | 23.792312 | external/arc_dsl/solvers.py |  | unknown | true |
+| task198 | 15.657754557143878 | 25.0 | 9.342245442856122 | 11410.0 | pass | none | unknown | not_obvious | 9.342245 | 23.684491 | external/arc_dsl/solvers.py |  | unknown | true |
+| task191 | 15.686922550572705 | 25.0 | 9.313077449427295 | 11082.0 | pass | none | unknown | not_obvious | 9.313077 | 23.626155 | external/arc_dsl/solvers.py |  | unknown | true |
+| task066 | 15.727342321958956 | 25.0 | 9.272657678041044 | 10643.0 | pass | none | unknown | not_obvious | 9.272658 | 23.545315 | external/arc_dsl/solvers.py |  | unknown | true |
+| task064 | 15.746121326009334 | 25.0 | 9.253878673990666 | 10445.0 | pass | none | unknown | not_obvious | 9.253879 | 23.507757 | external/arc_dsl/solvers.py |  | unknown | true |
+| task110 | 15.757482896328597 | 25.0 | 9.242517103671403 | 10327.0 | pass | none | unknown | not_obvious | 9.242517 | 23.485034 | external/arc_dsl/solvers.py |  | unknown | true |
+| task025 | 15.76633380272032 | 25.0 | 9.23366619727968 | 10236.0 | pass | none | unknown | not_obvious | 9.233666 | 23.467332 | external/arc_dsl/solvers.py |  | unknown | true |
+| task204 | 15.76672465674132 | 25.0 | 9.23327534325868 | 10232.0 | pass | none | unknown | not_obvious | 9.233275 | 23.466551 | external/arc_dsl/solvers.py |  | unknown | true |
+| task080 | 15.866324712959303 | 25.0 | 9.133675287040697 | 9262.0 | pass | none | unknown | not_obvious | 9.133675 | 23.267351 | external/arc_dsl/solvers.py |  | unknown | true |
+| task350 | 15.891028122412106 | 25.0 | 9.108971877587894 | 9036.0 | pass | none | unknown | not_obvious | 9.108972 | 23.217944 | external/arc_dsl/solvers.py |  | unknown | true |
+| task255 | 15.90495825238728 | 25.0 | 9.09504174761272 | 8911.0 | pass | none | unknown | not_obvious | 9.095042 | 23.190083 | external/arc_dsl/solvers.py |  | unknown | true |

@@ -31,6 +31,29 @@ Kaggle credentials must remain outside the repository. Large competition data,
 external bundles, ONNX intermediates, notebook outputs, and zip submissions are
 ignored by Git.
 
+## Local Task Dashboard
+
+Render and serve the 400-task progress dashboard:
+
+```bash
+python scripts/neurogolf/04_render_dashboard.py
+python scripts/neurogolf/06_serve_dashboard.py --port 8765
+```
+
+Open `http://127.0.0.1:8765/task_scoreboard.html`.
+
+For live updates while a candidate directory or zip is changing:
+
+```bash
+python scripts/neurogolf/05_watch_and_refresh.py --input <submission_dir_or_zip> --candidate-id <candidate_id> --interval 30
+```
+
+Export the Workplace C dashboard:
+
+```bash
+python scripts/neurogolf/07_export_owner_dashboard.py --owner C --assignment-csv E:/kongming/NGC-work/assignments/task_assignment_400.csv --out-dir E:/kongming/NGC-work/workplace_C/dashboard
+```
+
 ## Current First-Round Baseline
 
 The first candidate reproduces the public 6154.71 ONNX bundle from
@@ -40,4 +63,3 @@ bundle retained as fallback evidence.
 The project intentionally keeps the first loop small: enough to validate,
 package, and submit through Kaggle Notebook output, while leaving deeper
 operator rewrites and single-task overrides for subsequent experiments.
-

@@ -336,66 +336,154 @@ def scoreboard_summary(rows: list[dict[str, Any]]) -> dict[str, Any]:
 def render_html(rows: list[dict[str, Any]]) -> None:
     summary = scoreboard_summary(rows)
     cards = []
+    fields = [
+        "task_id",
+        "arc_task_id",
+        "task_name",
+        "current_score",
+        "target_score",
+        "gap_to_target",
+        "total_cost",
+        "params",
+        "memory_bytes",
+        "macs",
+        "correctness",
+        "train_pass",
+        "train_total",
+        "test_pass",
+        "test_total",
+        "arcgen_pass",
+        "arcgen_total",
+        "python_solver_pass",
+        "python_solver_total",
+        "onnx_pass",
+        "onnx_total",
+        "source_type",
+        "candidate_id",
+        "failure_type",
+        "recoverability",
+        "onnx_template_candidate",
+        "estimated_gain",
+        "priority",
+        "current_onnx_path",
+        "notes",
+    ]
     for row in rows:
         cls = "pass" if row.get("correctness") == "pass" else "fail" if row.get("correctness") == "fail" else "missing"
         if row.get("onnx_exists") != "true":
             cls = "missing"
-        fields = [
-            "task_id",
-            "arc_task_id",
-            "task_name",
-            "current_score",
-            "target_score",
-            "gap_to_target",
-            "total_cost",
-            "params",
-            "memory_bytes",
-            "macs",
-            "correctness",
-            "train_pass",
-            "train_total",
-            "test_pass",
-            "test_total",
-            "arcgen_pass",
-            "arcgen_total",
-            "python_solver_pass",
-            "python_solver_total",
-            "onnx_pass",
-            "onnx_total",
-            "source_type",
-            "candidate_id",
-            "failure_type",
-            "recoverability",
-            "onnx_template_candidate",
-            "estimated_gain",
-            "priority",
-        ]
+        task_id = str(row.get("task_id", ""))
+        searchable = " ".join(str(row.get(f, "")) for f in fields).lower()
+        score = as_float(row.get("current_score"))
+        gap = as_float(row.get("gap_to_target"))
+        cost = as_float(row.get("total_cost"))
+        priority = as_float(row.get("priority"))
+        title = (
+            f"<div class='card-title'><span>{html.escape(task_id)}</span>"
+            f"<span class='pill'>{score:.4f}</span></div>"
+        )
         body = "".join(
             f"<div><b>{html.escape(f)}</b>: {html.escape(str(row.get(f, '')))}</div>"
             for f in fields
         )
-        cards.append(f"<section class='card {cls}'>{body}</section>")
+        cards.append(
+            "<section "
+            f"class='card {cls}' "
+            f"data-task='{html.escape(task_id)}' "
+            f"data-status='{html.escape(cls)}' "
+            f"data-score='{score:.8f}' "
+            f"data-gap='{gap:.8f}' "
+            f"data-cost='{cost:.8f}' "
+            f"data-priority='{priority:.8f}' "
+            f"data-search='{html.escape(searchable)}'>"
+            f"{title}{body}</section>"
+        )
+    style = """<style>
+:root{color-scheme:light}
+*{box-sizing:border-box}
+body{font-family:Segoe UI,Arial,sans-serif;margin:0;background:#f6f7f9;color:#111}
+header{position:sticky;top:0;z-index:10;background:#fff;border-bottom:1px solid #d7dce2;padding:16px 20px}
+h1{font-size:22px;margin:0 0 12px}
+.summary{display:grid;grid-template-columns:repeat(6,minmax(120px,1fr));gap:8px;margin-bottom:12px}
+.metric,.card{background:#fff;border:1px solid #ddd;border-radius:6px;padding:10px}
+.metric{min-height:64px}.metric span{display:block;color:#5b6470;font-size:12px}.metric b{font-size:18px}
+.toolbar{display:grid;grid-template-columns:minmax(220px,1fr) 150px 170px 130px;gap:8px}
+input,select,button{border:1px solid #c8ced6;border-radius:6px;background:#fff;color:#111;padding:8px 10px;font:inherit}
+button{cursor:pointer}
+main{padding:16px 20px}
+.links{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:12px;font-size:13px}
+.links a{color:#1459a8;text-decoration:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:10px}
+.card{overflow:hidden}.card-title{display:flex;align-items:center;justify-content:space-between;font-weight:700;margin-bottom:8px}
+.pill{border-radius:999px;background:#eef3f8;padding:2px 8px;font-size:12px}
+.fail{border-color:#c62828;background:#fff4f4}.missing{border-color:#777;background:#f0f0f0}
+.pass{border-color:#2e7d32}.card b{display:inline-block;min-width:150px;color:#5b6470}
+.hidden{display:none!important}
+@media(max-width:900px){.summary{grid-template-columns:repeat(2,1fr)}.toolbar{grid-template-columns:1fr}.grid{grid-template-columns:1fr}}
+</style>"""
+    script = """<script>
+const cards=[...document.querySelectorAll('.card')];
+const q=document.querySelector('#q');
+const status=document.querySelector('#status');
+const sort=document.querySelector('#sort');
+const count=document.querySelector('#visible-count');
+function val(card,key){ return Number(card.dataset[key] || 0); }
+function apply(){
+  const needle=q.value.trim().toLowerCase();
+  const wanted=status.value;
+  let visible=0;
+  cards.forEach(card=>{
+    const okText=!needle || card.dataset.search.includes(needle);
+    const okStatus=!wanted || card.dataset.status===wanted;
+    const show=okText && okStatus;
+    card.classList.toggle('hidden', !show);
+    if(show) visible++;
+  });
+  const grid=document.querySelector('.grid');
+  const sorted=cards.slice().sort((a,b)=>{
+    if(sort.value==='task') return a.dataset.task.localeCompare(b.dataset.task);
+    return val(b, sort.value)-val(a, sort.value);
+  });
+  sorted.forEach(card=>grid.appendChild(card));
+  count.textContent=visible;
+}
+q.addEventListener('input', apply);
+status.addEventListener('change', apply);
+sort.addEventListener('change', apply);
+document.querySelector('#refresh').addEventListener('click', ()=>location.reload());
+apply();
+setTimeout(()=>location.reload(), 30000);
+</script>"""
+    updated = now_iso()
     doc = f"""<!doctype html>
-<html><head><meta charset="utf-8"><title>NeuroGolf Task Scoreboard</title>
-<style>
-body{{font-family:Segoe UI,Arial,sans-serif;margin:20px;background:#f6f7f9;color:#111}}
-.summary{{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-bottom:16px}}
-.metric,.card{{background:#fff;border:1px solid #ddd;border-radius:6px;padding:10px}}
-.grid{{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:10px}}
-.fail{{border-color:#c62828;background:#fff4f4}}.missing{{border-color:#777;background:#f0f0f0}}
-.pass{{border-color:#2e7d32}} b{{display:inline-block;min-width:130px}}
-</style></head><body>
+<html><head><meta charset="utf-8"><title>NeuroGolf Task Scoreboard</title>{style}</head><body>
+<header>
 <h1>NeuroGolf Task Scoreboard</h1>
 <div class="summary">
-<div class="metric">current_total_score<br><b>{summary['current_total_score']:.4f}</b></div>
-<div class="metric">average_score<br><b>{summary['average_score']:.4f}</b></div>
-<div class="metric">target_total_score<br><b>{summary['target_total_score']:.4f}</b></div>
-<div class="metric">total_gap<br><b>{summary['total_gap']:.4f}</b></div>
-<div class="metric">pass/fail/missing<br><b>{summary['pass_count']}/{summary['fail_count']}/{summary['missing_count']}</b></div>
-<div class="metric">last_updated<br><b>{now_iso()}</b></div>
+<div class="metric"><span>current_total_score</span><b>{summary['current_total_score']:.4f}</b></div>
+<div class="metric"><span>average_score</span><b>{summary['average_score']:.4f}</b></div>
+<div class="metric"><span>target_total_score</span><b>{summary['target_total_score']:.4f}</b></div>
+<div class="metric"><span>total_gap</span><b>{summary['total_gap']:.4f}</b></div>
+<div class="metric"><span>pass/fail/missing</span><b>{summary['pass_count']}/{summary['fail_count']}/{summary['missing_count']}</b></div>
+<div class="metric"><span>visible/updated</span><b><span id="visible-count">{len(rows)}</span> / {updated}</b></div>
+</div>
+<div class="toolbar">
+<input id="q" placeholder="Search task id, source, candidate, notes">
+<select id="status"><option value="">All statuses</option><option value="pass">pass</option><option value="fail">fail</option><option value="missing">missing</option></select>
+<select id="sort"><option value="gap">Sort: gap desc</option><option value="priority">Sort: priority desc</option><option value="cost">Sort: cost desc</option><option value="score">Sort: score desc</option><option value="task">Sort: task id</option></select>
+<button id="refresh" type="button">Refresh now</button>
+</div>
+</header>
+<main>
+<div class="links">
+<a href="task_scoreboard.csv">task_scoreboard.csv</a>
+<a href="task_scoreboard.md">task_scoreboard.md</a>
+<a href="reports/TASK_SCOREBOARD_SUMMARY.md">summary</a>
+<a href="reports/NEXT_REPLACEMENT_PLAN.md">next replacement plan</a>
+<span>Auto-refreshes every 30 seconds while the local watcher updates files.</span>
 </div>
 <div class="grid">{''.join(cards)}</div>
-</body></html>"""
+</main>{script}</body></html>"""
     (DATA_DIR / "task_scoreboard.html").write_text(doc, encoding="utf-8")
 
 
