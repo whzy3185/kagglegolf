@@ -1,8 +1,9 @@
 # Public Notebooks
 
-Captured on 2026-06-07 via Kaggle CLI. Refreshed on 2026-06-08.
+Captured on 2026-06-07 via Kaggle CLI. Refreshed on 2026-06-08 and 2026-07-09.
 
 P0:
+- `prvsiyan/neurogolf-7266-72-w-visualizations`, confirmed by source kernel output/log and reproduced from notebook output as `GOLF_20260709_101_prvsiyan_7266_72_repro`; Kaggle submission 54483569 completed with public score 7266.72. Source and private-fork `submission.zip` sha256 both equal `694b799ad322aceeece8239d0266a2facf41c0d051eb0d95d55b3717f05f57b4`.
 - `octaviograu/6154-71-onnx-rewrites-hand-built-solvers`, claimed 6154.71, dataset `octaviograu/neurogolf-manual-rewrites-v205`, reproduced as first candidate.
 - `jsrdcht/6029-09-lb-neurogolf-all-task-onnx-solution`, claimed 6029.09, dataset `jsrdcht/neurogolf-6029-submission-bundle`, downloaded as fallback and diff source.
 - `beicicc/neurogolf-6645-39-public-score-open-solution`, claimed 6645.39, public output downloaded on 2026-06-07; broad structural-pass mix submitted as `GOLF_20260608_004b_beicicc_structural_pass_mix` scored 5948.07, so retain only for targeted task probes.
@@ -23,4 +24,4 @@ P1:
 Rejected candidate note:
 - `GOLF_20260607_004_public_notebook_full_replace` from the imported 6645 artifact failed structural validation because many models include `bad_opset_domain:golf` and `has_functions`; do not submit until normalized.
 
-Next action: submit validator-pass 6029 probes, then import Mirza/Biohack/Jonathan public outputs for 7000+ pursuit.
+Next action: diff the 7266.72 package against the existing 7255.20 local union and identify the exact task-level regressions/improvements before attempting another blend.

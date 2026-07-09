@@ -1,0 +1,2 @@
+Output file downloaded to submissions\candidates\GOLF_20260709_101_prvsiyan_7266_72_repro\kaggle_output\submission.zip
+Kernel log downloaded to submissions\candidates\GOLF_20260709_101_prvsiyan_7266_72_repro\kaggle_output\neurogolf-submit-prvsiyan-7266-72-repro.log

@@ -30,6 +30,7 @@ external/arc_dsl
 external/arc_solution_top_quarks
 external/public_repos/**
 external/papers/**
+external/public_notebooks/**/output/**
 submissions/**/*.zip
 submissions/**/onnx/
 submissions/**/submission/

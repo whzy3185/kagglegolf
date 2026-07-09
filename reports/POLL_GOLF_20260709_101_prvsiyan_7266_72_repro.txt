@@ -1,0 +1,219 @@
+--- poll 1 2026-07-09T13:37:24 ---
+     ref  fileName        date                        description                                                                                      status                     publicScore  privateScore
+--------  --------------  --------------------------  -----------------------------------------------------------------------------------------------  -------------------------  -----------  ------------
+54483569  submission.zip  2026-07-09 05:36:44.697000  GOLF_20260709_101 prvsiyan 7266.72 public notebook output repro sha 694b799a                     SubmissionStatus.PENDING
+54482707  submission.zip  2026-07-09 04:59:51.290000  E public7266 union 21 tasks local +4.931 sha 0bccf7d2                                            SubmissionStatus.COMPLETE  7255.20
+54462703  submission.zip  2026-07-08 13:12:56.263000  aggr7250.25 task233 packed u8 +1.225 local                                                       SubmissionStatus.COMPLETE  7235.69
+54461726  submission.zip  2026-07-08 12:33:40.720000  v244: merge boristown+prvsiyan improvements, 15 task rewrites (+0.046)                           SubmissionStatus.COMPLETE  7250.28
+54461428  submission.zip  2026-07-08 12:22:18.973000  v242: 6 task rewire improvements from jackelysia (+0.007)                                        SubmissionStatus.COMPLETE  7250.25
+54460854  submission.zip  2026-07-08 11:58:22.430000  direct jack 7250.25 public source verification                                                   SubmissionStatus.COMPLETE  7250.25
+54459607  submission.zip  2026-07-08 11:05:58.683000  v241: rollback to v239 base                                                                      SubmissionStatus.COMPLETE  7250.24
+54459602  submission.zip  2026-07-08 11:05:50.517000  v241: rollback to v239 base (task023 koji model failed on hidden test, -16 pts)                  SubmissionStatus.COMPLETE  7250.24
+54459309  submission.zip  2026-07-08 10:55:02.147000  v240: task023 cost reduction 8222->5851 (+0.34)                                                  SubmissionStatus.COMPLETE  7234.25
+54458467  submission.zip  2026-07-08 10:20:35.590000  v239: v234 base + prvsiyan task243/285 improvements, reverted risky HF models                    SubmissionStatus.COMPLETE  7250.24
+54458195  submission.zip  2026-07-08 10:10:02.710000  v238: union with HF+research+new sources, task067 fix                                            SubmissionStatus.COMPLETE  7244.49
+54456827  submission.zip  2026-07-08 09:20:40.647000  v235 multi-source union + universal ONNX opt                                                     SubmissionStatus.COMPLETE  7250.24
+54452990  submission.zip  2026-07-08 06:54:47.747000  v232 mega union + universal ONNX opt: 123 source upgrades + 6 constant-fold improvements         SubmissionStatus.COMPLETE  7250.22
+54452615  submission.zip  2026-07-08 06:41:40.023000  v231 mega union: 123 tasks upgraded from 7 sources, full arc-gen verified                        SubmissionStatus.COMPLETE  7250.18
+54451622  submission.zip  2026-07-08 06:04:43.750000  Notebook Version 3 | v233 boris refresh 5-task graft | sha b6a6e28847ba                          SubmissionStatus.COMPLETE  7250.18
+54451105  submission.zip  2026-07-08 05:43:56.553000  Notebook Version 2 | v232 urad-plus 2-task graft | sha 2d24f3a8a017                              SubmissionStatus.COMPLETE  7250.18
+54450636  submission.zip  2026-07-08 05:20:53.700000  Notebook Version 1 | v231 20260708 public top union | sha b9ac3c10d7c9                           SubmissionStatus.COMPLETE  7250.09
+54432311  submission.zip  2026-07-07 14:41:32.133000  v230 multi-source union: 28 tasks upgraded, full arc-gen verified                                SubmissionStatus.COMPLETE  7244.05
+54430680  submission.zip  2026-07-07 13:49:44.627000  v225 probe benchmark stability                                                                   SubmissionStatus.COMPLETE  7243.68
+54430483  submission.zip  2026-07-07 13:43:33.723000  v226 rollback | verified 7243.87                                                                 SubmissionStatus.COMPLETE  7228.29
+54430156  submission.zip  2026-07-07 13:32:47.067000  v227 iter2 bypass union                                                                          SubmissionStatus.COMPLETE  7228.32
+54430069  submission.zip  2026-07-07 13:28:40.333000  v227                                                                                             SubmissionStatus.COMPLETE  7228.32
+54428784  submission.zip  2026-07-07 12:40:04.890000  direct velvet 7243.87 open-source package verification                                           SubmissionStatus.COMPLETE  7243.87
+54428728  submission.zip  2026-07-07 12:37:04.047000  aggr7243_22 combined 7243 public sources v1                                                      SubmissionStatus.COMPLETE  7243.32
+54427600  submission.zip  2026-07-07 11:51:46.083000  Notebook Version 4 | v226 boris-frank-ryosuke union | sha 10e5e0f1bcc5                           SubmissionStatus.COMPLETE  7243.87
+54426892  submission.zip  2026-07-07 11:25:39.600000  Notebook Version 3 | target notebook v225 update | sha 10fdc055f8f7                              SubmissionStatus.COMPLETE  7243.68
+54426421  submission.zip  2026-07-07 11:06:30.063000  Notebook Version 1 | compact union v225 | sha 10fdc055f8f7                                       SubmissionStatus.COMPLETE  7243.68
+54426060  submission.zip  2026-07-07 10:52:17.820000  Notebook Version 2 | compact union v224 | sha 2c052b8dc4c1                                       SubmissionStatus.COMPLETE  7243.14
+54418469  submission.zip  2026-07-07 06:29:44.560000  Notebook Version 1 | public verified source union | sha 708dd92e4df6                             SubmissionStatus.COMPLETE  7243.08
+54394481  submission.zip  2026-07-06 12:23:29.390000  v73_public_7235_83_blend_delta0_199984                                                           SubmissionStatus.COMPLETE  7236.23
+54392321  submission.zip  2026-07-06 11:02:20.737000  v72_public_top_7235_63_blend_delta0_510827                                                       SubmissionStatus.COMPLETE  7236.03
+54392002  submission.zip  2026-07-06 10:52:53.087000  Notebook NeuroGolf 7235.83 | Verified Circuit Union | Version 5                                  SubmissionStatus.COMPLETE  7235.83
+54391794  submission.zip  2026-07-06 10:45:39.263000  Notebook Version 3 | Verified Circuit Union | score parity 7235.83                               SubmissionStatus.COMPLETE  7235.83
+54391634  submission.zip  2026-07-06 10:39:47.230000  private notebook v1 parity check; expected 7235.83; sha 4b599ed707d6                             SubmissionStatus.COMPLETE  7235.83
+54391459  submission.zip  2026-07-06 10:33:17.600000  v221 20260706 late public union plus validated task selection; local 7235.725947                 SubmissionStatus.COMPLETE  7235.83
+54391250  submission.zip  2026-07-06 10:25:04.980000  TOKEN_REDACTED round01 task024 single local+4.222844 sha8dbedee3          SubmissionStatus.COMPLETE  6493.04
+54390560  submission.zip  2026-07-06 10:00:19.970000  direct submit current 6535 baseline probe key TOKEN_REDACTED sha8fd8e831  SubmissionStatus.COMPLETE  6488.82
+54390369  submission.zip  2026-07-06 09:51:17.127000  probe external round2 retry public scan vs v71                                                   SubmissionStatus.COMPLETE  7235.60
+54390365  submission.zip  2026-07-06 09:51:12.190000  probe external round1 top public scan vs v70                                                     SubmissionStatus.COMPLETE  7235.52
+54383505  submission.zip  2026-07-06 05:00:18.700000  v220 20260706 public-notebook union; 68 full-valid tasks; local 7235.361858                      SubmissionStatus.COMPLETE  7235.47
+54382527  submission.zip  2026-07-06 04:16:28.910000  v71_v70_plus_public_top_biohack_yuu_blend_delta51_874                                            SubmissionStatus.COMPLETE  7235.52
+54377439  submission.zip  2026-07-06 00:29:06.663000  aggr7232_99 combined 7232 public sources v1                                                      SubmissionStatus.COMPLETE  7233.11
+54376996  submission.zip  2026-07-06 00:10:25.960000  aggr7227_97 combined 7228 public sources v1                                                      SubmissionStatus.COMPLETE  7228.08
+54362924  submission.zip  2026-07-05 13:07:11.043000  Notebook 7221.50 WITH VISUALS!!! | Version 1                                                     SubmissionStatus.COMPLETE  7221.50
+54362875  submission.zip  2026-07-05 13:05:08.657000  Notebook NeuroGolf 7221.50 Task-Level ONNX Blend | Version 1                                     SubmissionStatus.COMPLETE  7221.50
+54362871  submission.zip  2026-07-05 13:04:54.220000  Notebook NeuroGolf | A Reproducible Improvement Workflow | Version 1                             SubmissionStatus.COMPLETE  7221.42
+54362770  submission.zip  2026-07-05 13:00:53.343000  just test
+                                                                                       SubmissionStatus.COMPLETE  7215.43
+54362408  submission.zip  2026-07-05 12:46:31.020000  v219 20260705 fixed-crop union; 20 full-valid tasks; local +1.139119 to 7222.501930              SubmissionStatus.COMPLETE  7222.61
+54358327  submission.zip  2026-07-05 10:12:15.440000  aggr7221_66_prune_wave1_t148_t209_t233_t285_v1 local7221.604 +0.05317                            SubmissionStatus.COMPLETE  7221.71
+54357794  submission.zip  2026-07-05 09:50:30.170000  aggr7221_12_frank722143_positive_v1 local7221.551 +0.53727                                       SubmissionStatus.COMPLETE  7221.66
+
+--- poll 2 2026-07-09T13:37:56 ---
+     ref  fileName        date                        description                                                                                      status                     publicScore  privateScore
+--------  --------------  --------------------------  -----------------------------------------------------------------------------------------------  -------------------------  -----------  ------------
+54483569  submission.zip  2026-07-09 05:36:44.697000  GOLF_20260709_101 prvsiyan 7266.72 public notebook output repro sha 694b799a                     SubmissionStatus.PENDING
+54482707  submission.zip  2026-07-09 04:59:51.290000  E public7266 union 21 tasks local +4.931 sha 0bccf7d2                                            SubmissionStatus.COMPLETE  7255.20
+54462703  submission.zip  2026-07-08 13:12:56.263000  aggr7250.25 task233 packed u8 +1.225 local                                                       SubmissionStatus.COMPLETE  7235.69
+54461726  submission.zip  2026-07-08 12:33:40.720000  v244: merge boristown+prvsiyan improvements, 15 task rewrites (+0.046)                           SubmissionStatus.COMPLETE  7250.28
+54461428  submission.zip  2026-07-08 12:22:18.973000  v242: 6 task rewire improvements from jackelysia (+0.007)                                        SubmissionStatus.COMPLETE  7250.25
+54460854  submission.zip  2026-07-08 11:58:22.430000  direct jack 7250.25 public source verification                                                   SubmissionStatus.COMPLETE  7250.25
+54459607  submission.zip  2026-07-08 11:05:58.683000  v241: rollback to v239 base                                                                      SubmissionStatus.COMPLETE  7250.24
+54459602  submission.zip  2026-07-08 11:05:50.517000  v241: rollback to v239 base (task023 koji model failed on hidden test, -16 pts)                  SubmissionStatus.COMPLETE  7250.24
+54459309  submission.zip  2026-07-08 10:55:02.147000  v240: task023 cost reduction 8222->5851 (+0.34)                                                  SubmissionStatus.COMPLETE  7234.25
+54458467  submission.zip  2026-07-08 10:20:35.590000  v239: v234 base + prvsiyan task243/285 improvements, reverted risky HF models                    SubmissionStatus.COMPLETE  7250.24
+54458195  submission.zip  2026-07-08 10:10:02.710000  v238: union with HF+research+new sources, task067 fix                                            SubmissionStatus.COMPLETE  7244.49
+54456827  submission.zip  2026-07-08 09:20:40.647000  v235 multi-source union + universal ONNX opt                                                     SubmissionStatus.COMPLETE  7250.24
+54452990  submission.zip  2026-07-08 06:54:47.747000  v232 mega union + universal ONNX opt: 123 source upgrades + 6 constant-fold improvements         SubmissionStatus.COMPLETE  7250.22
+54452615  submission.zip  2026-07-08 06:41:40.023000  v231 mega union: 123 tasks upgraded from 7 sources, full arc-gen verified                        SubmissionStatus.COMPLETE  7250.18
+54451622  submission.zip  2026-07-08 06:04:43.750000  Notebook Version 3 | v233 boris refresh 5-task graft | sha b6a6e28847ba                          SubmissionStatus.COMPLETE  7250.18
+54451105  submission.zip  2026-07-08 05:43:56.553000  Notebook Version 2 | v232 urad-plus 2-task graft | sha 2d24f3a8a017                              SubmissionStatus.COMPLETE  7250.18
+54450636  submission.zip  2026-07-08 05:20:53.700000  Notebook Version 1 | v231 20260708 public top union | sha b9ac3c10d7c9                           SubmissionStatus.COMPLETE  7250.09
+54432311  submission.zip  2026-07-07 14:41:32.133000  v230 multi-source union: 28 tasks upgraded, full arc-gen verified                                SubmissionStatus.COMPLETE  7244.05
+54430680  submission.zip  2026-07-07 13:49:44.627000  v225 probe benchmark stability                                                                   SubmissionStatus.COMPLETE  7243.68
+54430483  submission.zip  2026-07-07 13:43:33.723000  v226 rollback | verified 7243.87                                                                 SubmissionStatus.COMPLETE  7228.29
+54430156  submission.zip  2026-07-07 13:32:47.067000  v227 iter2 bypass union                                                                          SubmissionStatus.COMPLETE  7228.32
+54430069  submission.zip  2026-07-07 13:28:40.333000  v227                                                                                             SubmissionStatus.COMPLETE  7228.32
+54428784  submission.zip  2026-07-07 12:40:04.890000  direct velvet 7243.87 open-source package verification                                           SubmissionStatus.COMPLETE  7243.87
+54428728  submission.zip  2026-07-07 12:37:04.047000  aggr7243_22 combined 7243 public sources v1                                                      SubmissionStatus.COMPLETE  7243.32
+54427600  submission.zip  2026-07-07 11:51:46.083000  Notebook Version 4 | v226 boris-frank-ryosuke union | sha 10e5e0f1bcc5                           SubmissionStatus.COMPLETE  7243.87
+54426892  submission.zip  2026-07-07 11:25:39.600000  Notebook Version 3 | target notebook v225 update | sha 10fdc055f8f7                              SubmissionStatus.COMPLETE  7243.68
+54426421  submission.zip  2026-07-07 11:06:30.063000  Notebook Version 1 | compact union v225 | sha 10fdc055f8f7                                       SubmissionStatus.COMPLETE  7243.68
+54426060  submission.zip  2026-07-07 10:52:17.820000  Notebook Version 2 | compact union v224 | sha 2c052b8dc4c1                                       SubmissionStatus.COMPLETE  7243.14
+54418469  submission.zip  2026-07-07 06:29:44.560000  Notebook Version 1 | public verified source union | sha 708dd92e4df6                             SubmissionStatus.COMPLETE  7243.08
+54394481  submission.zip  2026-07-06 12:23:29.390000  v73_public_7235_83_blend_delta0_199984                                                           SubmissionStatus.COMPLETE  7236.23
+54392321  submission.zip  2026-07-06 11:02:20.737000  v72_public_top_7235_63_blend_delta0_510827                                                       SubmissionStatus.COMPLETE  7236.03
+54392002  submission.zip  2026-07-06 10:52:53.087000  Notebook NeuroGolf 7235.83 | Verified Circuit Union | Version 5                                  SubmissionStatus.COMPLETE  7235.83
+54391794  submission.zip  2026-07-06 10:45:39.263000  Notebook Version 3 | Verified Circuit Union | score parity 7235.83                               SubmissionStatus.COMPLETE  7235.83
+54391634  submission.zip  2026-07-06 10:39:47.230000  private notebook v1 parity check; expected 7235.83; sha 4b599ed707d6                             SubmissionStatus.COMPLETE  7235.83
+54391459  submission.zip  2026-07-06 10:33:17.600000  v221 20260706 late public union plus validated task selection; local 7235.725947                 SubmissionStatus.COMPLETE  7235.83
+54391250  submission.zip  2026-07-06 10:25:04.980000  TOKEN_REDACTED round01 task024 single local+4.222844 sha8dbedee3          SubmissionStatus.COMPLETE  6493.04
+54390560  submission.zip  2026-07-06 10:00:19.970000  direct submit current 6535 baseline probe key TOKEN_REDACTED sha8fd8e831  SubmissionStatus.COMPLETE  6488.82
+54390369  submission.zip  2026-07-06 09:51:17.127000  probe external round2 retry public scan vs v71                                                   SubmissionStatus.COMPLETE  7235.60
+54390365  submission.zip  2026-07-06 09:51:12.190000  probe external round1 top public scan vs v70                                                     SubmissionStatus.COMPLETE  7235.52
+54383505  submission.zip  2026-07-06 05:00:18.700000  v220 20260706 public-notebook union; 68 full-valid tasks; local 7235.361858                      SubmissionStatus.COMPLETE  7235.47
+54382527  submission.zip  2026-07-06 04:16:28.910000  v71_v70_plus_public_top_biohack_yuu_blend_delta51_874                                            SubmissionStatus.COMPLETE  7235.52
+54377439  submission.zip  2026-07-06 00:29:06.663000  aggr7232_99 combined 7232 public sources v1                                                      SubmissionStatus.COMPLETE  7233.11
+54376996  submission.zip  2026-07-06 00:10:25.960000  aggr7227_97 combined 7228 public sources v1                                                      SubmissionStatus.COMPLETE  7228.08
+54362924  submission.zip  2026-07-05 13:07:11.043000  Notebook 7221.50 WITH VISUALS!!! | Version 1                                                     SubmissionStatus.COMPLETE  7221.50
+54362875  submission.zip  2026-07-05 13:05:08.657000  Notebook NeuroGolf 7221.50 Task-Level ONNX Blend | Version 1                                     SubmissionStatus.COMPLETE  7221.50
+54362871  submission.zip  2026-07-05 13:04:54.220000  Notebook NeuroGolf | A Reproducible Improvement Workflow | Version 1                             SubmissionStatus.COMPLETE  7221.42
+54362770  submission.zip  2026-07-05 13:00:53.343000  just test
+                                                                                       SubmissionStatus.COMPLETE  7215.43
+54362408  submission.zip  2026-07-05 12:46:31.020000  v219 20260705 fixed-crop union; 20 full-valid tasks; local +1.139119 to 7222.501930              SubmissionStatus.COMPLETE  7222.61
+54358327  submission.zip  2026-07-05 10:12:15.440000  aggr7221_66_prune_wave1_t148_t209_t233_t285_v1 local7221.604 +0.05317                            SubmissionStatus.COMPLETE  7221.71
+54357794  submission.zip  2026-07-05 09:50:30.170000  aggr7221_12_frank722143_positive_v1 local7221.551 +0.53727                                       SubmissionStatus.COMPLETE  7221.66
+
+--- poll 3 2026-07-09T13:38:27 ---
+     ref  fileName        date                        description                                                                                      status                     publicScore  privateScore
+--------  --------------  --------------------------  -----------------------------------------------------------------------------------------------  -------------------------  -----------  ------------
+54483569  submission.zip  2026-07-09 05:36:44.697000  GOLF_20260709_101 prvsiyan 7266.72 public notebook output repro sha 694b799a                     SubmissionStatus.PENDING
+54482707  submission.zip  2026-07-09 04:59:51.290000  E public7266 union 21 tasks local +4.931 sha 0bccf7d2                                            SubmissionStatus.COMPLETE  7255.20
+54462703  submission.zip  2026-07-08 13:12:56.263000  aggr7250.25 task233 packed u8 +1.225 local                                                       SubmissionStatus.COMPLETE  7235.69
+54461726  submission.zip  2026-07-08 12:33:40.720000  v244: merge boristown+prvsiyan improvements, 15 task rewrites (+0.046)                           SubmissionStatus.COMPLETE  7250.28
+54461428  submission.zip  2026-07-08 12:22:18.973000  v242: 6 task rewire improvements from jackelysia (+0.007)                                        SubmissionStatus.COMPLETE  7250.25
+54460854  submission.zip  2026-07-08 11:58:22.430000  direct jack 7250.25 public source verification                                                   SubmissionStatus.COMPLETE  7250.25
+54459607  submission.zip  2026-07-08 11:05:58.683000  v241: rollback to v239 base                                                                      SubmissionStatus.COMPLETE  7250.24
+54459602  submission.zip  2026-07-08 11:05:50.517000  v241: rollback to v239 base (task023 koji model failed on hidden test, -16 pts)                  SubmissionStatus.COMPLETE  7250.24
+54459309  submission.zip  2026-07-08 10:55:02.147000  v240: task023 cost reduction 8222->5851 (+0.34)                                                  SubmissionStatus.COMPLETE  7234.25
+54458467  submission.zip  2026-07-08 10:20:35.590000  v239: v234 base + prvsiyan task243/285 improvements, reverted risky HF models                    SubmissionStatus.COMPLETE  7250.24
+54458195  submission.zip  2026-07-08 10:10:02.710000  v238: union with HF+research+new sources, task067 fix                                            SubmissionStatus.COMPLETE  7244.49
+54456827  submission.zip  2026-07-08 09:20:40.647000  v235 multi-source union + universal ONNX opt                                                     SubmissionStatus.COMPLETE  7250.24
+54452990  submission.zip  2026-07-08 06:54:47.747000  v232 mega union + universal ONNX opt: 123 source upgrades + 6 constant-fold improvements         SubmissionStatus.COMPLETE  7250.22
+54452615  submission.zip  2026-07-08 06:41:40.023000  v231 mega union: 123 tasks upgraded from 7 sources, full arc-gen verified                        SubmissionStatus.COMPLETE  7250.18
+54451622  submission.zip  2026-07-08 06:04:43.750000  Notebook Version 3 | v233 boris refresh 5-task graft | sha b6a6e28847ba                          SubmissionStatus.COMPLETE  7250.18
+54451105  submission.zip  2026-07-08 05:43:56.553000  Notebook Version 2 | v232 urad-plus 2-task graft | sha 2d24f3a8a017                              SubmissionStatus.COMPLETE  7250.18
+54450636  submission.zip  2026-07-08 05:20:53.700000  Notebook Version 1 | v231 20260708 public top union | sha b9ac3c10d7c9                           SubmissionStatus.COMPLETE  7250.09
+54432311  submission.zip  2026-07-07 14:41:32.133000  v230 multi-source union: 28 tasks upgraded, full arc-gen verified                                SubmissionStatus.COMPLETE  7244.05
+54430680  submission.zip  2026-07-07 13:49:44.627000  v225 probe benchmark stability                                                                   SubmissionStatus.COMPLETE  7243.68
+54430483  submission.zip  2026-07-07 13:43:33.723000  v226 rollback | verified 7243.87                                                                 SubmissionStatus.COMPLETE  7228.29
+54430156  submission.zip  2026-07-07 13:32:47.067000  v227 iter2 bypass union                                                                          SubmissionStatus.COMPLETE  7228.32
+54430069  submission.zip  2026-07-07 13:28:40.333000  v227                                                                                             SubmissionStatus.COMPLETE  7228.32
+54428784  submission.zip  2026-07-07 12:40:04.890000  direct velvet 7243.87 open-source package verification                                           SubmissionStatus.COMPLETE  7243.87
+54428728  submission.zip  2026-07-07 12:37:04.047000  aggr7243_22 combined 7243 public sources v1                                                      SubmissionStatus.COMPLETE  7243.32
+54427600  submission.zip  2026-07-07 11:51:46.083000  Notebook Version 4 | v226 boris-frank-ryosuke union | sha 10e5e0f1bcc5                           SubmissionStatus.COMPLETE  7243.87
+54426892  submission.zip  2026-07-07 11:25:39.600000  Notebook Version 3 | target notebook v225 update | sha 10fdc055f8f7                              SubmissionStatus.COMPLETE  7243.68
+54426421  submission.zip  2026-07-07 11:06:30.063000  Notebook Version 1 | compact union v225 | sha 10fdc055f8f7                                       SubmissionStatus.COMPLETE  7243.68
+54426060  submission.zip  2026-07-07 10:52:17.820000  Notebook Version 2 | compact union v224 | sha 2c052b8dc4c1                                       SubmissionStatus.COMPLETE  7243.14
+54418469  submission.zip  2026-07-07 06:29:44.560000  Notebook Version 1 | public verified source union | sha 708dd92e4df6                             SubmissionStatus.COMPLETE  7243.08
+54394481  submission.zip  2026-07-06 12:23:29.390000  v73_public_7235_83_blend_delta0_199984                                                           SubmissionStatus.COMPLETE  7236.23
+54392321  submission.zip  2026-07-06 11:02:20.737000  v72_public_top_7235_63_blend_delta0_510827                                                       SubmissionStatus.COMPLETE  7236.03
+54392002  submission.zip  2026-07-06 10:52:53.087000  Notebook NeuroGolf 7235.83 | Verified Circuit Union | Version 5                                  SubmissionStatus.COMPLETE  7235.83
+54391794  submission.zip  2026-07-06 10:45:39.263000  Notebook Version 3 | Verified Circuit Union | score parity 7235.83                               SubmissionStatus.COMPLETE  7235.83
+54391634  submission.zip  2026-07-06 10:39:47.230000  private notebook v1 parity check; expected 7235.83; sha 4b599ed707d6                             SubmissionStatus.COMPLETE  7235.83
+54391459  submission.zip  2026-07-06 10:33:17.600000  v221 20260706 late public union plus validated task selection; local 7235.725947                 SubmissionStatus.COMPLETE  7235.83
+54391250  submission.zip  2026-07-06 10:25:04.980000  TOKEN_REDACTED round01 task024 single local+4.222844 sha8dbedee3          SubmissionStatus.COMPLETE  6493.04
+54390560  submission.zip  2026-07-06 10:00:19.970000  direct submit current 6535 baseline probe key TOKEN_REDACTED sha8fd8e831  SubmissionStatus.COMPLETE  6488.82
+54390369  submission.zip  2026-07-06 09:51:17.127000  probe external round2 retry public scan vs v71                                                   SubmissionStatus.COMPLETE  7235.60
+54390365  submission.zip  2026-07-06 09:51:12.190000  probe external round1 top public scan vs v70                                                     SubmissionStatus.COMPLETE  7235.52
+54383505  submission.zip  2026-07-06 05:00:18.700000  v220 20260706 public-notebook union; 68 full-valid tasks; local 7235.361858                      SubmissionStatus.COMPLETE  7235.47
+54382527  submission.zip  2026-07-06 04:16:28.910000  v71_v70_plus_public_top_biohack_yuu_blend_delta51_874                                            SubmissionStatus.COMPLETE  7235.52
+54377439  submission.zip  2026-07-06 00:29:06.663000  aggr7232_99 combined 7232 public sources v1                                                      SubmissionStatus.COMPLETE  7233.11
+54376996  submission.zip  2026-07-06 00:10:25.960000  aggr7227_97 combined 7228 public sources v1                                                      SubmissionStatus.COMPLETE  7228.08
+54362924  submission.zip  2026-07-05 13:07:11.043000  Notebook 7221.50 WITH VISUALS!!! | Version 1                                                     SubmissionStatus.COMPLETE  7221.50
+54362875  submission.zip  2026-07-05 13:05:08.657000  Notebook NeuroGolf 7221.50 Task-Level ONNX Blend | Version 1                                     SubmissionStatus.COMPLETE  7221.50
+54362871  submission.zip  2026-07-05 13:04:54.220000  Notebook NeuroGolf | A Reproducible Improvement Workflow | Version 1                             SubmissionStatus.COMPLETE  7221.42
+54362770  submission.zip  2026-07-05 13:00:53.343000  just test
+                                                                                       SubmissionStatus.COMPLETE  7215.43
+54362408  submission.zip  2026-07-05 12:46:31.020000  v219 20260705 fixed-crop union; 20 full-valid tasks; local +1.139119 to 7222.501930              SubmissionStatus.COMPLETE  7222.61
+54358327  submission.zip  2026-07-05 10:12:15.440000  aggr7221_66_prune_wave1_t148_t209_t233_t285_v1 local7221.604 +0.05317                            SubmissionStatus.COMPLETE  7221.71
+54357794  submission.zip  2026-07-05 09:50:30.170000  aggr7221_12_frank722143_positive_v1 local7221.551 +0.53727                                       SubmissionStatus.COMPLETE  7221.66
+
+--- poll 4 2026-07-09T13:38:59 ---
+     ref  fileName        date                        description                                                                                      status                     publicScore  privateScore
+--------  --------------  --------------------------  -----------------------------------------------------------------------------------------------  -------------------------  -----------  ------------
+54483569  submission.zip  2026-07-09 05:36:44.697000  GOLF_20260709_101 prvsiyan 7266.72 public notebook output repro sha 694b799a                     SubmissionStatus.COMPLETE  7266.72
+54482707  submission.zip  2026-07-09 04:59:51.290000  E public7266 union 21 tasks local +4.931 sha 0bccf7d2                                            SubmissionStatus.COMPLETE  7255.20
+54462703  submission.zip  2026-07-08 13:12:56.263000  aggr7250.25 task233 packed u8 +1.225 local                                                       SubmissionStatus.COMPLETE  7235.69
+54461726  submission.zip  2026-07-08 12:33:40.720000  v244: merge boristown+prvsiyan improvements, 15 task rewrites (+0.046)                           SubmissionStatus.COMPLETE  7250.28
+54461428  submission.zip  2026-07-08 12:22:18.973000  v242: 6 task rewire improvements from jackelysia (+0.007)                                        SubmissionStatus.COMPLETE  7250.25
+54460854  submission.zip  2026-07-08 11:58:22.430000  direct jack 7250.25 public source verification                                                   SubmissionStatus.COMPLETE  7250.25
+54459607  submission.zip  2026-07-08 11:05:58.683000  v241: rollback to v239 base                                                                      SubmissionStatus.COMPLETE  7250.24
+54459602  submission.zip  2026-07-08 11:05:50.517000  v241: rollback to v239 base (task023 koji model failed on hidden test, -16 pts)                  SubmissionStatus.COMPLETE  7250.24
+54459309  submission.zip  2026-07-08 10:55:02.147000  v240: task023 cost reduction 8222->5851 (+0.34)                                                  SubmissionStatus.COMPLETE  7234.25
+54458467  submission.zip  2026-07-08 10:20:35.590000  v239: v234 base + prvsiyan task243/285 improvements, reverted risky HF models                    SubmissionStatus.COMPLETE  7250.24
+54458195  submission.zip  2026-07-08 10:10:02.710000  v238: union with HF+research+new sources, task067 fix                                            SubmissionStatus.COMPLETE  7244.49
+54456827  submission.zip  2026-07-08 09:20:40.647000  v235 multi-source union + universal ONNX opt                                                     SubmissionStatus.COMPLETE  7250.24
+54452990  submission.zip  2026-07-08 06:54:47.747000  v232 mega union + universal ONNX opt: 123 source upgrades + 6 constant-fold improvements         SubmissionStatus.COMPLETE  7250.22
+54452615  submission.zip  2026-07-08 06:41:40.023000  v231 mega union: 123 tasks upgraded from 7 sources, full arc-gen verified                        SubmissionStatus.COMPLETE  7250.18
+54451622  submission.zip  2026-07-08 06:04:43.750000  Notebook Version 3 | v233 boris refresh 5-task graft | sha b6a6e28847ba                          SubmissionStatus.COMPLETE  7250.18
+54451105  submission.zip  2026-07-08 05:43:56.553000  Notebook Version 2 | v232 urad-plus 2-task graft | sha 2d24f3a8a017                              SubmissionStatus.COMPLETE  7250.18
+54450636  submission.zip  2026-07-08 05:20:53.700000  Notebook Version 1 | v231 20260708 public top union | sha b9ac3c10d7c9                           SubmissionStatus.COMPLETE  7250.09
+54432311  submission.zip  2026-07-07 14:41:32.133000  v230 multi-source union: 28 tasks upgraded, full arc-gen verified                                SubmissionStatus.COMPLETE  7244.05
+54430680  submission.zip  2026-07-07 13:49:44.627000  v225 probe benchmark stability                                                                   SubmissionStatus.COMPLETE  7243.68
+54430483  submission.zip  2026-07-07 13:43:33.723000  v226 rollback | verified 7243.87                                                                 SubmissionStatus.COMPLETE  7228.29
+54430156  submission.zip  2026-07-07 13:32:47.067000  v227 iter2 bypass union                                                                          SubmissionStatus.COMPLETE  7228.32
+54430069  submission.zip  2026-07-07 13:28:40.333000  v227                                                                                             SubmissionStatus.COMPLETE  7228.32
+54428784  submission.zip  2026-07-07 12:40:04.890000  direct velvet 7243.87 open-source package verification                                           SubmissionStatus.COMPLETE  7243.87
+54428728  submission.zip  2026-07-07 12:37:04.047000  aggr7243_22 combined 7243 public sources v1                                                      SubmissionStatus.COMPLETE  7243.32
+54427600  submission.zip  2026-07-07 11:51:46.083000  Notebook Version 4 | v226 boris-frank-ryosuke union | sha 10e5e0f1bcc5                           SubmissionStatus.COMPLETE  7243.87
+54426892  submission.zip  2026-07-07 11:25:39.600000  Notebook Version 3 | target notebook v225 update | sha 10fdc055f8f7                              SubmissionStatus.COMPLETE  7243.68
+54426421  submission.zip  2026-07-07 11:06:30.063000  Notebook Version 1 | compact union v225 | sha 10fdc055f8f7                                       SubmissionStatus.COMPLETE  7243.68
+54426060  submission.zip  2026-07-07 10:52:17.820000  Notebook Version 2 | compact union v224 | sha 2c052b8dc4c1                                       SubmissionStatus.COMPLETE  7243.14
+54418469  submission.zip  2026-07-07 06:29:44.560000  Notebook Version 1 | public verified source union | sha 708dd92e4df6                             SubmissionStatus.COMPLETE  7243.08
+54394481  submission.zip  2026-07-06 12:23:29.390000  v73_public_7235_83_blend_delta0_199984                                                           SubmissionStatus.COMPLETE  7236.23
+54392321  submission.zip  2026-07-06 11:02:20.737000  v72_public_top_7235_63_blend_delta0_510827                                                       SubmissionStatus.COMPLETE  7236.03
+54392002  submission.zip  2026-07-06 10:52:53.087000  Notebook NeuroGolf 7235.83 | Verified Circuit Union | Version 5                                  SubmissionStatus.COMPLETE  7235.83
+54391794  submission.zip  2026-07-06 10:45:39.263000  Notebook Version 3 | Verified Circuit Union | score parity 7235.83                               SubmissionStatus.COMPLETE  7235.83
+54391634  submission.zip  2026-07-06 10:39:47.230000  private notebook v1 parity check; expected 7235.83; sha 4b599ed707d6                             SubmissionStatus.COMPLETE  7235.83
+54391459  submission.zip  2026-07-06 10:33:17.600000  v221 20260706 late public union plus validated task selection; local 7235.725947                 SubmissionStatus.COMPLETE  7235.83
+54391250  submission.zip  2026-07-06 10:25:04.980000  TOKEN_REDACTED round01 task024 single local+4.222844 sha8dbedee3          SubmissionStatus.COMPLETE  6493.04
+54390560  submission.zip  2026-07-06 10:00:19.970000  direct submit current 6535 baseline probe key TOKEN_REDACTED sha8fd8e831  SubmissionStatus.COMPLETE  6488.82
+54390369  submission.zip  2026-07-06 09:51:17.127000  probe external round2 retry public scan vs v71                                                   SubmissionStatus.COMPLETE  7235.60
+54390365  submission.zip  2026-07-06 09:51:12.190000  probe external round1 top public scan vs v70                                                     SubmissionStatus.COMPLETE  7235.52
+54383505  submission.zip  2026-07-06 05:00:18.700000  v220 20260706 public-notebook union; 68 full-valid tasks; local 7235.361858                      SubmissionStatus.COMPLETE  7235.47
+54382527  submission.zip  2026-07-06 04:16:28.910000  v71_v70_plus_public_top_biohack_yuu_blend_delta51_874                                            SubmissionStatus.COMPLETE  7235.52
+54377439  submission.zip  2026-07-06 00:29:06.663000  aggr7232_99 combined 7232 public sources v1                                                      SubmissionStatus.COMPLETE  7233.11
+54376996  submission.zip  2026-07-06 00:10:25.960000  aggr7227_97 combined 7228 public sources v1                                                      SubmissionStatus.COMPLETE  7228.08
+54362924  submission.zip  2026-07-05 13:07:11.043000  Notebook 7221.50 WITH VISUALS!!! | Version 1                                                     SubmissionStatus.COMPLETE  7221.50
+54362875  submission.zip  2026-07-05 13:05:08.657000  Notebook NeuroGolf 7221.50 Task-Level ONNX Blend | Version 1                                     SubmissionStatus.COMPLETE  7221.50
+54362871  submission.zip  2026-07-05 13:04:54.220000  Notebook NeuroGolf | A Reproducible Improvement Workflow | Version 1                             SubmissionStatus.COMPLETE  7221.42
+54362770  submission.zip  2026-07-05 13:00:53.343000  just test
+                                                                                       SubmissionStatus.COMPLETE  7215.43
+54362408  submission.zip  2026-07-05 12:46:31.020000  v219 20260705 fixed-crop union; 20 full-valid tasks; local +1.139119 to 7222.501930              SubmissionStatus.COMPLETE  7222.61
+54358327  submission.zip  2026-07-05 10:12:15.440000  aggr7221_66_prune_wave1_t148_t209_t233_t285_v1 local7221.604 +0.05317                            SubmissionStatus.COMPLETE  7221.71
+54357794  submission.zip  2026-07-05 09:50:30.170000  aggr7221_12_frank722143_positive_v1 local7221.551 +0.53727                                       SubmissionStatus.COMPLETE  7221.66

@@ -1,0 +1,17 @@
+--- poll 1 2026-07-09T13:33:51 ---
+muelsyse111/neurogolf-submit-prvsiyan-7266-72-repro has status "KernelWorkerStatus.RUNNING"
+
+--- poll 2 2026-07-09T13:34:13 ---
+muelsyse111/neurogolf-submit-prvsiyan-7266-72-repro has status "KernelWorkerStatus.RUNNING"
+
+--- poll 3 2026-07-09T13:34:35 ---
+muelsyse111/neurogolf-submit-prvsiyan-7266-72-repro has status "KernelWorkerStatus.RUNNING"
+
+--- poll 4 2026-07-09T13:34:56 ---
+muelsyse111/neurogolf-submit-prvsiyan-7266-72-repro has status "KernelWorkerStatus.RUNNING"
+
+--- poll 5 2026-07-09T13:35:17 ---
+muelsyse111/neurogolf-submit-prvsiyan-7266-72-repro has status "KernelWorkerStatus.RUNNING"
+
+--- poll 6 2026-07-09T13:35:39 ---
+muelsyse111/neurogolf-submit-prvsiyan-7266-72-repro has status "KernelWorkerStatus.COMPLETE"

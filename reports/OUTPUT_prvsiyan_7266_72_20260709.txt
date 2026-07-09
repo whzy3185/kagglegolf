@@ -1,0 +1,13 @@
+Output file downloaded to external\public_notebooks\prvsiyan_7266_72\output\submission.zip
+Output file downloaded to external\public_notebooks\prvsiyan_7266_72\output\visualizations/one_hot_encoding_overview.png
+Output file downloaded to external\public_notebooks\prvsiyan_7266_72\output\visualizations/task_atlas_sheet_01_001_040.png
+Output file downloaded to external\public_notebooks\prvsiyan_7266_72\output\visualizations/task_atlas_sheet_02_041_080.png
+Output file downloaded to external\public_notebooks\prvsiyan_7266_72\output\visualizations/task_atlas_sheet_03_081_120.png
+Output file downloaded to external\public_notebooks\prvsiyan_7266_72\output\visualizations/task_atlas_sheet_04_121_160.png
+Output file downloaded to external\public_notebooks\prvsiyan_7266_72\output\visualizations/task_atlas_sheet_05_161_200.png
+Output file downloaded to external\public_notebooks\prvsiyan_7266_72\output\visualizations/task_atlas_sheet_06_201_240.png
+Output file downloaded to external\public_notebooks\prvsiyan_7266_72\output\visualizations/task_atlas_sheet_07_241_280.png
+Output file downloaded to external\public_notebooks\prvsiyan_7266_72\output\visualizations/task_atlas_sheet_08_281_320.png
+Output file downloaded to external\public_notebooks\prvsiyan_7266_72\output\visualizations/task_atlas_sheet_09_321_360.png
+Output file downloaded to external\public_notebooks\prvsiyan_7266_72\output\visualizations/task_atlas_sheet_10_361_400.png
+Kernel log downloaded to external\public_notebooks\prvsiyan_7266_72\output\neurogolf-7266-72-w-visualizations.log

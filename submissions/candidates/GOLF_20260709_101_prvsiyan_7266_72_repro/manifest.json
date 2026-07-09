@@ -1,0 +1,12 @@
+{
+  "exp_id": "GOLF_20260709_101_prvsiyan_7266_72_repro",
+  "source_kernel": "prvsiyan/neurogolf-7266-72-w-visualizations",
+  "source_title": "NeuroGolf 7266.72 W/ VISUALIZATIONS",
+  "source_output_zip": "E:\\kagglegolf\\external\\public_notebooks\\prvsiyan_7266_72\\output\\submission.zip",
+  "submission_zip": "E:\\kagglegolf\\external\\public_notebooks\\prvsiyan_7266_72\\output\\submission.zip",
+  "file_count": 400,
+  "sha256": "694b799ad322aceeece8239d0266a2facf41c0d051eb0d95d55b3717f05f57b4",
+  "local_validation_ok": false,
+  "examples_checked": 1197,
+  "examples_failed": 0
+}
