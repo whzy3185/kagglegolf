@@ -5,7 +5,10 @@ scope: NeuroGolf 2026 public-source collaboration
 
 ## Status
 
-The live Kaggle CLI leaderboard request currently returns `403 Forbidden` for this account, so this document uses public Kaggle pages plus the local cached evidence already collected in this repository. Do not treat cached ranks as live rank truth without refreshing from the Kaggle UI or an account with leaderboard access.
+The final leaderboard CSV was downloaded through the Kaggle CLI on 2026-07-18.
+`Kaggle Agent` finished first with `8314.03`. The verified final top-10 and
+ranked public-solution review are in
+`reports/FINAL_LEADERBOARD_TOP_SOLUTIONS_RETROSPECTIVE.md`.
 
 Public first-place/high-rank source routes currently worth following:
 

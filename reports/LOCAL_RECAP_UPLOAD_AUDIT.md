@@ -33,6 +33,7 @@ These paths are tracked by Git in `kagglegolf`:
 ## New Recap Files Added by This Sync
 
 - `research/FIRST_PLACE_CONTACT_AND_SLACK_COLLAB.md`
+- `reports/FINAL_LEADERBOARD_TOP_SOLUTIONS_RETROSPECTIVE.md`
 - `reports/HIGH_SCORE_SOLUTION_RETROSPECTIVE.md`
 - `reports/LOCAL_RECAP_UPLOAD_AUDIT.md`
 
